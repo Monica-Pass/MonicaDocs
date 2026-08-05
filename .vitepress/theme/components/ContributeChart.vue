@@ -139,7 +139,7 @@ onMounted(() => {
 
 <style>
 .tk-article-page.tk-archives {
-  width: 1220px;
+  width: min(1220px, 100%);
 }
 
 .tk-archives .contribute__chart {
@@ -151,5 +151,16 @@ onMounted(() => {
   margin: auto;
   width: 100%;
   height: 100%;
+}
+
+/* 移动端：整年热力图较宽，在容器内横向滚动而非撑破页面 */
+@media (max-width: 640px) {
+  .tk-archives .contribute__chart {
+    overflow-x: auto;
+  }
+
+  .tk-archives .contribute__chart .chart__box {
+    min-width: 1140px;
+  }
 }
 </style>

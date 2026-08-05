@@ -1038,6 +1038,13 @@ const cards = computed(() => currentCopy.value.cards);
   }
 }
 
+/* 视口小于内容最大宽度时，两侧留白，避免内容贴住屏幕边缘 */
+@media (max-width: 960px) {
+  .ecosystem-landing {
+    padding-inline: 20px;
+  }
+}
+
 @media (max-width: 640px) {
   .ecosystem-landing {
     gap: 28px;

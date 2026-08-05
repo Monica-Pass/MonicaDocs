@@ -510,6 +510,15 @@ function formatShortDate(value?: string) {
 }
 
 @media (max-width: 640px) {
+  :global(.tk-article-page.tk-archives) {
+    padding-inline: 20px;
+  }
+
+  /* Teek 的 .tk-doc 默认有 30px 左右内边距，移动端会挤压面板宽度，清零后由上层 20px 统一留白 */
+  :global(.tk-article-page.tk-archives .tk-doc) {
+    padding-inline: 0;
+  }
+
   .archives-dashboard__hero {
     padding: 18px;
   }
