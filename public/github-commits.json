@@ -1,28 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-01T21:08:40.503Z",
+  "generatedAt": "2026-08-05T04:27:40.511Z",
   "range": {
-    "from": "2025-08-02",
-    "to": "2026-08-01"
+    "from": "2025-08-06",
+    "to": "2026-08-05"
   },
   "activity": [
-    {
-      "date": "2025-08-02",
-      "count": 0
-    },
-    {
-      "date": "2025-08-03",
-      "count": 0
-    },
-    {
-      "date": "2025-08-04",
-      "count": 0
-    },
-    {
-      "date": "2025-08-05",
-      "count": 0
-    },
     {
       "date": "2025-08-06",
       "count": 0
@@ -1466,98 +1450,114 @@
     {
       "date": "2026-08-01",
       "count": 2
+    },
+    {
+      "date": "2026-08-02",
+      "count": 4
+    },
+    {
+      "date": "2026-08-03",
+      "count": 0
+    },
+    {
+      "date": "2026-08-04",
+      "count": 6
+    },
+    {
+      "date": "2026-08-05",
+      "count": 0
     }
   ],
   "latest": [
     {
-      "sha": "18508eb306dfa9a9d6b7838b163114383f9766e7",
-      "shortSha": "18508eb",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-08-01T05:37:34Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/18508eb306dfa9a9d6b7838b163114383f9766e7"
-    },
-    {
-      "sha": "c0790070762b24945321642f268f1623b7926110",
-      "shortSha": "c079007",
-      "message": "feat(android): harden MDBX2 storage and sync",
+      "sha": "18f238d9f56b2afa6ce04de9c3139e6f3a361a94",
+      "shortSha": "18f238d",
+      "message": "Merge pull request #84 from Mrmiaomrzh/main",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-01T04:12:21Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/c0790070762b24945321642f268f1623b7926110"
+      "date": "2026-08-04T18:07:00Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/18f238d9f56b2afa6ce04de9c3139e6f3a361a94"
     },
     {
-      "sha": "637c62fca06f324746bdafda24b7dfd3f2e5e4a3",
-      "shortSha": "637c62f",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-07-31T05:46:36Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/637c62fca06f324746bdafda24b7dfd3f2e5e4a3"
+      "sha": "5052c62c5b52d76e563eb2b2f342d9c7335ec70c",
+      "shortSha": "5052c62",
+      "message": "feat(docs): Migrate document repository",
+      "authorName": "Mrmiaomrzh",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
+      "date": "2026-08-04T17:06:55Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/5052c62c5b52d76e563eb2b2f342d9c7335ec70c"
     },
     {
-      "sha": "e619c6f32f2a9242b8566878c26aa9bd9ffbd627",
-      "shortSha": "e619c6f",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-07-30T05:20:27Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/e619c6f32f2a9242b8566878c26aa9bd9ffbd627"
-    },
-    {
-      "sha": "1081d3a1b6012621fda03c6025a1d4e45b224768",
-      "shortSha": "1081d3a",
-      "message": "Merge remote-tracking branch 'origin/main'",
+      "sha": "20338cc67f072ae85e7ca1ad92a234d03ecc4df8",
+      "shortSha": "20338cc",
+      "message": "feat(android): localize Monica Plus and add PayPal support",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-07-29T07:58:40Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/1081d3a1b6012621fda03c6025a1d4e45b224768"
+      "date": "2026-08-04T13:41:30Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/20338cc67f072ae85e7ca1ad92a234d03ecc4df8"
     },
     {
-      "sha": "6eff206ea92b0bb5b5809348b7ca4c483b06f9be",
-      "shortSha": "6eff206",
-      "message": "feat(android): enable note text selection in view mode (#82)",
+      "sha": "b89e4382e8788791c0242eb9908aeaef46639e36",
+      "shortSha": "b89e438",
+      "message": "docs: add PayPal support button to all README languages",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-07-29T07:56:45Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/6eff206ea92b0bb5b5809348b7ca4c483b06f9be"
+      "date": "2026-08-04T11:48:26Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/b89e4382e8788791c0242eb9908aeaef46639e36"
     },
     {
-      "sha": "2b791ac3f6b182015545248201fcdbb6c4067b0e",
-      "shortSha": "2b791ac",
-      "message": "fix(android): use installed version across settings",
+      "sha": "2a72c84505891038575e3f4e183ca76e1c36f6cd",
+      "shortSha": "2a72c84",
+      "message": "Update FUNDING.yml",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-07-29T07:56:31Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/2b791ac3f6b182015545248201fcdbb6c4067b0e"
+      "date": "2026-08-04T01:51:52Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/2a72c84505891038575e3f4e183ca76e1c36f6cd"
     },
     {
-      "sha": "81ef058b034bfffd381c3d8d65b18ff9a684dfc3",
-      "shortSha": "81ef058",
-      "message": "feat(android): complete MDBX2 remote sync and hardening",
+      "sha": "be970b48c2494b620f762277700a68250eaf1be6",
+      "shortSha": "be970b4",
+      "message": "Update FUNDING.yml",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-07-29T07:56:17Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/81ef058b034bfffd381c3d8d65b18ff9a684dfc3"
+      "date": "2026-08-04T01:48:52Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/be970b48c2494b620f762277700a68250eaf1be6"
     },
     {
-      "sha": "47d66c23fdfce29f9288e634c30dd6224305523d",
-      "shortSha": "47d66c2",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-07-29T05:32:39Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/47d66c23fdfce29f9288e634c30dd6224305523d"
+      "sha": "416af4189f63e67f33b4c85dc870dff8ac3ca0e8",
+      "shortSha": "416af41",
+      "message": "Merge pull request #83 from Mrmiaomrzh/main",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-02T21:12:25Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/416af4189f63e67f33b4c85dc870dff8ac3ca0e8"
     },
     {
-      "sha": "0174c9466fddeaa9ef49f5d0f21d056912eeb449",
-      "shortSha": "0174c94",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-07-28T05:26:30Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/0174c9466fddeaa9ef49f5d0f21d056912eeb449"
+      "sha": "7fcbc7f4589ba0cf5202be82a73f7df8f7f70009",
+      "shortSha": "7fcbc7f",
+      "message": "feat: Update website image resources; update documentation in other languages.",
+      "authorName": "Mrmiaomrzh",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
+      "date": "2026-08-02T18:06:39Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/7fcbc7f4589ba0cf5202be82a73f7df8f7f70009"
+    },
+    {
+      "sha": "391eada95bffa8b8c34cd94ac2ec960a963acb0d",
+      "shortSha": "391eada",
+      "message": "Merge branch 'main' of https://github.com/Mrmiaomrzh/Monica",
+      "authorName": "Mrmiaomrzh",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
+      "date": "2026-08-02T17:36:32Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/391eada95bffa8b8c34cd94ac2ec960a963acb0d"
+    },
+    {
+      "sha": "03551174679dffc1e772019e12ae348c6c7f2780",
+      "shortSha": "0355117",
+      "message": "feat: Update document content",
+      "authorName": "Mrmiaomrzh",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
+      "date": "2026-08-02T17:36:26Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/03551174679dffc1e772019e12ae348c6c7f2780"
     }
   ]
 }
