@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-06T08:13:15.396Z",
+  "generatedAt": "2026-08-07T06:59:00.897Z",
   "range": {
-    "from": "2025-08-07",
-    "to": "2026-08-06"
+    "from": "2025-08-08",
+    "to": "2026-08-07"
   },
   "activity": [
-    {
-      "date": "2025-08-07",
-      "count": 0
-    },
     {
       "date": "2025-08-08",
       "count": 0
@@ -1465,10 +1461,50 @@
     },
     {
       "date": "2026-08-06",
-      "count": 0
+      "count": 3
+    },
+    {
+      "date": "2026-08-07",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "924324ad11ff77703c29407790c5b713fe2a69f9",
+      "shortSha": "924324a",
+      "message": "fix(android): stabilize password first frame and rollback installs",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-07T02:50:33Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/924324ad11ff77703c29407790c5b713fe2a69f9"
+    },
+    {
+      "sha": "38ea5ea43f5b4db38c5899c37883fe767a465262",
+      "shortSha": "38ea5ea",
+      "message": "feat(android): integrate MDBX2 health repair flow",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-06T17:35:09Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/38ea5ea43f5b4db38c5899c37883fe767a465262"
+    },
+    {
+      "sha": "05f119abfe144fba57af3393850d2da3f1e64a8d",
+      "shortSha": "05f119a",
+      "message": "feat(android): improve MDBX tools and list performance",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-06T13:35:55Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/05f119abfe144fba57af3393850d2da3f1e64a8d"
+    },
+    {
+      "sha": "62bba2aed500324621078e945488d64d828eafaf",
+      "shortSha": "62bba2a",
+      "message": "feat(android): prepare 1.0.299 release",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-06T09:02:57Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/62bba2aed500324621078e945488d64d828eafaf"
+    },
     {
       "sha": "18f238d9f56b2afa6ce04de9c3139e6f3a361a94",
       "shortSha": "18f238d",
@@ -1522,42 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-04T01:48:52Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/be970b48c2494b620f762277700a68250eaf1be6"
-    },
-    {
-      "sha": "416af4189f63e67f33b4c85dc870dff8ac3ca0e8",
-      "shortSha": "416af41",
-      "message": "Merge pull request #83 from Mrmiaomrzh/main",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-02T21:12:25Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/416af4189f63e67f33b4c85dc870dff8ac3ca0e8"
-    },
-    {
-      "sha": "7fcbc7f4589ba0cf5202be82a73f7df8f7f70009",
-      "shortSha": "7fcbc7f",
-      "message": "feat: Update website image resources; update documentation in other languages.",
-      "authorName": "Mrmiaomrzh",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
-      "date": "2026-08-02T18:06:39Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/7fcbc7f4589ba0cf5202be82a73f7df8f7f70009"
-    },
-    {
-      "sha": "391eada95bffa8b8c34cd94ac2ec960a963acb0d",
-      "shortSha": "391eada",
-      "message": "Merge branch 'main' of https://github.com/Mrmiaomrzh/Monica",
-      "authorName": "Mrmiaomrzh",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
-      "date": "2026-08-02T17:36:32Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/391eada95bffa8b8c34cd94ac2ec960a963acb0d"
-    },
-    {
-      "sha": "03551174679dffc1e772019e12ae348c6c7f2780",
-      "shortSha": "0355117",
-      "message": "feat: Update document content",
-      "authorName": "Mrmiaomrzh",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
-      "date": "2026-08-02T17:36:26Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/03551174679dffc1e772019e12ae348c6c7f2780"
     }
   ]
 }
