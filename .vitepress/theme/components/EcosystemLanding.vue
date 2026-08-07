@@ -782,6 +782,7 @@ const cards = computed(() => currentCopy.value.cards);
   --ecosystem-border: var(--vp-c-divider);
   --ecosystem-muted: var(--vp-c-text-2);
   --ecosystem-radius: 8px;
+  --ecosystem-button-radius: var(--monica-cta-radius);
   display: grid;
   gap: 40px;
   max-width: 960px;
@@ -843,7 +844,7 @@ const cards = computed(() => currentCopy.value.cards);
 
 .ecosystem-button {
   min-height: 40px;
-  border-radius: var(--ecosystem-radius);
+  border-radius: var(--ecosystem-button-radius);
   padding: 0 14px;
   font-weight: 600;
   transition: background-color 160ms ease, border-color 160ms ease;
@@ -1093,7 +1094,6 @@ const cards = computed(() => currentCopy.value.cards);
   }
 }
 </style>
-
 
 
 

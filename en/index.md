@@ -20,20 +20,20 @@ hero:
 features:
   - title: Password Manager
     details: Supports auto-fill and multi-field storage. Protected by AES-256 encryption, ensuring data only exists on your local device.
-    icon: 🔑
+    icon: <i class="ri-key-2-fill"></i>
   - title: 2FA Authenticator
     details: Built-in TOTP authenticator with QR code scanning. Supports automatic copying of the next code before expiration.
-    icon: 🕒
+    icon: <i class="ri-timer-2-fill"></i>
   - title: Cards & Notes
     details: Securely store bank cards, ID photos, and private notes. Keep everything under your full control.
-    icon: 💳
+    icon: <i class="ri-bank-card-fill"></i>
   - title: Material Design 3
     details: Follows Google Material Design 3 guidelines. Features dynamic color themes and dark mode with a clean, ad-free interface.
-    icon: 🎨
+    icon: <i class="ri-palette-fill"></i>
   - title: Hardware-Level Keystore
     details: Keys are protected by the Android Keystore System (TEE) to provide a hardware-based security boundary for your encrypted data.
-    icon: 🛡️
+    icon: <i class="ri-shield-keyhole-fill"></i>
   - title: Zero-Knowledge Architecture
     details: Operates fully offline by default without requiring network permissions, ensuring that even developers cannot access your data.
-    icon: 🚫
+    icon: <i class="ri-cloud-off-fill"></i>
 ---

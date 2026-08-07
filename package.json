@@ -11,6 +11,7 @@
     "docs:preview": "vitepress preview ."
   },
   "dependencies": {
-    "echarts": "^6.0.0"
+    "echarts": "^6.0.0",
+    "remixicon": "^4.9.1"
   }
 }

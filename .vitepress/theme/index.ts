@@ -18,7 +18,9 @@ import "vitepress-theme-teek/theme-chalk/tk-index-rainbow.css"; // 首页图片�
 //import "vitepress-theme-teek/theme-chalk/tk-banner-desc-gradient.css"; // 博客风格 Banner 描述渐变样式
 import "vitepress-theme-teek/theme-chalk/tk-home-card-hover.css"; // 首页卡片悬停效果
 import "vitepress-theme-teek/theme-chalk/tk-fade-up-animation.css"; // 首次加载的动画效果
+import "remixicon/fonts/remixicon.css";
 
+import "./style.css";
 import "./styles/code-bg.scss";
 import "./styles/iframe.scss";
 
@@ -70,7 +72,6 @@ export default {
   extends: Teek,
   Layout: () => h(TeekLayoutProvider),
   enhanceApp(ctx) {
-    Teek.enhanceApp?.(ctx);
     ctx.app.component("EcosystemLanding", EcosystemLanding);
     ctx.app.component("MonicaCloudComingSoon", MonicaCloudComingSoon);
     ctx.app.component("MonicaInterfaceDemo", MonicaInterfaceDemo);
@@ -80,5 +81,3 @@ export default {
     setupRootLocaleNavigation();
   },
 };
-
-

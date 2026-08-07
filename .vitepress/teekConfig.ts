@@ -20,6 +20,13 @@ export const teekConfig = defineTeekConfig({
   },
   toComment: { enabled: false },
   articleShare: { enabled: true },
+  themeEnhance: {
+    enabled: true,
+    position: "top",
+    themeColor: {
+      defaultColorName: "vp-primary",
+    },
+  },
   vitePlugins: {
     sidebarOption: {
       resolveRule: "rewrites",

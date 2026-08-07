@@ -18,7 +18,7 @@ export default defineConfig({
     },
   },
   head: [
-    ["link", { rel: "icon", type: "image/png", href: "monica-logo.png" }],
+    ["link", { rel: "icon", type: "image/png", href: "/MonicaDocs/monica-logo.png" }],
     ["meta", { property: "og:type", content: "website" }],
   ],
   markdown: {

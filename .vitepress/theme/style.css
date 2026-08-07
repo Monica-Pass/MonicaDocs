@@ -1,58 +1,55 @@
-/**
- * Customize default theme styling by overriding CSS variables:
- * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
- */
-
-/**
- * Colors
- *
- * Each colors have exact same color scale system with 3 levels of solid
- * colors with different brightness, and 1 soft color.
- *
- * - `XXX-1`: The most solid color used mainly for colored text. It must
- *   satisfy the contrast ratio against when used on top of `XXX-soft`.
- *
- * - `XXX-2`: The color used mainly for hover state of the button.
- *
- * - `XXX-3`: The color for solid background, such as bg color of the button.
- *   It must satisfy the contrast ratio with pure white (#ffffff) text on
- *   top of it.
- *
- * - `XXX-soft`: The color used for subtle background such as custom container
- *   or badges. It must satisfy the contrast ratio when putting `XXX-1` colors
- *   on top of it.
- *
- *   The soft color must be semi transparent alpha channel. This is crucial
- *   because it allows adding multiple "soft" colors on top of each other
- *   to create a accent, such as when having inline code block inside
- *   custom containers.
- *
- * - `default`: The color used purely for subtle indication without any
- *   special meanings attached to it such as bg color for menu hover state.
- *
- * - `brand`: Used for primary brand colors, such as link text, button with
- *   brand theme, etc.
- *
- * - `tip`: Used to indicate useful information. The default theme uses the
- *   brand color for this by default.
- *
- * - `warning`: Used to indicate warning to the users. Used in custom
- *   container, badges, etc.
- *
- * - `danger`: Used to show error, or dangerous message to the users. Used
- *   in custom container, badges, etc.
- * -------------------------------------------------------------------------- */
-
 :root {
+  /* Keep the public VitePress palette as the single source of truth. */
+  --monica-brand-primary: var(--vp-c-indigo-1);
+  --monica-brand-hover: var(--vp-c-indigo-2);
+  --monica-brand-solid: var(--vp-c-indigo-3);
+  --monica-brand-soft: var(--vp-c-indigo-soft);
+  --monica-brand-light-3: #7289d9;
+  --monica-brand-light-5: #9fafe5;
+  --monica-brand-light-8: #dfe6fb;
+  --monica-element-primary: var(--monica-brand-primary);
+  --monica-element-light-3: var(--monica-brand-light-3);
+  --monica-element-light-5: var(--monica-brand-light-5);
+  --monica-element-light-8: var(--monica-brand-light-8);
+
+  --vp-c-brand-1: var(--monica-brand-primary);
+  --vp-c-brand-2: var(--monica-brand-hover);
+  --vp-c-brand-3: var(--monica-brand-solid);
+  --vp-c-brand-soft: var(--monica-brand-soft);
+
+  --monica-cta-radius: 25px;
+  --monica-title-purple: #8b72e6;
+  --monica-title-cyan: #41d1ff;
+  /* Read the live VitePress/Teek brand scale so title colors follow the theme picker. */
+  --monica-title-start: color-mix(in srgb, var(--vp-c-brand-1) 78%, var(--monica-title-purple) 22%);
+  --monica-title-mid: var(--vp-c-brand-2);
+  --monica-title-end: color-mix(in srgb, var(--vp-c-brand-3) 72%, var(--monica-title-cyan) 28%);
+  --monica-title-gradient: -webkit-linear-gradient(120deg, var(--monica-title-start) 0%, var(--monica-title-mid) 18%, var(--monica-title-end) 48%, var(--monica-title-end) 100%);
+  --monica-accent-gradient: linear-gradient(120deg, var(--vp-c-brand-1), var(--vp-c-brand-2) 58%, var(--vp-c-brand-3));
+
+  --monica-shadow-color: rgba(52, 81, 178, 0.24);
+  --monica-shadow-color-strong: rgba(52, 81, 178, 0.32);
+  --monica-feature-shadow: rgba(52, 81, 178, 0.13);
+  --monica-dark-feature-shadow: rgba(0, 0, 0, 0.28);
+  --monica-transition-fast: 180ms ease;
+  --monica-transition-medium: 200ms ease;
+  --monica-animation-page: 240ms ease both;
+
+  /* Keep Teek's theme enhancer and Element-style controls on the same scale. */
+  --tk-theme-color: var(--monica-brand-primary);
+  --tk-color-primary: var(--monica-brand-primary);
+  --tk-color-primary-light-3: var(--monica-brand-light-3);
+  --tk-color-primary-light-5: var(--monica-brand-light-5);
+  --tk-color-primary-light-8: var(--monica-brand-light-8);
+  --tk-el-color-primary: var(--monica-element-primary);
+  --tk-el-color-primary-light-3: var(--monica-element-light-3);
+  --tk-el-color-primary-light-5: var(--monica-element-light-5);
+  --tk-el-color-primary-light-8: var(--monica-element-light-8);
+
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
-
-  --vp-c-brand-1: var(--vp-c-indigo-1);
-  --vp-c-brand-2: var(--vp-c-indigo-2);
-  --vp-c-brand-3: var(--vp-c-indigo-3);
-  --vp-c-brand-soft: var(--vp-c-indigo-soft);
 
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
@@ -68,13 +65,7 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
-}
 
-/**
- * Component: Button
- * -------------------------------------------------------------------------- */
-
-:root {
   --vp-button-brand-border: transparent;
   --vp-button-brand-text: var(--vp-c-white);
   --vp-button-brand-bg: var(--vp-c-brand-3);
@@ -84,56 +75,309 @@
   --vp-button-brand-active-border: transparent;
   --vp-button-brand-active-text: var(--vp-c-white);
   --vp-button-brand-active-bg: var(--vp-c-brand-1);
-}
 
-/**
- * Component: Home
- * -------------------------------------------------------------------------- */
-
-:root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #bd34fe 30%,
-    #41d1ff
-  );
+  --vp-home-hero-name-background: var(--monica-title-gradient);
 
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #bd34fe 50%,
-    #47caff 50%
+  --vp-home-hero-image-background-image: radial-gradient(
+    circle at 48% 43%,
+    var(--vp-c-brand-2) 0%,
+    color-mix(in srgb, var(--vp-c-brand-3) 64%, var(--vp-c-brand-1) 36%) 54%,
+    color-mix(in srgb, var(--vp-c-brand-3) 64%, transparent) 82%
   );
   --vp-home-hero-image-filter: blur(44px);
-}
 
-@media (min-width: 640px) {
-  :root {
-    --vp-home-hero-image-filter: blur(56px);
-  }
-}
-
-@media (min-width: 960px) {
-  :root {
-    --vp-home-hero-image-filter: blur(68px);
-  }
-}
-
-/**
- * Component: Custom Block
- * -------------------------------------------------------------------------- */
-
-:root {
   --vp-custom-block-tip-border: transparent;
   --vp-custom-block-tip-text: var(--vp-c-text-1);
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
-/**
- * Component: Algolia
- * -------------------------------------------------------------------------- */
-
-.DocSearch {
-  --docsearch-primary-color: var(--vp-c-brand-1) !important;
+html.dark {
+  --monica-brand-light-3: #c2c8ff;
+  --monica-brand-light-5: #d4d9ff;
+  --monica-brand-light-8: #eceeff;
+  --tk-color-primary-light-3: var(--monica-brand-light-3);
+  --tk-color-primary-light-5: var(--monica-brand-light-5);
+  --tk-color-primary-light-8: var(--monica-brand-light-8);
+  --monica-element-primary: var(--vp-c-indigo-2);
+  --monica-element-light-3: #475bad;
+  --monica-element-light-5: #394987;
+  --monica-element-light-8: #28335d;
+  --vp-home-hero-image-background-image: radial-gradient(
+    circle at 48% 43%,
+    var(--vp-c-brand-3) 0%,
+    color-mix(in srgb, var(--vp-c-brand-2) 68%, var(--vp-c-brand-1) 32%) 54%,
+    color-mix(in srgb, var(--vp-c-brand-2) 52%, transparent) 82%
+  );
 }
 
+@media (min-width: 640px) {
+  .VPHero .image-bg {
+    filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  .VPHero .image-bg {
+    filter: blur(68px);
+  }
+}
+
+.DocSearch.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand-1);
+}
+
+.VPHero {
+  padding-bottom: 52px !important;
+}
+
+.VPHero .name {
+  font-weight: 650;
+}
+
+.VPHero .text {
+  color: var(--vp-c-text-1);
+}
+
+.VPHero .tagline {
+  max-width: 34rem;
+  color: var(--vp-c-text-2);
+}
+
+.VPHero .image-container {
+  animation: monica-float 5s ease-in-out infinite;
+  will-change: transform;
+}
+
+.VPHero .image-bg {
+  animation: monica-glow 5s ease-in-out infinite;
+  transform: translate(-50%, -50%) scale(1.28);
+}
+
+.VPHero .image-src {
+  max-width: 224px;
+  max-height: 224px;
+  filter: drop-shadow(0 18px 30px var(--monica-shadow-color));
+}
+
+@media (min-width: 640px) {
+  .VPHero .image-src {
+    max-width: 288px;
+    max-height: 288px;
+  }
+}
+
+@media (min-width: 960px) {
+  .VPHero .image-src {
+    max-width: 360px;
+    max-height: 360px;
+  }
+}
+
+.VPHero .actions .VPButton {
+  border-radius: var(--monica-cta-radius);
+  font-weight: 650;
+  transition: transform var(--monica-transition-fast), box-shadow var(--monica-transition-fast), border-color var(--monica-transition-fast), background-color var(--monica-transition-fast);
+}
+
+.VPHero .actions .VPButton.brand {
+  box-shadow: 0 8px 18px var(--monica-shadow-color);
+}
+
+.VPFeatures {
+  padding-top: 28px !important;
+}
+
+.VPFeature {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-divider) !important;
+  border-radius: 8px !important;
+  background: var(--vp-c-bg-soft) !important;
+  transition: transform var(--monica-transition-medium), box-shadow var(--monica-transition-medium), border-color var(--monica-transition-medium);
+}
+
+.VPFeature::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+  content: "";
+  background: var(--vp-c-brand-1);
+  opacity: 0;
+  transition: opacity var(--monica-transition-medium);
+}
+
+.VPFeature .icon {
+  display: inline-flex !important;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 12px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: var(--vp-c-brand-soft) !important;
+  color: var(--vp-c-brand-1) !important;
+  font-size: 1.65rem !important;
+  -webkit-text-fill-color: currentColor !important;
+  transition: color var(--monica-transition-fast), background-color var(--monica-transition-fast), transform var(--monica-transition-fast);
+}
+
+@media (hover: hover) {
+  .VPHero .actions .VPButton.brand:hover {
+    box-shadow: 0 12px 24px var(--monica-shadow-color-strong);
+    transform: translateY(-2px);
+  }
+
+  .VPHero .actions .VPButton.alt:hover {
+    border-color: var(--vp-c-brand-1);
+    color: var(--vp-c-brand-1);
+    transform: translateY(-2px);
+  }
+
+  .VPFeature:hover {
+    border-color: var(--vp-c-brand-1) !important;
+    box-shadow: 0 12px 22px var(--monica-feature-shadow);
+    transform: translateY(-4px);
+  }
+
+  .dark .VPFeature:hover {
+    box-shadow: 0 12px 22px var(--monica-dark-feature-shadow);
+  }
+
+  .VPFeature:hover::before {
+    opacity: 1;
+  }
+
+  .VPFeature:hover .icon {
+    background: var(--vp-c-brand-1) !important;
+    color: var(--vp-c-white) !important;
+    transform: scale(1.08);
+  }
+}
+
+/**
+ * Navigation and page feedback
+ * -------------------------------------------------------------------------- */
+
+.VPNavBar,
+.VPSidebar {
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.VPNav {
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.VPNavBarMenuLink {
+  position: relative;
+}
+
+.VPNavBarMenuLink::after {
+  position: absolute;
+  right: 11px;
+  bottom: 5px;
+  left: 11px;
+  height: 2px;
+  content: "";
+  border-radius: 1px;
+  background: var(--monica-accent-gradient);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform var(--monica-transition-fast);
+}
+
+.VPNavBarMenuLink.active::after {
+  transform: scaleX(1);
+}
+
+@media (hover: hover) {
+  .VPNavBarMenuLink:hover::after {
+    transform: scaleX(1);
+  }
+}
+
+.VPSidebarItem.is-active > .item {
+  margin-right: -8px;
+  margin-left: -8px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-radius: 8px;
+  background: var(--vp-c-brand-soft);
+}
+
+.VPSidebarItem.is-active > .item .link > .text {
+  color: var(--vp-c-brand-1) !important;
+}
+
+.VPContent.is-home {
+  animation: monica-page-in var(--monica-animation-page);
+}
+
+@keyframes monica-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes monica-glow {
+  0%,
+  100% {
+    opacity: 0.75;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes monica-page-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+
+  .VPHero .image-container,
+  .VPHero .image-bg,
+  .VPContent.is-home {
+    animation: none !important;
+  }
+
+  .VPHero .actions .VPButton,
+  .VPFeature,
+  .VPFeature::before,
+  .VPFeature .icon,
+  .VPNavBarMenuLink::after {
+    transition: none !important;
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) and (hover: hover) {
+  .VPHero .actions .VPButton:hover,
+  .VPFeature:hover,
+  .VPFeature:hover .icon {
+    transform: none;
+  }
+}
