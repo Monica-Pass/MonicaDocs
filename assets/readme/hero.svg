@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Monica Docs</title>
+  <desc id="desc">Documentation for Monica, an Android local-first password vault with passwords, two-factor codes, secure notes, and local backup options.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111b43"/>
+      <stop offset="1" stop-color="#253b85"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8d5cff"/>
+      <stop offset="0.62" stop-color="#5176ff"/>
+      <stop offset="1" stop-color="#47caff"/>
+    </linearGradient>
+    <linearGradient id="vault" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#607fff"/>
+      <stop offset="1" stop-color="#ba78ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#surface)"/>
+  <path d="M0 300C176 245 256 382 447 314C627 250 729 205 922 254C1031 281 1105 259 1200 214V360H0Z" fill="#0c1433" opacity="0.62"/>
+  <path d="M0 62H532" stroke="#7183ca" stroke-opacity="0.32"/>
+  <path d="M0 298H532" stroke="#7183ca" stroke-opacity="0.22"/>
+
+  <g transform="translate(64 70)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <text fill="#bac6ff" font-size="20" font-weight="600" letter-spacing="2">ANDROID PASSWORD VAULT</text>
+    <text y="78" fill="#ffffff" font-size="68" font-weight="700">Monica Docs</text>
+    <text y="120" fill="#d8dfff" font-size="26">Local-first password management, explained.</text>
+    <text y="164" fill="#aab8e9" font-size="20">Passwords · TOTP · Secure notes · WebDAV backup</text>
+    <g transform="translate(0 204)">
+      <rect width="156" height="40" rx="20" fill="#e5eaff" fill-opacity="0.12" stroke="#9bafff" stroke-opacity="0.4"/>
+      <text x="78" y="27" text-anchor="middle" fill="#eaf0ff" font-size="18" font-weight="600">Open source</text>
+      <rect x="172" width="150" height="40" rx="20" fill="#e5eaff" fill-opacity="0.12" stroke="#9bafff" stroke-opacity="0.4"/>
+      <text x="247" y="27" text-anchor="middle" fill="#eaf0ff" font-size="18" font-weight="600">Five languages</text>
+    </g>
+  </g>
+
+  <g transform="translate(822 48)">
+    <circle cx="160" cy="132" r="132" fill="#a8b4ff" fill-opacity="0.08"/>
+    <circle cx="160" cy="132" r="105" fill="#a8b4ff" fill-opacity="0.1" stroke="#b7c3ff" stroke-opacity="0.32"/>
+    <path d="M94 121V96C94 59 123 34 160 34C197 34 226 59 226 96V121" fill="none" stroke="url(#vault)" stroke-width="18" stroke-linecap="round"/>
+    <rect x="68" y="109" width="184" height="139" rx="26" fill="#162454" stroke="#aab8ff" stroke-width="3"/>
+    <circle cx="160" cy="166" r="17" fill="url(#brand)"/>
+    <path d="M160 181V208" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+    <g fill="#c8d2ff">
+      <circle cx="51" cy="106" r="7"/>
+      <circle cx="269" cy="106" r="7"/>
+      <circle cx="49" cy="253" r="7"/>
+      <circle cx="271" cy="253" r="7"/>
+    </g>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" fill="#dbe3ff">
+      <text x="160" y="295" text-anchor="middle">LOCAL VAULT</text>
+    </g>
+  </g>
+</svg>
