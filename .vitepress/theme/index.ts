@@ -24,6 +24,31 @@ import "./style.css";
 import "./styles/code-bg.scss";
 import "./styles/iframe.scss";
 
+type LocaleCode = "zh-CN" | "en-US" | "ja-JP" | "ru-RU" | "vi-VN";
+
+const localePreferenceKey = "monica-docs-locale-preference";
+const supportedLocales: Array<{ code: LocaleCode; path: string; language: string }> = [
+  { code: "zh-CN", path: "/", language: "zh" },
+  { code: "en-US", path: "/en/", language: "en" },
+  { code: "ja-JP", path: "/ja/", language: "ja" },
+  { code: "ru-RU", path: "/ru/", language: "ru" },
+  { code: "vi-VN", path: "/vi/", language: "vi" },
+];
+
+const getBasePath = () => {
+  return "/MonicaDocs/";
+};
+
+const getLocalePath = (locale: LocaleCode) => {
+  const target = supportedLocales.find((item) => item.code === locale) ?? supportedLocales[0];
+  return target.path === "/" ? getBasePath() : `${getBasePath()}${target.path.slice(1)}`;
+};
+
+const getLocaleFromPath = (pathname: string) => {
+  const normalizedPath = pathname.endsWith("/") ? pathname : `${pathname}/`;
+  return supportedLocales.find((locale) => normalizedPath === getLocalePath(locale.code))?.code;
+};
+
 const setupRootLocaleNavigation = () => {
   const selector = ".VPNavBarTranslations a, .VPNavBarExtra a";
 
@@ -58,13 +83,50 @@ const setupRootLocaleNavigation = () => {
 
       const target = event.target instanceof Element ? event.target : null;
       const link = target?.closest(selector);
-      if (!(link instanceof HTMLAnchorElement) || !isRootLocaleLink(link)) return;
+      if (!(link instanceof HTMLAnchorElement)) return;
+
+      const locale = getLocaleFromPath(link.pathname);
+      if (locale) localStorage.setItem(localePreferenceKey, locale);
+      if (!isRootLocaleLink(link)) return;
 
       event.preventDefault();
       event.stopImmediatePropagation();
       setTimeout(() => forceDocumentNavigation(link), 0);
     },
     true
+  );
+};
+
+const setupBrowserLocale = () => {
+  const rootPath = getBasePath();
+  const isDefaultLocaleEntry = window.location.pathname === rootPath || window.location.pathname === `${rootPath}index.html`;
+  if (!isDefaultLocaleEntry) return;
+
+  const storedLocale = localStorage.getItem(localePreferenceKey) as LocaleCode | null;
+  const browserLocales = navigator.languages?.length ? navigator.languages : [navigator.language];
+  const browserLocale = browserLocales
+    .map((language) => language.toLowerCase().split("-")[0])
+    .map((language) => supportedLocales.find((locale) => locale.language === language)?.code)
+    .find((locale): locale is LocaleCode => Boolean(locale));
+  const targetLocale = storedLocale && supportedLocales.some((locale) => locale.code === storedLocale) ? storedLocale : browserLocale;
+
+  if (!targetLocale || getLocalePath(targetLocale) === rootPath) return;
+
+  const target = new URL(getLocalePath(targetLocale), window.location.origin);
+  target.search = window.location.search;
+  target.hash = window.location.hash;
+  window.location.replace(target.href);
+};
+
+const showConsoleNotice = () => {
+  const noticeWindow = window as Window & { __monicaConsoleNoticeShown?: boolean };
+  if (noticeWindow.__monicaConsoleNoticeShown) return;
+
+  noticeWindow.__monicaConsoleNoticeShown = true;
+  console.info(
+    "%c实际内容以应用内为准\n%cMonicaTeam保留最终解释权",
+    "font-size:12px;color:#3451b2;",
+    "font-size:12px;color:#64748b;"
   );
 };
 
@@ -79,5 +141,7 @@ export default {
     if (typeof window === "undefined") return;
 
     setupRootLocaleNavigation();
+    setupBrowserLocale();
+    showConsoleNotice();
   },
 };
