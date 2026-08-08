@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-07T06:59:00.897Z",
+  "generatedAt": "2026-08-08T06:32:37.327Z",
   "range": {
-    "from": "2025-08-08",
-    "to": "2026-08-07"
+    "from": "2025-08-09",
+    "to": "2026-08-08"
   },
   "activity": [
-    {
-      "date": "2025-08-08",
-      "count": 0
-    },
     {
       "date": "2025-08-09",
       "count": 0
@@ -1465,10 +1461,32 @@
     },
     {
       "date": "2026-08-07",
-      "count": 1
+      "count": 3
+    },
+    {
+      "date": "2026-08-08",
+      "count": 0
     }
   ],
   "latest": [
+    {
+      "sha": "87656a9e8342a7ac8988ea0af41b04b624e8758d",
+      "shortSha": "87656a9",
+      "message": "Merge remote-tracking branch 'origin/main'",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-07T13:19:14Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/87656a9e8342a7ac8988ea0af41b04b624e8758d"
+    },
+    {
+      "sha": "e348623f3fcb9c7cf40a03d93b9643b81ac8b490",
+      "shortSha": "e348623",
+      "message": "fix(android): sync Bitwarden password custom fields",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-07T13:17:22Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/e348623f3fcb9c7cf40a03d93b9643b81ac8b490"
+    },
     {
       "sha": "924324ad11ff77703c29407790c5b713fe2a69f9",
       "shortSha": "924324a",
@@ -1540,24 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-04T11:48:26Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/b89e4382e8788791c0242eb9908aeaef46639e36"
-    },
-    {
-      "sha": "2a72c84505891038575e3f4e183ca76e1c36f6cd",
-      "shortSha": "2a72c84",
-      "message": "Update FUNDING.yml",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-04T01:51:52Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/2a72c84505891038575e3f4e183ca76e1c36f6cd"
-    },
-    {
-      "sha": "be970b48c2494b620f762277700a68250eaf1be6",
-      "shortSha": "be970b4",
-      "message": "Update FUNDING.yml",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-04T01:48:52Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/be970b48c2494b620f762277700a68250eaf1be6"
     }
   ]
 }
