@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-12T07:05:59.645Z",
+  "generatedAt": "2026-08-13T07:09:57.022Z",
   "range": {
-    "from": "2025-08-13",
-    "to": "2026-08-12"
+    "from": "2025-08-14",
+    "to": "2026-08-13"
   },
   "activity": [
-    {
-      "date": "2025-08-13",
-      "count": 0
-    },
     {
       "date": "2025-08-14",
       "count": 0
@@ -1465,10 +1461,32 @@
     },
     {
       "date": "2026-08-12",
+      "count": 2
+    },
+    {
+      "date": "2026-08-13",
       "count": 0
     }
   ],
   "latest": [
+    {
+      "sha": "78cf662acbda9538bfea46122a2689c5ef951f09",
+      "shortSha": "78cf662",
+      "message": "Merge pull request #95 from buzhidao10068/docs/fix-readme-links",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-12T11:45:15Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/78cf662acbda9538bfea46122a2689c5ef951f09"
+    },
+    {
+      "sha": "2b11792afc83cbcb7576fb4ea046eb448bfdf446",
+      "shortSha": "2b11792",
+      "message": "docs: point website link to MonicaDocs",
+      "authorName": "buzhidao10068",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/200157145?v=4",
+      "date": "2026-08-12T11:21:01Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/2b11792afc83cbcb7576fb4ea046eb448bfdf446"
+    },
     {
       "sha": "f7575ef7bab57a71e80d4fb8259f0e5494c8fb1a",
       "shortSha": "f7575ef",
@@ -1540,24 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/16702445?v=4",
       "date": "2026-08-09T12:00:28Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/047e1efdda93aeead2505b434b6ce23276153d9e"
-    },
-    {
-      "sha": "150618b8231dd9e9e9ab342b90ed66b106e672c0",
-      "shortSha": "150618b",
-      "message": "Run contributor flag update on stable releases",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-08T13:48:45Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/150618b8231dd9e9e9ab342b90ed66b106e672c0"
-    },
-    {
-      "sha": "f5a4cc9ea97697255893e0f188711443c167d3de",
-      "shortSha": "f5a4cc9",
-      "message": "Release Monica Android 1.0.300",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-08T13:39:10Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f5a4cc9ea97697255893e0f188711443c167d3de"
     }
   ]
 }
