@@ -1,36 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-07T06:59:00.897Z",
+  "generatedAt": "2026-08-13T07:09:57.022Z",
   "range": {
-    "from": "2025-08-08",
-    "to": "2026-08-07"
+    "from": "2025-08-14",
+    "to": "2026-08-13"
   },
   "activity": [
-    {
-      "date": "2025-08-08",
-      "count": 0
-    },
-    {
-      "date": "2025-08-09",
-      "count": 0
-    },
-    {
-      "date": "2025-08-10",
-      "count": 0
-    },
-    {
-      "date": "2025-08-11",
-      "count": 0
-    },
-    {
-      "date": "2025-08-12",
-      "count": 0
-    },
-    {
-      "date": "2025-08-13",
-      "count": 0
-    },
     {
       "date": "2025-08-14",
       "count": 0
@@ -1465,99 +1441,123 @@
     },
     {
       "date": "2026-08-07",
+      "count": 3
+    },
+    {
+      "date": "2026-08-08",
+      "count": 2
+    },
+    {
+      "date": "2026-08-09",
+      "count": 5
+    },
+    {
+      "date": "2026-08-10",
       "count": 1
+    },
+    {
+      "date": "2026-08-11",
+      "count": 2
+    },
+    {
+      "date": "2026-08-12",
+      "count": 2
+    },
+    {
+      "date": "2026-08-13",
+      "count": 0
     }
   ],
   "latest": [
     {
-      "sha": "924324ad11ff77703c29407790c5b713fe2a69f9",
-      "shortSha": "924324a",
-      "message": "fix(android): stabilize password first frame and rollback installs",
+      "sha": "78cf662acbda9538bfea46122a2689c5ef951f09",
+      "shortSha": "78cf662",
+      "message": "Merge pull request #95 from buzhidao10068/docs/fix-readme-links",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-07T02:50:33Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/924324ad11ff77703c29407790c5b713fe2a69f9"
+      "date": "2026-08-12T11:45:15Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/78cf662acbda9538bfea46122a2689c5ef951f09"
     },
     {
-      "sha": "38ea5ea43f5b4db38c5899c37883fe767a465262",
-      "shortSha": "38ea5ea",
-      "message": "feat(android): integrate MDBX2 health repair flow",
+      "sha": "2b11792afc83cbcb7576fb4ea046eb448bfdf446",
+      "shortSha": "2b11792",
+      "message": "docs: point website link to MonicaDocs",
+      "authorName": "buzhidao10068",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/200157145?v=4",
+      "date": "2026-08-12T11:21:01Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/2b11792afc83cbcb7576fb4ea046eb448bfdf446"
+    },
+    {
+      "sha": "f7575ef7bab57a71e80d4fb8259f0e5494c8fb1a",
+      "shortSha": "f7575ef",
+      "message": "feat(android): prepare 1.0.302",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-06T17:35:09Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/38ea5ea43f5b4db38c5899c37883fe767a465262"
+      "date": "2026-08-11T17:04:02Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f7575ef7bab57a71e80d4fb8259f0e5494c8fb1a"
     },
     {
-      "sha": "05f119abfe144fba57af3393850d2da3f1e64a8d",
-      "shortSha": "05f119a",
-      "message": "feat(android): improve MDBX tools and list performance",
+      "sha": "c96bf95ba9d38e72b398c81ef4c37bdc235d9bd0",
+      "shortSha": "c96bf95",
+      "message": "fix(android): recover Steam tokens from Bitwarden",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-06T13:35:55Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/05f119abfe144fba57af3393850d2da3f1e64a8d"
+      "date": "2026-08-11T09:45:01Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/c96bf95ba9d38e72b398c81ef4c37bdc235d9bd0"
     },
     {
-      "sha": "62bba2aed500324621078e945488d64d828eafaf",
-      "shortSha": "62bba2a",
-      "message": "feat(android): prepare 1.0.299 release",
+      "sha": "afaf23d01f5c2a7ca6734de7d2e6771ba4cce48f",
+      "shortSha": "afaf23d",
+      "message": "fix(android): harden external vault imports",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-06T09:02:57Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/62bba2aed500324621078e945488d64d828eafaf"
+      "date": "2026-08-10T03:25:18Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/afaf23d01f5c2a7ca6734de7d2e6771ba4cce48f"
     },
     {
-      "sha": "18f238d9f56b2afa6ce04de9c3139e6f3a361a94",
-      "shortSha": "18f238d",
-      "message": "Merge pull request #84 from Mrmiaomrzh/main",
+      "sha": "f06913866794679cbb795fb7cfe9e77fa5a49f47",
+      "shortSha": "f069138",
+      "message": "fix(android): harden vault interactions for 1.0.301",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-04T18:07:00Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/18f238d9f56b2afa6ce04de9c3139e6f3a361a94"
+      "date": "2026-08-09T17:58:58Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f06913866794679cbb795fb7cfe9e77fa5a49f47"
     },
     {
-      "sha": "5052c62c5b52d76e563eb2b2f342d9c7335ec70c",
-      "shortSha": "5052c62",
-      "message": "feat(docs): Migrate document repository",
-      "authorName": "Mrmiaomrzh",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
-      "date": "2026-08-04T17:06:55Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/5052c62c5b52d76e563eb2b2f342d9c7335ec70c"
-    },
-    {
-      "sha": "20338cc67f072ae85e7ca1ad92a234d03ecc4df8",
-      "shortSha": "20338cc",
-      "message": "feat(android): localize Monica Plus and add PayPal support",
+      "sha": "f0953a8b5cd9a57fada9df9874f63c48dbf0b615",
+      "shortSha": "f0953a8",
+      "message": "feat(steam): support KeePass and Bitwarden storage",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-04T13:41:30Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/20338cc67f072ae85e7ca1ad92a234d03ecc4df8"
+      "date": "2026-08-09T17:03:36Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f0953a8b5cd9a57fada9df9874f63c48dbf0b615"
     },
     {
-      "sha": "b89e4382e8788791c0242eb9908aeaef46639e36",
-      "shortSha": "b89e438",
-      "message": "docs: add PayPal support button to all README languages",
+      "sha": "aa1b0de3543e5ac0695c60323628ad2f7102c7c8",
+      "shortSha": "aa1b0de",
+      "message": "Merge pull request #90 from wzcv/main",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-04T11:48:26Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/b89e4382e8788791c0242eb9908aeaef46639e36"
+      "date": "2026-08-09T16:49:40Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/aa1b0de3543e5ac0695c60323628ad2f7102c7c8"
     },
     {
-      "sha": "2a72c84505891038575e3f4e183ca76e1c36f6cd",
-      "shortSha": "2a72c84",
-      "message": "Update FUNDING.yml",
+      "sha": "5595324d783b3546e6608173523e4507e4a30d2a",
+      "shortSha": "5595324",
+      "message": "fix(bitwarden): scope auto sync to selected vault",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-04T01:51:52Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/2a72c84505891038575e3f4e183ca76e1c36f6cd"
+      "date": "2026-08-09T16:48:43Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/5595324d783b3546e6608173523e4507e4a30d2a"
     },
     {
-      "sha": "be970b48c2494b620f762277700a68250eaf1be6",
-      "shortSha": "be970b4",
-      "message": "Update FUNDING.yml",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-04T01:48:52Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/be970b48c2494b620f762277700a68250eaf1be6"
+      "sha": "047e1efdda93aeead2505b434b6ce23276153d9e",
+      "shortSha": "047e1ef",
+      "message": "feat(bitwarden): 完善Bitwarden自动同步逻辑，缓解多账号同步卡顿",
+      "authorName": "wzcv",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/16702445?v=4",
+      "date": "2026-08-09T12:00:28Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/047e1efdda93aeead2505b434b6ce23276153d9e"
     }
   ]
 }
