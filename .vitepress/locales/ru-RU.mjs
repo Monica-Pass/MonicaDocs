@@ -22,6 +22,7 @@ export default defineConfig({
     nav: [
       { text: "Главная", link: "/ru/" },
       { text: "Эко-система", link: "/ru/ecosystem" },
+      { text: "Скачать", link: "/ru/download" },
       { text: "Руководство", link: "/ru/guide/intro" },
       { text: "Документация", link: "/ru/reference/catalogue" },
       {

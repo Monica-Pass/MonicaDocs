@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: 了解 Monica 生态
       link: /ecosystem.html
+    - theme: alt
+      text: 下载 Monica
+      link: /download.html
 
 features:
   - title: 密码管理

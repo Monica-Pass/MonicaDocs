@@ -22,6 +22,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/en/" },
       { text: "Ecosystem", link: "/en/ecosystem" },
+      { text: "Download", link: "/en/download" },
       { text: "Guide", link: "/en/guide/intro" },
       { text: "Docs", link: "/en/reference/catalogue" },
       {

@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: Monica エコシステムを見る
       link: /ja/ecosystem.html
+    - theme: alt
+      text: Monica をダウンロード
+      link: /ja/download.html
 
 features:
   - title: パスワード管理

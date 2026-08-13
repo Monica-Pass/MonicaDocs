@@ -21,7 +21,8 @@ export default defineConfig({
     docFooter: { prev: "前のページ", next: "次のページ" },
     nav: [
       { text: "ホーム", link: "/ja/" },
-      { text: "ダウンロード", link: "/ja/ecosystem" },
+      { text: "エコシステム", link: "/ja/ecosystem" },
+      { text: "ダウンロード", link: "/ja/download" },
       { text: "ガイド", link: "/ja/guide/intro" },
       { text: "ドキュメント", link: "/ja/reference/catalogue" },
       {

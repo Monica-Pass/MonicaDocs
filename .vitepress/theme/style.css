@@ -17,6 +17,13 @@
   --vp-c-brand-3: var(--monica-brand-solid);
   --vp-c-brand-soft: var(--monica-brand-soft);
 
+  /* GitHub contribution activity squares (used by GitHubCommitsPanel). */
+  --vp-c-github-0: #ebedf0;
+  --vp-c-github-1: #9be9a8;
+  --vp-c-github-2: #40c463;
+  --vp-c-github-3: #30a14e;
+  --vp-c-github-4: #216e39;
+
   --monica-cta-radius: 25px;
   --monica-title-purple: #8b72e6;
   --monica-title-cyan: #41d1ff;
@@ -97,6 +104,13 @@ html.dark {
   --monica-brand-light-3: #c2c8ff;
   --monica-brand-light-5: #d4d9ff;
   --monica-brand-light-8: #eceeff;
+
+  /* GitHub contribution activity squares (dark). */
+  --vp-c-github-0: #2d333b;
+  --vp-c-github-1: #0e4429;
+  --vp-c-github-2: #006d32;
+  --vp-c-github-3: #26a641;
+  --vp-c-github-4: #39d353;
   --tk-color-primary-light-3: var(--monica-brand-light-3);
   --tk-color-primary-light-5: var(--monica-brand-light-5);
   --tk-color-primary-light-8: var(--monica-brand-light-8);

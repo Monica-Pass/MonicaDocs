@@ -1,6 +1,8 @@
-<script setup lang="ts" name="GitHubCommitsPanel">
+<script setup lang="ts">
 import { computed, onMounted, ref } from "vue";
 import { useData, withBase } from "vitepress";
+
+defineOptions({ name: "GitHubCommitsPanel" });
 
 type ActivityDay = {
   date: string;
@@ -127,7 +129,15 @@ const localeKey = computed(() => {
 });
 
 const text = computed(() => localeText[localeKey.value]);
-const dateLocale = computed(() => lang.value || "en-US");
+const dateLocales = {
+  zh: "zh-CN",
+  en: "en-US",
+  ja: "ja-JP",
+  vi: "vi-VN",
+  ru: "ru-RU",
+};
+
+const dateLocale = computed(() => dateLocales[localeKey.value]);
 
 const activity = computed(() => data.value?.activity ?? []);
 const latest = computed(() => data.value?.latest ?? []);
@@ -139,7 +149,7 @@ const calendarCells = computed<CalendarCell[]>(() => {
 
   const firstDate = new Date(`${activity.value[0].date}T00:00:00Z`);
   const leadingDays = firstDate.getUTCDay();
-  const padding = Array.from({ length: leadingDays }, (_, index) => ({
+  const padding: CalendarCell[] = Array.from({ length: leadingDays }, (_, index) => ({
     date: `padding-${index}`,
     count: 0,
     isPadding: true,
@@ -154,16 +164,16 @@ const calendarCells = computed<CalendarCell[]>(() => {
 
 const monthLabels = computed(() => {
   const labels: { index: number; label: string }[] = [];
-  let previousMonth = "";
+  const addedMonths = new Set<string>();
 
   calendarCells.value.forEach((item, index) => {
     if (index % 7 !== 0 || item.isPadding) return;
 
     const date = new Date(`${item.date}T00:00:00Z`);
     const month = date.toLocaleString(dateLocale.value, { month: "short", timeZone: "UTC" });
-    if (month === previousMonth) return;
+    if (addedMonths.has(month)) return;
 
-    previousMonth = month;
+    addedMonths.add(month);
     labels.push({ index: Math.floor(index / 7), label: month });
   });
 
@@ -193,7 +203,7 @@ function getLevel(count: number, max: number) {
 }
 
 function formatDate(value: string) {
-  if (!value) return "";
+  if (!value || isNaN(new Date(value).getTime())) return "";
 
   return new Intl.DateTimeFormat(dateLocale.value, {
     year: "numeric",
@@ -203,7 +213,7 @@ function formatDate(value: string) {
 }
 
 function formatGeneratedAt(value: string) {
-  if (!value) return "";
+  if (!value || isNaN(new Date(value).getTime())) return "";
 
   return new Intl.DateTimeFormat(dateLocale.value, {
     year: "numeric",
@@ -434,43 +444,23 @@ function commitTitle(day: CalendarCell) {
 }
 
 .github-activity__cell--level-0 {
-  background: #ebedf0;
+  background: var(--vp-c-github-0, #ebedf0);
 }
 
 .github-activity__cell--level-1 {
-  background: #9be9a8;
+  background: var(--vp-c-github-1, #9be9a8);
 }
 
 .github-activity__cell--level-2 {
-  background: #40c463;
+  background: var(--vp-c-github-2, #40c463);
 }
 
 .github-activity__cell--level-3 {
-  background: #30a14e;
+  background: var(--vp-c-github-3, #30a14e);
 }
 
 .github-activity__cell--level-4 {
-  background: #216e39;
-}
-
-:global(.dark) .github-activity__cell--level-0 {
-  background: #2d333b;
-}
-
-:global(.dark) .github-activity__cell--level-1 {
-  background: #0e4429;
-}
-
-:global(.dark) .github-activity__cell--level-2 {
-  background: #006d32;
-}
-
-:global(.dark) .github-activity__cell--level-3 {
-  background: #26a641;
-}
-
-:global(.dark) .github-activity__cell--level-4 {
-  background: #39d353;
+  background: var(--vp-c-github-4, #216e39);
 }
 
 .github-activity__cell--padding {

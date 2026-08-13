@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: Khám phá hệ sinh thái Monica
       link: /vi/ecosystem.html
+    - theme: alt
+      text: Tải Monica
+      link: /vi/download.html
 
 features:
   - title: Quản lý mật khẩu

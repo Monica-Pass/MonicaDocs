@@ -22,6 +22,7 @@ export default defineConfig({
     nav: [
       { text: "Trang chủ", link: "/vi/" },
       { text: "Tài nguyên", link: "/vi/ecosystem" },
+      { text: "Tải xuống", link: "/vi/download" },
       { text: "Hướng dẫn", link: "/vi/guide/intro" },
       { text: "Tài liệu", link: "/vi/reference/catalogue" },
       {

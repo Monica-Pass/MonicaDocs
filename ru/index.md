@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: Узнать об экосистеме Monica
       link: /ru/ecosystem.html
+    - theme: alt
+      text: Скачать Monica
+      link: /ru/download.html
 
 features:
   - title: Менеджер паролей

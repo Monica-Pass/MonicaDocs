@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: Explore the Monica ecosystem
       link: /en/ecosystem.html
+    - theme: alt
+      text: Download Monica
+      link: /en/download.html
 
 features:
   - title: Password Manager
