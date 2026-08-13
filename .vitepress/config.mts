@@ -7,6 +7,8 @@ export default defineConfig({
   extends: teekConfig,
   base: "/MonicaDocs/",
 
+  srcExclude: ["**/README.md", "**/README.en.md", "**/CLAUDE.md"],
+
   ...shared,
 
   rewrites,

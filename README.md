@@ -1,4 +1,10 @@
 <p align="center">
+  <b><a href="README.en.md">English</a></b>
+  &nbsp;·&nbsp;
+  <b>简体中文</b>
+</p>
+
+<p align="center">
   <img src="./assets/readme/hero.svg" width="100%" alt="Monica Docs: local-first Android password vault documentation">
 </p>
 
@@ -12,7 +18,9 @@
 
 # MonicaDocs
 
-MonicaDocs 是 [Monica](https://github.com/Monica-Pass/Monica) 的独立文档站源码。Monica 是一款开源、以本地存储优先的 Android 密码管理器，用于管理密码、TOTP 验证码、银行卡与加密便签；文档站提供简体中文、English、日本語、Русский和Tiếng Việt内容。
+MonicaDocs 是 [Monica](https://github.com/Monica-Pass/Monica) 的独立文档站源码。  
+Monica 是一款开源、以本地存储优先的 Android 密码管理器，用于管理密码、TOTP 验证码、银行卡与加密便签；  
+文档站提供简体中文、English、日本語、Русский和Tiếng Việt内容。  
 
 ## 本地运行文档站
 
@@ -37,6 +45,12 @@ npm run docs:dev
 - 多语言导航、编辑链接与重写规则位于 `.vitepress/locales/`；主题组件和样式位于 `.vitepress/theme/`。
 - GitHub Pages 在推送到 `main` 后通过 Actions 构建 `.vitepress/dist/` 并部署。
 - `update-github-commits.yml` 定时更新 `public/github-commits.json`，需要具备 `Contents: Read` 权限的 `MONICA_SOURCE_REPO_TOKEN`。
+
+## 致谢
+- [Monica](https://github.com/Monica-Pass/Monica)
+
+- [VitePress](https://github.com/vuejs/vitepress)
+- [Teek](https://github.com/Kele-Bingtang/vitepress-theme-teek)
 
 ## 许可证
 

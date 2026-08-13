@@ -10,7 +10,31 @@ outline: false
 
 Nếu Monica giúp ích cho bạn, rất hoan nghênh bạn hỗ trợ để chúng tôi duy trì phát triển liên tục và đầu tư vào bảo mật.
 
-![Ủng hộ tác giả](/image/support_author.jpg)
+<div align="center">
+<img src="/image/support_author.jpg" alt="Support Monica" width="320"/>
+<br/>
+<sub>Quét mã QR để hỗ trợ qua WeChat / Alipay</sub>
+</div>
+
+<br/>
+
+<p align="center">
+  <a href="https://www.paypal.com/ncp/payment/BHSYWK73CA8FW">
+    <img src="https://img.shields.io/badge/PayPal-Support%20Monica-FFD140?style=for-the-badge&amp;logo=paypal&amp;logoColor=003087" alt="Hỗ trợ Monica qua PayPal" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://afdian.com/a/JoyinJoester">
+    <img src="https://img.shields.io/badge/Afdian-Support%20Monica-946CE6?style=for-the-badge&amp;logo=afdian&amp;logoColor=white" alt="Hỗ trợ Monica qua Afdian" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://ko-fi.com/joyinjoester">
+    <img src="https://img.shields.io/badge/Ko--fi-Support%20Monica-FF5E5B?style=for-the-badge&amp;logo=ko-fi&amp;logoColor=white" alt="Hỗ trợ Monica qua Ko-fi" />
+  </a>
+</p>
 
 Sự hỗ trợ của bạn sẽ được ưu tiên sử dụng cho:
 - Kiểm toán bảo mật và tăng cường các giải pháp mã hóa.
