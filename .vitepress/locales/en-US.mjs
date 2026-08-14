@@ -33,6 +33,7 @@ export default defineConfig({
         ],
       },
       { text: "Monica-cloud", link: "/en/login" },
+      { text: "Friends", link: "/en/friends" },
       { text: "✨ Sponsor", link: "/en/personal/" },
     ],
     editLink: {

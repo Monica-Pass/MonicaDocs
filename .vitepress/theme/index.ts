@@ -1,6 +1,7 @@
 import Teek from "vitepress-theme-teek";
 import TeekLayoutProvider from "./components/TeekLayoutProvider.vue";
 import EcosystemLanding from "./components/EcosystemLanding.vue";
+import FriendLinks from "./components/FriendLinks.vue";
 import MonicaCloudComingSoon from "./components/MonicaCloudComingSoon.vue";
 import ReleaseDownload from "./components/ReleaseDownload.vue";
 import { h } from "vue";
@@ -135,6 +136,7 @@ export default {
   Layout: () => h(TeekLayoutProvider),
   enhanceApp(ctx) {
     ctx.app.component("EcosystemLanding", EcosystemLanding);
+    ctx.app.component("FriendLinks", FriendLinks);
     ctx.app.component("MonicaCloudComingSoon", MonicaCloudComingSoon);
     ctx.app.component("ReleaseDownload", ReleaseDownload);
 

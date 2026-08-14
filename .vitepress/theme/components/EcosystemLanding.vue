@@ -3,7 +3,7 @@ import { computed } from "vue";
 import { useData, withBase } from "vitepress";
 
 type LocaleKey = "zh" | "en" | "ja" | "ru" | "vi";
-type CardKey = "android" | "ios" | "windows";
+type CardKey = "android" | "ios" | "windows" | "cloud" | "browser";
 type CardConfig = {
   key: CardKey;
   accent: string;
@@ -43,9 +43,11 @@ const cardConfigs: Record<CardKey, CardConfig> = {
   android: { key: "android", accent: "#23b3a4", href: "/ecosystem/AndroidReadme" },
   ios: { key: "ios", accent: "#4f8cff", href: "/ecosystem/iOSReadme" },
   windows: { key: "windows", accent: "#f0a32f", href: "/ecosystem/WindowsReadme" },
+  cloud: { key: "cloud", accent: "#8b5cf6", href: "/ecosystem/MonicaCloudReadme" },
+  browser: { key: "browser", accent: "#16a34a", href: "/ecosystem/BrowserReadme" },
 };
 
-const cardOrder: CardKey[] = ["android", "ios", "windows"];
+const cardOrder: CardKey[] = ["android", "ios", "windows", "cloud", "browser"];
 
 const copy: Record<LocaleKey, EcosystemCopy> = {
   zh: {
@@ -55,7 +57,7 @@ const copy: Record<LocaleKey, EcosystemCopy> = {
     primaryCta: "查看 Android 客户端",
     secondaryCta: "阅读技术文档",
     metrics: [
-      { value: "3", label: "客户端方向" },
+      { value: "5", label: "生态方向" },
       { value: "Local", label: "本地优先" },
       { value: "MDBX", label: "数据加密" },
     ],
@@ -75,6 +77,16 @@ const copy: Record<LocaleKey, EcosystemCopy> = {
         kicker: "跨桌面平台",
         description: "Monica 密码库的桌面端实现。",
       },
+      cloud: {
+        title: "Monica Cloud",
+        kicker: "Cloud",
+        description: "面向跨设备安全同步、备份与恢复的云端服务方向，当前处于规划与开发阶段。",
+      },
+      browser: {
+        title: "Monica for Browser",
+        kicker: "Browser",
+        description: "浏览器端扩展，在网页中完成账号密码的智能自动填充与快捷访问。",
+      },
     },
     principlesTitle: "设计原则",
     readMore: "查看详情",
@@ -91,7 +103,7 @@ const copy: Record<LocaleKey, EcosystemCopy> = {
     primaryCta: "Explore Android",
     secondaryCta: "Read the docs",
     metrics: [
-      { value: "3", label: "Client tracks" },
+      { value: "5", label: "Ecosystem tracks" },
       { value: "Local", label: "First by design" },
       { value: "MDBX", label: "Data encryption" },
     ],
@@ -111,6 +123,16 @@ const copy: Record<LocaleKey, EcosystemCopy> = {
         kicker: "Cross-desktop platform",
         description: "The desktop implementation of the Monica password vault.",
       },
+      cloud: {
+        title: "Monica Cloud",
+        kicker: "Cloud",
+        description: "A cloud service track for secure cross-device sync, backup, and recovery — currently under development.",
+      },
+      browser: {
+        title: "Monica for Browser",
+        kicker: "Browser",
+        description: "A browser extension for smart autofill and quick access to your credentials across the web.",
+      },
     },
     principlesTitle: "Design Principles",
     readMore: "Read more",
@@ -127,7 +149,7 @@ const copy: Record<LocaleKey, EcosystemCopy> = {
     primaryCta: "Android を見る",
     secondaryCta: "技術文書を読む",
     metrics: [
-      { value: "3", label: "クライアント" },
+      { value: "5", label: "エコシステム" },
       { value: "Local", label: "ローカル優先" },
       { value: "MDBX", label: "データ暗号化" },
     ],
@@ -147,6 +169,16 @@ const copy: Record<LocaleKey, EcosystemCopy> = {
         kicker: "クロスデスクトッププラットフォーム",
         description: "Monica パスワード保管庫のデスクトップ実装。",
       },
+      cloud: {
+        title: "Monica Cloud",
+        kicker: "Cloud",
+        description: "端末間の安全な同期・バックアップ・復旧を目指すクラウドサービス。現在開発中です。",
+      },
+      browser: {
+        title: "Monica for Browser",
+        kicker: "Browser",
+        description: "ウェブページでパスワードのスマート自動入力とクイックアクセスを実現するブラウザ拡張機能。",
+      },
     },
     principlesTitle: "設計原則",
     readMore: "詳しく見る",
@@ -163,7 +195,7 @@ const copy: Record<LocaleKey, EcosystemCopy> = {
     primaryCta: "Открыть Android",
     secondaryCta: "Читать документацию",
     metrics: [
-      { value: "3", label: "Клиента" },
+      { value: "5", label: "Экосистема" },
       { value: "Local", label: "Локальный подход" },
       { value: "MDBX", label: "Шифрование данных" },
     ],
@@ -183,6 +215,16 @@ const copy: Record<LocaleKey, EcosystemCopy> = {
         kicker: "Кроссплатформенная настольная платформа",
         description: "Настольная реализация хранилища паролей Monica.",
       },
+      cloud: {
+        title: "Monica Cloud",
+        kicker: "Cloud",
+        description: "Облачный сервис для безопасной синхронизации, резервного копирования и восстановления между устройствами. В разработке.",
+      },
+      browser: {
+        title: "Monica for Browser",
+        kicker: "Browser",
+        description: "Браузерное расширение для умного автозаполнения и быстрого доступа к учётным данным в вебе.",
+      },
     },
     principlesTitle: "Принципы",
     readMore: "Подробнее",
@@ -199,7 +241,7 @@ const copy: Record<LocaleKey, EcosystemCopy> = {
     primaryCta: "Xem Android",
     secondaryCta: "Đọc tài liệu",
     metrics: [
-      { value: "3", label: "Hướng client" },
+      { value: "5", label: "Hệ sinh thái" },
       { value: "Local", label: "Ưu tiên cục bộ" },
       { value: "MDBX", label: "Mã hóa dữ liệu" },
     ],
@@ -218,6 +260,16 @@ const copy: Record<LocaleKey, EcosystemCopy> = {
         title: "Monica by Avalonia",
         kicker: "Nền tảng đa desktop",
         description: "Bản triển khai desktop của kho mật khẩu Monica.",
+      },
+      cloud: {
+        title: "Monica Cloud",
+        kicker: "Cloud",
+        description: "Dịch vụ đám mây cho đồng bộ, sao lưu và khôi phục an toàn giữa các thiết bị — đang trong quá trình phát triển.",
+      },
+      browser: {
+        title: "Monica for Browser",
+        kicker: "Browser",
+        description: "Tiện ích mở rộng trình duyệt giúp tự động điền và truy cập nhanh mật khẩu trên web.",
       },
     },
     principlesTitle: "Nguyên tắc thiết kế",
