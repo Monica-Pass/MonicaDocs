@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T12:27:01.216Z",
+  "updatedAt": "2026-08-14T08:07:57.178Z",
   "repos": [
     {
       "id": "android",
@@ -8,6 +8,22 @@
       "url": "https://github.com/Monica-Pass/Monica-for-Android",
       "platform": "android",
       "releases": [
+        {
+          "tag": "V1.0.303",
+          "name": "V1.0.303",
+          "body": "# Monica Android 发行说明 / Release Notes\r\n\r\n## 中文\r\n\r\n### 更新摘要\r\n\r\n- 优化平板宽屏适配与密码库返回体验，完善多凭据添加与编辑。\r\n\r\n### 修复与改进\r\n\r\n- 修复 AOSP 16 平板及宽屏布局下部分页面内容侵入系统状态栏的问题（#94）。\r\n- 修复平板宽屏布局下 Steam 账号已成功加载但令牌列表不可见的问题（#96）。\r\n- 修复密码库进入时间线或回收站后，无法通过系统侧滑手势或返回键返回密码库的问题。（#91）\r\n- 优化部分平板及厂商系统的启动页图标显示，移除 Logo 外多余的矩形底板（#101）。\r\n- 完善 WebDAV 设置备份与恢复，支持底栏布局及加密备份中的密保问题（#97）。\r\n- 支持随备份恢复 Monica Plus 功能偏好，且不会恢复或变更 Plus 激活状态（#98）。\r\n- 新建或编辑密码时可通过凭据菜单追加多个独立账号；编辑时原条目保留为“凭据 1”。批量模式支持公共与凭据专属自定义字段，备注、个人资料、地址及支付信息按凭据隔离（#100）。\r\n\r\n## English\r\n\r\n### Summary\r\n\r\n- Improved tablet and wide-screen support, vault navigation, and multi-credential creation and editing.\r\n\r\n### Fixes and Improvements\r\n\r\n- Fixed content overlapping the system status bar on AOSP 16 tablets and wide-screen layouts (#94).\r\n- Fixed the Steam token list remaining invisible after accounts were successfully loaded in tablet wide-screen mode (#96).\r\n- Fixed system swipe-back and Back button navigation from Timeline or Recycle Bin to the Vault.(#91)\r\n- Improved splash screen logo rendering on certain tablets and vendor systems by removing the extra rectangular backdrop (#101).\r\n- Improved WebDAV settings backup and restore, including bottom navigation preferences and security questions in encrypted backups (#97).\r\n- Added restoration of Monica Plus feature preferences without restoring or changing the Plus activation state (#98).\r\n- Added support for appending multiple independent credentials when creating or editing a password. The original entry remains Credential 1 when editing. Batch mode supports shared and credential-specific custom fields, while notes, personal details, addresses, and payment information remain isolated per credential (#100).\r\n",
+          "publishedAt": "2026-08-14T07:17:55Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.303",
+          "assets": [
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.303-26081412-01.APK",
+              "size": 41129199,
+              "downloadCount": 4,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.303/Monica-Android-armeabi-v7a-1.0.303-26081412-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
         {
           "tag": "V1.0.302",
           "name": "V1.0.302",
@@ -18,14 +34,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.302-26081212-01.APK",
               "size": 45569203,
-              "downloadCount": 198,
+              "downloadCount": 241,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.302/Monica-Android-arm64-v8a-1.0.302-26081212-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.302-26081212-01.APK",
               "size": 41111335,
-              "downloadCount": 8,
+              "downloadCount": 9,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.302/Monica-Android-armeabi-v7a-1.0.302-26081212-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -39,17 +55,17 @@
           "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.301",
           "assets": [
             {
-              "name": "Monica-Android-arm64-v8a-1.0.301-26081012-01.APK",
-              "size": 44926503,
-              "downloadCount": 198,
-              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.301/Monica-Android-arm64-v8a-1.0.301-26081012-01.APK",
-              "contentType": "application/vnd.android.package-archive"
-            },
-            {
               "name": "Monica-Android-armeabi-v7a-1.0.301-26081012-01.APK",
               "size": 40468635,
               "downloadCount": 2,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.301/Monica-Android-armeabi-v7a-1.0.301-26081012-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.301-26081012-01.APK",
+              "size": 44926503,
+              "downloadCount": 199,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.301/Monica-Android-arm64-v8a-1.0.301-26081012-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
           ]
@@ -85,17 +101,17 @@
           "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.299",
           "assets": [
             {
-              "name": "Monica-Android-arm64-v8a-1.0.299-26080711-02.APK",
-              "size": 44801579,
-              "downloadCount": 178,
-              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.299/Monica-Android-arm64-v8a-1.0.299-26080711-02.APK",
-              "contentType": "application/vnd.android.package-archive"
-            },
-            {
               "name": "Monica-Android-armeabi-v7a-1.0.299-26080711-02.APK",
               "size": 40343711,
               "downloadCount": 1,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.299/Monica-Android-armeabi-v7a-1.0.299-26080711-02.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.299-26080711-02.APK",
+              "size": 44801579,
+              "downloadCount": 178,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.299/Monica-Android-arm64-v8a-1.0.299-26080711-02.APK",
               "contentType": "application/vnd.android.package-archive"
             }
           ]
@@ -140,7 +156,7 @@
             {
               "name": "Monica-Android-armeabi-v7a-1.0.297-26072410-01.APK",
               "size": 31397924,
-              "downloadCount": 14,
+              "downloadCount": 15,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.297/Monica-Android-armeabi-v7a-1.0.297-26072410-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -188,29 +204,6 @@
               "size": 31387642,
               "downloadCount": 1,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.296/Monica-Android-armeabi-v7a-1.0.296-26072010-01.APK",
-              "contentType": "application/vnd.android.package-archive"
-            }
-          ]
-        },
-        {
-          "tag": "V1.0.295补丁",
-          "name": "V1.0.295补充包",
-          "body": "# Monica Android 补丁更新\r\n\r\n本次补丁主要修复密码库首次加载、自动填充误触发和 Steam 市场价格显示问题，\r\n并优化密码库重复进入时的加载速度。\r\n\r\n## 密码库\r\n\r\n- 优化密码库首次进入和重复进入时的加载流程，减少等待时间以及列表重新计算造成的闪烁。\r\n- 在内存中短暂保留最近使用的密码库列表和筛选结果，再次进入相同存储源或筛选状态时可直接恢复已有内容。\r\n- 修复首次进入密码库时先显示“未找到结果”，过一会才出现实际数据的问题。\r\n- 数据源尚未准备完成时会持续显示加载动画，不再把初始化阶段的空列表误判为真实空结果。\r\n- 真正为空的密码库、搜索无结果和已经缓存的空列表仍会正常显示对应空状态，不会一直停留在加载动画。\r\n- 密码库锁定后会立即清除保留在内存中的列表快照，不会将密码内容写入额外的磁盘缓存。\r\n- 限制内存中保留的筛选结果数量，避免频繁切换数据库或筛选条件后持续占用内存。\r\n\r\n## 自动填充\r\n\r\n- 降低自动填充在普通数字输入框、交易数量和其他非账号密码表单上的误触发概率。\r\n- 普通数字输入框不再因为控件类型被直接当作高可信度的账号字段。\r\n- 对用户名、邮箱和手机号字段增加可信度判断；可信度较低且页面中没有密码字段时，不再自动弹出解锁提示或填充列表。\r\n- 隐藏字段只有在明确识别为账号或密码字段时才会参与自动填充，减少网页隐藏控件造成的误判。\r\n- 保留用户手动请求自动填充时的宽松识别能力，自动识别未命中时仍可主动打开 Monica 并标记字段。\r\n- 调整生物识别后的临时授权范围：同一应用和页面内焦点切换后可继续显示填充列表，不会因为字段签名变化反复要求验证。\r\n- 修复部分页面完成指纹验证后没有出现填充列表、随后又重复弹出“解锁 Monica 进行自动填充”的循环问题。\r\n- 未开启自动填充验证时的原有填充流程保持不变。\r\n\r\n## Steam 市场\r\n\r\n- 修复 Steam 市场挂单价格字段解析错误：接口返回的价格现在按“卖家实际到手金额”处理。\r\n- 买家支付金额会在卖家到手金额基础上正确加上 Steam 手续费，不再把实际到手金额直接显示成买家支付金额。\r\n- 修正市场挂单列表以及相关批量操作中的价格含义，避免用户按照错误金额判断或操作挂单。\r\n\r\n## 稳定性\r\n\r\n- 为密码库首次加载、真实空列表、内存快照和搜索无结果等状态增加专项回归测试。\r\n- 为自动填充字段可信度、普通数字输入框、手动请求和临时验证授权增加测试保护。\r\n- 更新 Steam 市场价格解析、搜索和批量操作测试，确保买家支付金额与卖家到手金额保持一致。\r\n- 已通过密码库专项测试以及 Debug、Release 构建验证。\r\n",
-          "publishedAt": "2026-07-18T05:17:26Z",
-          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.295%E8%A1%A5%E4%B8%81",
-          "assets": [
-            {
-              "name": "Monica-Android-arm64-v8a-1.0.295-26071810-08.APK",
-              "size": 33119114,
-              "downloadCount": 178,
-              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.295%E8%A1%A5%E4%B8%81/Monica-Android-arm64-v8a-1.0.295-26071810-08.APK",
-              "contentType": "application/vnd.android.package-archive"
-            },
-            {
-              "name": "Monica-Android-armeabi-v7a-1.0.295-26071810-08.APK",
-              "size": 31348218,
-              "downloadCount": 3,
-              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.295%E8%A1%A5%E4%B8%81/Monica-Android-armeabi-v7a-1.0.295-26071810-08.APK",
               "contentType": "application/vnd.android.package-archive"
             }
           ]
