@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-14T07:06:17.557Z",
+  "generatedAt": "2026-08-15T06:18:44.711Z",
   "range": {
-    "from": "2025-08-15",
-    "to": "2026-08-14"
+    "from": "2025-08-16",
+    "to": "2026-08-15"
   },
   "activity": [
-    {
-      "date": "2025-08-15",
-      "count": 0
-    },
     {
       "date": "2025-08-16",
       "count": 0
@@ -1465,10 +1461,23 @@
     },
     {
       "date": "2026-08-14",
-      "count": 2
+      "count": 3
+    },
+    {
+      "date": "2026-08-15",
+      "count": 0
     }
   ],
   "latest": [
+    {
+      "sha": "16699f4bb51ca5b1ecb8f646eab8a087945a8936",
+      "shortSha": "16699f4",
+      "message": "fix(android): improve tablet system UI handling",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-14T12:32:03Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/16699f4bb51ca5b1ecb8f646eab8a087945a8936"
+    },
     {
       "sha": "f4d948f4d5fa34ccdbfd4f2d936b46966f1933f9",
       "shortSha": "f4d948f",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-09T17:03:36Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/f0953a8b5cd9a57fada9df9874f63c48dbf0b615"
-    },
-    {
-      "sha": "aa1b0de3543e5ac0695c60323628ad2f7102c7c8",
-      "shortSha": "aa1b0de",
-      "message": "Merge pull request #90 from wzcv/main",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-09T16:49:40Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/aa1b0de3543e5ac0695c60323628ad2f7102c7c8"
     }
   ]
 }
