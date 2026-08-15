@@ -1,5 +1,11 @@
 <script lang="ts">
 import MarkdownIt from "markdown-it";
+import {
+  detectDeviceArch,
+  getAssetBitness,
+  listDownloadAssets,
+  mapUaDataToArch,
+} from "../releaseAssets.mjs";
 
 type LocaleKey = "zh" | "en" | "ja" | "ru" | "vi";
 
@@ -45,6 +51,8 @@ type LocaleText = {
   retry: string;
   latest: string;
   download: string;
+  download32: string;
+  download64: string;
   viewOnGitHub: string;
   published: string;
   changelog: string;
@@ -61,38 +69,7 @@ const SHARED_REPO_LABELS: Record<string, string> = {
   browser: "Monica for Browser",
 };
 const SUPPORTED_LOCALES = new Set<LocaleKey>(["zh", "en", "ja", "vi", "ru"]);
-const CHECKSUM_PATTERN = /\.(sha256|sha1|sha512|md5|asc|sig|sum|txt)$/i;
-const DEBUG_ASSET_PATTERN = /\b(debug|test|staging)\b|\.pdb|mapping|proguard|symbols|sources|-dbg/i;
-const INSTALLER_EXT_PATTERN = /\.(apk|aab|ipa|exe|msi|msix|dmg|pkg|deb|rpm|appimage|crx|xapk)$/i;
-const PREFERRED_ARCH_PATTERN = /(arm64|aarch64|x64|x86_64|amd64|universal|fat)/i;
 type DeviceArch = "arm64" | "arm" | "x64" | "x86";
-const ASSET_ARCH_RULES: Array<[RegExp, DeviceArch]> = [
-  [/arm64|aarch64|armv8/i, "arm64"],
-  [/x86_64|x64|amd64/i, "x64"],
-  [/i686|i386|\bx86\b/i, "x86"],
-  [/armeabi|armv7|armhf/i, "arm"],
-];
-function detectDeviceArch(): DeviceArch | null {
-  if (typeof navigator === "undefined") return null;
-  const probe = `${navigator.userAgent} ${navigator.platform}`;
-  for (const [pattern, arch] of ASSET_ARCH_RULES) {
-    if (pattern.test(probe)) return arch;
-  }
-  return null;
-}
-function mapUaDataToArch(architecture?: string, bitness?: string): DeviceArch | null {
-  const arch = architecture?.toLowerCase();
-  const bits = bitness === "64" ? "64" : bitness === "32" ? "32" : "";
-  if (arch === "arm") return bits === "32" ? "arm" : "arm64";
-  if (arch === "x86") return bits === "32" ? "x86" : "x64";
-  return null;
-}
-function assetMatchesArch(name: string, arch: DeviceArch): boolean {
-  for (const [pattern, ruleArch] of ASSET_ARCH_RULES) {
-    if (pattern.test(name)) return ruleArch === arch;
-  }
-  return false;
-}
 
 const md = new MarkdownIt({ html: false, linkify: true });
 const SAFE_HREF_PATTERN = /^(https?:)?\/\/|^#|^\//i;
@@ -138,27 +115,6 @@ function formatDate(value: string, locale: string, withTime = false): string {
     ...(withTime ? { hour: "2-digit", minute: "2-digit" } : {}),
   };
   return new Intl.DateTimeFormat(locale, options).format(new Date(value));
-}
-
-function pickPrimaryAsset(release: Release | null, userArch: DeviceArch | null = null): ReleaseAsset | null {
-  if (!release?.assets?.length) return null;
-  const usable = release.assets.filter(
-    (asset) => asset.url && !CHECKSUM_PATTERN.test(asset.name) && !DEBUG_ASSET_PATTERN.test(asset.name)
-  );
-  if (!usable.length) {
-    return release.assets.find((asset) => asset.url) ?? release.assets[0] ?? null;
-  }
-  const installers = usable.filter((asset) => INSTALLER_EXT_PATTERN.test(asset.name));
-  const pool = installers.length ? installers : usable;
-  if (userArch) {
-    const matched = pool.filter((asset) => assetMatchesArch(asset.name, userArch));
-    if (matched.length) {
-      return matched.reduce((max, asset) => (asset.size > max.size ? asset : max));
-    }
-  }
-  const preferred = pool.filter((asset) => PREFERRED_ARCH_PATTERN.test(asset.name));
-  const finalPool = preferred.length ? preferred : pool;
-  return finalPool.reduce((max, asset) => (asset.size > max.size ? asset : max));
 }
 
 function repoPlatformIcon(repo: RepoEntry): string {
@@ -232,7 +188,6 @@ const releaseUtils = {
   formatBytes,
   formatCount,
   formatDate,
-  pickPrimaryAsset,
   repoPlatformIcon,
   renderMarkdown,
 };
@@ -241,7 +196,7 @@ const releaseUtils = {
 <script setup lang="ts" name="ReleaseDownload">
 import { computed, onMounted, ref, shallowRef } from "vue";
 import { useData, withBase } from "vitepress";
-const { formatBytes, formatCount, formatDate, pickPrimaryAsset, repoPlatformIcon, renderMarkdown } = releaseUtils;
+const { formatBytes, formatCount, formatDate, repoPlatformIcon, renderMarkdown } = releaseUtils;
 const data = shallowRef<ReleasesData | null>(null);
 const loading = ref(true);
 const failed = ref(false);
@@ -260,6 +215,8 @@ const localeText: Record<LocaleKey, LocaleText> = {
     retry: "重试",
     latest: "最新版本",
     download: "下载",
+    download32: "下载 32 位",
+    download64: "下载 64 位",
     viewOnGitHub: "在 GitHub 上查看",
     published: "发布于",
     changelog: "更新日志",
@@ -280,6 +237,8 @@ const localeText: Record<LocaleKey, LocaleText> = {
     retry: "Retry",
     latest: "Latest",
     download: "Download",
+    download32: "Download 32-bit",
+    download64: "Download 64-bit",
     viewOnGitHub: "View on GitHub",
     published: "Published",
     changelog: "Changelog",
@@ -300,6 +259,8 @@ const localeText: Record<LocaleKey, LocaleText> = {
     retry: "再試行",
     latest: "最新バージョン",
     download: "ダウンロード",
+    download32: "32 ビット版をダウンロード",
+    download64: "64 ビット版をダウンロード",
     viewOnGitHub: "GitHub で見る",
     published: "公開日",
     changelog: "更新履歴",
@@ -320,6 +281,8 @@ const localeText: Record<LocaleKey, LocaleText> = {
     retry: "Повторить",
     latest: "Последняя версия",
     download: "Скачать",
+    download32: "Скачать 32-битную версию",
+    download64: "Скачать 64-битную версию",
     viewOnGitHub: "Смотреть на GitHub",
     published: "Опубликовано",
     changelog: "Журнал изменений",
@@ -340,6 +303,8 @@ const localeText: Record<LocaleKey, LocaleText> = {
     retry: "Thử lại",
     latest: "Phiên bản mới nhất",
     download: "Tải xuống",
+    download32: "Tải bản 32-bit",
+    download64: "Tải bản 64-bit",
     viewOnGitHub: "Xem trên GitHub",
     published: "Đăng lúc",
     changelog: "Nhật ký thay đổi",
@@ -365,7 +330,7 @@ const activeRepo = computed(
 );
 const latestRelease = computed(() => activeRepo.value?.releases?.[0] ?? null);
 const olderReleases = computed(() => activeRepo.value?.releases?.slice(1) ?? []);
-const deviceArch = ref<DeviceArch | null>(detectDeviceArch());
+const deviceArch = ref<DeviceArch | null>(detectDeviceArch() as DeviceArch | null);
 if (typeof navigator !== "undefined") {
   const navWithHints = navigator as Navigator & {
     userAgentData?: {
@@ -375,13 +340,18 @@ if (typeof navigator !== "undefined") {
   navWithHints.userAgentData
     ?.getHighEntropyValues(["architecture", "bitness"])
     .then(({ architecture, bitness }) => {
-      const refined = mapUaDataToArch(architecture, bitness);
+      const refined = mapUaDataToArch(architecture, bitness) as DeviceArch | null;
       if (refined) deviceArch.value = refined;
     })
     .catch(() => {
     });
 }
-const primaryAsset = computed(() => pickPrimaryAsset(latestRelease.value, deviceArch.value));
+const downloadAssets = computed(
+  () => listDownloadAssets(latestRelease.value, deviceArch.value) as ReleaseAsset[],
+);
+const latestDownloadCount = computed(() =>
+  downloadAssets.value.reduce((total, asset) => total + asset.downloadCount, 0),
+);
 const latestTag = computed(() => {
   const latest = repos.value.flatMap((repo) => repo.releases).reduce<Release | null>(
     (max, release) => (!max || release.publishedAt > max.publishedAt ? release : max),
@@ -393,6 +363,13 @@ const latestTag = computed(() => {
 function repoLabel(repo: RepoEntry): string {
   const labels = text.value.repoLabels;
   return labels[repo.id] || labels[repo.platform] || repo.repo;
+}
+
+function downloadAssetLabel(asset: ReleaseAsset): string {
+  const bitness = getAssetBitness(asset.name);
+  if (bitness === 64) return text.value.download64;
+  if (bitness === 32) return text.value.download32;
+  return text.value.download;
 }
 
 async function load() {
@@ -489,15 +466,22 @@ onMounted(load);
                 <div class="rd-hero-name">{{ latestRelease.name }}</div>
                 <div class="rd-hero-meta">
                   <span>{{ text.published }} {{ formatDate(latestRelease.publishedAt, dateLocale) }}</span>
-                  <span v-if="primaryAsset?.downloadCount">· {{ formatCount(primaryAsset.downloadCount, dateLocale) }} {{ text.downloads }}</span>
+                  <span v-if="latestDownloadCount">· {{ formatCount(latestDownloadCount, dateLocale) }} {{ text.downloads }}</span>
                 </div>
                 <div class="rd-hero-actions">
-                  <a v-if="primaryAsset" class="rd-cta" :href="primaryAsset.url">
+                  <a
+                    v-for="asset in downloadAssets"
+                    :key="asset.name"
+                    class="rd-cta"
+                    :href="asset.url"
+                    :title="asset.name"
+                    :aria-label="`${downloadAssetLabel(asset)} — ${asset.name}`"
+                  >
                     <i class="ri-download-2-line" aria-hidden="true"></i>
-                    <span>{{ text.download }}</span>
-                    <small>{{ formatBytes(primaryAsset.size) }}</small>
+                    <span>{{ downloadAssetLabel(asset) }}</span>
+                    <small>{{ formatBytes(asset.size) }}</small>
                   </a>
-                  <a v-else class="rd-cta" :href="latestRelease.htmlUrl" target="_blank" rel="noreferrer noopener">
+                  <a v-if="!downloadAssets.length" class="rd-cta" :href="latestRelease.htmlUrl" target="_blank" rel="noreferrer noopener">
                     <i class="ri-external-link-line" aria-hidden="true"></i>
                     <span>{{ text.viewOnGitHub }}</span>
                   </a>
