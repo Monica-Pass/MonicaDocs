@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-16T08:51:37.668Z",
+  "generatedAt": "2026-08-16T17:52:35.213Z",
   "range": {
     "from": "2025-08-17",
     "to": "2026-08-16"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-16",
-      "count": 7
+      "count": 8
     }
   ],
   "latest": [
+    {
+      "sha": "02c028bd73e051e8ed825348def33afb76f7c7fb",
+      "shortSha": "02c028b",
+      "message": "feat: sync generator defaults and authenticator tiles",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-16T17:51:16Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/02c028bd73e051e8ed825348def33afb76f7c7fb"
+    },
     {
       "sha": "6086e94fa59d1a1a09cdb200b7012cf1068d1e0f",
       "shortSha": "6086e94",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-15T15:58:13Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/a9cc2b25b30d3f83d8f472fcfe46ae8fa3acbfea"
-    },
-    {
-      "sha": "8c0fb99d0f714430dab4284d4e37a2bc73fcd7d2",
-      "shortSha": "8c0fb99",
-      "message": "docs: add Telegram badge to all READMEs",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-15T14:18:28Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/8c0fb99d0f714430dab4284d4e37a2bc73fcd7d2"
     }
   ]
 }
