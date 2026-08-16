@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-16T06:20:52.574Z",
+  "generatedAt": "2026-08-16T08:51:37.668Z",
   "range": {
     "from": "2025-08-17",
     "to": "2026-08-16"
@@ -1465,10 +1465,55 @@
     },
     {
       "date": "2026-08-16",
-      "count": 2
+      "count": 7
     }
   ],
   "latest": [
+    {
+      "sha": "6086e94fa59d1a1a09cdb200b7012cf1068d1e0f",
+      "shortSha": "6086e94",
+      "message": "Merge pull request #107 from Mrmiaomrzh/main",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-16T08:51:05Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/6086e94fa59d1a1a09cdb200b7012cf1068d1e0f"
+    },
+    {
+      "sha": "ff6414dce5c5e885a5e9df7833af274374408c18",
+      "shortSha": "ff6414d",
+      "message": "Merge branch 'Monica-Pass:main' into main",
+      "authorName": "Mrmiaomrzh",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
+      "date": "2026-08-16T08:47:56Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/ff6414dce5c5e885a5e9df7833af274374408c18"
+    },
+    {
+      "sha": "d3c1d5f41604d09e2051e23cb444751f676ed34d",
+      "shortSha": "d3c1d5f",
+      "message": "fix: Fix the hyphen issue in the workflow repository",
+      "authorName": "Mrmiaomrzh",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
+      "date": "2026-08-16T08:46:38Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/d3c1d5f41604d09e2051e23cb444751f676ed34d"
+    },
+    {
+      "sha": "a0e35e6374dd2f9cbcf69678c1831efe90989c9d",
+      "shortSha": "a0e35e6",
+      "message": "Merge pull request #106 from Mrmiaomrzh/main",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-16T08:30:49Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/a0e35e6374dd2f9cbcf69678c1831efe90989c9d"
+    },
+    {
+      "sha": "37a0724976a765026983bed975e58ed1404656b0",
+      "shortSha": "37a0724",
+      "message": "feat: Release link website update",
+      "authorName": "Mrmiaomrzh",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
+      "date": "2026-08-16T07:57:01Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/37a0724976a765026983bed975e58ed1404656b0"
+    },
     {
       "sha": "77080f6073afd02cc788d9871df548bcf21e4ada",
       "shortSha": "77080f6",
@@ -1513,51 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-15T14:18:28Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/8c0fb99d0f714430dab4284d4e37a2bc73fcd7d2"
-    },
-    {
-      "sha": "392e5fdb4a8a04c3293b11818a57c16c5269e7fa",
-      "shortSha": "392e5fd",
-      "message": "fix: improve KeePass file handling",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-15T12:53:52Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/392e5fdb4a8a04c3293b11818a57c16c5269e7fa"
-    },
-    {
-      "sha": "6f2ec39db4fb7dbddece3814bd8c6a642ae3db71",
-      "shortSha": "6f2ec39",
-      "message": "docs: add Telegram link to translated READMEs",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-15T12:50:16Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/6f2ec39db4fb7dbddece3814bd8c6a642ae3db71"
-    },
-    {
-      "sha": "297f4b90e91382e120875e59918c754e9d33c67c",
-      "shortSha": "297f4b9",
-      "message": "docs: add Telegram community link",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-15T12:47:05Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/297f4b90e91382e120875e59918c754e9d33c67c"
-    },
-    {
-      "sha": "16699f4bb51ca5b1ecb8f646eab8a087945a8936",
-      "shortSha": "16699f4",
-      "message": "fix(android): improve tablet system UI handling",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-14T12:32:03Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/16699f4bb51ca5b1ecb8f646eab8a087945a8936"
-    },
-    {
-      "sha": "f4d948f4d5fa34ccdbfd4f2d936b46966f1933f9",
-      "shortSha": "f4d948f",
-      "message": "feat(android): add scoped multi-credential editing for 1.0.303",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-14T07:00:40Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f4d948f4d5fa34ccdbfd4f2d936b46966f1933f9"
     }
   ]
 }
