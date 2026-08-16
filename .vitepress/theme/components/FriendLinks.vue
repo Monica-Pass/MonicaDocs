@@ -45,6 +45,18 @@ const links: LinkItem[] = [
     href: "https://monica-steam.github.io/",
     avatar: "/friends/monica_steam.png",
   },
+  {
+    name: "Adai Blog",
+    desc: {
+      zh: "分享，学习有趣的知识",
+      en: "Sharing and learning interesting knowledge.",
+      ja: "面白い知識を共有し、学ぶブログ。",
+      ru: "Блог о том, как делиться интересными знаниями и изучать их.",
+      vi: "Chia sẻ và học hỏi những kiến thức thú vị.",
+    },
+    href: "https://adaiblog.github.io/",
+    avatar: "https://adaiblog.github.io/img/adai.png",
+  },
 ];
 
 const copy: Record<LocaleKey, FriendLinksCopy> = {
