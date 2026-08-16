@@ -24,7 +24,7 @@ the docs site provides Simplified Chinese, English, 日本語, Русский, a
 
 ## Run the docs site locally
 
-Requirements: Node.js 20+ and npm.
+Requirements: Node.js 22+ and npm.
 
 ```bash
 npm ci

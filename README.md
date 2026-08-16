@@ -24,7 +24,7 @@ Monica 是一款开源、以本地存储优先的 Android 密码管理器，用�
 
 ## 本地运行文档站
 
-环境要求：Node.js 20+ 与 npm。
+环境要求：Node.js 22+ 与 npm。
 
 ```bash
 npm ci
