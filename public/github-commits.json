@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-15T06:18:44.711Z",
+  "generatedAt": "2026-08-16T06:20:52.574Z",
   "range": {
-    "from": "2025-08-16",
-    "to": "2026-08-15"
+    "from": "2025-08-17",
+    "to": "2026-08-16"
   },
   "activity": [
-    {
-      "date": "2025-08-16",
-      "count": 0
-    },
     {
       "date": "2025-08-17",
       "count": 0
@@ -1465,10 +1461,86 @@
     },
     {
       "date": "2026-08-15",
-      "count": 0
+      "count": 6
+    },
+    {
+      "date": "2026-08-16",
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "77080f6073afd02cc788d9871df548bcf21e4ada",
+      "shortSha": "77080f6",
+      "message": "ci: attach collapsible release notes to telegram caption",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-16T04:27:23Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/77080f6073afd02cc788d9871df548bcf21e4ada"
+    },
+    {
+      "sha": "94adac9db1fd30a980a9b78c8c8ff43447c3883a",
+      "shortSha": "94adac9",
+      "message": "ci: support release titles and telegram forum topics",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-16T04:14:40Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/94adac9db1fd30a980a9b78c8c8ff43447c3883a"
+    },
+    {
+      "sha": "0ad27147c2b3f27df4d77706ed0b3321a07e8add",
+      "shortSha": "0ad2714",
+      "message": "Fix Android release and Telegram workflows",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-15T17:28:03Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/0ad27147c2b3f27df4d77706ed0b3321a07e8add"
+    },
+    {
+      "sha": "a9cc2b25b30d3f83d8f472fcfe46ae8fa3acbfea",
+      "shortSha": "a9cc2b2",
+      "message": "Add GitHub Action to send APK to Telegram on release",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-15T15:58:13Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/a9cc2b25b30d3f83d8f472fcfe46ae8fa3acbfea"
+    },
+    {
+      "sha": "8c0fb99d0f714430dab4284d4e37a2bc73fcd7d2",
+      "shortSha": "8c0fb99",
+      "message": "docs: add Telegram badge to all READMEs",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-15T14:18:28Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/8c0fb99d0f714430dab4284d4e37a2bc73fcd7d2"
+    },
+    {
+      "sha": "392e5fdb4a8a04c3293b11818a57c16c5269e7fa",
+      "shortSha": "392e5fd",
+      "message": "fix: improve KeePass file handling",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-15T12:53:52Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/392e5fdb4a8a04c3293b11818a57c16c5269e7fa"
+    },
+    {
+      "sha": "6f2ec39db4fb7dbddece3814bd8c6a642ae3db71",
+      "shortSha": "6f2ec39",
+      "message": "docs: add Telegram link to translated READMEs",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-15T12:50:16Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/6f2ec39db4fb7dbddece3814bd8c6a642ae3db71"
+    },
+    {
+      "sha": "297f4b90e91382e120875e59918c754e9d33c67c",
+      "shortSha": "297f4b9",
+      "message": "docs: add Telegram community link",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-15T12:47:05Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/297f4b90e91382e120875e59918c754e9d33c67c"
+    },
     {
       "sha": "16699f4bb51ca5b1ecb8f646eab8a087945a8936",
       "shortSha": "16699f4",
@@ -1486,78 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-14T07:00:40Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/f4d948f4d5fa34ccdbfd4f2d936b46966f1933f9"
-    },
-    {
-      "sha": "758632ff4dd264cee7fdb31de0d9d16ff4e5b349",
-      "shortSha": "758632f",
-      "message": "feat(android): improve recovery and credential creation",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-14T05:54:51Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/758632ff4dd264cee7fdb31de0d9d16ff4e5b349"
-    },
-    {
-      "sha": "78cf662acbda9538bfea46122a2689c5ef951f09",
-      "shortSha": "78cf662",
-      "message": "Merge pull request #95 from buzhidao10068/docs/fix-readme-links",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-12T11:45:15Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/78cf662acbda9538bfea46122a2689c5ef951f09"
-    },
-    {
-      "sha": "2b11792afc83cbcb7576fb4ea046eb448bfdf446",
-      "shortSha": "2b11792",
-      "message": "docs: point website link to MonicaDocs",
-      "authorName": "buzhidao10068",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/200157145?v=4",
-      "date": "2026-08-12T11:21:01Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/2b11792afc83cbcb7576fb4ea046eb448bfdf446"
-    },
-    {
-      "sha": "f7575ef7bab57a71e80d4fb8259f0e5494c8fb1a",
-      "shortSha": "f7575ef",
-      "message": "feat(android): prepare 1.0.302",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-11T17:04:02Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f7575ef7bab57a71e80d4fb8259f0e5494c8fb1a"
-    },
-    {
-      "sha": "c96bf95ba9d38e72b398c81ef4c37bdc235d9bd0",
-      "shortSha": "c96bf95",
-      "message": "fix(android): recover Steam tokens from Bitwarden",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-11T09:45:01Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/c96bf95ba9d38e72b398c81ef4c37bdc235d9bd0"
-    },
-    {
-      "sha": "afaf23d01f5c2a7ca6734de7d2e6771ba4cce48f",
-      "shortSha": "afaf23d",
-      "message": "fix(android): harden external vault imports",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-10T03:25:18Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/afaf23d01f5c2a7ca6734de7d2e6771ba4cce48f"
-    },
-    {
-      "sha": "f06913866794679cbb795fb7cfe9e77fa5a49f47",
-      "shortSha": "f069138",
-      "message": "fix(android): harden vault interactions for 1.0.301",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-09T17:58:58Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f06913866794679cbb795fb7cfe9e77fa5a49f47"
-    },
-    {
-      "sha": "f0953a8b5cd9a57fada9df9874f63c48dbf0b615",
-      "shortSha": "f0953a8",
-      "message": "feat(steam): support KeePass and Bitwarden storage",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-09T17:03:36Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f0953a8b5cd9a57fada9df9874f63c48dbf0b615"
     }
   ]
 }
