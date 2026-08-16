@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T07:23:14.150Z",
+  "updatedAt": "2026-08-16T07:23:59.090Z",
   "repos": [
     {
       "id": "android",
@@ -8,6 +8,29 @@
       "url": "https://github.com/Monica-Pass/Monica-for-Android",
       "platform": "android",
       "releases": [
+        {
+          "tag": "V1.0.304",
+          "name": "V1.0.304",
+          "body": "# Monica Android 发行说明\r\n\r\n## 中文\r\n\r\n### 修复与改进\r\n\r\n- 修复部分 Android 系统及平板设备底部手势导航区域出现透明或白色底板的问题（#105）。\r\n- 修复平板与横屏双栏页面空详情区域显示英文文本的问题（#104）。\r\n- 修复横屏宽屏页面未避让屏幕挖孔和侧边系统导航区域的问题（#103）。\r\n- 修复外部 KDBX 在应用分身中只有读取权限导致无法删除或保存的问题；数据库详情页现在显示读写权限状态，并支持重新授权。\r\n- 优化 KDBX 权限反馈：重新授权后按实际写入能力刷新状态，删除失败时明确提示缺少写入权限。\r\n- 简化密码删除流程：检测到 KDBX 写权限缺失时可直接重新授权并自动继续删除。\r\n- 权限修复改为先显示说明弹窗，用户确认后才打开文件选择器。\r\n- 修复密码库展开搜索框后返回键无法收起搜索的问题。\r\n- 密码库批量移动或删除时，顶部面包屑会切换为操作进度条，并在完成后恢复路径。\r\n- 修复密码库移动或删除时面包屑未切换为进度状态的问题。\r\n- 优化“版本与链接”弹窗：GitHub、官方网站及图标来源改为统一按钮，避免显示冗长链接。\r\n- 修复 KeePass 密钥文件只读授权未正确持久化，导致 WebDAV KDBX 无法同步、更新或保存验证器的问题；远端数据库详情新增独立的密钥文件访问状态，失效时可重新选择原密钥文件。\r\n- 修复 Monica Steam 与 Monica Android 同时安装时引发的 OneDrive 登录回调冲突；同步失败时改为显示明确的更新提示，不再展示内部 MSAL 英文异常。\r\n\r\n## English\r\n\r\n### Fixes and improvements\r\n\r\n- Fixed the transparent or white gesture navigation backdrop shown on certain Android systems and tablets (#105).\r\n- Fixed untranslated English empty-detail messages in tablet and landscape two-pane layouts (#104).\r\n- Fixed landscape wide layouts overlapping display cutouts and side system navigation areas (#103).\r\n- Fixed external KDBX files becoming read-only in cloned app instances; database details now show access status and provide a re-authorization action.\r\n- Improved KeePass permission feedback: status now reflects actual write capability after repair, and failed deletes explain when write access is missing.\r\n- Simplified password deletion: missing KDBX write access can be repaired directly and deletion resumes automatically.\r\n- Permission repair now shows an explanation first and opens the file picker only after confirmation.\r\n- Fixed the back button not collapsing the expanded search field in the password library.\r\n- The password library breadcrumb now switches to transfer or deletion progress during batch operations and restores the path afterwards.\r\n- Fixed the password library breadcrumb staying static while moving or deleting items.\r\n- Refined the Version & Links dialog with consistent buttons for GitHub, the website, and icon sources instead of exposing long raw URLs.\r\n- Fixed read-only key-file grants not being persisted for KeePass databases, which could prevent WebDAV KDBX sync, updates, or authenticator saves; remote database details now show a separate key-file access status and provide recovery by reselecting the original key file.\r\n- Fixed a OneDrive sign-in callback conflict when Monica Steam and Monica Android were installed together; sync failures now show a concise update instruction instead of the internal MSAL exception.\r\n",
+          "publishedAt": "2026-08-15T17:07:53Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.304",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.304-26081612-01.APK",
+              "size": 45615071,
+              "downloadCount": 98,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.304/Monica-Android-arm64-v8a-1.0.304-26081612-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.304-26081612-01.APK",
+              "size": 41157203,
+              "downloadCount": 1,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.304/Monica-Android-armeabi-v7a-1.0.304-26081612-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
         {
           "tag": "V1.0.303",
           "name": "V1.0.303",
@@ -18,14 +41,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.303-26081412-01.APK",
               "size": 45587067,
-              "downloadCount": 112,
+              "downloadCount": 192,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.303/Monica-Android-arm64-v8a-1.0.303-26081412-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.303-26081412-01.APK",
               "size": 41129199,
-              "downloadCount": 49,
+              "downloadCount": 51,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.303/Monica-Android-armeabi-v7a-1.0.303-26081412-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -188,29 +211,6 @@
               "size": 31387642,
               "downloadCount": 2,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.296%E8%A1%A5%E5%85%85%E5%8C%85/Monica-Android-armeabi-v7a-1.0.296-26072010-04.APK",
-              "contentType": "application/vnd.android.package-archive"
-            }
-          ]
-        },
-        {
-          "tag": "V1.0.296",
-          "name": "V1.0.296",
-          "body": "# Monica Android 发行说明\r\n\r\n## 简短版\r\n\r\n这次改得比较杂，先写几个最明显的：\r\n\r\n- 密码库加载和详情返回快了不少，不会反复重新加载列表\r\n- 密码页的 2FA、笔记、通行密钥和卡包筛选没那么卡了\r\n- 数据库去重合并重新做了一遍，现在可以选多个数据库合并到一个数据库\r\n- Monica 可以直接接收网站和软件发来的验证器链接\r\n- 自动填充的生成强密码界面重新设计了，也修了普通登录页误触发的问题\r\n- Steam maFile 导出时，有备注用备注命名，没备注用账号名\r\n- 通行密钥卡片现在点击进入详情，不再原地展开\r\n- 通行密钥可以在详情页写备注，调用时也会显示备注\r\n- 通行密钥详情页重新设计了，顶部更紧凑，也能正常显示网站图标\r\n- 修了一些加载、返回、更新弹窗和兼容性问题\r\n\r\n## 详细说明\r\n\r\n### 密码库\r\n\r\n- 修复密码库缓存只按筛选条件判断、未同时校验实际源数据的问题，避免返回页面时错误复用已经过期的列表结果。\r\n- 密码库的后台列表计算改为以稳定计算键驱动；数据和筛选条件没有变化时直接复用结果，不再因界面重组重复启动计算。\r\n- 从详情页返回时会核对密码、验证器、卡包、证件、笔记和通行密钥的实际数据版本，数据未变化时立即恢复，数据已变化时自动重新生成列表。\r\n- 优化密码库首次进入时的数据处理过程，减少列表准备完成前的等待时间。\r\n- 将密码、2FA、笔记、通行密钥、卡包和证件等多种内容并行解析，缩短大型密码库的列表生成时间。\r\n- 合并原有的多阶段列表计算，避免首次加载期间重复过滤、分组和排序。\r\n- 修复首次进入时短暂显示“未找到结果”，随后才出现实际数据的问题。\r\n- 数据仍在加载时继续显示加载状态；真实空密码库和搜索无结果仍会显示准确的空状态。\r\n- 在内存中保留最近生成的列表和筛选结果，从详情页返回时立即恢复原列表，避免再次加载和重新生成卡片。\r\n- 保留详情页打开前的数据库来源、快捷筛选、聚合类型筛选、搜索状态和滚动位置。\r\n- 修复从归档页面返回后数据库来源恢复为“全部”的问题。\r\n- 优化手动堆叠元数据读取，数据没有变化时复用已有结果，减少重复查询和分组计算。\r\n- 优化搜索数据结构，避免为每条记录重复拼接完整搜索文本，降低大量笔记内容带来的内存占用。\r\n- 为英文和数字标题增加快速排序处理，减少无须执行的字符转换。\r\n- 限制内存中保留的筛选快照数量，并在 Monica 锁定后立即清除全部密码库快照。\r\n\r\n### 密码页聚合\r\n\r\n- 修复开启“密码页聚合”后，点击笔记、通行密钥、2FA 和卡包筛选时短暂停顿的问题。\r\n- 聚合类型筛选现在只处理已经生成的列表，不再重新解析全部聚合内容。\r\n- 卡包、证件、地址、笔记和 2FA 的完整解析改为后台执行，避免阻塞筛选按钮的选中动画。\r\n- 仅在数据内容、搜索词、数据库来源或可见内容类型发生变化时重新生成聚合列表。\r\n- 修复从聚合内容详情返回密码页时没有过渡动画、画面瞬间切回列表的问题。\r\n- 为普通密码页增加返回栈级聚合快照，进入详情后继续保留当前列表，返回时可立即恢复并正常播放动画。\r\n- 快照会按照搜索词、数据库来源和可见内容类型进行区分，防止返回时短暂显示其他筛选条件的旧结果。\r\n- 卡片、证件、地址和笔记数据统一保留最新内存状态，避免返回首帧将已有聚合内容误判为空。\r\n- Monica 锁定后清除聚合快照；锁定前尚未完成的后台计算也无法重新写回已清除的缓存。\r\n\r\n### 数据库去重合并\r\n\r\n- 将原有去重页面重新设计为“选择来源数据库、选择目标数据库、检查合并结果”的三步流程。\r\n- 压缩主页面信息密度，来源数据库、目标数据库和合并明细不再全部纵向展开，改为紧凑选择行和按需打开的底部抽屉。\r\n- 来源列表、目标列表、合并明细、警告说明和失败记录均使用独立懒加载滚动区域，数据库数量和条目数量增加时不会把主页面拉得过长。\r\n- 合并明细抽屉增加“全部、写入、冲突、跳过”筛选，失败记录和说明不再占用主页面的连续滚动空间。\r\n- 支持同时选择多个来源数据库，并要求至少选择两个来源后再生成可执行的合并计划。\r\n- 目标数据库与来源数据库互斥，选择目标后会自动将同一数据库从来源中移除，避免重复写入自身。\r\n- Monica 本地数据库和 MDBX 数据库可作为写入目标；KeePass 与 Bitwarden 数据库作为只读来源参与合并分析。\r\n- 执行前展示来源条目、实际写入、目标已有、重复组、冲突组和不支持项目数量。\r\n- 增加“内容更完整”和“最近更新”两种冲突处理策略；空字段仍会从其他副本中补全。\r\n- 优化密码条目的身份标准化和网址归一化规则，修复部分缺少用户名的相同条目因数据库 ID 不同而无法去重的问题。\r\n- 合并开始前重新扫描来源和目标数据库，避免计划生成后新增的数据造成重复写入。\r\n- 合并过程改为逐条写入，单条失败不会中断其余条目，并在结果页面显示失败条目和具体原因。\r\n- 密码条目写入后如自定义字段保存失败，会回滚刚写入的目标条目，避免产生不完整记录。\r\n- 移除 MDBX 已经完成插入后再次更新的重复写入过程，减少额外同步和失败风险。\r\n- 增加实时进度、停止确认和执行期间返回拦截；停止后保留已经完成的条目，不再继续处理剩余队列。\r\n- 通行密钥涉及 Android Keystore 私钥，合并时只统计并明确标记为不支持，不会复制无效的私钥记录。\r\n- 整个流程只向目标数据库新增内容，不会删除、覆盖或修改来源数据库。\r\n\r\n### 稳定性\r\n\r\n- 增加密码库首次加载、详情返回、筛选保留、列表快照、快速排序和真实空状态的专项测试。\r\n- 增加密码页聚合类型筛选、后台计算、返回快照、搜索条件隔离和锁定清理的专项测试。\r\n- 增加数据库来源与目标互斥、最少来源数量、网址标准化、结果汇总、逐项失败隔离和取消队列的专项测试。\r\n- 已通过密码库与密码页聚合专项测试。\r\n- 数据库去重合并共通过 16 项专项测试，测试结果为 0 项失败。\r\n- 已通过 Debug 和 Release 构建验证，包括 Release 的 R8 压缩与资源优化流程。\r\n\r\n### 外部验证器导入\r\n\r\n- 支持从网站或其他应用通过标准 `otpauth://` 链接直接选择 Monica 添加验证器。\r\n- 支持 TOTP、HOTP 和 YAOTP 单条验证器链接；导入后自动填写名称、密钥、算法、位数、周期或计数器等可识别信息。\r\n- 外部链接只负责打开新增验证器页面并填充内容，仍需手动选择存储位置和确认保存，避免未经确认直接写入密码库。\r\n- 支持 Monica 冷启动和已运行状态下接收链接；启用应用锁时会先完成 Monica 解锁，再继续进入新增验证器页面。\r\n- 外部验证器链接只保存在当前进程内存中，不写入导航参数、持久化状态或日志；消费完成后立即清除。\r\n- 增加输入长度、Base32 密钥、算法、验证码位数、周期和 HOTP 计数器校验，异常链接不会进入编辑页面。\r\n- 暂不接入 `otpauth-migration://` 批量迁移格式，避免现有单条新增页面静默遗漏批量数据。\r\n- 已通过外部导入专项测试和完整 Release 构建验证。\r\n\r\n### Steam maFile 导出\r\n\r\n- 调整 Steam maFile 导出文件名：账号设置了备注时优先使用备注，没有备注时使用 Steam 登录账号名，不再默认使用 Steam ID。\r\n- 单个 maFile 导出和批量 ZIP 内的 maFile 使用同一套命名规则，避免两种导出方式显示不同名称。\r\n- `displayName` 与账号名或 Steam ID 相同时不会被误判为备注，仍会正确回退到账号名。\r\n- 保留中文、英文、数字、下划线和连字符，并继续过滤路径符号、空格等不适合作为文件名的字符。\r\n- 批量导出遇到相同备注或账号名时继续自动添加序号，防止 ZIP 内文件互相覆盖。\r\n\r\n### 通行密钥\r\n\r\n- 进一步压缩通行密钥详情页首屏：顶部概览改为横向账号摘要卡，减少图标、标题、按钮和状态标签造成的大面积留白。\r\n- 顶部摘要优先显示备注、原始账号名称和网站名称，RP ID 作为次要信息展示，不再重复增加独立“账号信息”卡片。\r\n- 顶部图标复用通行密钥列表现有的 Simple Icons 与网站 favicon 解析链路；无法匹配图标时显示网站或标题首字，不再固定使用通用钥匙图标。\r\n- 删除首屏中的“未绑定、本地、可发现”等多枚大号状态胶囊，仅在对应信息区域保留真正需要查看的状态。\r\n- 绑定密码卡片移动到使用记录之后，账号和使用信息优先显示；安全与技术信息继续放在页面下部。\r\n- 通行密钥列表卡片点击行为改为进入独立详情页，不再在列表中原地展开长卡片；长按多选操作保持不变。\r\n- 紧凑手机布局进入完整详情页，宽屏布局继续在右侧详情区域展示，交互方式与密码、卡包等其他内容保持一致。\r\n- 重新整理通行密钥详情页的信息层级：优先展示名称、网站、账号、绑定密码、安全状态和使用记录，凭据 ID、User ID、算法、传输方式和 AAGUID 等内容集中放入技术信息区域。\r\n- 绑定密码区域改为普通 Material 3 表面卡片，移除过度醒目的整块强调色，并将说明文字改为简洁中文。\r\n- 支持在通行密钥详情页添加、修改和清空备注；备注直接复用现有 Passkey 备注字段，不修改网站提供的 WebAuthn 用户名和显示名称。\r\n- 设置备注后，通行密钥列表标题、详情页标题和 Android 系统通行密钥选择器都会优先显示备注；清空备注后恢复原始显示名称。\r\n- 搜索现在同时匹配通行密钥备注，重名凭据可通过自定义备注快速区分。\r\n- 增加备注优先级、原始身份不变、卡片导航和 Credential Provider 展示规则的专项回归测试。\r\n\r\n### 自动填充强密码\r\n\r\n- 修复部分网站在普通登录页错误标记字段时，强密码建议出现在手机号或邮箱输入框、却不出现在密码框的问题。\r\n- 强密码建议增加表单级冲突判断：普通注册页仍可生成密码；同时存在当前密码、新密码和确认密码的修改密码页仍可生成密码。\r\n- 当表单只包含一个可疑“新密码”字段和一个普通登录密码字段时，按登录场景保守处理，不再显示强密码建议，避免把生成密码写入手机号、邮箱或账号字段。\r\n- 该判断只控制“生成强密码”入口，不会关闭已有账号建议、手动选择 Monica 或普通用户名密码自动填充。\r\n- 统一自动填充列表中“生成强密码”和普通账号条目的卡片结构，不再使用单独的圆形色块和另一套间距，减少同一浮层内的视觉割裂。\r\n- 强密码建议继续显示标题和用途说明，但图标尺寸、文字层级和背景风格与现有自动填充账号卡片保持一致。\r\n- 重新调整强密码弹窗宽度策略，取消 Android 平台默认的窄弹窗限制，在手机上保留安全边距，并限制大屏最大宽度。\r\n- 弹窗内容增加最大高度与纵向滚动，较小屏幕、横屏或系统字体放大时仍可查看完整密码信息和底部操作按钮。\r\n- 密码信息区和保存说明区统一使用 Material 3 表面层级，不再混用描边高亮、半透明主色和次要色等多套色块风格。\r\n- 主操作文案由“使用此密码”缩短为“使用”，保持单行显示，避免窄屏按钮中文字被裁切。\r\n- 保留密码显示、复制、重新生成、强度提示、历史保存和自动填充回传逻辑，不改变原有功能行为。\r\n",
-          "publishedAt": "2026-07-19T16:41:21Z",
-          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.296",
-          "assets": [
-            {
-              "name": "Monica-Android-arm64-v8a-1.0.296-26072010-01.APK",
-              "size": 33158538,
-              "downloadCount": 113,
-              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.296/Monica-Android-arm64-v8a-1.0.296-26072010-01.APK",
-              "contentType": "application/vnd.android.package-archive"
-            },
-            {
-              "name": "Monica-Android-armeabi-v7a-1.0.296-26072010-01.APK",
-              "size": 31387642,
-              "downloadCount": 1,
-              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.296/Monica-Android-armeabi-v7a-1.0.296-26072010-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
           ]
