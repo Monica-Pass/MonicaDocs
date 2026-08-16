@@ -45,6 +45,8 @@ The dev server defaults to `http://localhost:5173/MonicaDocs/`. When publishing 
 - Multilingual navigation, edit links, and rewrite rules live in `.vitepress/locales/`; theme components and styles live in `.vitepress/theme/`.
 - GitHub Pages builds `.vitepress/dist/` and deploys via Actions after pushing to `main`.
 - `update-github-commits.yml` periodically updates `public/github-commits.json` and requires a `MONICA_SOURCE_REPO_TOKEN` with `Contents: Read` permission.
+- Publishing an Android or browser extension release from the main repository immediately triggers `update-github-releases.yml` to fetch the latest release metadata and assets before redeploying the site.
+- Updates to the Monica main repository's `main` branch trigger an immediate commit-data sync through `repository_dispatch`; configure `DOCS_REPOSITORY` and a `DOCS_REPO_TOKEN` with write access to this repository in the source repository.
 
 ## Acknowledgements
 

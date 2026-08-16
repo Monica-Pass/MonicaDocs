@@ -45,6 +45,8 @@ npm run docs:dev
 - 多语言导航、编辑链接与重写规则位于 `.vitepress/locales/`；主题组件和样式位于 `.vitepress/theme/`。
 - GitHub Pages 在推送到 `main` 后通过 Actions 构建 `.vitepress/dist/` 并部署。
 - `update-github-commits.yml` 定时更新 `public/github-commits.json`，需要具备 `Contents: Read` 权限的 `MONICA_SOURCE_REPO_TOKEN`。
+- 主仓库 Android 或浏览器扩展发布完成后，会立即触发 `update-github-releases.yml`，拉取最新 Release 与附件并重新部署网站。
+- Monica 主仓库的 `main` 更新会通过 `repository_dispatch` 触发即时提交数据同步；需要在主仓库配置 `DOCS_REPOSITORY` 和具备文档仓库写权限的 `DOCS_REPO_TOKEN`。
 
 ## 致谢
 - [Monica](https://github.com/Monica-Pass/Monica)

@@ -21,10 +21,10 @@ const outputDir = path.join(docsRoot, "public");
 const outputFile = path.join(outputDir, "github-releases.json");
 
 const DEFAULT_REPOS = [
-  { id: "android", owner: "Monica-Pass", repo: "Monica-for-Android", platform: "android" },
+  { id: "android", owner: "Monica-Pass", repo: "Monica", platform: "android", tagPrefix: "v" },
   { id: "ios", owner: "Monica-Pass", repo: "Monica-for-iOS", platform: "ios" },
   { id: "windows", owner: "Monica-Pass", repo: "Monica-by-Avalonia", platform: "windows" },
-  { id: "browser", owner: "Monica-Pass", repo: "Monica-for-Extension", platform: "browser" },
+  { id: "browser", owner: "Monica-Pass", repo: "Monica", platform: "browser", tagPrefix: "browser-v" },
 ];
 
 const API_BASE = process.env.GITHUB_API_BASE || "https://api.github.com";
@@ -67,28 +67,33 @@ async function fetchJson(url) {
 }
 
 async function fetchReleases(repo) {
-  const params = new URLSearchParams({ per_page: String(perRepoLimit), page: "1" });
-  const list = await fetchJson(`${API_BASE}/repos/${repo.owner}/${repo.repo}/releases?${params}`);
-
   const releases = [];
-  for (const item of list) {
-    if (item.draft) continue;
-    if (item.prerelease && !includePrerelease) continue;
+  for (let page = 1; releases.length < perRepoLimit; page += 1) {
+    const params = new URLSearchParams({ per_page: "100", page: String(page) });
+    const list = await fetchJson(`${API_BASE}/repos/${repo.owner}/${repo.repo}/releases?${params}`);
 
-    releases.push({
-      tag: item.tag_name || "",
-      name: item.name || item.tag_name || "",
-      body: item.body || "",
-      publishedAt: item.published_at || item.created_at || "",
-      htmlUrl: item.html_url || "",
-      assets: (item.assets || []).map((asset) => ({
-        name: asset.name || "",
-        size: asset.size || 0,
-        downloadCount: asset.download_count || 0,
-        url: asset.browser_download_url || "",
-        contentType: asset.content_type || "",
-      })),
-    });
+    for (const item of list) {
+      if (item.draft) continue;
+      if (item.prerelease && !includePrerelease) continue;
+      if (repo.tagPrefix && !String(item.tag_name || "").toLowerCase().startsWith(repo.tagPrefix.toLowerCase())) continue;
+
+      releases.push({
+        tag: item.tag_name || "",
+        name: item.name || item.tag_name || "",
+        body: item.body || "",
+        publishedAt: item.published_at || item.created_at || "",
+        htmlUrl: item.html_url || "",
+        assets: (item.assets || []).map((asset) => ({
+          name: asset.name || "",
+          size: asset.size || 0,
+          downloadCount: asset.download_count || 0,
+          url: asset.browser_download_url || "",
+          contentType: asset.content_type || "",
+        })),
+      });
+    }
+
+    if (list.length < 100) break;
   }
 
   releases.sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));

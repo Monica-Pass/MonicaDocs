@@ -24,30 +24,44 @@ import "remixicon/fonts/remixicon.css";
 import "./style.css";
 import "./styles/code-bg.scss";
 import "./styles/iframe.scss";
+import {
+  detectBrowserLocale,
+  getDefaultLocaleRelativePath,
+  getLocaleFromPath as getLocaleFromPathname,
+  getLocalePath as getLocalizedPath,
+  normalizeBasePath,
+  resolveInitialLocale,
+} from "./locale.mjs";
 
 type LocaleCode = "zh-CN" | "en-US" | "ja-JP" | "ru-RU" | "vi-VN";
 
 const localePreferenceKey = "monica-docs-locale-preference";
-const supportedLocales: Array<{ code: LocaleCode; path: string; language: string }> = [
-  { code: "zh-CN", path: "/", language: "zh" },
-  { code: "en-US", path: "/en/", language: "en" },
-  { code: "ja-JP", path: "/ja/", language: "ja" },
-  { code: "ru-RU", path: "/ru/", language: "ru" },
-  { code: "vi-VN", path: "/vi/", language: "vi" },
-];
-
 const getBasePath = () => {
-  return "/MonicaDocs/";
+  return normalizeBasePath(import.meta.env.BASE_URL);
 };
 
 const getLocalePath = (locale: LocaleCode) => {
-  const target = supportedLocales.find((item) => item.code === locale) ?? supportedLocales[0];
-  return target.path === "/" ? getBasePath() : `${getBasePath()}${target.path.slice(1)}`;
+  return getLocalizedPath(locale, getBasePath());
 };
 
 const getLocaleFromPath = (pathname: string) => {
-  const normalizedPath = pathname.endsWith("/") ? pathname : `${pathname}/`;
-  return supportedLocales.find((locale) => normalizedPath === getLocalePath(locale.code))?.code;
+  return getLocaleFromPathname(pathname, getBasePath()) as LocaleCode | undefined;
+};
+
+const readLocalePreference = (): LocaleCode | null => {
+  try {
+    return localStorage.getItem(localePreferenceKey) as LocaleCode | null;
+  } catch {
+    return null;
+  }
+};
+
+const writeLocalePreference = (locale: LocaleCode) => {
+  try {
+    localStorage.setItem(localePreferenceKey, locale);
+  } catch {
+    // Storage can be unavailable in private browsing or restrictive embeds.
+  }
 };
 
 const setupRootLocaleNavigation = () => {
@@ -87,7 +101,7 @@ const setupRootLocaleNavigation = () => {
       if (!(link instanceof HTMLAnchorElement)) return;
 
       const locale = getLocaleFromPath(link.pathname);
-      if (locale) localStorage.setItem(localePreferenceKey, locale);
+      if (locale) writeLocalePreference(locale);
       if (!isRootLocaleLink(link)) return;
 
       event.preventDefault();
@@ -100,20 +114,19 @@ const setupRootLocaleNavigation = () => {
 
 const setupBrowserLocale = () => {
   const rootPath = getBasePath();
-  const isDefaultLocaleEntry = window.location.pathname === rootPath || window.location.pathname === `${rootPath}index.html`;
-  if (!isDefaultLocaleEntry) return;
+  const relativePath = getDefaultLocaleRelativePath(window.location.pathname, rootPath);
+  if (relativePath === undefined) return;
 
-  const storedLocale = localStorage.getItem(localePreferenceKey) as LocaleCode | null;
-  const browserLocales = navigator.languages?.length ? navigator.languages : [navigator.language];
-  const browserLocale = browserLocales
-    .map((language) => language.toLowerCase().split("-")[0])
-    .map((language) => supportedLocales.find((locale) => locale.language === language)?.code)
-    .find((locale): locale is LocaleCode => Boolean(locale));
-  const targetLocale = storedLocale && supportedLocales.some((locale) => locale.code === storedLocale) ? storedLocale : browserLocale;
+  const storedLocale = readLocalePreference();
+  const browserLocale = detectBrowserLocale() as LocaleCode | undefined;
+  const targetLocale = resolveInitialLocale(storedLocale, browserLocale) as LocaleCode | undefined;
 
-  if (!targetLocale || getLocalePath(targetLocale) === rootPath) return;
+  if (!targetLocale || (targetLocale === "zh-CN" && relativePath === "")) return;
 
-  const target = new URL(getLocalePath(targetLocale), window.location.origin);
+  const targetPath = `${getLocalePath(targetLocale)}${relativePath}`;
+  if (targetPath === window.location.pathname) return;
+
+  const target = new URL(targetPath, window.location.origin);
   target.search = window.location.search;
   target.hash = window.location.hash;
   window.location.replace(target.href);
