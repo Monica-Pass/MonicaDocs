@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-16T17:52:35.213Z",
+  "generatedAt": "2026-08-16T18:03:48.726Z",
   "range": {
     "from": "2025-08-17",
     "to": "2026-08-16"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-16",
-      "count": 8
+      "count": 9
     }
   ],
   "latest": [
+    {
+      "sha": "51cb037fe2c560fe877586a7e6289ea24e8639eb",
+      "shortSha": "51cb037",
+      "message": "fix: prevent unreadable secrets in KDBX exports",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-16T18:03:16Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/51cb037fe2c560fe877586a7e6289ea24e8639eb"
+    },
     {
       "sha": "02c028bd73e051e8ed825348def33afb76f7c7fb",
       "shortSha": "02c028b",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-15T17:28:03Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/0ad27147c2b3f27df4d77706ed0b3321a07e8add"
-    },
-    {
-      "sha": "a9cc2b25b30d3f83d8f472fcfe46ae8fa3acbfea",
-      "shortSha": "a9cc2b2",
-      "message": "Add GitHub Action to send APK to Telegram on release",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-15T15:58:13Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/a9cc2b25b30d3f83d8f472fcfe46ae8fa3acbfea"
     }
   ]
 }
