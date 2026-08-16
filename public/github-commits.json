@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-16T18:03:48.726Z",
+  "generatedAt": "2026-08-16T22:38:35.390Z",
   "range": {
     "from": "2025-08-17",
     "to": "2026-08-16"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-16",
-      "count": 9
+      "count": 10
     }
   ],
   "latest": [
+    {
+      "sha": "d53e738923d8cab2600bce0c764ec5c101fddc86",
+      "shortSha": "d53e738",
+      "message": "fix: make backups portable across installations",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-16T22:37:37Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/d53e738923d8cab2600bce0c764ec5c101fddc86"
+    },
     {
       "sha": "51cb037fe2c560fe877586a7e6289ea24e8639eb",
       "shortSha": "51cb037",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-16T04:14:40Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/94adac9db1fd30a980a9b78c8c8ff43447c3883a"
-    },
-    {
-      "sha": "0ad27147c2b3f27df4d77706ed0b3321a07e8add",
-      "shortSha": "0ad2714",
-      "message": "Fix Android release and Telegram workflows",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-15T17:28:03Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/0ad27147c2b3f27df4d77706ed0b3321a07e8add"
     }
   ]
 }
