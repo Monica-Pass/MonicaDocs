@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-17T07:38:27.372Z",
+  "generatedAt": "2026-08-17T07:57:44.408Z",
   "range": {
     "from": "2025-08-18",
     "to": "2026-08-17"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-17",
-      "count": 4
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "21e1a3b77f3d3645591a64df679537dfc532c813",
+      "shortSha": "21e1a3b",
+      "message": "fix: use release.released event for telegram-release.yml auto trigger",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-17T07:56:36Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/21e1a3b77f3d3645591a64df679537dfc532c813"
+    },
     {
       "sha": "4d7f85725984b3dcc753a06a659b5f866faa17ea",
       "shortSha": "4d7f857",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
       "date": "2026-08-16T08:47:56Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/ff6414dce5c5e885a5e9df7833af274374408c18"
-    },
-    {
-      "sha": "d3c1d5f41604d09e2051e23cb444751f676ed34d",
-      "shortSha": "d3c1d5f",
-      "message": "fix: Fix the hyphen issue in the workflow repository",
-      "authorName": "Mrmiaomrzh",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
-      "date": "2026-08-16T08:46:38Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/d3c1d5f41604d09e2051e23cb444751f676ed34d"
     }
   ]
 }
