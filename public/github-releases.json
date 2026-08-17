@@ -1,13 +1,57 @@
 {
-  "updatedAt": "2026-08-16T07:23:59.090Z",
+  "updatedAt": "2026-08-17T05:45:53.730Z",
   "repos": [
     {
       "id": "android",
       "owner": "Monica-Pass",
-      "repo": "Monica-for-Android",
-      "url": "https://github.com/Monica-Pass/Monica-for-Android",
+      "repo": "Monica",
+      "url": "https://github.com/Monica-Pass/Monica",
       "platform": "android",
       "releases": [
+        {
+          "tag": "V1.0.305",
+          "name": "V1.0.305",
+          "body": "# Monica Android 发行说明\r\n\r\n## 中文\r\n\r\n### 简短版\r\n\r\n- KeePass 密钥文件现可选择保留 Monica 内部加密副本，并随加密全量备份安全迁移。\r\n- 修复 Bitwarden 中 Steam 令牌偶发消失，增强跨设备附件解析与迁移完整性。\r\n- 自动填充与添加密码会沿用主页生成器配置，减少重复设置。\r\n- 验证器新增双列磁贴布局，并修复多个令牌同时倒计时导致的重复震动。\r\n- 修复 KDBX 导出密码在重装后显示“不可用”的问题。\r\n- 修复 ZIP、WebDAV 与 OneDrive 备份在重装后出现密码或验证器不可用的问题。\r\n- 笔记支持可选自定义字段；没有字段的笔记仍保持原有简洁界面。\r\n\r\n### 详细版\r\n\r\n- 本地、WebDAV 与 OneDrive KDBX 在创建或打开时，可选择将密钥文件复制到 Monica 私有目录；原文件始终保留，不会被移动或删除。\r\n- 数据库详情支持查看副本状态、导出副本和安全删除；导出的文件会作为外部备用来源保留。\r\n- 重新选择密钥文件时会按内容指纹校验，避免继续误用旧副本；内部副本损坏时也可用正确原文件安全替换。\r\n- WebDAV 与 OneDrive 全量备份可包含密钥副本，但必须开启备份加密；跨设备恢复后会使用新设备密钥重新加密，且不会沿用旧设备 URI。\r\n- 修正 Bitwarden 远端附件密文大小与 Monica 本地明文大小误比较的问题，刷新同步时不再错误清除已下载的 maFile 缓存。\r\n- Steam maFile 写入 Bitwarden 时改用条目自身的附件密钥，并增加“待完成—可用”两阶段标记；附件成功前不会被识别为可用 Steam 令牌。\r\n- Bitwarden 部分上传失败将作为失败处理；临时读取异常会记录具体阶段，并优先保留本次运行中最近一次成功解析的令牌。\r\n- 自动填充与添加密码生成器统一读取主页的长度、字符类型、符号集、排除规则和最小字符数；弹窗内调整只作用于当前生成。\r\n- 验证器“页面调整”新增标准/磁贴布局切换；磁贴支持长按多选与多选拖动排序，不启用左右滑动操作，原标准布局保持不变。\r\n- 倒计时震动改为页面级统一调度，同一秒只触发一次，并在页面离开或进入后台时停止，避免多个令牌同时过期时震动叠加。\r\n- KDBX 导出不再把无法解密的设备密文写入文件；密码或验证器密钥无法读取时会明确提示并取消导出，避免生成不可迁移的备份。\r\n- ZIP、WebDAV 与 OneDrive 备份会将密码、密码历史和验证器密钥转换为跨设备可恢复格式，包括历史数据中嵌套保存的 TOTP 与 Steam 敏感字段。\r\n- 恢复绑定在密码条目上的验证器时，会使用新安装的本地密钥重新加密；无法读取的设备密文会明确失败，不再被误当作真实密钥保存。\r\n- 备份遇到任何不可解密的敏感条目时会停止并提示，避免静默生成内容不完整或重装后不可用的备份文件。\r\n- 笔记自定义字段保存在笔记数据中，支持文本和敏感字段；详情页仅在存在字段时显示，编辑时可添加、修改和删除。\r\n- Bitwarden 安全笔记的自定义字段会与 Monica 笔记双向同步，旧笔记和没有字段的笔记保持兼容。\r\n\r\n## English\r\n\r\n### Short Version\r\n\r\n- KeePass key files can now be kept as encrypted Monica copies and safely migrated with encrypted full backups.\r\n- Fixed Steam authenticators occasionally disappearing from Bitwarden-backed storage, with more reliable cross-device attachment recovery and transfers.\r\n- Autofill and add-password generation now reuse the generator settings from the home page.\r\n- Added a compact two-column authenticator layout and fixed overlapping expiry vibrations.\r\n- Fixed exported KDBX passwords becoming unavailable after reinstalling Monica.\r\n- Fixed passwords and authenticators becoming unavailable after restoring ZIP, WebDAV, or OneDrive backups on a fresh installation.\r\n- Notes now support optional custom fields without changing the clean layout of notes that have none.\r\n\r\n### Detailed Version\r\n\r\n- Local, WebDAV, and OneDrive KDBX flows can optionally copy a key file into\r\n  Monica's private storage. The original file is never moved or deleted.\r\n- Database details now show key-file copy status and provide export and safe\r\n  deletion controls. Exported files are retained as external fallbacks.\r\n- Re-selected key files are verified by content fingerprint, preventing stale\r\n  private copies from remaining active. Damaged copies can be safely replaced\r\n  from the correct source file.\r\n- WebDAV and OneDrive full backups may include private key-file copies only when\r\n  backup encryption is enabled. Restored copies are re-encrypted for the new\r\n  device without reusing old device URIs.\r\n- Fixed encrypted Bitwarden attachment sizes being compared with Monica's local\r\n  plaintext sizes, which could incorrectly discard a valid cached maFile during sync.\r\n- Steam maFile uploads now use each cipher's effective attachment key and a\r\n  pending-to-ready marker sequence, so incomplete uploads are never exposed as\r\n  usable Steam authenticators.\r\n- Partial Bitwarden upload failures now fail the transfer. Temporary read errors\r\n  record their failure stage and retain the latest successfully parsed account\r\n  during the current app session when possible.\r\n- Autofill and add-password generation read the home generator's length,\r\n  character types, symbol set, exclusion rules, and minimum character counts.\r\n  Changes in either picker stay local to the current generated password.\r\n- Authenticator page customization now offers standard and compact two-column\r\n  tile layouts. Tiles keep long-press selection and selection-mode reordering,\r\n  while horizontal swipe actions remain disabled only for the tile layout.\r\n- Expiry vibration is now scheduled once per page and once per second, then\r\n  cancelled when the page leaves the foreground to prevent overlapping pulses.\r\n- KDBX export never writes unreadable device-bound ciphertext. If a password or\r\n  authenticator secret cannot be decrypted, export stops with a clear error\r\n  instead of creating a backup that cannot be restored on another installation.\r\n- ZIP, WebDAV, and OneDrive backups now convert passwords, password history, and\r\n  authenticator secrets into portable values, including nested TOTP and Steam\r\n  fields created by older Monica versions.\r\n- Password-bound authenticators are re-encrypted with the new installation's\r\n  local key during restore. Unreadable device ciphertext is reported as a\r\n  failure instead of being stored as if it were a real secret.\r\n- Backup creation stops when any sensitive entry cannot be decrypted, preventing\r\n  silently incomplete or installation-bound backup archives.\r\n- Note custom fields are stored with the note and support text and protected\r\n  values. They appear in the detail view only when present and can be added,\r\n  edited, or deleted from the editor.\r\n- Custom fields on Bitwarden secure notes now synchronize in both directions;\r\n  existing notes without fields remain fully compatible.\r\n",
+          "publishedAt": "2026-08-17T05:34:44Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.305",
+          "assets": [
+            {
+              "name": "checksums.txt",
+              "size": 232,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.305/checksums.txt",
+              "contentType": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.304-26081712-01.APK",
+              "size": 45653823,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.305/Monica-Android-arm64-v8a-1.0.304-26081712-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.305-26081712-01.APK",
+              "size": 45670335,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.305/Monica-Android-arm64-v8a-1.0.305-26081712-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.304-26081712-01.APK",
+              "size": 41195955,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.305/Monica-Android-armeabi-v7a-1.0.304-26081712-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.305-26081712-01.APK",
+              "size": 41212467,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.305/Monica-Android-armeabi-v7a-1.0.305-26081712-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
         {
           "tag": "V1.0.304",
           "name": "V1.0.304",
@@ -18,14 +62,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.304-26081612-01.APK",
               "size": 45615071,
-              "downloadCount": 98,
+              "downloadCount": 193,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.304/Monica-Android-arm64-v8a-1.0.304-26081612-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.304-26081612-01.APK",
               "size": 41157203,
-              "downloadCount": 1,
+              "downloadCount": 2,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.304/Monica-Android-armeabi-v7a-1.0.304-26081612-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -64,7 +108,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.302-26081212-01.APK",
               "size": 45569203,
-              "downloadCount": 241,
+              "downloadCount": 242,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.302/Monica-Android-arm64-v8a-1.0.302-26081212-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
@@ -214,6 +258,993 @@
               "contentType": "application/vnd.android.package-archive"
             }
           ]
+        },
+        {
+          "tag": "V1.0.296",
+          "name": "V1.0.296",
+          "body": "# Monica Android 发行说明\r\n\r\n## 简短版\r\n\r\n这次改得比较杂，先写几个最明显的：\r\n\r\n- 密码库加载和详情返回快了不少，不会反复重新加载列表\r\n- 密码页的 2FA、笔记、通行密钥和卡包筛选没那么卡了\r\n- 数据库去重合并重新做了一遍，现在可以选多个数据库合并到一个数据库\r\n- Monica 可以直接接收网站和软件发来的验证器链接\r\n- 自动填充的生成强密码界面重新设计了，也修了普通登录页误触发的问题\r\n- Steam maFile 导出时，有备注用备注命名，没备注用账号名\r\n- 通行密钥卡片现在点击进入详情，不再原地展开\r\n- 通行密钥可以在详情页写备注，调用时也会显示备注\r\n- 通行密钥详情页重新设计了，顶部更紧凑，也能正常显示网站图标\r\n- 修了一些加载、返回、更新弹窗和兼容性问题\r\n\r\n## 详细说明\r\n\r\n### 密码库\r\n\r\n- 修复密码库缓存只按筛选条件判断、未同时校验实际源数据的问题，避免返回页面时错误复用已经过期的列表结果。\r\n- 密码库的后台列表计算改为以稳定计算键驱动；数据和筛选条件没有变化时直接复用结果，不再因界面重组重复启动计算。\r\n- 从详情页返回时会核对密码、验证器、卡包、证件、笔记和通行密钥的实际数据版本，数据未变化时立即恢复，数据已变化时自动重新生成列表。\r\n- 优化密码库首次进入时的数据处理过程，减少列表准备完成前的等待时间。\r\n- 将密码、2FA、笔记、通行密钥、卡包和证件等多种内容并行解析，缩短大型密码库的列表生成时间。\r\n- 合并原有的多阶段列表计算，避免首次加载期间重复过滤、分组和排序。\r\n- 修复首次进入时短暂显示“未找到结果”，随后才出现实际数据的问题。\r\n- 数据仍在加载时继续显示加载状态；真实空密码库和搜索无结果仍会显示准确的空状态。\r\n- 在内存中保留最近生成的列表和筛选结果，从详情页返回时立即恢复原列表，避免再次加载和重新生成卡片。\r\n- 保留详情页打开前的数据库来源、快捷筛选、聚合类型筛选、搜索状态和滚动位置。\r\n- 修复从归档页面返回后数据库来源恢复为“全部”的问题。\r\n- 优化手动堆叠元数据读取，数据没有变化时复用已有结果，减少重复查询和分组计算。\r\n- 优化搜索数据结构，避免为每条记录重复拼接完整搜索文本，降低大量笔记内容带来的内存占用。\r\n- 为英文和数字标题增加快速排序处理，减少无须执行的字符转换。\r\n- 限制内存中保留的筛选快照数量，并在 Monica 锁定后立即清除全部密码库快照。\r\n\r\n### 密码页聚合\r\n\r\n- 修复开启“密码页聚合”后，点击笔记、通行密钥、2FA 和卡包筛选时短暂停顿的问题。\r\n- 聚合类型筛选现在只处理已经生成的列表，不再重新解析全部聚合内容。\r\n- 卡包、证件、地址、笔记和 2FA 的完整解析改为后台执行，避免阻塞筛选按钮的选中动画。\r\n- 仅在数据内容、搜索词、数据库来源或可见内容类型发生变化时重新生成聚合列表。\r\n- 修复从聚合内容详情返回密码页时没有过渡动画、画面瞬间切回列表的问题。\r\n- 为普通密码页增加返回栈级聚合快照，进入详情后继续保留当前列表，返回时可立即恢复并正常播放动画。\r\n- 快照会按照搜索词、数据库来源和可见内容类型进行区分，防止返回时短暂显示其他筛选条件的旧结果。\r\n- 卡片、证件、地址和笔记数据统一保留最新内存状态，避免返回首帧将已有聚合内容误判为空。\r\n- Monica 锁定后清除聚合快照；锁定前尚未完成的后台计算也无法重新写回已清除的缓存。\r\n\r\n### 数据库去重合并\r\n\r\n- 将原有去重页面重新设计为“选择来源数据库、选择目标数据库、检查合并结果”的三步流程。\r\n- 压缩主页面信息密度，来源数据库、目标数据库和合并明细不再全部纵向展开，改为紧凑选择行和按需打开的底部抽屉。\r\n- 来源列表、目标列表、合并明细、警告说明和失败记录均使用独立懒加载滚动区域，数据库数量和条目数量增加时不会把主页面拉得过长。\r\n- 合并明细抽屉增加“全部、写入、冲突、跳过”筛选，失败记录和说明不再占用主页面的连续滚动空间。\r\n- 支持同时选择多个来源数据库，并要求至少选择两个来源后再生成可执行的合并计划。\r\n- 目标数据库与来源数据库互斥，选择目标后会自动将同一数据库从来源中移除，避免重复写入自身。\r\n- Monica 本地数据库和 MDBX 数据库可作为写入目标；KeePass 与 Bitwarden 数据库作为只读来源参与合并分析。\r\n- 执行前展示来源条目、实际写入、目标已有、重复组、冲突组和不支持项目数量。\r\n- 增加“内容更完整”和“最近更新”两种冲突处理策略；空字段仍会从其他副本中补全。\r\n- 优化密码条目的身份标准化和网址归一化规则，修复部分缺少用户名的相同条目因数据库 ID 不同而无法去重的问题。\r\n- 合并开始前重新扫描来源和目标数据库，避免计划生成后新增的数据造成重复写入。\r\n- 合并过程改为逐条写入，单条失败不会中断其余条目，并在结果页面显示失败条目和具体原因。\r\n- 密码条目写入后如自定义字段保存失败，会回滚刚写入的目标条目，避免产生不完整记录。\r\n- 移除 MDBX 已经完成插入后再次更新的重复写入过程，减少额外同步和失败风险。\r\n- 增加实时进度、停止确认和执行期间返回拦截；停止后保留已经完成的条目，不再继续处理剩余队列。\r\n- 通行密钥涉及 Android Keystore 私钥，合并时只统计并明确标记为不支持，不会复制无效的私钥记录。\r\n- 整个流程只向目标数据库新增内容，不会删除、覆盖或修改来源数据库。\r\n\r\n### 稳定性\r\n\r\n- 增加密码库首次加载、详情返回、筛选保留、列表快照、快速排序和真实空状态的专项测试。\r\n- 增加密码页聚合类型筛选、后台计算、返回快照、搜索条件隔离和锁定清理的专项测试。\r\n- 增加数据库来源与目标互斥、最少来源数量、网址标准化、结果汇总、逐项失败隔离和取消队列的专项测试。\r\n- 已通过密码库与密码页聚合专项测试。\r\n- 数据库去重合并共通过 16 项专项测试，测试结果为 0 项失败。\r\n- 已通过 Debug 和 Release 构建验证，包括 Release 的 R8 压缩与资源优化流程。\r\n\r\n### 外部验证器导入\r\n\r\n- 支持从网站或其他应用通过标准 `otpauth://` 链接直接选择 Monica 添加验证器。\r\n- 支持 TOTP、HOTP 和 YAOTP 单条验证器链接；导入后自动填写名称、密钥、算法、位数、周期或计数器等可识别信息。\r\n- 外部链接只负责打开新增验证器页面并填充内容，仍需手动选择存储位置和确认保存，避免未经确认直接写入密码库。\r\n- 支持 Monica 冷启动和已运行状态下接收链接；启用应用锁时会先完成 Monica 解锁，再继续进入新增验证器页面。\r\n- 外部验证器链接只保存在当前进程内存中，不写入导航参数、持久化状态或日志；消费完成后立即清除。\r\n- 增加输入长度、Base32 密钥、算法、验证码位数、周期和 HOTP 计数器校验，异常链接不会进入编辑页面。\r\n- 暂不接入 `otpauth-migration://` 批量迁移格式，避免现有单条新增页面静默遗漏批量数据。\r\n- 已通过外部导入专项测试和完整 Release 构建验证。\r\n\r\n### Steam maFile 导出\r\n\r\n- 调整 Steam maFile 导出文件名：账号设置了备注时优先使用备注，没有备注时使用 Steam 登录账号名，不再默认使用 Steam ID。\r\n- 单个 maFile 导出和批量 ZIP 内的 maFile 使用同一套命名规则，避免两种导出方式显示不同名称。\r\n- `displayName` 与账号名或 Steam ID 相同时不会被误判为备注，仍会正确回退到账号名。\r\n- 保留中文、英文、数字、下划线和连字符，并继续过滤路径符号、空格等不适合作为文件名的字符。\r\n- 批量导出遇到相同备注或账号名时继续自动添加序号，防止 ZIP 内文件互相覆盖。\r\n\r\n### 通行密钥\r\n\r\n- 进一步压缩通行密钥详情页首屏：顶部概览改为横向账号摘要卡，减少图标、标题、按钮和状态标签造成的大面积留白。\r\n- 顶部摘要优先显示备注、原始账号名称和网站名称，RP ID 作为次要信息展示，不再重复增加独立“账号信息”卡片。\r\n- 顶部图标复用通行密钥列表现有的 Simple Icons 与网站 favicon 解析链路；无法匹配图标时显示网站或标题首字，不再固定使用通用钥匙图标。\r\n- 删除首屏中的“未绑定、本地、可发现”等多枚大号状态胶囊，仅在对应信息区域保留真正需要查看的状态。\r\n- 绑定密码卡片移动到使用记录之后，账号和使用信息优先显示；安全与技术信息继续放在页面下部。\r\n- 通行密钥列表卡片点击行为改为进入独立详情页，不再在列表中原地展开长卡片；长按多选操作保持不变。\r\n- 紧凑手机布局进入完整详情页，宽屏布局继续在右侧详情区域展示，交互方式与密码、卡包等其他内容保持一致。\r\n- 重新整理通行密钥详情页的信息层级：优先展示名称、网站、账号、绑定密码、安全状态和使用记录，凭据 ID、User ID、算法、传输方式和 AAGUID 等内容集中放入技术信息区域。\r\n- 绑定密码区域改为普通 Material 3 表面卡片，移除过度醒目的整块强调色，并将说明文字改为简洁中文。\r\n- 支持在通行密钥详情页添加、修改和清空备注；备注直接复用现有 Passkey 备注字段，不修改网站提供的 WebAuthn 用户名和显示名称。\r\n- 设置备注后，通行密钥列表标题、详情页标题和 Android 系统通行密钥选择器都会优先显示备注；清空备注后恢复原始显示名称。\r\n- 搜索现在同时匹配通行密钥备注，重名凭据可通过自定义备注快速区分。\r\n- 增加备注优先级、原始身份不变、卡片导航和 Credential Provider 展示规则的专项回归测试。\r\n\r\n### 自动填充强密码\r\n\r\n- 修复部分网站在普通登录页错误标记字段时，强密码建议出现在手机号或邮箱输入框、却不出现在密码框的问题。\r\n- 强密码建议增加表单级冲突判断：普通注册页仍可生成密码；同时存在当前密码、新密码和确认密码的修改密码页仍可生成密码。\r\n- 当表单只包含一个可疑“新密码”字段和一个普通登录密码字段时，按登录场景保守处理，不再显示强密码建议，避免把生成密码写入手机号、邮箱或账号字段。\r\n- 该判断只控制“生成强密码”入口，不会关闭已有账号建议、手动选择 Monica 或普通用户名密码自动填充。\r\n- 统一自动填充列表中“生成强密码”和普通账号条目的卡片结构，不再使用单独的圆形色块和另一套间距，减少同一浮层内的视觉割裂。\r\n- 强密码建议继续显示标题和用途说明，但图标尺寸、文字层级和背景风格与现有自动填充账号卡片保持一致。\r\n- 重新调整强密码弹窗宽度策略，取消 Android 平台默认的窄弹窗限制，在手机上保留安全边距，并限制大屏最大宽度。\r\n- 弹窗内容增加最大高度与纵向滚动，较小屏幕、横屏或系统字体放大时仍可查看完整密码信息和底部操作按钮。\r\n- 密码信息区和保存说明区统一使用 Material 3 表面层级，不再混用描边高亮、半透明主色和次要色等多套色块风格。\r\n- 主操作文案由“使用此密码”缩短为“使用”，保持单行显示，避免窄屏按钮中文字被裁切。\r\n- 保留密码显示、复制、重新生成、强度提示、历史保存和自动填充回传逻辑，不改变原有功能行为。\r\n",
+          "publishedAt": "2026-07-19T16:41:21Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.296",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.296-26072010-01.APK",
+              "size": 33158538,
+              "downloadCount": 113,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.296/Monica-Android-arm64-v8a-1.0.296-26072010-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.296-26072010-01.APK",
+              "size": 31387642,
+              "downloadCount": 1,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.296/Monica-Android-armeabi-v7a-1.0.296-26072010-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.295补丁",
+          "name": "V1.0.295补充包",
+          "body": "# Monica Android 补丁更新\r\n\r\n本次补丁主要修复密码库首次加载、自动填充误触发和 Steam 市场价格显示问题，\r\n并优化密码库重复进入时的加载速度。\r\n\r\n## 密码库\r\n\r\n- 优化密码库首次进入和重复进入时的加载流程，减少等待时间以及列表重新计算造成的闪烁。\r\n- 在内存中短暂保留最近使用的密码库列表和筛选结果，再次进入相同存储源或筛选状态时可直接恢复已有内容。\r\n- 修复首次进入密码库时先显示“未找到结果”，过一会才出现实际数据的问题。\r\n- 数据源尚未准备完成时会持续显示加载动画，不再把初始化阶段的空列表误判为真实空结果。\r\n- 真正为空的密码库、搜索无结果和已经缓存的空列表仍会正常显示对应空状态，不会一直停留在加载动画。\r\n- 密码库锁定后会立即清除保留在内存中的列表快照，不会将密码内容写入额外的磁盘缓存。\r\n- 限制内存中保留的筛选结果数量，避免频繁切换数据库或筛选条件后持续占用内存。\r\n\r\n## 自动填充\r\n\r\n- 降低自动填充在普通数字输入框、交易数量和其他非账号密码表单上的误触发概率。\r\n- 普通数字输入框不再因为控件类型被直接当作高可信度的账号字段。\r\n- 对用户名、邮箱和手机号字段增加可信度判断；可信度较低且页面中没有密码字段时，不再自动弹出解锁提示或填充列表。\r\n- 隐藏字段只有在明确识别为账号或密码字段时才会参与自动填充，减少网页隐藏控件造成的误判。\r\n- 保留用户手动请求自动填充时的宽松识别能力，自动识别未命中时仍可主动打开 Monica 并标记字段。\r\n- 调整生物识别后的临时授权范围：同一应用和页面内焦点切换后可继续显示填充列表，不会因为字段签名变化反复要求验证。\r\n- 修复部分页面完成指纹验证后没有出现填充列表、随后又重复弹出“解锁 Monica 进行自动填充”的循环问题。\r\n- 未开启自动填充验证时的原有填充流程保持不变。\r\n\r\n## Steam 市场\r\n\r\n- 修复 Steam 市场挂单价格字段解析错误：接口返回的价格现在按“卖家实际到手金额”处理。\r\n- 买家支付金额会在卖家到手金额基础上正确加上 Steam 手续费，不再把实际到手金额直接显示成买家支付金额。\r\n- 修正市场挂单列表以及相关批量操作中的价格含义，避免用户按照错误金额判断或操作挂单。\r\n\r\n## 稳定性\r\n\r\n- 为密码库首次加载、真实空列表、内存快照和搜索无结果等状态增加专项回归测试。\r\n- 为自动填充字段可信度、普通数字输入框、手动请求和临时验证授权增加测试保护。\r\n- 更新 Steam 市场价格解析、搜索和批量操作测试，确保买家支付金额与卖家到手金额保持一致。\r\n- 已通过密码库专项测试以及 Debug、Release 构建验证。\r\n",
+          "publishedAt": "2026-07-18T05:17:26Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.295%E8%A1%A5%E4%B8%81",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.295-26071810-08.APK",
+              "size": 33119114,
+              "downloadCount": 178,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.295%E8%A1%A5%E4%B8%81/Monica-Android-arm64-v8a-1.0.295-26071810-08.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.295-26071810-08.APK",
+              "size": 31348218,
+              "downloadCount": 3,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.295%E8%A1%A5%E4%B8%81/Monica-Android-armeabi-v7a-1.0.295-26071810-08.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.295",
+          "name": "V1.0.295",
+          "body": "# Monica Android 更新内容\r\n\r\n本次更新主要扩展 Steam 功能，新增库存、社区市场和迷你个人资料背景，\r\n并重新整理 Steam 页面导航与搜索。同时修复密码页和密码库进入归档后无法恢复原数据库的问题。\r\n\r\n## 密码与归档\r\n\r\n### 密码库归档页面\r\n\r\n- 为“密码库”增加独立归档页面，不再借用“密码”页面的归档筛选状态。#70\r\n- 归档页沿用密码库原有顶部胶囊设计，左侧不再显示额外返回箭头，可通过顶部锁形按钮返回密码库。\r\n- 归档状态下仅展示已归档的密码条目，不混入令牌、银行卡、证件、笔记或通行密钥。\r\n- 进入归档时自动关闭存储源菜单、更多菜单和搜索，并清理当前多选状态，避免把普通列表操作带入归档。\r\n- 在归档中按返回键时，会依次退出多选、关闭搜索，最后才返回密码库，避免误退出应用。\r\n- 归档列表尚未加载完成时显示加载状态，真正为空时才显示归档为空提示，减少短暂闪烁和误判。\r\n\r\n### 恢复进入前的数据库\r\n\r\n- 从密码库进入归档前，会完整记录当前存储源和文件夹位置。\r\n- 返回后可恢复本地、KeePass、Bitwarden、MDBX 数据库，以及对应数据库中的文件夹筛选。\r\n- 修复从密码库归档返回后直接跳到 `ALL`、需要重新选择数据库的问题。\r\n- 修复“密码”页面进入归档后返回时，同样无法恢复进入前数据库或文件夹的问题。\r\n- 归档现在是临时页面状态，不会再覆盖应用持久化保存的“上次使用数据库”。\r\n- 系统返回键和顶部锁形按钮统一使用相同的恢复逻辑，避免两种返回方式结果不一致。\r\n\r\n## Steam\r\n\r\n### 顶部胶囊与统一菜单\r\n\r\n- Steam 根页面顶部胶囊统一为“存储源、搜索、更多菜单”三个入口，与密码页面的交互保持一致。\r\n- 移除顶部原有的独立添加账号、确认刷新和令牌/确认切换按钮，减少按钮拥挤和误触。\r\n- 令牌、确认、库存、市场、刷新当前页、添加 Steam 账号和设置统一收纳到更多菜单。\r\n- 当前所在页面会显示选中标记；确认页面和更多菜单会显示待确认项目数量角标。\r\n- 令牌验证码本地自动更新，因此令牌页不显示无意义的刷新操作。\r\n- 确认、库存和市场等网络页面会根据当前页面执行对应刷新，不影响其他页面状态。\r\n- 切换 Steam 子页面、存储源或进入账号详情时，会关闭菜单、收起搜索并清理相应多选状态。\r\n\r\n### 页面搜索\r\n\r\n- 支持点击胶囊中的搜索按钮，也支持在列表顶部下拉约 40 dp 展开搜索。\r\n- 删除下拉过程中胶囊后方多余的搜索指示器，保留阻尼、回弹和触觉反馈。\r\n- 搜索框展开后仍可继续下拉，交互与应用其他列表页面保持一致。\r\n- 返回键会优先收起搜索并清空查询，不再需要再次返回才能退出页面。\r\n- 令牌页可搜索 Steam 登录名、备注名称和 Steam ID。\r\n- 确认页可搜索确认标题、摘要和确认类型。\r\n- 库存页可搜索物品名称、市场名称和物品类型。\r\n- 市场页可搜索物品名称、市场名称和挂单 ID。\r\n- 搜索忽略大小写和查询首尾空格，清空查询后立即恢复完整列表。\r\n- 修改查询时会清除当前页面多选，避免对已经被搜索隐藏的项目执行批量操作。\r\n- 令牌搜索状态下禁止拖动排序；“全选”只选择当前搜索结果，不会选中不可见账号。\r\n\r\n### Steam 库存\r\n\r\n- 新增库存页面，可按当前 Steam 账号读取社区库存，并支持分页加载更多物品。\r\n- 展示物品图片、名称、类型、数量，以及是否可交易、是否允许上架社区市场。\r\n- 相同物品会按库存堆叠显示，批量操作时可清楚区分每个选中的物品组。\r\n- 不可上架物品会明确标注，不会进入出售流程。\r\n- 支持长按库存卡片进入多选，也可继续点击其他卡片增加或取消选择。\r\n- 多选操作栏显示已选数量，并提供取消选择和批量上架入口。\r\n- 单件上架可设置出售数量、卖家实际到手金额，以及是否自动确认本次上架。\r\n- 上架页面会同时显示买家支付金额和卖家实际到手金额，避免混淆 Steam 手续费前后的价格。\r\n\r\n### Steam 社区市场\r\n\r\n- 新增社区市场页面，可查看当前账号正在出售的挂单，并支持分页加载更多记录。\r\n- 每条挂单显示物品图片、名称、买家支付金额和卖家实际到手金额。\r\n- 支持查看物品当前最低售价、中位价格和历史成交价格。\r\n- 历史价格折线图支持点击或手指横向拖动，可查看对应时间点和具体售价。\r\n- 单个挂单可直接发起撤销；长按挂单可进入多选并批量撤销。\r\n- 批量撤销完成后会分别显示成功和失败数量，不会用单一成功提示掩盖部分失败。\r\n- 库存与市场功能需要账号具备有效的 Steam Community 会话；会话失效时会给出明确提示。\r\n\r\n### 批量上架与定价\r\n\r\n- 库存多选后可一次进入批量上架页面，每个选中的库存堆叠默认上架一件。\r\n- 支持“当前最低价”“中位价格”“近期最高价”“近期最低价”和“手动设置”五种定价方式。\r\n- 自动定价会显示报价加载进度；没有可用价格的物品会单独标记，不会按错误价格直接提交。\r\n- 手动批量定价以“卖家实际到手金额”为准，可为所有选中物品设置统一价格。\r\n- 批量上架前会列出全部选中物品及其预计到手价，便于提交前逐项核对。\r\n- 点击某个物品可单独覆盖其到手价，且不会影响其他物品的批量定价。\r\n- 单项覆盖可以随时恢复为当前批量定价结果。\r\n- Monica 会根据当前 Steam 钱包规则和游戏发行商费率，换算买家支付金额、Steam 手续费与实际到手金额。\r\n- 支持自动批准本次上架新产生的市场确认，不会批量批准此前已经存在的其他确认项目。\r\n\r\n### 市场敏感操作保护\r\n\r\n- 批量上架和批量撤销在真正提交前均增加二次确认。\r\n- 确认页面会明确显示即将上架或撤销的数量，避免误操作大量物品。\r\n- 提交前必须通过设备生物识别或 Monica 主密码验证身份。\r\n- 未设置 Monica 主密码且设备没有可用生物识别时，会阻止敏感操作并提示先完成安全设置。\r\n- 身份验证只保护最终提交动作，不会影响库存浏览、价格查询或普通搜索。\r\n\r\n### 迷你个人资料背景\r\n\r\n- 在“功能拓展”中新增“迷你个人资料背景”开关，默认关闭，升级后不会改变现有令牌卡片样式。\r\n- 开启后，Steam 令牌卡片和账号详情卡片可显示该账号在 Steam 设置的迷你个人资料背景。\r\n- 仅对具有有效 Steam ID 的账号请求背景；没有设置背景、数据不可用或加载失败时直接使用普通卡片背景。\r\n- 同时支持静态封面和 Steam 动态背景，并根据卡片区域进行居中裁剪，避免画面被拉伸变形。\r\n- 调整背景遮罩、验证码、账号文字和辅助元素颜色，提高动态或深色背景上的可读性。\r\n- 页面滚动时保留仍然可见卡片的动态效果，离开页面或卡片不可见后释放播放器资源。\r\n- 全局最多同时播放两个动态背景，其余卡片显示静态封面，降低多账号场景下的解码和渲染负担。\r\n- 背景媒体使用本地磁盘缓存，缓存上限为 64 MB；静态封面另有小型内存缓存，减少重复解码。\r\n- 已缓存背景可在再次进入页面时直接复用，避免每次启动都重新下载并消耗流量。\r\n\r\n### 稳定性与交互细节\r\n\r\n- 为 Steam Community 请求增加独立网络链路、连接超时和总请求超时，避免页面无限加载。\r\n- 增加安全 DNS 解析与系统 DNS 回退，过滤本地、回环和异常地址，改善部分网络环境下库存加载失败的问题。\r\n- 更严格地处理 Steam Community 重定向、Referer 和 Cookie 更新，能够区分会话过期与普通网络失败。\r\n- 限制社区重定向只能留在 Steam Community 域名内，避免异常跳转带来的安全风险。\r\n- 修复令牌卡片拖动排序松手后短暂卡顿的问题，排序完成后减少不必要的数据刷新和列表重建。\r\n- 修复下拉搜索时令牌进度条跟随整个卡片列表移动的问题，进度条现在保持在固定位置。\r\n- 修复 Steam 页面展开搜索或下拉状态后，第一次返回没有收起界面、第二次返回直接退出应用的问题。\r\n- 修复账号切换、令牌、确认、库存和市场卡片长按或拖动时，圆角外侧出现尖角背景的问题。\r\n- 优化动态背景卡片在页面滚动、切换和重新进入时的资源释放，避免播放器和缓存持续累积。\r\n\r\n## 质量与兼容性\r\n\r\n- 为 Steam 库存与市场数据解析、分页、手续费换算和价格历史增加专项测试。\r\n- 为五种批量定价方式、手动价格解析、单项价格覆盖和缺失报价处理增加测试。\r\n- 为批量上架、批量撤销、二次确认和身份验证入口增加回归保护。\r\n- 为 Steam Community 安全 DNS、异常地址过滤、重定向和 Cookie 更新增加测试。\r\n- 为迷你个人资料背景解析、缓存裁剪、普通卡片回退和动态播放资源限制增加测试。\r\n- 为 Steam 顶部菜单、各页面搜索、返回键、令牌排序和进度条布局增加 UI 回归保护。\r\n- 为密码页和密码库归档路由、数据库恢复、文件夹恢复和返回行为增加专项测试。\r\n- 新增 Steam 功能的简体中文、英文、日文、俄文和越南文界面文案。\r\n",
+          "publishedAt": "2026-07-18T01:51:41Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.295",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.295-26071810-01.APK",
+              "size": 33102730,
+              "downloadCount": 70,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.295/Monica-Android-arm64-v8a-1.0.295-26071810-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.295-26071810-01.APK",
+              "size": 31331834,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.295/Monica-Android-armeabi-v7a-1.0.295-26071810-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.294",
+          "name": "V1.0.294",
+          "body": "# Monica Android 更新内容\r\n\r\n本次更新重点优化了安全分析、隐私信息展示、自动填充、Steam 功能与扫码体验，\r\n同时精简了部分 Monica Plus 功能并改善启动过程。\r\n\r\n## 安全与隐私\r\n\r\n- 统一身份证号在聚合密码列表、密码库列表和卡片页面中的脱敏规则。\r\n- 身份证号预览现在只显示前三位，其余部分使用固定长度圆点隐藏，不再暴露生日信息或敏感的末四位。#69\r\n- 保留证件详情页中的主动显示和复制功能，列表与卡片等被动预览场景不会展示完整号码。\r\n- 优化安全评分算法，按密码库规模和风险比例计算分数，并为各类风险设置合理的扣分上限。\r\n- 修复大量重复密码导致安全评分直接变为 0 分的问题。\r\n- 风险账号数量改为按账号去重统计，避免同一账号命中多个风险后被重复计算。\r\n\r\n## 安全分析\r\n\r\n- 重新设计安全分析主页，移除重复进度条、装饰性渐变、分数圆环和冗余状态胶囊。\r\n- 风险分类改为简洁的全宽列表，并优先展示泄露密码、重复密码和缺少双重验证等重要问题。\r\n- 分析过程中使用占位状态代替临时显示 0 分，避免产生误导。\r\n- 优化密码强度分布、分析范围和自动分析设置的布局。\r\n- 重新设计风险详情页，使用 Material 3 色块卡片替代描边卡片。\r\n- 重复密码和重复 URL 分组默认折叠，避免账号数量较多时需要长距离滚动。\r\n- 重复密码分组显示首字符、固定数量圆点和尾字符，便于区分不同密码，同时不暴露密码长度。\r\n- 风险详情中的账号图标会依次使用自定义图标、品牌图标、网站图标或应用图标；无法匹配时显示条目首字母，不再统一显示钥匙图标。\r\n\r\n## 自动填充\r\n\r\n- 新增安全的短时自动填充解锁会话。\r\n- 开启生物验证后，自动填充会先显示“解锁 Monica 进行自动填充”，验证成功后再展示账号列表。\r\n- 在短时间内或当前填充流程中可复用已解锁会话，减少生物验证导致输入框失焦、验证完成后无法填充的问题。\r\n- 未开启自动填充验证时维持原有行为，不改变现有使用流程。\r\n\r\n## Steam\r\n\r\n- 修复 Steam 二维码登录流程，提升扫码后的跳转与登录批准提示稳定性。\r\n- 修复长时间停留在 Steam 扫码页面后无法识别二维码的问题。\r\n- 修复 Steam 已授权设备撤销失败的问题，并支持使用已保存的账号密码完成必要的重新认证。\r\n- 优化 Steam 账号绑定、令牌导入、账号切换和确认操作流程。\r\n- 改进 Steam `maFile` 的导入、导出、存储与恢复能力。\r\n- 在账号详情中补充恢复代码和相关账号信息展示。\r\n\r\n## 扫码体验\r\n\r\n- 升级二维码识别链路并优化 ML Kit 扫描稳定性。\r\n- 改进相机自动对焦、识别灵敏度和长时间开启扫描页面后的恢复能力。\r\n- 保持其他二维码生成与扫描页面的原有功能，并提升整体扫码流畅度。\r\n\r\n## 启动体验\r\n\r\n- 优化开屏背景的日间与夜间配色，减少启动页与主界面之间的明暗闪烁。\r\n- 优化启动过渡并移除多余的第二层启动动画，避免出现重复开屏。\r\n- 改善浅色模式下纯白背景过于刺眼的问题。\r\n\r\n## Monica Plus\r\n\r\n- 移除 Monica Plus 中的“Plus 高斯模糊”功能。\r\n- 清理相关设置入口与实现，其他 Monica Plus 功能保持不变。\r\n\r\n## 构建与维护\r\n\r\n- 停止在每次打包时向 `Build bak` 自动生成构建备份。\r\n- 补充安全评分、风险详情折叠、密码摘要和身份证号脱敏的回归测试。\r\n- 验证 Debug 与 Release 构建流程，确保本次修改可以正常打包。\r\n",
+          "publishedAt": "2026-07-16T13:22:46Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.294",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.294-26071610-01.APK",
+              "size": 32910278,
+              "downloadCount": 128,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.294/Monica-Android-arm64-v8a-1.0.294-26071610-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.294-26071610-01.APK",
+              "size": 31139382,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.294/Monica-Android-armeabi-v7a-1.0.294-26071610-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.293",
+          "name": "V1.0.293",
+          "body": "## 舍友回来给带了驴打滚差点给我噎死，所以我就不去思考这次修改了什么了，只写几个我记得的，反正国内某个通讯大厂也是这样\r\n- steam令牌可以通过mdbx备份（同步）\r\n- 没有steamid的mafile可以直接作为totp导入\r\n- 没有steamid的steam totp可以单独进行账号登录操作来获取steamid\r\n- steam令牌详情页可以直接查看恢复码\r\n- 修复软件内更新超时的bug\r\n- 修复交易确认页面切换账号失败的bug\r\n- 解决了一些问题\r\n- 解决了一些提出问题的人",
+          "publishedAt": "2026-07-05T15:54:05Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.293",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.293-26070610-04.APK",
+              "size": 32737964,
+              "downloadCount": 119,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.293/Monica-Android-arm64-v8a-1.0.293-26070610-04.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.293-26070610-04.APK",
+              "size": 30961250,
+              "downloadCount": 4,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.293/Monica-Android-armeabi-v7a-1.0.293-26070610-04.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.292",
+          "name": "V1.0.292_SteamGuard",
+          "body": "## 今天早上群友分享给我了一个小黑盒的帖子，第三方steam令牌管理器，哇我一寻思我们也得有！遂肝一天更新（编辑到这里的时候发现已经凌晨了，所以是昨天）\r\n- 更新灵感[AnotherVaporAuth](https://github.com/freefrank/AnotherVaporAuth)\r\n- 实现参考1[SteamDesktopAuthenticator](https://github.com/Jessecar96/SteamDesktopAuthenticator)\r\n- 实现参考2[steamguard-cli](https://github.com/dyc3/steamguard-cli)\r\n## 更新内容\r\n- 优化了一些功能\r\n- 更新了版本号\r\n- 解决了一些问题\r\n- 消灭了一些提出问题的人\r\n- 实现steam令牌TOTP\r\n- 扫码登录\r\n- 授权设备管理\r\n- 登录批准\r\n- 交易确认\r\n## 目前有的登录局限\r\n- 绑定了手机号的steam账号可以登录\r\n- 没有绑定手机号但是绑定了邮箱的，没有开启steam令牌的账号可以登录\r\n- 没有绑定手机号但是绑定了邮箱的，开启了steam令牌的账号不可以登录\r\n## 注意！！！！！！！更换令牌会有交易冷却！！！\r\n\r\n## 0704二编\r\n- steam令牌可以通过webdav全量备份\r\n- 支持二维码登录到Monica\r\n- 支持导出mafile文件\r\n## 0705二编\r\n- 优化了一些卡顿问题\r\n- 更换了识别二维码的引擎（体积大了一点）\r\n- 32位和64位分开了，一般安装arm64就没问题",
+          "publishedAt": "2026-07-03T16:10:01Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.292",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.292-26070510-04.APK",
+              "size": 32680080,
+              "downloadCount": 82,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.292/Monica-Android-arm64-v8a-1.0.292-26070510-04.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.292-26070510-04.APK",
+              "size": 30903366,
+              "downloadCount": 1,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.292/Monica-Android-armeabi-v7a-1.0.292-26070510-04.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.291Pre",
+          "name": "V1.0.291Pre",
+          "body": "- 这个版本打了一个紧急补丁，keepass连接远程有可能会误吞数据的问题\r\n- 修复mdbx回滚出现多余数据的bug\r\n- 调整回收站数据库切换菜单为统一样式\r\n- keepass模块全面重构，修改读写逻辑\r\n- 还有一些有的没的",
+          "publishedAt": "2026-06-25T14:24:09Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.291Pre",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.291-26062510-01.APK",
+              "size": 26128149,
+              "downloadCount": 189,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.291Pre/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.291-26062510-01.APK",
+              "contentType": "application/octet-stream"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.289",
+          "name": "V1.0.289",
+          "body": "## 主要更新\r\n- #37加了一个检查更新功能，感谢 @1parado\r\n- 新建密码增加存储二维码\r\n- 优化密码库（测试）页面的体验（不过还是测试版仍然不稳定）\r\n- 升级MDBX为1.0版本（之前是测试版）可以兼容旧的测试版创建的mdbx数据库\r\n- 支持mdbx数据库创建passkey\r\n## 还有一些小优化就不写了（我忘了）最近挺忙的，接下来要去测[Monica-by-Avalonia](https://github.com/Monica-Pass/Monica-by-Avalonia)了\r\n## 0608二编\r\n- #59修复\r\n- 优化mdbx保存逻辑\r\n- 修复totp扫码不可用问题\r\n## 0611三编\r\n- 修复新建文件夹页面无法滚动的bug\r\n- 优化bitwarden同步逻辑\r\n- 密码生成器可以手动输入长度\r\n- 修补了一部分安全漏洞\r\n- 功能拓展里面有一个测试的高斯模糊，不过现在支持范围很小",
+          "publishedAt": "2026-06-04T07:05:49Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.289",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.289-26061110-01.APK",
+              "size": 25879037,
+              "downloadCount": 34,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.289/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.289-26061110-01.APK",
+              "contentType": "application/octet-stream"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.288c",
+          "name": "V1.0.288c",
+          "body": "### 补丁性质的更新以及一些说明\r\n ## 以后Monica的主仓库就是https://github.com/Monica-Pass/Monica 了转让给你组织Monica Pass，这不代表Monica会商业化，这样做是为了更好的开发其他平台，分工管理，项目所有者仍然是那个至高无上伟大大曼波安培拉皇帝，不过目前只有Android版是我主要做的，\r\n## iOS @zzstar101 \r\n## 桌面端跨平台Avalonia @wwiinnddyy \r\n## 文档 @Mrmiaomrzh \r\n### 更新内容：\r\n- 修复附件跨设备无法解密的问题\r\n- 新增笔记搜索定位到具体行\r\n- 修复自动填充totp通知倒计时卡死的bug\r\n- 优化“密码库（测试）”页面\r\n- 修复编辑密码页面编辑验证器密钥导致单独的“验证器页面”出现多余卡片的bug\r\n",
+          "publishedAt": "2026-06-01T12:46:38Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.288c",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.288-26060110-01.APK",
+              "size": 25646208,
+              "downloadCount": 117,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.288c/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.288-26060110-01.APK",
+              "contentType": "application/octet-stream"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.288b",
+          "name": "V1.0.288b",
+          "body": "## 感谢一直以来的支持\r\n- 修改了进入添加页面的动效\r\n- 开启路径横幅后可以当做状态栏使用删除，移动复制的进度\r\n- 全面接入mdbx（测试）\r\n- 拓展了webdav备份备份Monica本地配置的内容\r\n- 添加密码页面可以扫码添加验证器密钥了\r\n- 还有一些小细节优化了一下\r\n## 0527二编\r\n- 在 OneDrive 中创建保险库时，创建页面无法正常退出，可能导致重复创建 #51 \r\n- 优化bitwarden自动同步逻辑\r\n- 优化keepass写入逻辑和内存限制\r\n- autofill更好的兼容AndroidQ\r\n- UI优化\r\n- 自动填充内联填充可关闭\r\n## 什么是MDBX：MDBX 是 Monica 正在推进的本地优先加密 vault 格式。它不是简单的密码表，而是围绕嵌套文件夹、附件、提交历史、冲突检测、tombstone 删除链路、快照恢复和 Tiga 安全模式设计的数据库格式。简单来说其实就和git差不多，当然了mdbx现在也只是测试阶段，大家可以试试，有什么改进的咱会听\r\n## 嘿嘿蛇颈龙\r\n<img width=\"839\" height=\"567\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6b7c865f-105d-4670-b0fa-416b91d05eb1\" />\r\n\r\n我们 MonicaPass 又更新了。事实上，joyin更新得太多了，多到都不知道该怎么办才好。1password 的人来找joyin说：“求求您，joyin先生，您更新得太多了。我们的 1password pre 现在没人看了。”我说：“不不不，你们会看得更清楚——项目全公开！你们会比以往任何时候都看得更清楚，逻辑也公开！”\r\n\r\n我们做出了全世界最好的密码管理器。我说的是最好的。没有人比我们做得更好。bitwarden 他们做不到。KeePass 是个项目，但他做不到。我去小黑盒，他们问我：“joyin先生，你的灵感从哪里来？”我说：“我们从各界来。”他们愣住了。他们愣住了！因为他们从来没见过有人做出这么好的开源密码管理器。我们非常高效，非常非常高效。\r\n\r\n用户在群聊反馈说：“joyin先生，我们用了 MonicaPass 之后再也回不去了。”我说：“你不需要回去。回去干什么？回去用那些贵的？贵的都是不好的。我们的开源而且好，又免费又好。这才是聪明的生意。”\r\n\r\n现在全世界都在用 MonicaPass。非洲在用，东南亚在用，南美在用。他们给我写邮件说：“Joyin先生，谢谢你。”我说：“不用谢，这是我应该做的。”事实上，我们做得还不够。我们还要继续开发，继续开源，继续让那些收高价的人睡不着觉。他们睡不着，我就睡得特别好，特别好。\r\n\r\n我们 MonicaPass 会一直赢！\r\n我们会让用户赢！\r\n我们会让开源赢！\r\n我们会让隐私赢！\r\n赢到那些收高价的人说：“求求你们别赢了。”我说：“不，我们还要赢，我们要大赢特赢，管理器更强！我们要一直赢下去！”\r\n\r\n@Mrmiaomrzh ",
+          "publishedAt": "2026-05-26T12:52:39Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.288b",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.288-26060110-01.APK",
+              "size": 25646104,
+              "downloadCount": 1,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.288b/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.288-26060110-01.APK",
+              "contentType": "application/octet-stream"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.288",
+          "name": "V1.0.288",
+          "body": "## 1.0.288更新\r\n### 解决问题：\r\n- #47 Monica Android同步bitwarden的steam令牌解析错误\r\n- #48 编辑笔记的时候如果息屏了，后台被清掉了，会记住上次编辑的内容\r\n- 修复打开软件的时候“闪光弹”的问题\r\n- 简化一些设置（未来追求稳定性可能会砍掉很多不常用的功能）\r\n- 优化自动填充黑名单，在黑名单中可以屏蔽不需要自动填充的应用",
+          "publishedAt": "2026-05-23T15:41:37Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.288",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.288-26052310-03.APK",
+              "size": 25350770,
+              "downloadCount": 140,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.288/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.288-26052310-03.APK",
+              "contentType": "application/octet-stream"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.287",
+          "name": "V1.0.287",
+          "body": "- 修改了passkey创建以后新创建的一直都是signCount=0，为浏览器插件版本做准备，旧的passkey会因为本地计数导致跨设备无法使用\r\n- 优化生成器页面功能\r\n- 还有一些小补丁\r\n- 感谢 @Mrmiaomrzh 猫猫的github page页面！\r\n## 0519三编\r\n### 三编放在二编前面了，二编太长了\r\n-  可以创建文件send了\r\n- 点击详情页面一些内容可以弹出菜单（就像keyguard那样）\r\n- 还有一些小优化\r\n## 0520四编\r\n- 密码附件可以下载了（其实本来就有的，但是没生效）\r\n- 密码附件可以直接点击预览了\r\n- 修复文件send文件太大无法上传的bug\r\n- 修复bitwarden多个url同步过来丢失的问题\r\n\r\n\r\n## Monica for Android 1.0.287 二编\r\n\r\n### 中文\r\n\r\n本次更新修复了 Monica 在连接自托管 Bitwarden / Vaultwarden 时，遇到高内存 `Argon2id` KDF 参数会在登录、解锁或同步阶段触发 `OutOfMemoryError` 崩溃的问题。\r\n\r\nMonica 现在会优先使用 native Argon2 处理 Bitwarden `Argon2id` KDF，避免高内存 KDF 直接占满 Android JVM 堆内存；同时保留了更稳妥的错误处理和回退保护，在 native 不可用或当前设备无法满足参数要求时，会给出明确提示，而不是直接崩溃。\r\n\r\n这项修复主要改善了自托管 Bitwarden / Vaultwarden 场景下的兼容性，尤其是高 KDF 内存配置下的登录与同步稳定性。\r\n\r\n**关联项**\r\n- 修复问题：#44\r\n- 合并贡献：#45\r\n\r\n**致谢**\r\n- 感谢 @XMZO 提交问题报告并贡献修复实现。\r\n\r\n---\r\n\r\n### English\r\n\r\nThis release fixes an issue where Monica could crash with `OutOfMemoryError` during login, unlock, or sync when connecting to self-hosted Bitwarden / Vaultwarden accounts using high-memory `Argon2id` KDF settings.\r\n\r\nMonica now prefers a native Argon2 implementation for Bitwarden `Argon2id` KDF, which avoids exhausting the Android JVM heap under high-memory KDF configurations. We also kept stronger fallback protection and error handling, so if native Argon2 is unavailable or the current device cannot safely handle the requested parameters, Monica shows a clear error instead of crashing.\r\n\r\nThis significantly improves compatibility and stability for self-hosted Bitwarden / Vaultwarden setups, especially when using higher KDF memory settings.\r\n\r\n**References**\r\n- Fixes: #44\r\n- Merged contribution: #45\r\n\r\n**Credits**\r\n- Thanks to @XMZO for the issue report and the contributed fix.\r\n",
+          "publishedAt": "2026-05-17T07:21:01Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.287",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.287-26052010-01.APK",
+              "size": 25097110,
+              "downloadCount": 68,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.287/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.287-26052010-01.APK",
+              "contentType": "application/octet-stream"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.286b",
+          "name": "V1.0.286b",
+          "body": "Issue：#40\r\n这些都解决了，现在可以直接在Monica内置键盘中填充2fa了，去掉了密码键盘的列表限制（之前只能显示50条）\r\n\r\n### 20260515/16:03二编\r\n- 密码键盘填充列表新增索引条\r\n- 优化了密码库页面错误显示的问题\r\n- 修复密码库页面多选模式下菜单栏收藏和删除不可用的bug\r\n- 修复密码库页面右上角菜单“时间线”和“回收站“”无法跳转的bug（归档暂时还不能跳转）\r\n- 优化密码/密码库页面分类选择菜单的逻辑\r\n",
+          "publishedAt": "2026-05-15T05:05:20Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.286b",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.286-26051510-03.APK",
+              "size": 24194573,
+              "downloadCount": 131,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.286b/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.286-26051510-03.APK",
+              "contentType": "application/octet-stream"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.285c",
+          "name": "V1.0.285c",
+          "body": "昨天突然来了好多人啊，这个包我只在群里发了，修了几个小问题，稍微可能会影响点体验，是和keepass相关的，虽然Monica可以管理kdbx数据库，但是比起bitwarden和本地还是有点不跟手，简单来说虽然兼容但是并没有兼容的很好。。如果给你带来麻烦了，真的非常抱歉\r\n\r\n2026/5/7二编\r\n- 增加俄语支持\r\n- Добавить поддержку русского языка",
+          "publishedAt": "2026-05-06T03:01:18Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.285c",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.285-26050710-01.APK",
+              "size": 23988794,
+              "downloadCount": 141,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.285c/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.285-26050710-01.APK",
+              "contentType": "application/octet-stream"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.285b",
+          "name": "V1.0.285b",
+          "body": "现在密码项目可以添加多个url以及绑定多个应用了\r\n新的多选特性，在功能拓展里面可以打开，滑动多选可以连续选择了\r\n修复bitwarden验证器卡片图标会丢失的问题\r\n还有啥来着？没了大概，总之这是一个比上个版本好用的新版本\r\n\r\n### 2026/05/04二编:\r\n- 修复\"自动锁定\"选为\"立即\"密码键盘解锁弹窗异常的问题\r\n- 通过磁贴进入\"自动填充页面\"可以开启无障碍权限进行自动填充\r\n- 还有啥我也忘了，反正肯定比一编的时候好用\r\n",
+          "publishedAt": "2026-05-03T14:30:26Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.285b",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.285-26050410-01.APK",
+              "size": 23569898,
+              "downloadCount": 129,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.285b/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.285-26050410-01.APK",
+              "contentType": "application/octet-stream"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.285",
+          "name": "V1.0.285",
+          "body": "## 我修了什么来着，上次发包十几天前了，这中间修了什么我也忘了\n- 变得更好用了\n- 比之前好用了\n- 比1.0.283好用了是肯定的\n- 好像是快捷文件夹更新了个样式...是这个版本做的吗？还是上个版本来着\n- passkey可以在密码页面右上角菜单扫码验证了，其实和相机扫没啥区别，就是调用fido验证器\n- 哦。对了，有群友反馈删掉com.fido.asm就可以在害怕欧艾斯上使用第三方passkey管理器了\n- 优化了一下Monica内置的密码键盘，现在比之前好用一点了，但是还是不完善\n",
+          "publishedAt": "2026-04-30T17:32:39Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.285",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.285-26050110-01.APK",
+              "size": 23482010,
+              "downloadCount": 113,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.285/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.285-26050110-01.APK",
+              "contentType": "application/octet-stream"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.283",
+          "name": "V1.0.283",
+          "body": "## Monica for Android\r\n- 支持onedrive链接，可以备份Monica数据或者管理keepass\r\n- 升级下拉搜索反馈感\r\n- 优化在测试的“密码库”页面，现在算是可以用了，不过不算好用\r\n- 设置页面可以搜索设置项\r\n- 外观新增OLED绝对深色\r\n- 做了个新图标。。。不过很多人都不太喜欢，可以在页面调整自定义设置，图标设置中调一下\r\n## 2026/04/19一编：\r\n- 打了几个补丁，修复了远程keepass无法删除的bug\r\n- 增加了keepass移动项目进度条（因为keepass写入比较慢）\r\n- webdav可以识别中文路径了\r\n## 2026/04/21二编：\r\n- 修复了bitwarden的同步问题\r\n- 修复进入文件夹返回上一级文件夹列表乱跳的问题",
+          "publishedAt": "2026-04-18T13:52:34Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.283",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.283-26042010-01.APK",
+              "size": 23443414,
+              "downloadCount": 119,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.283/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.283-26042010-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.282",
+          "name": "V1.0.282",
+          "body": "- 修复自托管bitwarden无法同步的问题\r\n- 新增webdav支持的keepass \r\n- 2026-4-9-13:46二编：修复1.0.282版本跳过密码直接进入软件的恶性bug，以及无法关闭指纹验证的bug\r\n- 可用逗号分隔添加多个网址",
+          "publishedAt": "2026-04-08T15:40:30Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.282",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.282-26040910-02.APK",
+              "size": 21449312,
+              "downloadCount": 140,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.282/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.282-26040910-02.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.27",
+          "name": "V1.0.27",
+          "body": "### Monica for Android\r\n## 本来打算开学后重点更新更新浏览器插件版本的，现在Monica建了一个群，我发现了很多我自己测试测试不出来的bug，感谢各位群友，佬友，盒U，酷安老哥的建议！欢迎来群里吹nb\r\n## 新增与优化\r\n- 修复仅密钥文件（无主密码）的凭据构造被当成了空密码 + 密钥文件\r\n- 优化启动卡顿问题\r\n- 去掉堆叠标记的自定义字段显示\r\n- 生成器可自定义符号\r\n- 笔记兼容markdown语法\r\n- 密码页面因为一些稳定性原因“ALL”列表不再支持快捷文件夹开关\r\n- 新增归档功能\r\n- 重做keepass数据库管理\r\n- 拓展功能配置常用信息改为密码页面右上角菜单“常用账号信息”\r\n## UI/UX更新优化\r\n- 统一过渡动效\r\n- 时间线、回收站从底栏项入口改为每个页面的右上角菜单进入\r\n- 优化验证器，卡包，底栏项排序拖动\r\n\r\n\r\n更新了个补丁重新上传了包2026/03/11 20:05",
+          "publishedAt": "2026-03-11T10:17:38Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.27",
+          "assets": [
+            {
+              "name": "Monica-android-amr64-V1.0.27.apk",
+              "size": 19563690,
+              "downloadCount": 180,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.27/Monica-android-amr64-V1.0.27.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.26",
+          "name": "V1.0.26",
+          "body": "### Monica for Android\r\n\r\n## 新增与优化\r\n- 升级自动填充兼容性，这次应该不会出现自动填充不触发的问题了。。。应该？\r\n- 自定义图标功能\r\n- 更换了新的扫码逻辑\r\n- 压缩了Monica的体积\r\n- 修复生成器页面文本格式化错误\r\n- 绑定密码页面优化\r\n-增加最近打开与常用\r\n- 修复开启“关闭密码验证”底栏排序主页启动错误的bug\r\n- webdav，bitwarden，steam令牌导入可以直接从密码库选择密码\r\n## UI/UX更新优化\r\n- 增加自定义堆叠功能\r\n- 优化堆叠卡片展开收缩UX\r\n- 卡包页面证件和银行卡彻底合并\r\n- 自定义颜色功能更加好用\r\n- 验证器卡片自定义\r\n- 密码卡片自定义\r\n- 密码列表自定义\r\n- 密码卡片支持显示验证器\r\n- 密码绑定功能优化筛选功能\r\n- 支持嵌套目录，以及对keepass数据库目录的解析\r\n## bitwarden相关\r\n- 优化了一下bitwarden以及webdav丢数据的问题\r\n- 修复bitwarden通行秘钥同步问题，因为旧的通行秘钥系统和bitwarden不同，所以这是兼容性更新，旧的passkey只能存储到Monica，但是在这个版本后新的passkey可以直接与bitwarden同步\r\n\r\n\r\n",
+          "publishedAt": "2026-02-26T14:52:43Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.26",
+          "assets": [
+            {
+              "name": "Monica-arm64-V1.0.26.apk",
+              "size": 19241428,
+              "downloadCount": 194,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.26/Monica-arm64-V1.0.26.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.25a",
+          "name": "V1.0.25a",
+          "body": "### Monica for Android\r\n## 新增与优化\r\n- webdav功能不再属于Monica plus\r\n- 支持通行秘钥\r\n- 优化keepass数据库的体验，可以用密钥文件验证\r\n- 数据库互相独立管理\r\n- 支持stratumauth导入验证器\r\n- 优化自动填充账号密码填充错误\r\n- 新增通知栏自动填充磁贴\r\n- 新增用户名/账号分离功能\r\n- keepass webdav因为一些原因在这个版本已经被移除\r\n## UI/UX更新优化\r\n- 统一指纹验证组件\r\n- 重构生成器页面\r\n- 统一fab\r\n- 多选模式UX更新更符合使用逻辑\r\n- 简单适配大尺寸屏幕（测试）\r\n- 新增分类选择“ALL”智能去重，多数据库有相同的条目只显示一条\r\n- 填充提示调小了一点不再像之前那么挡视野\r\n## bitwarden相关\r\n- 支持bitwarden导入csv\r\n- 支持bitwarden数据库\r\n- send功能支持",
+          "publishedAt": "2026-02-15T13:59:00Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.25a",
+          "assets": [
+            {
+              "name": "Monica-arm64-V1.0.25a.apk",
+              "size": 21419682,
+              "downloadCount": 272,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.25a/Monica-arm64-V1.0.25a.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.25Preview",
+          "name": "1.0.25Preview",
+          "body": "并不是正式版，1.0.25有好多事情要做，我太忙了，所以可能要2月初才能发包，可能会更晚，这个版本主要是解决了一些已经收到反馈的内容，其实这相当于还是1.0.24只不过用了1.0.25的版本号\r\n- API29 to 30\r\n- 修复了一些bug\r\n- 解决了一些提出bug的人\r\n- 卡包左右滑动切换\r\n- 卡包详情支持下载证件照片\r\n- 添加页面开关动效\r\n- 多密码页面详情页面删除bug修复\r\n- 修复密码堆叠方式切换抽屉文字显示不全的问题\r\n- 堆叠卡片展开效果优化\r\n我现在需要睡一觉了，1.0.25要做的事情太多了，大家有问题可以给我提issues或者小黑盒和酷安留言，谢谢各位一直以来的支持",
+          "publishedAt": "2026-01-29T17:18:24Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.25Preview",
+          "assets": [
+            {
+              "name": "Monica-V1.0.25.apk",
+              "size": 26950763,
+              "downloadCount": 181,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.25Preview/Monica-V1.0.25.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.24",
+          "name": "V1.0.24",
+          "body": "## Monica for Android\r\n## 今天是劳大坠机6年零1天，也是Monica1.0.**24**版本在这个2的10次方版本下，请大家换成“黑曼巴”配色\r\n### UI 修复任务\r\n-  移除侧边栏中的 ModalNavigationDrawer 及其相关逻辑。\r\n- 新增返回键处理：在多选模式下，按系统返回键将清理选择并退出多选状态。\r\n- 修复 SSO 文本错误。\r\n- 下拉搜索拓展到了验证器页面\r\n\r\n### 功能优化 (Feature Improvements)\r\n-  WebDAV 备份恢复：默认采用增量恢复模式，新增“覆盖本地数据”全局开关及恢复确认弹窗选项，防止数据意外覆盖。\r\n-  KeePass 导入优化：支持标准 CSV 表头映射，解决导入兼容性问题。\r\n- KeePass 凭证灵活化：允许仅使用密码或仅使用密钥文件创建/打开数据库。\r\n- 调整自动填充功能适配\r\n\r\n### 安全性整改说明 (Security Enhancement)\r\n1. **数据加密升级**: 采用 MDK (Master Data Key) 双重封装机制。\r\n   - **Keystore 封装**: 利用 Android Keystore 系统保护密钥，支持生物识别解锁。\r\n   - **PBKDF2 封装**: 作为灾备方案，使用 PBKDF2 (100,000 次迭代) 从主密码派生密钥，确保在 Keystore 不可用时仍能恢复数据。\r\n2. **加密算法**: 所有敏感数据使用 AES-256 进行加密。\r\n3. **平滑迁移**: 实现了 Lazy Migration 策略，旧数据在首次解密时自动升级为新加密格式，无需用户手动干预，保障用户体验。\r\n",
+          "publishedAt": "2026-01-27T13:05:38Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.24",
+          "assets": [
+            {
+              "name": "Monica-V1.0.24.apk",
+              "size": 26849863,
+              "downloadCount": 94,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.24/Monica-V1.0.24.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.23",
+          "name": "V1.0.23",
+          "body": "### <del>不要更新！！！！有恶性bug，等我修复我会删除这句话</del>\r\n非常抱歉，由于我在 v1.0.23 版本的打包过程中遗漏了关键的混淆配置，导致许多用户更新后出现了“无法进入软件、启动即闪退”的严重问题。\r\n在此，我们向所有受到影响的用户致以最深切的歉意。\r\n\r\n【重要提醒】： 如果您已安装 v1.0.23 且遇到闪退，请绝对不要卸载 App！ 卸载会导致您的本地数据（在未备份的情况下）被永久清除。您只需要直接下载安装此 v1.0.23 版本进行覆盖更新，您的所有数据都将自动恢复并保留。\r\n## Monica for Android\r\n- keepass支持写入或读取外部数据\r\n- 密码卡片支持显示图标\r\n- 重构自动填充系统\r\n- 支持自动填充后弹出验证器\r\n- 密码页面支持下拉搜索，后续会拓展到其他页面\r\n## 这次更新主要是解决一下大家提出的几个建议，我会慢慢更新的，我打算给自己放个假，太累了，大家尽管提意见，到时候我会更新的，这个版本已经比较完善了，不过还有好多要做的，大家先用着",
+          "publishedAt": "2026-01-26T12:46:36Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.23",
+          "assets": [
+            {
+              "name": "Monica-arm64-V1.0.23.apk",
+              "size": 26877111,
+              "downloadCount": 40,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.23/Monica-arm64-V1.0.23.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.22™",
+          "name": "V1.0.22™",
+          "body": "### Monica-Android-V1.0.22™\r\n- V1.0.22™这个™并不是商标，只是因为Monica的版本号本来就挺乱，以前都是在小版本后面加abc的，不过既然已经很乱了，那不如学一学EA乱就乱到底，战地风云命名法\r\n- Monica V1.0.22已经不再只是兼容keepass了，在同步与备份页面“本地keepass数据库”中创建或者添加数据库，Monica已经完全可以作为一个keepass第三方客户端使用了\r\n- 验证器页面可改为统一的进度条显示\r\n- 验证器卡包页面可以在多选页面按住卡片右上角的三个点自由排序",
+          "publishedAt": "2026-01-24T11:27:23Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.22%E2%84%A2",
+          "assets": [
+            {
+              "name": "Monica-arm64-Android-V1.0.22.apk",
+              "size": 26196133,
+              "downloadCount": 61,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.22%E2%84%A2/Monica-arm64-Android-V1.0.22.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.22K",
+          "name": "V1.0.22K",
+          "body": "## Monica for Android V1.0.22K\r\n-k就是keepass啦在这个版本新增了keepass的数据兼容不过也仅此而已啦，后面可能也会兼容bitwarden，不过只是利用bitwarden进行备份不会真正作为bitwarden客户端啦",
+          "publishedAt": "2026-01-23T13:19:23Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.22K",
+          "assets": [
+            {
+              "name": "Monica-arm64-V1.0.22K.apk",
+              "size": 25649373,
+              "downloadCount": 56,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.22K/Monica-arm64-V1.0.22K.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.21",
+          "name": "V1.0.21",
+          "body": "## Monica for Android修改\r\n- 新增验证码倒计时5秒内复制新验证码功能\r\n- 聚合了一些设置项\r\n- 新增启动密码页面关闭功能（开发者设置）\r\n- 修复webdav备份证件恢复出错的问题\r\n- 备份数据可以选择备份webdav配置信息\r\n## 感谢酷友明眀提出的建议",
+          "publishedAt": "2026-01-23T05:15:51Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.21",
+          "assets": [
+            {
+              "name": "Monica-Android-V1.0.21.apk",
+              "size": 25316585,
+              "downloadCount": 5,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.21/Monica-Android-V1.0.21.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.20",
+          "name": "V1.0.2",
+          "body": "修复了几个小问题，修复重复保存新建密码条目的bug\r\n重构“历史”页面时间线和回收站页面的UI更顺手一点（对我来说更顺手了）\r\n以及我还没想好底栏上滑有什么用",
+          "publishedAt": "2026-01-18T05:11:36Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.20",
+          "assets": [
+            {
+              "name": "Monica-arm64-V1.0.2.apk",
+              "size": 25210081,
+              "downloadCount": 59,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.20/Monica-arm64-V1.0.2.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.19",
+          "name": "V1.0.19",
+          "body": "### Android修改\r\n- 修复编辑页面旋转屏幕丢失表单的问题\r\n- 证件详情页面照片可以缩放\r\n- 优化验证器页面，现在可以点击顶栏上的扫描按钮直接扫码写入验证器，无需经过编辑页面\r\n- 修复卡包银行卡详情不显示照片的问题\r\n- 新增“历史（时间线）”底栏项可通过这个页面撤销修改，以及管理回收站，哦对回收站也是新功能\r\n- 修复自动锁定失效的问题\r\n- 新增“常用信息自动填充”以及第三方密码引用",
+          "publishedAt": "2026-01-09T12:41:20Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.19",
+          "assets": [
+            {
+              "name": "Monica-arm64-V1.0.19.apk",
+              "size": 25177321,
+              "downloadCount": 4,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.19/Monica-arm64-V1.0.19.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.18",
+          "name": "V1.0.18",
+          "body": "## 好好打磨了很多很多android版本的细节\r\n- plus配色新增四个catppuccin配色（老样子plus是诚信付款机制，不强制收费）\r\n- 更新一下主页的UI，以及多选页面的样式，更加现代化并且符合M3E设计\r\n- 重构密码详情页面UI\r\n- 重构分类抽屉UI并且改为底部抽屉\r\n- 重构“显示与分组”UI\r\n- 重构验证器页面UI并且改为点击验证器卡片直接复制，并且去掉了复制按钮，改回显示下一个验证器\r\n- 优化验证器进度条逻辑\r\n- 优化webdav存储逻辑\r\n- 银行卡页面和证件页面合为卡包页面\r\n- 新增卡包卡片详情页面\r\n## wear版本几乎完全重做了，现在应该可以适配圆形屏幕的穿戴设备了",
+          "publishedAt": "2026-01-06T12:31:00Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.18",
+          "assets": [
+            {
+              "name": "Monica-android-arm64-V1.0.18.apk",
+              "size": 24624253,
+              "downloadCount": 48,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.18/Monica-android-arm64-V1.0.18.apk",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-wear-V1.0.18.apk",
+              "size": 8529265,
+              "downloadCount": 10,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.18/Monica-wear-V1.0.18.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.17",
+          "name": "V1.0.17",
+          "body": "调整了一下android版本，重构了添加密码页面的UI，重构密码详情页面，以及感谢酷安老哥，以及各位盒U的意见",
+          "publishedAt": "2026-01-05T11:50:59Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.17",
+          "assets": [
+            {
+              "name": "Monica-android-arm64-V1.0.17.apk",
+              "size": 24446170,
+              "downloadCount": 16,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.17/Monica-android-arm64-V1.0.17.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.16",
+          "name": "V1.0.16",
+          "body": "解决了一点小问题",
+          "publishedAt": "2026-01-02T06:50:39Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.16",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-V1.0.16.apk",
+              "size": 24408242,
+              "downloadCount": 31,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.16/Monica-Android-arm64-V1.0.16.apk",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica_Browser_Extension_v1.0.16.zip",
+              "size": 1096476,
+              "downloadCount": 13,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.16/Monica_Browser_Extension_v1.0.16.zip",
+              "contentType": "application/x-zip-compressed"
+            },
+            {
+              "name": "Monica_Windows_Setup_1.0.16_x64.exe",
+              "size": 32270469,
+              "downloadCount": 20,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.16/Monica_Windows_Setup_1.0.16_x64.exe",
+              "contentType": "application/x-msdownload"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.15",
+          "name": "V1.0.15",
+          "body": "## Monica for Android\r\n- 修复备份到webdav后本地数据库未解密的问题\r\n- 修复备份密码没有备份分类的问题\r\n- 导入导出可以导出webdav备份那样的zip文件\r\n- 优化清空数据页面\r\n- 根据反馈严格限制了一下自动填充，防止在一些除密码之外的表单触发\r\n## Monica for Windows\r\n-  做好了，第一个版本",
+          "publishedAt": "2025-12-19T13:13:48Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.15",
+          "assets": [
+            {
+              "name": "Monica-android-arm64-V1.0.15.apk",
+              "size": 24408242,
+              "downloadCount": 29,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.15/Monica-android-arm64-V1.0.15.apk",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica_Setup_1.0.15.exe",
+              "size": 64500382,
+              "downloadCount": 19,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.15/Monica_Setup_1.0.15.exe",
+              "contentType": "application/x-msdownload"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.14",
+          "name": "V1.0.14",
+          "body": "没有太大的更新，新增一个安全笔记的功能，默认是关闭的，可以在自定义底栏中打开\r\nWebdav备份密码从csv改为json",
+          "publishedAt": "2025-12-08T10:31:44Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.14",
+          "assets": [
+            {
+              "name": "Monica-V1.0.14.apk",
+              "size": 24355305,
+              "downloadCount": 8,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.14/Monica-V1.0.14.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.13b",
+          "name": "V1.0.13b",
+          "body": "### 修复：\r\n-在每个页面的底部增加了80dp的缓冲控件防止添加按钮遮挡卡片\r\n-添加页面增加了表单输入法避让，防止输入法遮挡表单\r\n### 新增：\r\n-创建和编辑密码页面增加了一个新的输入框“验证码密钥”输入后将自动创建2fa验证器卡片添加到“验证器页面\r\n-密码页面左上角增加一个按钮点击后展开一个侧边栏，侧边栏可以创建密码分组，管理密码更加方便\r\n",
+          "publishedAt": "2025-12-07T10:41:28Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.13b",
+          "assets": [
+            {
+              "name": "Monica-arm64-v1.0.13b.apk",
+              "size": 24131565,
+              "downloadCount": 9,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.13b/Monica-arm64-v1.0.13b.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.13",
+          "name": "V1.0.13",
+          "body": "-根据酷U提议新增以备注>网站>应用>标题的方式进行分类，右上角的堆叠方式切换按钮更加方便实用\r\n-新建密码/编辑密码页面选择关联应用的时候可以勾选“绑定网址”“绑定标题”可以一次将所有同网址或者同标题的密码绑定应用\r\n-生成器页面增加“常用密码分析”可以根据密码库中常用的密码来生成相似的密码方便记忆",
+          "publishedAt": "2025-12-07T05:17:45Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.13",
+          "assets": [
+            {
+              "name": "Monica-arm64-V1.0.13.apk",
+              "size": 23929141,
+              "downloadCount": 1,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.13/Monica-arm64-V1.0.13.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.12",
+          "name": "V1.0.12",
+          "body": "-增加了几个可有可无的新功能\r\n-增加Monica plus\r\n-plus功能通知栏显示验证器\r\n-plus配色，莫奈",
+          "publishedAt": "2025-12-03T13:51:41Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.12",
+          "assets": [
+            {
+              "name": "Monica-arm64-V1.0.12.apk",
+              "size": 23886201,
+              "downloadCount": 14,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.12/Monica-arm64-V1.0.12.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.1.2",
+          "name": "V1.1.2",
+          "body": "全面优化webdav\r\n",
+          "publishedAt": "2025-11-21T08:57:09Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.1.2",
+          "assets": [
+            {
+              "name": "Monica-wear_arm64_V1.1.2.apk",
+              "size": 7232019,
+              "downloadCount": 21,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.1.2/Monica-wear_arm64_V1.1.2.apk",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica_arm64_V1.1.2.apk",
+              "size": 22010885,
+              "downloadCount": 40,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.1.2/Monica_arm64_V1.1.2.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.1.1",
+          "name": "V1.1.1",
+          "body": "### Monica V1.1.1\r\n-优化一些页面的显示效果，色彩搭配更加清晰\r\n-在不同尺寸设备上，组件更加不容易被挤压变形\r\n-生成器页面右上角增加“”密码生成历史记录“按钮，可以查看生成器生成过的内容\r\n-”删除数据页面增加删除“密码生成历史记录”\r\n### Monica wear V1.1.1\r\n-增加OLED绝对黑色\r\n-优化了设置页面的显示，更加清晰顺手\r\n-添加主动添加验证器的功能\r\n-webdav同步改为增量同步，不会因为webdav同步而覆盖掉手动添加的验证器",
+          "publishedAt": "2025-11-20T06:12:52Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.1.1",
+          "assets": [
+            {
+              "name": "Monica-wear_arm64_V1.1.1.apk",
+              "size": 7223979,
+              "downloadCount": 7,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.1.1/Monica-wear_arm64_V1.1.1.apk",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica_arm64_V1.1.1.apk",
+              "size": 21978117,
+              "downloadCount": 5,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.1.1/Monica_arm64_V1.1.1.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.1.0",
+          "name": "V1.1.0",
+          "body": "-修复了几个返回层级的问题\r\n-删掉了几个已经弃用的组件\r\n-webdav备份可以主动选择备份内容\r\n-添加验证器可以从相册选择而二维码\r\n-已添加的验证器可以生成二维码\r\n-增加权限管理页面，在这里你可以看到Monica的各个权限是做什么用的，你可以选择禁用不必要的权限",
+          "publishedAt": "2025-11-19T04:42:38Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.1.0",
+          "assets": [
+            {
+              "name": "Monica_arm64_V1.1.0.apk",
+              "size": 21899337,
+              "downloadCount": 7,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.1.0/Monica_arm64_V1.1.0.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.9c",
+          "name": "V1.0.9c",
+          "body": "### MonicaV1.0.9c\r\n-Monica增加验证器倒计时震动\r\n-支持更多验证器（TOTP，HOTP，steam guard，Mobile-OTP,yandex）\r\n-Monica wear适合小屏设备使用的Monica版本，只能查看验证器，使用webdav将移动版验证器同步到wear版本\r\n",
+          "publishedAt": "2025-11-18T01:47:40Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.9c",
+          "assets": [
+            {
+              "name": "Monica-wear-V1.0.9.apk",
+              "size": 7156635,
+              "downloadCount": 3,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.9c/Monica-wear-V1.0.9.apk",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica_arm64_V1.0.9.apk",
+              "size": 21223072,
+              "downloadCount": 4,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.9c/Monica_arm64_V1.0.9.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.9b",
+          "name": "V1.0.9b",
+          "body": "解决了一点小问题\r\n",
+          "publishedAt": "2025-11-16T06:09:59Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.9b",
+          "assets": [
+            {
+              "name": "Monica_arm64_V1.0.9b.apk",
+              "size": 21143668,
+              "downloadCount": 4,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.9b/Monica_arm64_V1.0.9b.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.9",
+          "name": "V1.0.9",
+          "body": "### 1.0.7c及以前的版本升级新版本需要做备份！！！！（我弄丢旧签名了）\r\n\r\n-现在输入密码的时候在自动填充页面可以进行密码建议",
+          "publishedAt": "2025-11-15T13:56:23Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.9",
+          "assets": [
+            {
+              "name": "Monica_arm64_V1.0.9.apk",
+              "size": 21031440,
+              "downloadCount": 7,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.9/Monica_arm64_V1.0.9.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.8",
+          "name": "V1.0.8",
+          "body": "### 1.0.7c及以前的版本升级新版本需要做备份！！！！（我弄丢旧签名了）\r\n\r\n-解决了一些bug以及提出bug的人\r\n-增加了开发者调试设置\r\n-修复了在国产设备上自动保存无法触发的bug（我只有vivo和pixel其他设备不清楚，如果有bug可以把日志发给我）\r\n",
+          "publishedAt": "2025-11-15T05:42:45Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.8",
+          "assets": [
+            {
+              "name": "Monica_arm64_V1.0.8.apk",
+              "size": 20960196,
+              "downloadCount": 4,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.8/Monica_arm64_V1.0.8.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.7d",
+          "name": "V1.0.7d",
+          "body": "### 注意！！！！！！！！\r\n### 更新此版本一定要备份数据！！！！！\r\n### Monica更新了签名，直接更新会导致数据丢失！！！！！！\r\n\r\n\r\n修复了自动填充功能",
+          "publishedAt": "2025-11-08T07:40:30Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.7d",
+          "assets": [
+            {
+              "name": "monica_arm64_V1.0.7d.apk",
+              "size": 20892072,
+              "downloadCount": 14,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.7d/monica_arm64_V1.0.7d.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.7c",
+          "name": "V1.0.7c",
+          "body": "增加了按“网站名称”堆叠卡片\r\n将除了密码以外所有信息都相同的卡片归类为了合并显示在同一个卡片",
+          "publishedAt": "2025-11-02T09:02:11Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.7c",
+          "assets": [
+            {
+              "name": "Monica_arm64_V1.0.7c.apk",
+              "size": 20646983,
+              "downloadCount": 8,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.7c/Monica_arm64_V1.0.7c.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.7b",
+          "name": "V1.0.7b",
+          "body": "",
+          "publishedAt": "2025-11-01T03:01:56Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.7b",
+          "assets": [
+            {
+              "name": "Monica_arm64_V1.0.7.apk",
+              "size": 20581619,
+              "downloadCount": 8,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.7b/Monica_arm64_V1.0.7.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.7",
+          "name": "V1.0.7",
+          "body": "-导出页面可以支持分类导出，支持导出兼容aegis的json文件",
+          "publishedAt": "2025-10-26T03:01:23Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.7",
+          "assets": [
+            {
+              "name": "Monica_arm64_V1.0.7.apk",
+              "size": 20355654,
+              "downloadCount": 14,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.7/Monica_arm64_V1.0.7.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "v1.0.6",
+          "name": "v1.0.6",
+          "body": "配色系统更新了一下",
+          "publishedAt": "2025-10-20T11:24:22Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/v1.0.6",
+          "assets": [
+            {
+              "name": "monica_arm64_V1.0.6beta.apk",
+              "size": 20275218,
+              "downloadCount": 6,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/v1.0.6/monica_arm64_V1.0.6beta.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.5c",
+          "name": "V1.0.5c",
+          "body": "-移除了记账功能，专注于密码管理\r\n-这个版本做的时候因为数据库版本的问题导致密码信息有可能丢失，不过我已经修复了，但是我还是不敢保证不会再发生，大家更新的时候要注意备份，导出或者使用webdav备份一下\r\n-尝试修复一下自动填充，不过貌似也没啥用，我的设备太少了没法更全面测试，如果有懂的老哥请告诉我该怎么做",
+          "publishedAt": "2025-10-18T11:42:35Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.5c",
+          "assets": [
+            {
+              "name": "Monica_arm64_V1.0.5c.apk",
+              "size": 21169730,
+              "downloadCount": 5,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.5c/Monica_arm64_V1.0.5c.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.5b",
+          "name": "V1.0.5-b",
+          "body": "-将记账功能分离出去了，这个功能并不是很好用，市面上好用的同类软件有很多，我应该专心做它本质的安全密码本\r\n-有老哥反应自动填充没效果，我自己测试了一下确实没用，不过技术有限，我会慢慢修复，现在我让claude帮我改了一下，不过貌似也没有效果\r\n-长按效果改成了滑动，右滑选中，左滑删除",
+          "publishedAt": "2025-10-17T14:02:14Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.5b",
+          "assets": [
+            {
+              "name": "Monica_arm64_V1.0.5-b.apk",
+              "size": 21168454,
+              "downloadCount": 4,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.5b/Monica_arm64_V1.0.5-b.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.5",
+          "name": "V1.0.5",
+          "body": "-优化了记账页面，但是还不好用，这个是给我朋友做的\r\n-底栏可以自定义关闭以及排序\r\n-底栏新增生成页面\r\n-支持配色自定义\r\n-支持关闭M3动态取色\r\n-设置页面重排序\r\n-支持导入Aegis的json文件的验证器数据\r\n-解决了几个常见的bug\r\n-解决了几个提出bug的人\r\n-我好穷，快吃不起饭了，求打赏",
+          "publishedAt": "2025-10-11T04:28:57Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.5",
+          "assets": [
+            {
+              "name": "Monica_arm64_V1.0.5.apk",
+              "size": 19650631,
+              "downloadCount": 17,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.5/Monica_arm64_V1.0.5.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.3",
+          "name": "V1.0.3",
+          "body": "",
+          "publishedAt": "2025-10-10T13:38:36Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.3",
+          "assets": [
+            {
+              "name": "Monica_arm64_v1.0.3.apk",
+              "size": 19197338,
+              "downloadCount": 4,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.3/Monica_arm64_v1.0.3.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.2",
+          "name": "V1.0.2",
+          "body": "",
+          "publishedAt": "2025-10-06T11:15:32Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.2",
+          "assets": [
+            {
+              "name": "Monica_arm64_V1.0.2.apk",
+              "size": 18489840,
+              "downloadCount": 11,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.2/Monica_arm64_V1.0.2.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.1",
+          "name": "V1.0.1",
+          "body": "",
+          "publishedAt": "2025-10-06T05:43:26Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.1",
+          "assets": [
+            {
+              "name": "Monica_arm64_V1.0.1.apk",
+              "size": 71027152,
+              "downloadCount": 4,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.1/Monica_arm64_V1.0.1.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.0",
+          "name": "v1.0.0",
+          "body": "",
+          "publishedAt": "2025-10-05T16:36:42Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.0",
+          "assets": [
+            {
+              "name": "Monica.apk",
+              "size": 70872100,
+              "downloadCount": 5,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.0/Monica.apk",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
         }
       ]
     },
@@ -236,8 +1267,8 @@
     {
       "id": "browser",
       "owner": "Monica-Pass",
-      "repo": "Monica-for-Extension",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension",
+      "repo": "Monica",
+      "url": "https://github.com/Monica-Pass/Monica",
       "platform": "browser",
       "releases": []
     }
