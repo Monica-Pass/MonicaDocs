@@ -84,3 +84,36 @@ test("handles empty, fallback, and architecture-neutral release assets", () => {
     [largerZip.name, smallerZip.name],
   );
 });
+
+test("drops stale older-version assets so a release never shows duplicate buttons", () => {
+  const stale304 = { ...arm64Asset, name: "Monica-Android-arm64-v8a-1.0.304-26081712-01.APK" };
+  const current305 = { ...arm64Asset, name: "Monica-Android-arm64-v8a-1.0.305-26081712-01.APK" };
+  const stale304arm = { ...arm32Asset, name: "Monica-Android-armeabi-v7a-1.0.304-26081712-01.APK" };
+  const current305arm = { ...arm32Asset, name: "Monica-Android-armeabi-v7a-1.0.305-26081712-01.APK" };
+
+  // Old (1.0.304) + new (1.0.305) for both ABIs used to render 4 buttons;
+  // only the newest build of each architecture should remain.
+  assert.deepEqual(
+    listDownloadAssets({ assets: [stale304, current305, stale304arm, current305arm] }).map((asset) => asset.name),
+    [current305.name, current305arm.name],
+  );
+});
+
+test("dedupes across differing build dates, not just identical suffixes", () => {
+  const olderBuild = { ...arm64Asset, name: "Monica-Android-arm64-v8a-1.0.304-26081612-01.APK" };
+  const newerBuild = { ...arm64Asset, name: "Monica-Android-arm64-v8a-1.0.305-26081712-01.APK" };
+
+  assert.deepEqual(listDownloadAssets({ assets: [olderBuild, newerBuild] }).map((asset) => asset.name), [
+    newerBuild.name,
+  ]);
+});
+
+test("keeps distinct products that share an architecture", () => {
+  const phone = { ...arm64Asset, name: "Monica-Android-arm64-v8a-1.0.305-26081712-01.APK" };
+  const wear = { ...arm64Asset, name: "Monica-wear_arm64_V1.1.2.apk", size: 6_900_000 };
+
+  assert.deepEqual(listDownloadAssets({ assets: [phone, wear] }).map((asset) => asset.name), [
+    phone.name,
+    wear.name,
+  ]);
+});
