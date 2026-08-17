@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-17T06:45:07.111Z",
+  "generatedAt": "2026-08-17T07:11:17.711Z",
   "range": {
     "from": "2025-08-18",
     "to": "2026-08-17"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-17",
-      "count": 2
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "f914e4915705d8fce61ab0707e6c2ab9471934a6",
+      "shortSha": "f914e49",
+      "message": "fix: telegram-release workflow picks the newest armPK and drops racy release-event trigger",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-17T07:10:22Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f914e4915705d8fce61ab0707e6c2ab9471934a6"
+    },
     {
       "sha": "8739f1e06b699a5ee9ba916751d454b753d89b6e",
       "shortSha": "8739f1e",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-16T08:30:49Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/a0e35e6374dd2f9cbcf69678c1831efe90989c9d"
-    },
-    {
-      "sha": "37a0724976a765026983bed975e58ed1404656b0",
-      "shortSha": "37a0724",
-      "message": "feat: Release link website update",
-      "authorName": "Mrmiaomrzh",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
-      "date": "2026-08-16T07:57:01Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/37a0724976a765026983bed975e58ed1404656b0"
     }
   ]
 }
