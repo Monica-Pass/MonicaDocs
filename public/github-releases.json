@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T05:45:53.730Z",
+  "updatedAt": "2026-08-17T07:44:40.241Z",
   "repos": [
     {
       "id": "android",
@@ -12,35 +12,14 @@
           "tag": "V1.0.305",
           "name": "V1.0.305",
           "body": "# Monica Android 发行说明\r\n\r\n## 中文\r\n\r\n### 简短版\r\n\r\n- KeePass 密钥文件现可选择保留 Monica 内部加密副本，并随加密全量备份安全迁移。\r\n- 修复 Bitwarden 中 Steam 令牌偶发消失，增强跨设备附件解析与迁移完整性。\r\n- 自动填充与添加密码会沿用主页生成器配置，减少重复设置。\r\n- 验证器新增双列磁贴布局，并修复多个令牌同时倒计时导致的重复震动。\r\n- 修复 KDBX 导出密码在重装后显示“不可用”的问题。\r\n- 修复 ZIP、WebDAV 与 OneDrive 备份在重装后出现密码或验证器不可用的问题。\r\n- 笔记支持可选自定义字段；没有字段的笔记仍保持原有简洁界面。\r\n\r\n### 详细版\r\n\r\n- 本地、WebDAV 与 OneDrive KDBX 在创建或打开时，可选择将密钥文件复制到 Monica 私有目录；原文件始终保留，不会被移动或删除。\r\n- 数据库详情支持查看副本状态、导出副本和安全删除；导出的文件会作为外部备用来源保留。\r\n- 重新选择密钥文件时会按内容指纹校验，避免继续误用旧副本；内部副本损坏时也可用正确原文件安全替换。\r\n- WebDAV 与 OneDrive 全量备份可包含密钥副本，但必须开启备份加密；跨设备恢复后会使用新设备密钥重新加密，且不会沿用旧设备 URI。\r\n- 修正 Bitwarden 远端附件密文大小与 Monica 本地明文大小误比较的问题，刷新同步时不再错误清除已下载的 maFile 缓存。\r\n- Steam maFile 写入 Bitwarden 时改用条目自身的附件密钥，并增加“待完成—可用”两阶段标记；附件成功前不会被识别为可用 Steam 令牌。\r\n- Bitwarden 部分上传失败将作为失败处理；临时读取异常会记录具体阶段，并优先保留本次运行中最近一次成功解析的令牌。\r\n- 自动填充与添加密码生成器统一读取主页的长度、字符类型、符号集、排除规则和最小字符数；弹窗内调整只作用于当前生成。\r\n- 验证器“页面调整”新增标准/磁贴布局切换；磁贴支持长按多选与多选拖动排序，不启用左右滑动操作，原标准布局保持不变。\r\n- 倒计时震动改为页面级统一调度，同一秒只触发一次，并在页面离开或进入后台时停止，避免多个令牌同时过期时震动叠加。\r\n- KDBX 导出不再把无法解密的设备密文写入文件；密码或验证器密钥无法读取时会明确提示并取消导出，避免生成不可迁移的备份。\r\n- ZIP、WebDAV 与 OneDrive 备份会将密码、密码历史和验证器密钥转换为跨设备可恢复格式，包括历史数据中嵌套保存的 TOTP 与 Steam 敏感字段。\r\n- 恢复绑定在密码条目上的验证器时，会使用新安装的本地密钥重新加密；无法读取的设备密文会明确失败，不再被误当作真实密钥保存。\r\n- 备份遇到任何不可解密的敏感条目时会停止并提示，避免静默生成内容不完整或重装后不可用的备份文件。\r\n- 笔记自定义字段保存在笔记数据中，支持文本和敏感字段；详情页仅在存在字段时显示，编辑时可添加、修改和删除。\r\n- Bitwarden 安全笔记的自定义字段会与 Monica 笔记双向同步，旧笔记和没有字段的笔记保持兼容。\r\n\r\n## English\r\n\r\n### Short Version\r\n\r\n- KeePass key files can now be kept as encrypted Monica copies and safely migrated with encrypted full backups.\r\n- Fixed Steam authenticators occasionally disappearing from Bitwarden-backed storage, with more reliable cross-device attachment recovery and transfers.\r\n- Autofill and add-password generation now reuse the generator settings from the home page.\r\n- Added a compact two-column authenticator layout and fixed overlapping expiry vibrations.\r\n- Fixed exported KDBX passwords becoming unavailable after reinstalling Monica.\r\n- Fixed passwords and authenticators becoming unavailable after restoring ZIP, WebDAV, or OneDrive backups on a fresh installation.\r\n- Notes now support optional custom fields without changing the clean layout of notes that have none.\r\n\r\n### Detailed Version\r\n\r\n- Local, WebDAV, and OneDrive KDBX flows can optionally copy a key file into\r\n  Monica's private storage. The original file is never moved or deleted.\r\n- Database details now show key-file copy status and provide export and safe\r\n  deletion controls. Exported files are retained as external fallbacks.\r\n- Re-selected key files are verified by content fingerprint, preventing stale\r\n  private copies from remaining active. Damaged copies can be safely replaced\r\n  from the correct source file.\r\n- WebDAV and OneDrive full backups may include private key-file copies only when\r\n  backup encryption is enabled. Restored copies are re-encrypted for the new\r\n  device without reusing old device URIs.\r\n- Fixed encrypted Bitwarden attachment sizes being compared with Monica's local\r\n  plaintext sizes, which could incorrectly discard a valid cached maFile during sync.\r\n- Steam maFile uploads now use each cipher's effective attachment key and a\r\n  pending-to-ready marker sequence, so incomplete uploads are never exposed as\r\n  usable Steam authenticators.\r\n- Partial Bitwarden upload failures now fail the transfer. Temporary read errors\r\n  record their failure stage and retain the latest successfully parsed account\r\n  during the current app session when possible.\r\n- Autofill and add-password generation read the home generator's length,\r\n  character types, symbol set, exclusion rules, and minimum character counts.\r\n  Changes in either picker stay local to the current generated password.\r\n- Authenticator page customization now offers standard and compact two-column\r\n  tile layouts. Tiles keep long-press selection and selection-mode reordering,\r\n  while horizontal swipe actions remain disabled only for the tile layout.\r\n- Expiry vibration is now scheduled once per page and once per second, then\r\n  cancelled when the page leaves the foreground to prevent overlapping pulses.\r\n- KDBX export never writes unreadable device-bound ciphertext. If a password or\r\n  authenticator secret cannot be decrypted, export stops with a clear error\r\n  instead of creating a backup that cannot be restored on another installation.\r\n- ZIP, WebDAV, and OneDrive backups now convert passwords, password history, and\r\n  authenticator secrets into portable values, including nested TOTP and Steam\r\n  fields created by older Monica versions.\r\n- Password-bound authenticators are re-encrypted with the new installation's\r\n  local key during restore. Unreadable device ciphertext is reported as a\r\n  failure instead of being stored as if it were a real secret.\r\n- Backup creation stops when any sensitive entry cannot be decrypted, preventing\r\n  silently incomplete or installation-bound backup archives.\r\n- Note custom fields are stored with the note and support text and protected\r\n  values. They appear in the detail view only when present and can be added,\r\n  edited, or deleted from the editor.\r\n- Custom fields on Bitwarden secure notes now synchronize in both directions;\r\n  existing notes without fields remain fully compatible.\r\n",
-          "publishedAt": "2026-08-17T05:34:44Z",
+          "publishedAt": "2026-08-17T07:41:03Z",
           "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.305",
           "assets": [
-            {
-              "name": "checksums.txt",
-              "size": 232,
-              "downloadCount": 0,
-              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.305/checksums.txt",
-              "contentType": "text/plain; charset=utf-8"
-            },
-            {
-              "name": "Monica-Android-arm64-v8a-1.0.304-26081712-01.APK",
-              "size": 45653823,
-              "downloadCount": 0,
-              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.305/Monica-Android-arm64-v8a-1.0.304-26081712-01.APK",
-              "contentType": "application/vnd.android.package-archive"
-            },
             {
               "name": "Monica-Android-arm64-v8a-1.0.305-26081712-01.APK",
               "size": 45670335,
               "downloadCount": 0,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.305/Monica-Android-arm64-v8a-1.0.305-26081712-01.APK",
-              "contentType": "application/vnd.android.package-archive"
-            },
-            {
-              "name": "Monica-Android-armeabi-v7a-1.0.304-26081712-01.APK",
-              "size": 41195955,
-              "downloadCount": 0,
-              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.305/Monica-Android-armeabi-v7a-1.0.304-26081712-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
@@ -62,7 +41,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.304-26081612-01.APK",
               "size": 45615071,
-              "downloadCount": 193,
+              "downloadCount": 196,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.304/Monica-Android-arm64-v8a-1.0.304-26081612-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
