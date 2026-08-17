@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-17T06:30:51.194Z",
+  "generatedAt": "2026-08-17T06:45:07.111Z",
   "range": {
     "from": "2025-08-18",
     "to": "2026-08-17"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-17",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "8739f1e06b699a5ee9ba916751d454b753d89b6e",
+      "shortSha": "8739f1e",
+      "message": "chore: bump version to 1.0.305, update official site link, streamline Telegram release workflow",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-17T06:43:01Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/8739f1e06b699a5ee9ba916751d454b753d89b6e"
+    },
     {
       "sha": "4aac8527753c55dd15ec0997653565e841c82680",
       "shortSha": "4aac852",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
       "date": "2026-08-16T07:57:01Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/37a0724976a765026983bed975e58ed1404656b0"
-    },
-    {
-      "sha": "77080f6073afd02cc788d9871df548bcf21e4ada",
-      "shortSha": "77080f6",
-      "message": "ci: attach collapsible release notes to telegram caption",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-16T04:27:23Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/77080f6073afd02cc788d9871df548bcf21e4ada"
     }
   ]
 }
