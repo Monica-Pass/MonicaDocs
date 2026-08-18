@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-17T07:57:44.408Z",
+  "generatedAt": "2026-08-18T06:23:07.935Z",
   "range": {
-    "from": "2025-08-18",
-    "to": "2026-08-17"
+    "from": "2025-08-19",
+    "to": "2026-08-18"
   },
   "activity": [
-    {
-      "date": "2025-08-18",
-      "count": 0
-    },
     {
       "date": "2025-08-19",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-08-17",
       "count": 5
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "201a2080dcc2d6f48fe9f7f6966e49c9f4ae660a",
+      "shortSha": "201a208",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-08-18T03:11:03Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/201a2080dcc2d6f48fe9f7f6966e49c9f4ae660a"
+    },
     {
       "sha": "21e1a3b77f3d3645591a64df679537dfc532c813",
       "shortSha": "21e1a3b",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-16T08:51:05Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/6086e94fa59d1a1a09cdb200b7012cf1068d1e0f"
-    },
-    {
-      "sha": "ff6414dce5c5e885a5e9df7833af274374408c18",
-      "shortSha": "ff6414d",
-      "message": "Merge branch 'Monica-Pass:main' into main",
-      "authorName": "Mrmiaomrzh",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
-      "date": "2026-08-16T08:47:56Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/ff6414dce5c5e885a5e9df7833af274374408c18"
     }
   ]
 }
