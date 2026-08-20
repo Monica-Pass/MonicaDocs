@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-19T07:53:45.898Z",
+  "generatedAt": "2026-08-20T04:57:41.227Z",
   "range": {
-    "from": "2025-08-20",
-    "to": "2026-08-19"
+    "from": "2025-08-21",
+    "to": "2026-08-20"
   },
   "activity": [
-    {
-      "date": "2025-08-20",
-      "count": 0
-    },
     {
       "date": "2025-08-21",
       "count": 0
@@ -1465,10 +1461,32 @@
     },
     {
       "date": "2026-08-19",
+      "count": 2
+    },
+    {
+      "date": "2026-08-20",
       "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "8659a1a606cd7c3f72736ff03027a5ac33cfc1e1",
+      "shortSha": "8659a1a",
+      "message": "feat(android): improve vault folder workflows",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-20T04:56:50Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/8659a1a606cd7c3f72736ff03027a5ac33cfc1e1"
+    },
+    {
+      "sha": "5ebca102dbdf89406a84d41deafaedf8fd3024a8",
+      "shortSha": "5ebca10",
+      "message": "feat(android): improve vault and KeePass management",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-19T17:19:19Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/5ebca102dbdf89406a84d41deafaedf8fd3024a8"
+    },
     {
       "sha": "ec9b99fcbeaaf511c283388202c070ec5ea8ece5",
       "shortSha": "ec9b99f",
@@ -1540,24 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-16T22:37:37Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/d53e738923d8cab2600bce0c764ec5c101fddc86"
-    },
-    {
-      "sha": "51cb037fe2c560fe877586a7e6289ea24e8639eb",
-      "shortSha": "51cb037",
-      "message": "fix: prevent unreadable secrets in KDBX exports",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-16T18:03:16Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/51cb037fe2c560fe877586a7e6289ea24e8639eb"
-    },
-    {
-      "sha": "02c028bd73e051e8ed825348def33afb76f7c7fb",
-      "shortSha": "02c028b",
-      "message": "feat: sync generator defaults and authenticator tiles",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-16T17:51:16Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/02c028bd73e051e8ed825348def33afb76f7c7fb"
     }
   ]
 }
