@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-20T04:57:41.227Z",
+  "generatedAt": "2026-08-20T05:07:30.577Z",
   "range": {
     "from": "2025-08-21",
     "to": "2026-08-20"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-20",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "be008834bf1ec4c139ce2d1eddbf32d53176ba99",
+      "shortSha": "be00883",
+      "message": "fix(ci): reliably publish release APK to Telegram",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-20T05:07:04Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/be008834bf1ec4c139ce2d1eddbf32d53176ba99"
+    },
     {
       "sha": "8659a1a606cd7c3f72736ff03027a5ac33cfc1e1",
       "shortSha": "8659a1a",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-08-17T03:14:35Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/4aac8527753c55dd15ec0997653565e841c82680"
-    },
-    {
-      "sha": "d53e738923d8cab2600bce0c764ec5c101fddc86",
-      "shortSha": "d53e738",
-      "message": "fix: make backups portable across installations",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-16T22:37:37Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/d53e738923d8cab2600bce0c764ec5c101fddc86"
     }
   ]
 }
