@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-22T13:50:30.332Z",
+  "generatedAt": "2026-08-22T14:47:55.056Z",
   "range": {
     "from": "2025-08-23",
     "to": "2026-08-22"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-22",
-      "count": 4
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "52afa9f99e16088f0ea1ff3aadaf62908b2dbaff",
+      "shortSha": "52afa9f",
+      "message": "fix(webdav): allow confirmed hostname mismatch",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-22T14:47:23Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/52afa9f99e16088f0ea1ff3aadaf62908b2dbaff"
+    },
     {
       "sha": "1f45d65690511f111bc39842fbe49bb3aacea062",
       "shortSha": "1f45d65",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-19T07:52:52Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/ec9b99fcbeaaf511c283388202c070ec5ea8ece5"
-    },
-    {
-      "sha": "201a2080dcc2d6f48fe9f7f6966e49c9f4ae660a",
-      "shortSha": "201a208",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-08-18T03:11:03Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/201a2080dcc2d6f48fe9f7f6966e49c9f4ae660a"
     }
   ]
 }
