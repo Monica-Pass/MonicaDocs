@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-22T13:06:10.834Z",
+  "generatedAt": "2026-08-22T13:30:50.872Z",
   "range": {
     "from": "2025-08-23",
     "to": "2026-08-22"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-22",
-      "count": 2
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "7a4ba02dc63e03cb174e40900ac8237b6757ea31",
+      "shortSha": "7a4ba02",
+      "message": "fix(webdav): import compose modifier",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-22T13:30:24Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/7a4ba02dc63e03cb174e40900ac8237b6757ea31"
+    },
     {
       "sha": "8f775be621abbb6ba3d6e3cf7032df122da14686",
       "shortSha": "8f775be",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-17T07:56:36Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/21e1a3b77f3d3645591a64df679537dfc532c813"
-    },
-    {
-      "sha": "4d7f85725984b3dcc753a06a659b5f866faa17ea",
-      "shortSha": "4d7f857",
-      "message": "fix: send Telegram notification only from telegram-release.yml",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-17T07:36:53Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/4d7f85725984b3dcc753a06a659b5f866faa17ea"
     }
   ]
 }
