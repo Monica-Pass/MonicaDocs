@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-22T13:30:50.872Z",
+  "generatedAt": "2026-08-22T13:50:30.332Z",
   "range": {
     "from": "2025-08-23",
     "to": "2026-08-22"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-22",
-      "count": 3
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "1f45d65690511f111bc39842fbe49bb3aacea062",
+      "shortSha": "1f45d65",
+      "message": "fix(webdav): handle untrusted certificate errors",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-22T13:49:57Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/1f45d65690511f111bc39842fbe49bb3aacea062"
+    },
     {
       "sha": "7a4ba02dc63e03cb174e40900ac8237b6757ea31",
       "shortSha": "7a4ba02",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-08-18T03:11:03Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/201a2080dcc2d6f48fe9f7f6966e49c9f4ae660a"
-    },
-    {
-      "sha": "21e1a3b77f3d3645591a64df679537dfc532c813",
-      "shortSha": "21e1a3b",
-      "message": "fix: use release.released event for telegram-release.yml auto trigger",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-17T07:56:36Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/21e1a3b77f3d3645591a64df679537dfc532c813"
     }
   ]
 }
