@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-22T12:42:56.903Z",
+  "generatedAt": "2026-08-22T13:06:10.834Z",
   "range": {
     "from": "2025-08-23",
     "to": "2026-08-22"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-22",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "8f775be621abbb6ba3d6e3cf7032df122da14686",
+      "shortSha": "8f775be",
+      "message": "feat(password): add folder stacking mode",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-22T13:05:35Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/8f775be621abbb6ba3d6e3cf7032df122da14686"
+    },
     {
       "sha": "5c210f09d8a58792e7473aa617a3fa86601e4fb4",
       "shortSha": "5c210f0",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-17T07:36:53Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/4d7f85725984b3dcc753a06a659b5f866faa17ea"
-    },
-    {
-      "sha": "f914e4915705d8fce61ab0707e6c2ab9471934a6",
-      "shortSha": "f914e49",
-      "message": "fix: telegram-release workflow picks the newest armPK and drops racy release-event trigger",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-17T07:10:22Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f914e4915705d8fce61ab0707e6c2ab9471934a6"
     }
   ]
 }
