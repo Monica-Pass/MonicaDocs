@@ -46,6 +46,17 @@ const links: LinkItem[] = [
     avatar: "/friends/monica_steam.png",
   },
   {
+    name: "BetterHeybox",
+    desc: {
+      zh: "增强小黑盒功能的 LSPosed 模块。",
+      en: "An LSPosed module that adds more features to Heybox.",
+      ja: "小黑盒（Heybox）を強化する LSPosed モジュール。",
+      ru: "Модуль LSPosed, добавляющий больше функций в Heybox.",
+      vi: "Mô-đun LSPosed bổ sung tính năng cho Heybox.",
+    },
+    href: "https://github.com/Mrmiaomrzh/BetterHeybox",
+  },
+  {
     name: "Adai Blog",
     desc: {
       zh: "分享，学习有趣的知识",
