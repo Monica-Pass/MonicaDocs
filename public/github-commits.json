@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-24T09:34:11.418Z",
+  "generatedAt": "2026-08-24T12:08:56.003Z",
   "range": {
     "from": "2025-08-25",
     "to": "2026-08-24"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-24",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "2cef2c85536bb69e91904ff51df6a2190f19d9ce",
+      "shortSha": "2cef2c8",
+      "message": "fix: refine generator header and copy feedback",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-24T12:07:44Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/2cef2c85536bb69e91904ff51df6a2190f19d9ce"
+    },
     {
       "sha": "af6011726e439c9fa07567bac43d3b404a3fa01c",
       "shortSha": "af60117",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-08-23T03:17:29Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/d15a7c109beeafc56835074a778e3207c146336a"
-    },
-    {
-      "sha": "52afa9f99e16088f0ea1ff3aadaf62908b2dbaff",
-      "shortSha": "52afa9f",
-      "message": "fix(webdav): allow confirmed hostname mismatch",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-22T14:47:23Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/52afa9f99e16088f0ea1ff3aadaf62908b2dbaff"
     }
   ]
 }
