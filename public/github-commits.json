@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-25T06:25:22.985Z",
+  "generatedAt": "2026-08-25T09:09:45.849Z",
   "range": {
     "from": "2025-08-26",
     "to": "2026-08-25"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-25",
-      "count": 0
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "54d807435e5828c73abca1cf8c2a689fb90f9c67",
+      "shortSha": "54d8074",
+      "message": "feat: add fdroid build variant directory",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-25T09:09:01Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/54d807435e5828c73abca1cf8c2a689fb90f9c67"
+    },
     {
       "sha": "2cef2c85536bb69e91904ff51df6a2190f19d9ce",
       "shortSha": "2cef2c8",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-23T04:23:08Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/e76b68c3e805fd06ef438624e3b42439e14121e3"
-    },
-    {
-      "sha": "d15a7c109beeafc56835074a778e3207c146336a",
-      "shortSha": "d15a7c1",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-08-23T03:17:29Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/d15a7c109beeafc56835074a778e3207c146336a"
     }
   ]
 }
