@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-25T09:33:24.200Z",
+  "generatedAt": "2026-08-25T09:50:21.427Z",
   "range": {
     "from": "2025-08-26",
     "to": "2026-08-25"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-25",
-      "count": 2
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "c6b6c76bb9218e0729e261072d9d3bd2fdc3d121",
+      "shortSha": "c6b6c76",
+      "message": "refactor: move mdbx-ffi rust sources into fdroid directory",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-25T09:49:44Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/c6b6c76bb9218e0729e261072d9d3bd2fdc3d121"
+    },
     {
       "sha": "ba0ae4b8f4654b273e0f5d5e4b2beee9750e7cfc",
       "shortSha": "ba0ae4b",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-23T05:34:12Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/f6decee4e5626446a7d5c50a16827bf659e038c0"
-    },
-    {
-      "sha": "40ccffd1ee5a588a5cf17a5906db9e99185deb25",
-      "shortSha": "40ccffd",
-      "message": "perf(password): retain cached list on page return",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-23T05:13:38Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/40ccffd1ee5a588a5cf17a5906db9e99185deb25"
     }
   ]
 }
