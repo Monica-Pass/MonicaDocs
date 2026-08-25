@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-25T09:50:21.427Z",
+  "generatedAt": "2026-08-25T11:36:35.714Z",
   "range": {
     "from": "2025-08-26",
     "to": "2026-08-25"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-25",
-      "count": 3
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "7bf376a871916c265d92a5f2bb182fe8d240c5cc",
+      "shortSha": "7bf376a",
+      "message": "build: add optional keystore.properties signing for fdroid release",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-25T11:35:59Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/7bf376a871916c265d92a5f2bb182fe8d240c5cc"
+    },
     {
       "sha": "c6b6c76bb9218e0729e261072d9d3bd2fdc3d121",
       "shortSha": "c6b6c76",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-23T05:39:52Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/e9cd1fc93dd764e52f6f78a03effa3db0489a68d"
-    },
-    {
-      "sha": "f6decee4e5626446a7d5c50a16827bf659e038c0",
-      "shortSha": "f6decee",
-      "message": "fix(vault): retain list when async computation fails",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-23T05:34:12Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f6decee4e5626446a7d5c50a16827bf659e038c0"
     }
   ]
 }
