@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-26T06:27:58.478Z",
+  "generatedAt": "2026-08-26T07:14:51.738Z",
   "range": {
     "from": "2025-08-27",
     "to": "2026-08-26"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-26",
-      "count": 5
+      "count": 6
     }
   ],
   "latest": [
+    {
+      "sha": "5c0b83396cc73b70b286d4cf471b6d34162bbcab",
+      "shortSha": "5c0b833",
+      "message": "docs: add fastlane metadata for IzzyOnDroid/store listing",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-26T07:12:07Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/5c0b83396cc73b70b286d4cf471b6d34162bbcab"
+    },
     {
       "sha": "e265de586561a65e55303aaa0417516b45913e97",
       "shortSha": "e265de5",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-25T09:49:44Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/c6b6c76bb9218e0729e261072d9d3bd2fdc3d121"
-    },
-    {
-      "sha": "ba0ae4b8f4654b273e0f5d5e4b2beee9750e7cfc",
-      "shortSha": "ba0ae4b",
-      "message": "feat: vendor mdbx-ffi rust sources for f-droid builds",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-25T09:32:38Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/ba0ae4b8f4654b273e0f5d5e4b2beee9750e7cfc"
     }
   ]
 }
