@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-26T01:20:56.890Z",
+  "generatedAt": "2026-08-26T01:38:20.225Z",
   "range": {
     "from": "2025-08-27",
     "to": "2026-08-26"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-26",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "877c56687866571896c15c08be4f9d031c217faa",
+      "shortSha": "877c566",
+      "message": "chore: drop fdroid gitlink; variant lives in standalone Monica-Fdroid repo",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-26T01:37:53Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/877c56687866571896c15c08be4f9d031c217faa"
+    },
     {
       "sha": "a4ed8586d9cb3d989b84cec4765240e5979ca22c",
       "shortSha": "a4ed858",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-24T09:33:30Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/af6011726e439c9fa07567bac43d3b404a3fa01c"
-    },
-    {
-      "sha": "12de90beefea7ec5df243d55fa6254e171cf8b73",
-      "shortSha": "12de90b",
-      "message": "feat(password): allow single-target moves while editing",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-23T06:30:42Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/12de90beefea7ec5df243d55fa6254e171cf8b73"
     }
   ]
 }
