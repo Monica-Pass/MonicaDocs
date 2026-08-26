@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T07:37:13.301Z",
+  "updatedAt": "2026-08-26T06:40:49.199Z",
   "repos": [
     {
       "id": "android",
@@ -8,6 +8,36 @@
       "url": "https://github.com/Monica-Pass/Monica",
       "platform": "android",
       "releases": [
+        {
+          "tag": "V1.0.307",
+          "name": "V1.0.307",
+          "body": "## 中文版\r\n\r\n### 简要\r\n\r\n- 密码页新增按文件夹堆叠。\r\n- WebDAV 支持用户确认后连接证书异常的自部署服务。\r\n- 自动填充黑名单显示应用图标，已屏蔽应用置顶。\r\n- 优化密码页切换时的列表状态保留，减少返回页面时的空列表闪现。\r\n- 增强密码库列表异常容错，避免单条数据解析异常导致页面卡在加载或闪退。\r\n- 优化密码库列表布局复用，减轻滚动和目录切换时的重复测量。\r\n- 优化生成器页面标题滚动过渡，向上滑动时平滑收缩到顶部栏。\r\n- 优化设置主页分组卡片样式，分组首尾使用大圆角，中间项目保持连续布局。\r\n- 编辑密码时支持单选存储位置，保存后可直接将条目移动到新的数据库或文件夹。\r\n- 银行卡、证件、笔记、验证器及其他编辑页统一支持单选移动和多选复制。\r\n- 优化生成器结果卡片在展开与紧凑状态之间的跟手过渡，并移除吸顶时的多余背景框。\r\n- 统一生成器顶部标题字号，修复结果卡片收缩完成时的瞬间跳变。\r\n- 修复生成类型选择区域离开屏幕时，结果卡片短暂重新展开的问题。\r\n- 收紧生成器与设置主页的顶部留白。\r\n- 生成器顶栏改为透明背景，与密码库等主页面保持一致。\r\n- 修复导出 ZIP 备份包含通行密钥时不弹出密码设置、直接提示\"请先启用备份加密\"的问题。\r\n- Monica 键盘的密码、验证器与卡包列表支持中文拼音排序，右侧字母索引条中文条目归入 A-Z# 而不是显示汉字。\r\n\r\n### 详细\r\n\r\n- 按数据库和文件夹的真实身份进行稳定分组，避免不同数据库的同名文件夹合并；默认布局及其他堆叠方式保持不变。\r\n- WebDAV 遇到不受信任证书或证书域名与 DDNS 地址不匹配时显示确认提示，用户确认后仅信任当前主机的当前证书指纹；证书变化时会再次确认。\r\n- 补充 WebDAV 证书异常的错误分类和明确提示。\r\n- 自动填充黑名单使用真实应用图标，已加入黑名单的应用显示在列表顶部，其余应用按名称排序。\r\n- 密码页在已有列表快照时优先显示上一帧完整内容，后台数据准备完成后再平滑替换，避免重复进入时先显示空列表。\r\n- 密码库异步列表计算增加异常隔离：遇到无法解析的条目时保留上一帧内容并结束加载，后续数据更新时自动重试。\r\n- 为筛选行、文件夹、分组标题及不同类型条目声明稳定内容类型，让列表切换时更充分复用已有布局。\r\n- 生成器使用 Material 3 的可折叠顶部栏，保留历史记录和设置入口，滚动内容与标题使用同一滚动状态。\r\n- 设置主页仅调整分组容器和列表卡片外观，独立卡片、设置详情和操作逻辑保持不变。\r\n- 编辑页的多选模式仍保留原有目标，单选模式用于明确的移动操作，避免误删已有副本。\r\n- 编辑页共用同一套存储位置选择交互：单选仅在目标改变时清理旧副本，多选始终保留已有副本，降低误删风险。\r\n- 结果卡片的内边距、图标、间距、阴影和背景色直接跟随滚动距离变化；移除吸顶容器的独立背景层，避免黑框与卡片动画不同步。\r\n- 结果卡片仅在连续收缩接近完成后切换紧凑文本布局，避免中途提前切换造成末尾跳变。\r\n- 收缩进度按生成类型选择区域的实际滚动比例计算，跨越列表项目边界时保持连续。\r\n- 生成器使用更紧凑的固定顶栏；Dock 内的设置主页不再重复应用状态栏安全区，独立设置页仍保留必要的系统边距。\r\n- 移除生成器顶栏额外的 Surface 背景和色调阴影，避免出现整块深色标题背景。\r\n- 数据导出页在导出前统计本次备份将包含的通行密钥数量：当勾选通行密钥且库中存在时，点击开始导出直接弹出\"设置备份密码\"对话框，并附提示说明通行密钥不允许明文导出；设置密码后以加密 .enc.zip 导出。无通行密钥或取消勾选时保持原有流程不变。\r\n- Monica 键盘的密码、验证器和卡包列表在排序与生成右侧字母索引前，先将非 ASCII 标题转写为拉丁字母（ICU Any-Latin; Latin-ASCII），中文条目按拼音首字母归入 A-Z 分组并可拖动跳转，不再以汉字本身作为索引锚点；排序与索引使用同一转写键，与主密码库行为保持一致。\r\n\r\n## English\r\n\r\n### Brief\r\n\r\n- Added folder-based stacking to the password page.\r\n- WebDAV can connect to self-hosted services with certificate issues after explicit user confirmation.\r\n- Autofill blacklist entries now show app icons, with blocked apps pinned to the top.\r\n- Improved password list state retention to reduce empty-list flashes when returning to the page.\r\n- Improved vault list resilience so one malformed item does not leave the page loading or crash it.\r\n- Improved vault list layout reuse to reduce repeated measurement during scrolling and folder navigation.\r\n- Improved the generator title transition so it smoothly collapses into the top bar while scrolling upward.\r\n- Improved settings group cards with large rounded outer corners and a continuous middle layout.\r\n- Editing a password now supports selecting one storage target and moving the entry to a different database or folder on save.\r\n- Bank cards, documents, notes, authenticators, and other editors now use the same single-target move and multi-target copy interaction.\r\n- Improved the scroll-following transition between expanded and compact generator result cards and removed the redundant pinned background frame.\r\n- Matched the generator top-bar title size with other pages and fixed the final snap when the result card finishes compacting.\r\n- Fixed the result card briefly expanding when the generator type selector leaves the viewport.\r\n- Reduced excessive top spacing on the generator and settings home pages.\r\n- Made the generator top bar transparent to match the password vault and other main pages.\r\n- Fixed ZIP export with passkeys showing no password prompt and failing with \"enable backup encryption\".\r\n- Monica Keyboard's password, authenticator, and card wallet lists now sort Chinese titles by pinyin, and the side letter index groups Chinese entries under A-Z# instead of showing Chinese characters.\r\n\r\n### Details\r\n\r\n- Folder groups use stable database and folder identities, so same-named folders from different databases remain separate. Existing layouts and stacking modes are unchanged.\r\n- WebDAV shows a confirmation prompt for untrusted certificates or certificates whose hostname does not match the DDNS address. After confirmation, only the current certificate fingerprint for that host is trusted; certificate changes require confirmation again.\r\n- Added explicit WebDAV certificate error classification and user-facing messages.\r\n- The autofill blacklist uses real application icons. Blocked apps appear first, followed by the remaining apps sorted by name.\r\n- When a complete list snapshot is available, the password page shows it immediately and replaces it after background data preparation finishes.\r\n- Vault list computation now isolates parsing failures, retains the previous frame, and retries on the next data update.\r\n- Stable content types are now declared for filters, folders, section headers, and item types so Compose can reuse list layouts more effectively.\r\n- The generator now uses a Material 3 collapsing top bar while retaining the history and settings actions.\r\n- Only the settings group container and item appearance changed; standalone cards, detail screens, and behavior remain unchanged.\r\n- Multi-select editing still preserves existing targets, while single-select is an explicit move workflow to avoid accidental replica removal.\r\n- The shared storage picker only removes old replicas when an edited item is explicitly moved to a different single target; multi-target edits always keep existing copies.\r\n- Result card padding, icon size, spacing, elevation, and color now follow the scroll distance directly. The separate pinned background layer was removed to prevent an out-of-sync dark frame.\r\n- Compact text layout is applied only after the continuous collapse is nearly complete, preventing a premature end-state snap.\r\n- Collapse progress now uses the generator selector's actual scrolled proportion and remains continuous across list item boundaries.\r\n- The generator now uses a more compact fixed top bar, while the dock-embedded settings page no longer applies the status-bar inset twice. Standalone settings retain required system insets.\r\n- Removed the generator top bar's extra surface background and tonal elevation to avoid a large dark title block.\r\n- The export screen now counts passkeys included in the upcoming backup. When passkeys are selected and present, tapping export opens the \"Set backup password\" dialog directly with a hint that passkeys cannot be exported as plain text, then exports as an encrypted .enc.zip. Exports without passkeys keep the previous flow.\r\n- Monica Keyboard's password, authenticator, and card wallet lists transliterate non-ASCII titles to Latin (ICU Any-Latin; Latin-ASCII) before sorting and building the side letter index. Chinese entries are grouped under their pinyin initial letter and can be jumped to directly instead of anchoring on raw Chinese characters; sorting and indexing share the same transliterated key, matching the main vault behavior.\r\n",
+          "publishedAt": "2026-08-26T06:23:04Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.307",
+          "assets": [
+            {
+              "name": "checksums.txt",
+              "size": 232,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.307/checksums.txt",
+              "contentType": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.307-26082612-01.APK",
+              "size": 46396094,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.307/Monica-Android-arm64-v8a-1.0.307-26082612-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.307-26082612-01.APK",
+              "size": 41938226,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.307/Monica-Android-armeabi-v7a-1.0.307-26082612-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
         {
           "tag": "V1.0.306",
           "name": "V1.0.306",
@@ -18,14 +48,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.306-26082012-01.APK",
               "size": 46393586,
-              "downloadCount": 369,
+              "downloadCount": 400,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.306/Monica-Android-arm64-v8a-1.0.306-26082012-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.306-26082012-01.APK",
               "size": 41935718,
-              "downloadCount": 9,
+              "downloadCount": 12,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.306/Monica-Android-armeabi-v7a-1.0.306-26082012-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
