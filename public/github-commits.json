@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-26T01:38:20.225Z",
+  "generatedAt": "2026-08-26T06:14:42.678Z",
   "range": {
     "from": "2025-08-27",
     "to": "2026-08-26"
@@ -1465,10 +1465,28 @@
     },
     {
       "date": "2026-08-26",
-      "count": 2
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "094cf66c1dda14fa0672697ff387e1531ccc2bc3",
+      "shortSha": "094cf66",
+      "message": "fix(ime): index and sort Chinese entries by pinyin initial letter",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-26T06:14:08Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/094cf66c1dda14fa0672697ff387e1531ccc2bc3"
+    },
+    {
+      "sha": "126d91324688793eea326ca6e17a60e9e3c8f1ce",
+      "shortSha": "126d913",
+      "message": "fix(export): prompt backup password dialog when exporting zip with passkeys",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-26T06:13:17Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/126d91324688793eea326ca6e17a60e9e3c8f1ce"
+    },
     {
       "sha": "877c56687866571896c15c08be4f9d031c217faa",
       "shortSha": "877c566",
@@ -1540,24 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-25T09:09:01Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/54d807435e5828c73abca1cf8c2a689fb90f9c67"
-    },
-    {
-      "sha": "2cef2c85536bb69e91904ff51df6a2190f19d9ce",
-      "shortSha": "2cef2c8",
-      "message": "fix: refine generator header and copy feedback",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-24T12:07:44Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/2cef2c85536bb69e91904ff51df6a2190f19d9ce"
-    },
-    {
-      "sha": "af6011726e439c9fa07567bac43d3b404a3fa01c",
-      "shortSha": "af60117",
-      "message": "feat: improve setup flow and Bitwarden TOTP login",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-24T09:33:30Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/af6011726e439c9fa07567bac43d3b404a3fa01c"
     }
   ]
 }
