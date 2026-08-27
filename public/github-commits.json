@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-26T07:14:51.738Z",
+  "generatedAt": "2026-08-27T17:01:01.801Z",
   "range": {
-    "from": "2025-08-27",
-    "to": "2026-08-26"
+    "from": "2025-08-28",
+    "to": "2026-08-27"
   },
   "activity": [
-    {
-      "date": "2025-08-27",
-      "count": 0
-    },
     {
       "date": "2025-08-28",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-08-26",
       "count": 6
+    },
+    {
+      "date": "2026-08-27",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "82f85b05db1ba411a40b4f1b2972c97e83d0aadf",
+      "shortSha": "82f85b0",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-08-27T12:51:44Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/82f85b05db1ba411a40b4f1b2972c97e83d0aadf"
+    },
     {
       "sha": "5c0b83396cc73b70b286d4cf471b6d34162bbcab",
       "shortSha": "5c0b833",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-25T11:35:59Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/7bf376a871916c265d92a5f2bb182fe8d240c5cc"
-    },
-    {
-      "sha": "c6b6c76bb9218e0729e261072d9d3bd2fdc3d121",
-      "shortSha": "c6b6c76",
-      "message": "refactor: move mdbx-ffi rust sources into fdroid directory",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-25T09:49:44Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/c6b6c76bb9218e0729e261072d9d3bd2fdc3d121"
     }
   ]
 }
