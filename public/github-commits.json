@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-29T11:54:25.758Z",
+  "generatedAt": "2026-08-29T14:06:27.786Z",
   "range": {
     "from": "2025-08-30",
     "to": "2026-08-29"
@@ -1465,10 +1465,28 @@
     },
     {
       "date": "2026-08-29",
-      "count": 0
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "0c6a0f063e20e63835c79183cbf644f44dab9884",
+      "shortSha": "0c6a0f0",
+      "message": "Merge pull request #117 from JiangKaslana/perf/rust-runtime-upstream",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-29T14:06:00Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/0c6a0f063e20e63835c79183cbf644f44dab9884"
+    },
+    {
+      "sha": "abf4cf2324e839be03d7c91218fcc625bec13002",
+      "shortSha": "abf4cf2",
+      "message": "perf(android): optimize password list runtime with Rust core",
+      "authorName": "JiangKaslana",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
+      "date": "2026-08-29T13:26:36Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/abf4cf2324e839be03d7c91218fcc625bec13002"
+    },
     {
       "sha": "d5cbbca7643342bcf7d5e78e382a47f9a3fcc783",
       "shortSha": "d5cbbca",
@@ -1540,24 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-26T01:20:19Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/a4ed8586d9cb3d989b84cec4765240e5979ca22c"
-    },
-    {
-      "sha": "040eef50d2336f8bae25285483c36e5bbb37828e",
-      "shortSha": "040eef5",
-      "message": "chore: fdroid variant moved to standalone repo Monica-Pass/Monica-Fdroid",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-25T16:17:12Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/040eef50d2336f8bae25285483c36e5bbb37828e"
-    },
-    {
-      "sha": "de6214f38d1d67031975ba56c2f884115647631c",
-      "shortSha": "de6214f",
-      "message": "fix(fdroid): rotate yuv luminance matrix for portrait barcode scans",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-25T14:07:09Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/de6214f38d1d67031975ba56c2f884115647631c"
     }
   ]
 }
