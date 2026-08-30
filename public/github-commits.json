@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-30T05:46:21.838Z",
+  "generatedAt": "2026-08-30T06:06:11.686Z",
   "range": {
     "from": "2025-08-31",
     "to": "2026-08-30"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-08-30",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "bc00476f394316f9cb841479c2d6ccd3a5297d48",
+      "shortSha": "bc00476",
+      "message": "fix: reuse loaded keyboard panels",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-30T06:05:38Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/bc00476f394316f9cb841479c2d6ccd3a5297d48"
+    },
     {
       "sha": "66474d1a48f63657eb38188775fbbedea3506431",
       "shortSha": "66474d1",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-26T06:13:17Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/126d91324688793eea326ca6e17a60e9e3c8f1ce"
-    },
-    {
-      "sha": "877c56687866571896c15c08be4f9d031c217faa",
-      "shortSha": "877c566",
-      "message": "chore: drop fdroid gitlink; variant lives in standalone Monica-Fdroid repo",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-26T01:37:53Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/877c56687866571896c15c08be4f9d031c217faa"
     }
   ]
 }
