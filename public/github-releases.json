@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T12:27:42.626Z",
+  "updatedAt": "2026-08-31T04:02:40.896Z",
   "repos": [
     {
       "id": "android",
@@ -8,6 +8,50 @@
       "url": "https://github.com/Monica-Pass/Monica",
       "platform": "android",
       "releases": [
+        {
+          "tag": "V1.0.309",
+          "name": "V1.0.309",
+          "body": "## 这次修改不多主要快点发包看看tg群的bot推送问题解决了没有\r\n\r\n## 中文\r\n### 简要\r\n* 修复中文主密码在部分输入法中无法输入的问题（#118）。\r\n* 修复卡包及快捷筛选排序体验和顺序持久化问题。\r\n* 修复卡包拖动排序在残留 MDBX 数据库引用下可能闪退的问题。\r\n\r\n\r\n### 详细\r\n* 主密码、KeePass 数据库凭据和重新验证入口不再强制使用会关闭中文拼音组合输入的 Password 键盘变体，同时关闭自动纠错和自动大写，恢复中文及多语言主密码输入。\r\n* 普通条目密码、Bitwarden 登录密码和加密导出密码继续使用密码键盘；多行密钥和格式敏感内容不改变原始换行与大小写。\r\n* 修复卡包拖动排序后立即回弹、筛选状态排序冲突以及重启后顺序丢失的问题；排序会同步保存到本地数据库、MDBX、WebDAV 和 OneDrive 全量备份。\r\n* 快捷筛选编辑模式改用与验证器一致的双列长按拖动网格，项目会自然避让，松手后只提交一次排序变更；同时隐藏仅用于兼容旧设置的空占位项，普通状态仍保留原有紧凑标签布局。\r\n\r\n## English\r\n### Summary\r\n* Fixed Chinese master-password input failures with password keyboard variants (#118).\r\n* Improved card-wallet and quick-filter reordering and persistence.\r\n* Fixed a possible crash when card-wallet reordering encountered a stale MDBX database reference.\r\n### Details\r\n* Master-password, KeePass credential, and re-verification fields no longer force the password keyboard variant that disables Chinese IME composition on some keyboards. Autocorrect and automatic capitalization remain disabled while multilingual input is restored.\r\n* Regular item passwords, Bitwarden login passwords, and encrypted export passwords retain password keyboards. Multiline keys and format-sensitive values preserve line breaks and case.\r\n* Fixed card-wallet order snapping back, filtered reorder conflicts, and lost order after restart. Manual order is now preserved in local storage, MDBX, and WebDAV/OneDrive full backups.\r\n* Quick-filter editing now uses the authenticator-style two-column long-press reorder grid with natural neighbor displacement and a single commit on release. Legacy empty placeholders are hidden while the normal compact chip layout remains unchanged.\r\n",
+          "publishedAt": "2026-08-31T03:44:56Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.309",
+          "assets": [
+            {
+              "name": "checksums.txt",
+              "size": 232,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.309/checksums.txt",
+              "contentType": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.308-26083112-01.APK",
+              "size": 47021123,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.309/Monica-Android-arm64-v8a-1.0.308-26083112-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.309-26083112-01.APK",
+              "size": 46414962,
+              "downloadCount": 1,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.309/Monica-Android-arm64-v8a-1.0.309-26083112-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.308-26083112-01.APK",
+              "size": 42383033,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.309/Monica-Android-armeabi-v7a-1.0.308-26083112-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.309-26083112-01.APK",
+              "size": 41957094,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.309/Monica-Android-armeabi-v7a-1.0.309-26083112-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
         {
           "tag": "V1.0.308",
           "name": "V1.0.308",
@@ -25,7 +69,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.308-26083012-01.APK",
               "size": 47021119,
-              "downloadCount": 51,
+              "downloadCount": 119,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.308/Monica-Android-arm64-v8a-1.0.308-26083012-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
@@ -55,14 +99,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.307-26082612-01.APK",
               "size": 46396094,
-              "downloadCount": 347,
+              "downloadCount": 350,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.307/Monica-Android-arm64-v8a-1.0.307-26082612-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.307-26082612-01.APK",
               "size": 41938226,
-              "downloadCount": 5,
+              "downloadCount": 6,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.307/Monica-Android-armeabi-v7a-1.0.307-26082612-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
