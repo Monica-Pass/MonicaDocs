@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-08-31T12:02:56.397Z",
+  "generatedAt": "2026-09-01T00:12:31.835Z",
   "range": {
-    "from": "2025-09-01",
-    "to": "2026-08-31"
+    "from": "2025-09-02",
+    "to": "2026-09-01"
   },
   "activity": [
-    {
-      "date": "2025-09-01",
-      "count": 0
-    },
     {
       "date": "2025-09-02",
       "count": 0
@@ -1465,99 +1461,103 @@
     },
     {
       "date": "2026-08-31",
-      "count": 0
+      "count": 37
+    },
+    {
+      "date": "2026-09-01",
+      "count": 1
     }
   ],
   "latest": [
     {
-      "sha": "f93e6ce98b11465a29cedb7a8587441473cc7895",
-      "shortSha": "f93e6ce",
-      "message": "fix(ci): send Telegram release once",
+      "sha": "5ce5f3fe6105f6f07180e82062f39a2d4bcb6aeb",
+      "shortSha": "5ce5f3f",
+      "message": "Merge pull request #120 from JiangKaslana/perf/native-auth-startup-upstream-20260831",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-30T07:21:32Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f93e6ce98b11465a29cedb7a8587441473cc7895"
+      "date": "2026-09-01T00:12:00Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/5ce5f3fe6105f6f07180e82062f39a2d4bcb6aeb"
     },
     {
-      "sha": "bc00476f394316f9cb841479c2d6ccd3a5297d48",
-      "shortSha": "bc00476",
-      "message": "fix: reuse loaded keyboard panels",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-30T06:05:38Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/bc00476f394316f9cb841479c2d6ccd3a5297d48"
-    },
-    {
-      "sha": "66474d1a48f63657eb38188775fbbedea3506431",
-      "shortSha": "66474d1",
-      "message": "feat: improve vault performance and keyboard loading",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-30T05:45:48Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/66474d1a48f63657eb38188775fbbedea3506431"
-    },
-    {
-      "sha": "0c6a0f063e20e63835c79183cbf644f44dab9884",
-      "shortSha": "0c6a0f0",
-      "message": "Merge pull request #117 from JiangKaslana/perf/rust-runtime-upstream",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-29T14:06:00Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/0c6a0f063e20e63835c79183cbf644f44dab9884"
-    },
-    {
-      "sha": "abf4cf2324e839be03d7c91218fcc625bec13002",
-      "shortSha": "abf4cf2",
-      "message": "perf(android): optimize password list runtime with Rust core",
+      "sha": "4e03fdedbe9c9d8330d89d2e400ed646b9bb5e5f",
+      "shortSha": "4e03fde",
+      "message": "chore: keep upstream preview workflow unchanged",
       "authorName": "JiangKaslana",
       "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
-      "date": "2026-08-29T13:26:36Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/abf4cf2324e839be03d7c91218fcc625bec13002"
+      "date": "2026-08-31T14:51:13Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/4e03fdedbe9c9d8330d89d2e400ed646b9bb5e5f"
     },
     {
-      "sha": "d5cbbca7643342bcf7d5e78e382a47f9a3fcc783",
-      "shortSha": "d5cbbca",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-08-28T14:24:15Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/d5cbbca7643342bcf7d5e78e382a47f9a3fcc783"
+      "sha": "f458b36c2f0f91404d09fa1c94b455ec599bfd87",
+      "shortSha": "f458b36",
+      "message": "perf(auth): cache biometric prompt branding reflection",
+      "authorName": "JiangKaslana",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
+      "date": "2026-08-31T14:44:56Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f458b36c2f0f91404d09fa1c94b455ec599bfd87"
     },
     {
-      "sha": "82f85b05db1ba411a40b4f1b2972c97e83d0aadf",
-      "shortSha": "82f85b0",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-08-27T12:51:44Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/82f85b05db1ba411a40b4f1b2972c97e83d0aadf"
+      "sha": "266090992e3f6edb4a410bddf253f9b0563384e7",
+      "shortSha": "2660909",
+      "message": "refactor(auth): unify biometric helper implementations",
+      "authorName": "JiangKaslana",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
+      "date": "2026-08-31T14:44:33Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/266090992e3f6edb4a410bddf253f9b0563384e7"
     },
     {
-      "sha": "5c0b83396cc73b70b286d4cf471b6d34162bbcab",
-      "shortSha": "5c0b833",
-      "message": "docs: add fastlane metadata for IzzyOnDroid/store listing",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-26T07:12:07Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/5c0b83396cc73b70b286d4cf471b6d34162bbcab"
+      "sha": "9e06df889b7c87f4d3e4baffaefa80429693dba6",
+      "shortSha": "9e06df8",
+      "message": "refactor(auth): support reusable nullable prompt text",
+      "authorName": "JiangKaslana",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
+      "date": "2026-08-31T14:44:17Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/9e06df889b7c87f4d3e4baffaefa80429693dba6"
     },
     {
-      "sha": "e265de586561a65e55303aaa0417516b45913e97",
-      "shortSha": "e265de5",
-      "message": "chore: bump version to 1.0.307",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-26T06:15:34Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/e265de586561a65e55303aaa0417516b45913e97"
+      "sha": "855e67808ba4cb419f85bb47ff55082151056430",
+      "shortSha": "855e678",
+      "message": "perf(auth): keep keystore work off prompt launch path",
+      "authorName": "JiangKaslana",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
+      "date": "2026-08-31T14:43:40Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/855e67808ba4cb419f85bb47ff55082151056430"
     },
     {
-      "sha": "094cf66c1dda14fa0672697ff387e1531ccc2bc3",
-      "shortSha": "094cf66",
-      "message": "fix(ime): index and sort Chinese entries by pinyin initial letter",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-26T06:14:08Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/094cf66c1dda14fa0672697ff387e1531ccc2bc3"
+      "sha": "2093ca3e80c67b1678d59d18601211bd20afd781",
+      "shortSha": "2093ca3",
+      "message": "perf(auth): prewarm and reuse native biometric prompt",
+      "authorName": "JiangKaslana",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
+      "date": "2026-08-31T14:42:56Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/2093ca3e80c67b1678d59d18601211bd20afd781"
+    },
+    {
+      "sha": "fd8d46d0a531c814de3600ef90e90529d05a92fe",
+      "shortSha": "fd8d46d",
+      "message": "perf(startup): lazily initialize password history security",
+      "authorName": "JiangKaslana",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
+      "date": "2026-08-31T13:11:54Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/fd8d46d0a531c814de3600ef90e90529d05a92fe"
+    },
+    {
+      "sha": "f156b99a10dfcf4379e753c6ca38967ace231502",
+      "shortSha": "f156b99",
+      "message": "perf(startup): defer Bitwarden attachment Room initialization",
+      "authorName": "JiangKaslana",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
+      "date": "2026-08-31T13:11:23Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f156b99a10dfcf4379e753c6ca38967ace231502"
+    },
+    {
+      "sha": "e13cb23aecfe8852511772e5b07f4ebdabd8d52d",
+      "shortSha": "e13cb23",
+      "message": "perf(startup): support lazy Bitwarden attachment reconciler dependencies",
+      "authorName": "JiangKaslana",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
+      "date": "2026-08-31T13:11:00Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/e13cb23aecfe8852511772e5b07f4ebdabd8d52d"
     }
   ]
 }
