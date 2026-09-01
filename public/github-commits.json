@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-01T00:12:31.835Z",
+  "generatedAt": "2026-09-01T10:41:33.104Z",
   "range": {
     "from": "2025-09-02",
     "to": "2026-09-01"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-01",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "cf03173dd71c63eeb0e3e1ae5dfaf9ce872c6f41",
+      "shortSha": "cf03173",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-09-01T07:51:46Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/cf03173dd71c63eeb0e3e1ae5dfaf9ce872c6f41"
+    },
     {
       "sha": "5ce5f3fe6105f6f07180e82062f39a2d4bcb6aeb",
       "shortSha": "5ce5f3f",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
       "date": "2026-08-31T13:11:23Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/f156b99a10dfcf4379e753c6ca38967ace231502"
-    },
-    {
-      "sha": "e13cb23aecfe8852511772e5b07f4ebdabd8d52d",
-      "shortSha": "e13cb23",
-      "message": "perf(startup): support lazy Bitwarden attachment reconciler dependencies",
-      "authorName": "JiangKaslana",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
-      "date": "2026-08-31T13:11:00Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/e13cb23aecfe8852511772e5b07f4ebdabd8d52d"
     }
   ]
 }
