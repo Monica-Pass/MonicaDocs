@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-03T22:27:49.686Z",
+  "generatedAt": "2026-09-03T23:13:24.279Z",
   "range": {
     "from": "2025-09-04",
     "to": "2026-09-03"
@@ -1465,10 +1465,28 @@
     },
     {
       "date": "2026-09-03",
-      "count": 36
+      "count": 38
     }
   ],
   "latest": [
+    {
+      "sha": "0f7686aed33da935bfb9a86e6897f4210cd02f7b",
+      "shortSha": "0f7686a",
+      "message": "Merge pull request #123 from Monica-Pass/codex/mdbx3-followup",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-03T23:12:50Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/0f7686aed33da935bfb9a86e6897f4210cd02f7b"
+    },
+    {
+      "sha": "9285d12365a30aa84667922e32982b8471fee335",
+      "shortSha": "9285d12",
+      "message": "build(android): pin and verify MDBX3 runtime artifacts",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-03T23:11:43Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/9285d12365a30aa84667922e32982b8471fee335"
+    },
     {
       "sha": "0d7250187e8a3c8251d2cd3858e0adbeadb0b1f5",
       "shortSha": "0d72501",
@@ -1540,24 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
       "date": "2026-09-03T12:45:32Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/874f426d4d5b2dc6d4e171d3e7213978c2559897"
-    },
-    {
-      "sha": "a9d6a4ee9ca507f222a1d4aa118178215d412fb9",
-      "shortSha": "a9d6a4e",
-      "message": "perf(android): promote validated MDBX3 native core",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-09-03T12:43:12Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/a9d6a4ee9ca507f222a1d4aa118178215d412fb9"
-    },
-    {
-      "sha": "dcc1f2e3612b86c8ea565bbe236bef07ae18acc5",
-      "shortSha": "dcc1f2e",
-      "message": "ci: promote validated MDBX3 binaries once",
-      "authorName": "JiangKaslana",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
-      "date": "2026-09-03T12:33:27Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/dcc1f2e3612b86c8ea565bbe236bef07ae18acc5"
     }
   ]
 }
