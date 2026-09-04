@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-04T10:16:58.947Z",
+  "generatedAt": "2026-09-04T11:00:32.489Z",
   "range": {
     "from": "2025-09-05",
     "to": "2026-09-04"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-04",
-      "count": 2
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "e6c5d750d2de71c2be85b616b47802e61ac816a1",
+      "shortSha": "e6c5d75",
+      "message": "perf(android): defer secure-item first-frame work",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-04T10:54:32Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/e6c5d750d2de71c2be85b616b47802e61ac816a1"
+    },
     {
       "sha": "9869a4206da4783b34be11fdada2182cbf4f59a6",
       "shortSha": "9869a42",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
       "date": "2026-09-03T13:10:19Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/1cde4fa7ef88f265d764421dc1f3bd6711e3a6dd"
-    },
-    {
-      "sha": "48e7ee2cc502d77b2cc455f94b089c969990087b",
-      "shortSha": "48e7ee2",
-      "message": "ci: validate bundled native libraries in Android CI",
-      "authorName": "JiangKaslana",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
-      "date": "2026-09-03T12:46:14Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/48e7ee2cc502d77b2cc455f94b089c969990087b"
     }
   ]
 }
