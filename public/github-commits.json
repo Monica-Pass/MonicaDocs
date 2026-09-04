@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-04T10:12:35.986Z",
+  "generatedAt": "2026-09-04T10:16:58.947Z",
   "range": {
     "from": "2025-09-05",
     "to": "2026-09-04"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-04",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "9869a4206da4783b34be11fdada2182cbf4f59a6",
+      "shortSha": "9869a42",
+      "message": "fix(notes): avoid Bitwarden sync outside vault views",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-04T10:16:14Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/9869a4206da4783b34be11fdada2182cbf4f59a6"
+    },
     {
       "sha": "498ad2ea45f8e52dfbb8be14e28e675439db327f",
       "shortSha": "498ad2e",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
       "date": "2026-09-03T12:46:14Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/48e7ee2cc502d77b2cc455f94b089c969990087b"
-    },
-    {
-      "sha": "289569e69db0f2982338682c7d8e099cf19f82ad",
-      "shortSha": "289569e",
-      "message": "ci: remove one-shot MDBX3 promotion workflow",
-      "authorName": "JiangKaslana",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
-      "date": "2026-09-03T12:45:42Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/289569e69db0f2982338682c7d8e099cf19f82ad"
     }
   ]
 }
