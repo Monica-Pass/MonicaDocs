@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-03T23:13:24.279Z",
+  "generatedAt": "2026-09-04T10:12:35.986Z",
   "range": {
-    "from": "2025-09-04",
-    "to": "2026-09-03"
+    "from": "2025-09-05",
+    "to": "2026-09-04"
   },
   "activity": [
-    {
-      "date": "2025-09-04",
-      "count": 0
-    },
     {
       "date": "2025-09-05",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-09-03",
       "count": 38
+    },
+    {
+      "date": "2026-09-04",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "498ad2ea45f8e52dfbb8be14e28e675439db327f",
+      "shortSha": "498ad2e",
+      "message": "perf(android): speed up app picker and unify list interactions",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-04T10:08:00Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/498ad2ea45f8e52dfbb8be14e28e675439db327f"
+    },
     {
       "sha": "0f7686aed33da935bfb9a86e6897f4210cd02f7b",
       "shortSha": "0f7686a",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
       "date": "2026-09-03T12:45:42Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/289569e69db0f2982338682c7d8e099cf19f82ad"
-    },
-    {
-      "sha": "874f426d4d5b2dc6d4e171d3e7213978c2559897",
-      "shortSha": "874f426",
-      "message": "ci: remove one-shot MDBX3 x86 export workflow",
-      "authorName": "JiangKaslana",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
-      "date": "2026-09-03T12:45:32Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/874f426d4d5b2dc6d4e171d3e7213978c2559897"
     }
   ]
 }
