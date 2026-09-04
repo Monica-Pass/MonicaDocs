@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-04T11:00:32.489Z",
+  "generatedAt": "2026-09-04T16:24:55.111Z",
   "range": {
     "from": "2025-09-05",
     "to": "2026-09-04"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-04",
-      "count": 3
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "9a020994957208ef8922ecfc17eabc9b9d49efa2",
+      "shortSha": "9a02099",
+      "message": "feat(android): unify note tiles and swipe shapes",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-04T16:24:08Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/9a020994957208ef8922ecfc17eabc9b9d49efa2"
+    },
     {
       "sha": "e6c5d750d2de71c2be85b616b47802e61ac816a1",
       "shortSha": "e6c5d75",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
       "date": "2026-09-03T13:38:51Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/6c3c9e45371916e6c1be64e5e9cb3ca23281d26d"
-    },
-    {
-      "sha": "1cde4fa7ef88f265d764421dc1f3bd6711e3a6dd",
-      "shortSha": "1cde4fa",
-      "message": "chore(rust): align JNI crate version with native core",
-      "authorName": "JiangKaslana",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
-      "date": "2026-09-03T13:10:19Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/1cde4fa7ef88f265d764421dc1f3bd6711e3a6dd"
     }
   ]
 }
