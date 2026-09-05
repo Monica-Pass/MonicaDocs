@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-05T09:36:06.629Z",
+  "generatedAt": "2026-09-05T13:44:32.197Z",
   "range": {
     "from": "2025-09-06",
     "to": "2026-09-05"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-05",
-      "count": 0
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "07f9257fddb7afce9cbb65544b1a9b5dc8364e2a",
+      "shortSha": "07f9257",
+      "message": "feat(android): support custom artwork across card wallet types",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-05T13:43:51Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/07f9257fddb7afce9cbb65544b1a9b5dc8364e2a"
+    },
     {
       "sha": "9a020994957208ef8922ecfc17eabc9b9d49efa2",
       "shortSha": "9a02099",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
       "date": "2026-09-03T13:39:10Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/f83f8ecc333cbb74626362906aa08864138c1873"
-    },
-    {
-      "sha": "6c3c9e45371916e6c1be64e5e9cb3ca23281d26d",
-      "shortSha": "6c3c9e4",
-      "message": "perf(bitwarden): route production KDF through Rust core",
-      "authorName": "JiangKaslana",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
-      "date": "2026-09-03T13:38:51Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/6c3c9e45371916e6c1be64e5e9cb3ca23281d26d"
     }
   ]
 }
