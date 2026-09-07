@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-06T09:51:16.206Z",
+  "generatedAt": "2026-09-07T10:57:11.075Z",
   "range": {
-    "from": "2025-09-07",
-    "to": "2026-09-06"
+    "from": "2025-09-08",
+    "to": "2026-09-07"
   },
   "activity": [
-    {
-      "date": "2025-09-07",
-      "count": 0
-    },
     {
       "date": "2025-09-08",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-09-06",
       "count": 0
+    },
+    {
+      "date": "2026-09-07",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "cf9213e1ae0ded092e51598dedb260867ec5f3bb",
+      "shortSha": "cf9213e",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-09-07T07:22:45Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/cf9213e1ae0ded092e51598dedb260867ec5f3bb"
+    },
     {
       "sha": "07f9257fddb7afce9cbb65544b1a9b5dc8364e2a",
       "shortSha": "07f9257",
@@ -1545,19 +1554,10 @@
       "sha": "edda95b30edea2ef8948661883a06c99e0f568b0",
       "shortSha": "edda95b",
       "message": "fix(android): keep PBKDF2 diagnostics minSdk 26 compatible",
-      "authorName": "JiangKaslana",
+      "authorName": "Junyxor",
       "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
       "date": "2026-09-03T14:15:55Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/edda95b30edea2ef8948661883a06c99e0f568b0"
-    },
-    {
-      "sha": "f83f8ecc333cbb74626362906aa08864138c1873",
-      "shortSha": "f83f8ec",
-      "message": "test(bitwarden): verify Rust KDF with fixed vectors",
-      "authorName": "JiangKaslana",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
-      "date": "2026-09-03T13:39:10Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f83f8ecc333cbb74626362906aa08864138c1873"
     }
   ]
 }
