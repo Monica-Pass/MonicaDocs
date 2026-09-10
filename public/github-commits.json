@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-10T18:39:47.434Z",
+  "generatedAt": "2026-09-10T22:11:06.737Z",
   "range": {
     "from": "2025-09-11",
     "to": "2026-09-10"
@@ -1457,18 +1457,36 @@
     },
     {
       "date": "2026-09-08",
-      "count": 1
+      "count": 3
     },
     {
       "date": "2026-09-09",
-      "count": 2
+      "count": 3
     },
     {
       "date": "2026-09-10",
-      "count": 3
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "b2657725a1d9c5a284bdbdc45c430e7c90ae406d",
+      "shortSha": "b265772",
+      "message": "Merge origin/main into Android 1.0.311 updates",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-10T22:09:32Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/b2657725a1d9c5a284bdbdc45c430e7c90ae406d"
+    },
+    {
+      "sha": "27ebb25ebcb4547ac8ca2cd70e45252cb4a34b49",
+      "shortSha": "27ebb25",
+      "message": "feat(android): prepare 1.0.311 with wallet and interaction updates",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-10T22:07:13Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/27ebb25ebcb4547ac8ca2cd70e45252cb4a34b49"
+    },
     {
       "sha": "f6c8945195a3342b0bed43c17b1efe0064cae40d",
       "shortSha": "f6c8945",
@@ -1495,6 +1513,15 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-09-10T07:21:12Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/aaca04fcc1f56522b802e0397538ba8a1e5edefe"
+    },
+    {
+      "sha": "0ffa53dd23997b90448de4357c1a331e71874f26",
+      "shortSha": "0ffa53d",
+      "message": "Merge remote-tracking branch 'origin/main'",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-09T13:02:42Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/0ffa53dd23997b90448de4357c1a331e71874f26"
     },
     {
       "sha": "cfa1ab00ba7795d6a7cc17aa4dca8aee7a3920d4",
@@ -1524,40 +1551,13 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/a7aebafdd8f72c422fac4f3c3cee58ae811ad563"
     },
     {
-      "sha": "cf9213e1ae0ded092e51598dedb260867ec5f3bb",
-      "shortSha": "cf9213e",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-09-07T07:22:45Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/cf9213e1ae0ded092e51598dedb260867ec5f3bb"
-    },
-    {
-      "sha": "07f9257fddb7afce9cbb65544b1a9b5dc8364e2a",
-      "shortSha": "07f9257",
-      "message": "feat(android): support custom artwork across card wallet types",
+      "sha": "87ee3fb92046708a7bbf60efbf98484f4dec7744",
+      "shortSha": "87ee3fb",
+      "message": "docs: add F-Droid contact to translated README",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-05T13:43:51Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/07f9257fddb7afce9cbb65544b1a9b5dc8364e2a"
-    },
-    {
-      "sha": "9a020994957208ef8922ecfc17eabc9b9d49efa2",
-      "shortSha": "9a02099",
-      "message": "feat(android): unify note tiles and swipe shapes",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-04T16:24:08Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/9a020994957208ef8922ecfc17eabc9b9d49efa2"
-    },
-    {
-      "sha": "e6c5d750d2de71c2be85b616b47802e61ac816a1",
-      "shortSha": "e6c5d75",
-      "message": "perf(android): defer secure-item first-frame work",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-04T10:54:32Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/e6c5d750d2de71c2be85b616b47802e61ac816a1"
+      "date": "2026-09-08T12:17:24Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/87ee3fb92046708a7bbf60efbf98484f4dec7744"
     }
   ]
 }
