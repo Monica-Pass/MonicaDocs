@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T12:03:44.191Z",
+  "updatedAt": "2026-09-10T11:58:23.818Z",
   "repos": [
     {
       "id": "android",
@@ -25,14 +25,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.310-26090612-01.APK",
               "size": 42455708,
-              "downloadCount": 379,
+              "downloadCount": 433,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.310/Monica-Android-arm64-v8a-1.0.310-26090612-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.310-26090612-01.APK",
               "size": 38817042,
-              "downloadCount": 9,
+              "downloadCount": 10,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.310/Monica-Android-armeabi-v7a-1.0.310-26090612-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -55,14 +55,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.308-26083112-01.APK",
               "size": 47021123,
-              "downloadCount": 267,
+              "downloadCount": 268,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.309/Monica-Android-arm64-v8a-1.0.308-26083112-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-arm64-v8a-1.0.309-26083112-01.APK",
               "size": 46414962,
-              "downloadCount": 107,
+              "downloadCount": 108,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.309/Monica-Android-arm64-v8a-1.0.309-26083112-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
@@ -76,7 +76,7 @@
             {
               "name": "Monica-Android-armeabi-v7a-1.0.309-26083112-01.APK",
               "size": 41957094,
-              "downloadCount": 3,
+              "downloadCount": 4,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.309/Monica-Android-armeabi-v7a-1.0.309-26083112-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
