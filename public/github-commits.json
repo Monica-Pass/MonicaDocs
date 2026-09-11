@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-11T17:40:11.250Z",
+  "generatedAt": "2026-09-11T18:54:40.727Z",
   "range": {
     "from": "2025-09-12",
     "to": "2026-09-11"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-11",
-      "count": 20
+      "count": 21
     }
   ],
   "latest": [
+    {
+      "sha": "24b93f06c731d29bb075969047b7bb83c66cb059",
+      "shortSha": "24b93f0",
+      "message": "Improve overview pickers and cache search in Rust",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-11T18:53:18Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/24b93f06c731d29bb075969047b7bb83c66cb059"
+    },
     {
       "sha": "9b147652988e3dde089d7e757e930799e15c2619",
       "shortSha": "9b14765",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-11T14:08:03Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/8492565ff2813b5e0aa441979516860083bc291d"
-    },
-    {
-      "sha": "82c08a3292eeac7f09ca6b827c41867e9519baf4",
-      "shortSha": "82c08a3",
-      "message": "fix(android): keep wallet selection sections visually unified",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-11T12:53:38Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/82c08a3292eeac7f09ca6b827c41867e9519baf4"
     }
   ]
 }
