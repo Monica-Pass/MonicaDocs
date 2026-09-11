@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-11T02:25:35.799Z",
+  "generatedAt": "2026-09-11T03:19:43.303Z",
   "range": {
     "from": "2025-09-12",
     "to": "2026-09-11"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-11",
-      "count": 3
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "9b38bb1b4c8f8ea3caee56f896f9fa24ff44faed",
+      "shortSha": "9b38bb1",
+      "message": "perf(android): batch wallet stack projection in Rust",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-11T03:18:31Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/9b38bb1b4c8f8ea3caee56f896f9fa24ff44faed"
+    },
     {
       "sha": "be8efb7cd36195cbd4ed4b3667e7ef7366e0bb4f",
       "shortSha": "be8efb7",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-09-10T07:21:12Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/aaca04fcc1f56522b802e0397538ba8a1e5edefe"
-    },
-    {
-      "sha": "0ffa53dd23997b90448de4357c1a331e71874f26",
-      "shortSha": "0ffa53d",
-      "message": "Merge remote-tracking branch 'origin/main'",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-09T13:02:42Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/0ffa53dd23997b90448de4357c1a331e71874f26"
     }
   ]
 }
