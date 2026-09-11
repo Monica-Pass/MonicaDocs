@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-11T19:07:06.944Z",
+  "generatedAt": "2026-09-11T20:11:04.530Z",
   "range": {
     "from": "2025-09-12",
     "to": "2026-09-11"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-11",
-      "count": 22
+      "count": 23
     }
   ],
   "latest": [
+    {
+      "sha": "b1ac7b87ed4a0cfd2e464e3da8908fff6c2fe152",
+      "shortSha": "b1ac7b8",
+      "message": "Fix Bitwarden attachment format and per-item key handling",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-11T20:09:34Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/b1ac7b87ed4a0cfd2e464e3da8908fff6c2fe152"
+    },
     {
       "sha": "0818c4247c00f65cea4b981277ab0bdb4b0cf69e",
       "shortSha": "0818c42",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-11T15:50:42Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/73a32d57bfbd171022d787b19eae14b522d54fa1"
-    },
-    {
-      "sha": "37341ebcec69fd3e0d4fe33285e9e6784acfc8b3",
-      "shortSha": "37341eb",
-      "message": "fix(android): explain Bitwarden TLS and connection errors",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-11T15:43:52Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/37341ebcec69fd3e0d4fe33285e9e6784acfc8b3"
     }
   ]
 }
