@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-11T17:05:14.997Z",
+  "generatedAt": "2026-09-11T17:30:06.370Z",
   "range": {
     "from": "2025-09-12",
     "to": "2026-09-11"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-11",
-      "count": 18
+      "count": 19
     }
   ],
   "latest": [
+    {
+      "sha": "ac05b2f4e86990300fca088051b716ee71cfaa16",
+      "shortSha": "ac05b2f",
+      "message": "fix(android): share database picker in overview action pill",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-11T17:28:44Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/ac05b2f4e86990300fca088051b716ee71cfaa16"
+    },
     {
       "sha": "ecb0384bf56b3debd4ec4c3aeeb333e7eb455b01",
       "shortSha": "ecb0384",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-11T12:24:56Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/9f8800fd1ce6f8d7cbeb8e81f58615345bc09d78"
-    },
-    {
-      "sha": "bb0d570c7442c9acd466960fdbe887ed5e34582a",
-      "shortSha": "bb0d570",
-      "message": "fix(android): restore note scope before rendering on entry",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-11T09:56:28Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/bb0d570c7442c9acd466960fdbe887ed5e34582a"
     }
   ]
 }
