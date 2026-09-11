@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-11T17:30:06.370Z",
+  "generatedAt": "2026-09-11T17:40:11.250Z",
   "range": {
     "from": "2025-09-12",
     "to": "2026-09-11"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-11",
-      "count": 19
+      "count": 20
     }
   ],
   "latest": [
+    {
+      "sha": "9b147652988e3dde089d7e757e930799e15c2619",
+      "shortSha": "9b14765",
+      "message": "fix(android): match overview database icons to filter menu",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-11T17:37:45Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/9b147652988e3dde089d7e757e930799e15c2619"
+    },
     {
       "sha": "ac05b2f4e86990300fca088051b716ee71cfaa16",
       "shortSha": "ac05b2f",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-11T12:53:38Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/82c08a3292eeac7f09ca6b827c41867e9519baf4"
-    },
-    {
-      "sha": "9f8800fd1ce6f8d7cbeb8e81f58615345bc09d78",
-      "shortSha": "9f8800f",
-      "message": "perf(android): cache note projections and smooth vault scrollbar",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-11T12:24:56Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/9f8800fd1ce6f8d7cbeb8e81f58615345bc09d78"
     }
   ]
 }
