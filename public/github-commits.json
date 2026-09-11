@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-11T12:30:03.099Z",
+  "generatedAt": "2026-09-11T12:54:24.696Z",
   "range": {
     "from": "2025-09-12",
     "to": "2026-09-11"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-11",
-      "count": 10
+      "count": 11
     }
   ],
   "latest": [
+    {
+      "sha": "82c08a3292eeac7f09ca6b827c41867e9519baf4",
+      "shortSha": "82c08a3",
+      "message": "fix(android): keep wallet selection sections visually unified",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-11T12:53:38Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/82c08a3292eeac7f09ca6b827c41867e9519baf4"
+    },
     {
       "sha": "9f8800fd1ce6f8d7cbeb8e81f58615345bc09d78",
       "shortSha": "9f8800f",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-11T01:34:53Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/d2ef0cfdcdcb78cc42354047b0055c1fdbe1a26a"
-    },
-    {
-      "sha": "573ae21f39c77e0fd93b71e1bba9c335361812ed",
-      "shortSha": "573ae21",
-      "message": "fix(android): smooth wallet stack detail return transitions",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-11T00:44:25Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/573ae21f39c77e0fd93b71e1bba9c335361812ed"
     }
   ]
 }
