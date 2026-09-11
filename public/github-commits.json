@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-11T01:35:25.393Z",
+  "generatedAt": "2026-09-11T02:25:35.799Z",
   "range": {
     "from": "2025-09-12",
     "to": "2026-09-11"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-11",
-      "count": 2
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "be8efb7cd36195cbd4ed4b3667e7ef7366e0bb4f",
+      "shortSha": "be8efb7",
+      "message": "fix(android): restore responsive pull search and preserve results",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-11T02:25:01Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/be8efb7cd36195cbd4ed4b3667e7ef7366e0bb4f"
+    },
     {
       "sha": "d2ef0cfdcdcb78cc42354047b0055c1fdbe1a26a",
       "shortSha": "d2ef0cf",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-09T13:02:42Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/0ffa53dd23997b90448de4357c1a331e71874f26"
-    },
-    {
-      "sha": "cfa1ab00ba7795d6a7cc17aa4dca8aee7a3920d4",
-      "shortSha": "cfa1ab0",
-      "message": "Merge pull request #127 from tommynok/fix/quick-setup-nav-overlap",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-09T06:04:03Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/cfa1ab00ba7795d6a7cc17aa4dca8aee7a3920d4"
     }
   ]
 }
