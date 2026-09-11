@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-11T10:08:49.169Z",
+  "generatedAt": "2026-09-11T12:30:03.099Z",
   "range": {
     "from": "2025-09-12",
     "to": "2026-09-11"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-11",
-      "count": 9
+      "count": 10
     }
   ],
   "latest": [
+    {
+      "sha": "9f8800fd1ce6f8d7cbeb8e81f58615345bc09d78",
+      "shortSha": "9f8800f",
+      "message": "perf(android): cache note projections and smooth vault scrollbar",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-11T12:24:56Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/9f8800fd1ce6f8d7cbeb8e81f58615345bc09d78"
+    },
     {
       "sha": "bb0d570c7442c9acd466960fdbe887ed5e34582a",
       "shortSha": "bb0d570",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-11T00:44:25Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/573ae21f39c77e0fd93b71e1bba9c335361812ed"
-    },
-    {
-      "sha": "aaecfcf7257964bfbe88f561433c1a616d89b756",
-      "shortSha": "aaecfcf",
-      "message": "fix(android): preserve wallet position when entering selection",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-10T23:27:29Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/aaecfcf7257964bfbe88f561433c1a616d89b756"
     }
   ]
 }
