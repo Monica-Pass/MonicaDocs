@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-11T08:44:01.754Z",
+  "generatedAt": "2026-09-11T09:57:20.864Z",
   "range": {
     "from": "2025-09-12",
     "to": "2026-09-11"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-11",
-      "count": 8
+      "count": 9
     }
   ],
   "latest": [
+    {
+      "sha": "bb0d570c7442c9acd466960fdbe887ed5e34582a",
+      "shortSha": "bb0d570",
+      "message": "fix(android): restore note scope before rendering on entry",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-11T09:56:28Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/bb0d570c7442c9acd466960fdbe887ed5e34582a"
+    },
     {
       "sha": "6d23acfa9da68ed67f5c87c6d7a90a0244f0edc7",
       "shortSha": "6d23acf",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-10T23:27:29Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/aaecfcf7257964bfbe88f561433c1a616d89b756"
-    },
-    {
-      "sha": "b2657725a1d9c5a284bdbdc45c430e7c90ae406d",
-      "shortSha": "b265772",
-      "message": "Merge origin/main into Android 1.0.311 updates",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-10T22:09:32Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/b2657725a1d9c5a284bdbdc45c430e7c90ae406d"
     }
   ]
 }
