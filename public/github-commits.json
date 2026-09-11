@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-11T00:45:07.448Z",
+  "generatedAt": "2026-09-11T01:35:25.393Z",
   "range": {
     "from": "2025-09-12",
     "to": "2026-09-11"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-11",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "d2ef0cfdcdcb78cc42354047b0055c1fdbe1a26a",
+      "shortSha": "d2ef0cf",
+      "message": "fix(android): scope Bitwarden auto-sync to visible pages",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-11T01:34:53Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/d2ef0cfdcdcb78cc42354047b0055c1fdbe1a26a"
+    },
     {
       "sha": "573ae21f39c77e0fd93b71e1bba9c335361812ed",
       "shortSha": "573ae21",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-09T06:04:03Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/cfa1ab00ba7795d6a7cc17aa4dca8aee7a3920d4"
-    },
-    {
-      "sha": "999c4cedbad1e8fd3b5a0a5e350e0b054b44fe70",
-      "shortSha": "999c4ce",
-      "message": "fix: stop quick-setup skip button overlapping long step titles",
-      "authorName": "claude",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/81847?v=4",
-      "date": "2026-09-09T00:00:03Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/999c4cedbad1e8fd3b5a0a5e350e0b054b44fe70"
     }
   ]
 }
