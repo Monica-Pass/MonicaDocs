@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-12T13:45:53.009Z",
+  "generatedAt": "2026-09-12T13:56:53.726Z",
   "range": {
     "from": "2025-09-13",
     "to": "2026-09-12"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-12",
-      "count": 18
+      "count": 19
     }
   ],
   "latest": [
+    {
+      "sha": "830612b352a1883280e14c144f795043e7dc59e1",
+      "shortSha": "830612b",
+      "message": "fix(android): remove extra keyboard gap in overview search",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-12T13:56:26Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/830612b352a1883280e14c144f795043e7dc59e1"
+    },
     {
       "sha": "fa49aefccbbad1ddcdec859b96d7dd5550da8cb4",
       "shortSha": "fa49aef",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-12T05:00:55Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/63e2b39fc95277b4edf4127cd881af5ffc6fdbfd"
-    },
-    {
-      "sha": "8536b483363e03310fb4976af02cac2ce98b4f0d",
-      "shortSha": "8536b48",
-      "message": "Restore scanner session recovery and multiple-code handling",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-12T04:59:24Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/8536b483363e03310fb4976af02cac2ce98b4f0d"
     }
   ]
 }
