@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-12T13:56:53.726Z",
+  "generatedAt": "2026-09-12T15:17:44.295Z",
   "range": {
     "from": "2025-09-13",
     "to": "2026-09-12"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-12",
-      "count": 19
+      "count": 20
     }
   ],
   "latest": [
+    {
+      "sha": "1dc8925c3ff70931d62ff3e5f0edb005b75c79ca",
+      "shortSha": "1dc8925",
+      "message": "fix(ci): keep Android release assets manually published",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-12T15:16:52Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/1dc8925c3ff70931d62ff3e5f0edb005b75c79ca"
+    },
     {
       "sha": "830612b352a1883280e14c144f795043e7dc59e1",
       "shortSha": "830612b",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-12T06:15:52Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/ef9fadaf89ea1057d0377495107549942871aba7"
-    },
-    {
-      "sha": "63e2b39fc95277b4edf4127cd881af5ffc6fdbfd",
-      "shortSha": "63e2b39",
-      "message": "Integrate bounded decode sweeps from the latest PR update",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-12T05:00:55Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/63e2b39fc95277b4edf4127cd881af5ffc6fdbfd"
     }
   ]
 }
