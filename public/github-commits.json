@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-12T12:06:45.695Z",
+  "generatedAt": "2026-09-12T13:03:04.920Z",
   "range": {
     "from": "2025-09-13",
     "to": "2026-09-12"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-12",
-      "count": 16
+      "count": 17
     }
   ],
   "latest": [
+    {
+      "sha": "cbf1df160b63ef6988d58558884aef9692d68ca3",
+      "shortSha": "cbf1df1",
+      "message": "fix(android): make the language dialog scrollable",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-12T13:02:35Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/cbf1df160b63ef6988d58558884aef9692d68ca3"
+    },
     {
       "sha": "ccbc28c56deac0bd28dd7ba2af342cc6f6c196c2",
       "shortSha": "ccbc28c",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
       "date": "2026-09-12T04:41:58Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/6f10029c7b2ae99d628079ae35d621436f29725e"
-    },
-    {
-      "sha": "0b4216858e4bc7096f6a7b2701c5a84170865cd0",
-      "shortSha": "0b42168",
-      "message": "Merge remote-tracking branch 'origin/pr-133' into codex/pr133-scanner-stability",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-12T04:31:39Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/0b4216858e4bc7096f6a7b2701c5a84170865cd0"
     }
   ]
 }
