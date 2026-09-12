@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-12T02:37:10.049Z",
+  "generatedAt": "2026-09-12T03:31:26.001Z",
   "range": {
     "from": "2025-09-13",
     "to": "2026-09-12"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-12",
-      "count": 2
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "8627ccea2972adb7350bb356a9c903a74549686b",
+      "shortSha": "8627cce",
+      "message": "Add overview selection and contextual swipe actions",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-12T03:29:51Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/8627ccea2972adb7350bb356a9c903a74549686b"
+    },
     {
       "sha": "3626c533cc51e96e2fa716029bc1f6681abddcb5",
       "shortSha": "3626c53",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-11T16:58:05Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/ecb0384bf56b3debd4ec4c3aeeb333e7eb455b01"
-    },
-    {
-      "sha": "fdd3516e17c0803b75edd24091cef60575897164",
-      "shortSha": "fdd3516",
-      "message": "fix(android): remove pressed highlight from overview headers",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-11T16:48:06Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/fdd3516e17c0803b75edd24091cef60575897164"
     }
   ]
 }
