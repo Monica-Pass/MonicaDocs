@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-12T13:03:04.920Z",
+  "generatedAt": "2026-09-12T13:45:53.009Z",
   "range": {
     "from": "2025-09-13",
     "to": "2026-09-12"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-12",
-      "count": 17
+      "count": 18
     }
   ],
   "latest": [
+    {
+      "sha": "fa49aefccbbad1ddcdec859b96d7dd5550da8cb4",
+      "shortSha": "fa49aef",
+      "message": "fix(i18n): shorten and improve French UI text",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-12T13:45:20Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/fa49aefccbbad1ddcdec859b96d7dd5550da8cb4"
+    },
     {
       "sha": "cbf1df160b63ef6988d58558884aef9692d68ca3",
       "shortSha": "cbf1df1",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-12T04:59:24Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/8536b483363e03310fb4976af02cac2ce98b4f0d"
-    },
-    {
-      "sha": "6f10029c7b2ae99d628079ae35d621436f29725e",
-      "shortSha": "6f10029",
-      "message": "fix(android): bound per-frame decode cost to stop idle scan sessions dying",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-09-12T04:41:58Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/6f10029c7b2ae99d628079ae35d621436f29725e"
     }
   ]
 }
