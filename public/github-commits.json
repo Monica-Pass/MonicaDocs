@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-12T04:01:06.508Z",
+  "generatedAt": "2026-09-12T07:36:10.404Z",
   "range": {
     "from": "2025-09-13",
     "to": "2026-09-12"
@@ -1461,103 +1461,103 @@
     },
     {
       "date": "2026-09-11",
-      "count": 24
+      "count": 26
     },
     {
       "date": "2026-09-12",
-      "count": 4
+      "count": 15
     }
   ],
   "latest": [
     {
-      "sha": "d1ed525f7aac0e77533c9fc5d37bfb558abc9d49",
-      "shortSha": "d1ed525",
-      "message": "Prioritize frequent picker entries and cap item pins at eight",
+      "sha": "6741eb2dfa3b7870d95cb43b607a11af6be9d33f",
+      "shortSha": "6741eb2",
+      "message": "Merge pull request #133 from aiguozhi123456/perf/replace-mlkit-with-zxing",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-12T04:00:36Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/d1ed525f7aac0e77533c9fc5d37bfb558abc9d49"
+      "date": "2026-09-12T07:35:27Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/6741eb2dfa3b7870d95cb43b607a11af6be9d33f"
     },
     {
-      "sha": "8627ccea2972adb7350bb356a9c903a74549686b",
-      "shortSha": "8627cce",
-      "message": "Add overview selection and contextual swipe actions",
+      "sha": "f51a9553d8c1c07d5a0fdbf1cb7717ae321cbb88",
+      "shortSha": "f51a955",
+      "message": "Merge remote-tracking branch 'origin/main' into codex/pr133-scanner-stability",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-12T03:29:51Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/8627ccea2972adb7350bb356a9c903a74549686b"
+      "date": "2026-09-12T07:28:43Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f51a9553d8c1c07d5a0fdbf1cb7717ae321cbb88"
     },
     {
-      "sha": "3626c533cc51e96e2fa716029bc1f6681abddcb5",
-      "shortSha": "3626c53",
-      "message": "fix(android): localize CSV import errors and respect navigation insets (#134)",
-      "authorName": "tommynok",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/69355171?v=4",
-      "date": "2026-09-12T02:36:42Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/3626c533cc51e96e2fa716029bc1f6681abddcb5"
+      "sha": "a3b0db402091ea1673dc466d73b6b1195aa1c897",
+      "shortSha": "a3b0db4",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-09-12T07:12:15Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/a3b0db402091ea1673dc466d73b6b1195aa1c897"
     },
     {
-      "sha": "6e21b5c6b296b18ea079c52e7534336a374ed472",
-      "shortSha": "6e21b5c",
-      "message": "Localize the database merge workflow",
+      "sha": "0990cd4e32f52934baf60e8f86e3c8ebe9f5c3cb",
+      "shortSha": "0990cd4",
+      "message": "Initialize generator state before restoring cached preferences",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-12T02:02:28Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/6e21b5c6b296b18ea079c52e7534336a374ed472"
+      "date": "2026-09-12T06:16:34Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/0990cd4e32f52934baf60e8f86e3c8ebe9f5c3cb"
     },
     {
-      "sha": "21ac5903b8655ef77d2e2462991e582767b85105",
-      "shortSha": "21ac590",
-      "message": "Fix Bitwarden two-factor focus handling",
+      "sha": "ef9fadaf89ea1057d0377495107549942871aba7",
+      "shortSha": "ef9fada",
+      "message": "Reduce peak frame decode cost during idle scanning",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-11T23:14:20Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/21ac5903b8655ef77d2e2462991e582767b85105"
+      "date": "2026-09-12T06:15:52Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/ef9fadaf89ea1057d0377495107549942871aba7"
     },
     {
-      "sha": "b1ac7b87ed4a0cfd2e464e3da8908fff6c2fe152",
-      "shortSha": "b1ac7b8",
-      "message": "Fix Bitwarden attachment format and per-item key handling",
+      "sha": "63e2b39fc95277b4edf4127cd881af5ffc6fdbfd",
+      "shortSha": "63e2b39",
+      "message": "Integrate bounded decode sweeps from the latest PR update",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-11T20:09:34Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/b1ac7b87ed4a0cfd2e464e3da8908fff6c2fe152"
+      "date": "2026-09-12T05:00:55Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/63e2b39fc95277b4edf4127cd881af5ffc6fdbfd"
     },
     {
-      "sha": "0818c4247c00f65cea4b981277ab0bdb4b0cf69e",
-      "shortSha": "0818c42",
-      "message": "Hide database labels from overview cards and items",
+      "sha": "8536b483363e03310fb4976af02cac2ce98b4f0d",
+      "shortSha": "8536b48",
+      "message": "Restore scanner session recovery and multiple-code handling",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-11T19:06:09Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/0818c4247c00f65cea4b981277ab0bdb4b0cf69e"
+      "date": "2026-09-12T04:59:24Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/8536b483363e03310fb4976af02cac2ce98b4f0d"
     },
     {
-      "sha": "24b93f06c731d29bb075969047b7bb83c66cb059",
-      "shortSha": "24b93f0",
-      "message": "Improve overview pickers and cache search in Rust",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-11T18:53:18Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/24b93f06c731d29bb075969047b7bb83c66cb059"
+      "sha": "6f10029c7b2ae99d628079ae35d621436f29725e",
+      "shortSha": "6f10029",
+      "message": "fix(android): bound per-frame decode cost to stop idle scan sessions dying",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-09-12T04:41:58Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/6f10029c7b2ae99d628079ae35d621436f29725e"
     },
     {
-      "sha": "9b147652988e3dde089d7e757e930799e15c2619",
-      "shortSha": "9b14765",
-      "message": "fix(android): match overview database icons to filter menu",
+      "sha": "0b4216858e4bc7096f6a7b2701c5a84170865cd0",
+      "shortSha": "0b42168",
+      "message": "Merge remote-tracking branch 'origin/pr-133' into codex/pr133-scanner-stability",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-11T17:37:45Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/9b147652988e3dde089d7e757e930799e15c2619"
+      "date": "2026-09-12T04:31:39Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/0b4216858e4bc7096f6a7b2701c5a84170865cd0"
     },
     {
-      "sha": "ac05b2f4e86990300fca088051b716ee71cfaa16",
-      "shortSha": "ac05b2f",
-      "message": "fix(android): share database picker in overview action pill",
+      "sha": "90dde292260761b6d4ed9878bd6166c096bfd475",
+      "shortSha": "90dde29",
+      "message": "Integrate PR #133 for scanner stability fixes",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-11T17:28:44Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/ac05b2f4e86990300fca088051b716ee71cfaa16"
+      "date": "2026-09-12T04:13:41Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/90dde292260761b6d4ed9878bd6166c096bfd475"
     }
   ]
 }
