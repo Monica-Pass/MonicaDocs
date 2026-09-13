@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-13T06:33:34.423Z",
+  "generatedAt": "2026-09-13T08:15:36.142Z",
   "range": {
     "from": "2025-09-14",
     "to": "2026-09-13"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-13",
-      "count": 4
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "96bc4672a60df00471d5ed9fc056e11e67e27c35",
+      "shortSha": "96bc467",
+      "message": "Integrate native API tokens with password cards and editors",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-13T08:13:12Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/96bc4672a60df00471d5ed9fc056e11e67e27c35"
+    },
     {
       "sha": "922e08bb7b09154671e611bd99232fe2a297fdde",
       "shortSha": "922e08b",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-12T12:06:07Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/ccbc28c56deac0bd28dd7ba2af342cc6f6c196c2"
-    },
-    {
-      "sha": "6741eb2dfa3b7870d95cb43b607a11af6be9d33f",
-      "shortSha": "6741eb2",
-      "message": "Merge pull request #133 from aiguozhi123456/perf/replace-mlkit-with-zxing",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-12T07:35:27Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/6741eb2dfa3b7870d95cb43b607a11af6be9d33f"
     }
   ]
 }
