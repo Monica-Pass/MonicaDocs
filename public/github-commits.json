@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-13T10:45:00.950Z",
+  "generatedAt": "2026-09-13T12:08:51.224Z",
   "range": {
     "from": "2025-09-14",
     "to": "2026-09-13"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-13",
-      "count": 5
+      "count": 6
     }
   ],
   "latest": [
+    {
+      "sha": "6c54573f99a916c95d931a610b458b210261e8f5",
+      "shortSha": "6c54573",
+      "message": "Improve API token detail loading and fix Bitwarden trash deletion",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-13T12:07:53Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/6c54573f99a916c95d931a610b458b210261e8f5"
+    },
     {
       "sha": "96bc4672a60df00471d5ed9fc056e11e67e27c35",
       "shortSha": "96bc467",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-12T13:02:35Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/cbf1df160b63ef6988d58558884aef9692d68ca3"
-    },
-    {
-      "sha": "ccbc28c56deac0bd28dd7ba2af342cc6f6c196c2",
-      "shortSha": "ccbc28c",
-      "message": "fix(android): finish overview interactions and French localization",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-12T12:06:07Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/ccbc28c56deac0bd28dd7ba2af342cc6f6c196c2"
     }
   ]
 }
