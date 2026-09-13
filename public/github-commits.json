@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-13T12:08:51.224Z",
+  "generatedAt": "2026-09-13T16:11:05.104Z",
   "range": {
     "from": "2025-09-14",
     "to": "2026-09-13"
@@ -1465,10 +1465,55 @@
     },
     {
       "date": "2026-09-13",
-      "count": 6
+      "count": 11
     }
   ],
   "latest": [
+    {
+      "sha": "7b80545892a6802696c0e00fe3362c8a9656367a",
+      "shortSha": "7b80545",
+      "message": "Merge pull request #138 from aiguozhi123456/fix/totp-list-verifyerror",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-13T16:10:39Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/7b80545892a6802696c0e00fe3362c8a9656367a"
+    },
+    {
+      "sha": "f6915cded4d3f463ae5e600ce62c719b75ae10a1",
+      "shortSha": "f6915cd",
+      "message": "ci(android): run TOTP verification and interactions on emulator",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-13T15:31:10Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f6915cded4d3f463ae5e600ce62c719b75ae10a1"
+    },
+    {
+      "sha": "443880f01388d714c236f36608ac23be3a64f6cf",
+      "shortSha": "443880f",
+      "message": "test(android): cover TOTP interactions after composable split",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-13T15:18:58Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/443880f01388d714c236f36608ac23be3a64f6cf"
+    },
+    {
+      "sha": "47d9a7aa971cf3c34f8afa174d8f046ccc38cce7",
+      "shortSha": "47d9a7a",
+      "message": "Merge remote-tracking branch 'origin/main' into codex/pr138-totp-review",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-13T15:08:24Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/47d9a7aa971cf3c34f8afa174d8f046ccc38cce7"
+    },
+    {
+      "sha": "e7ea0a4dbd01bec80a222800134b6226418a4168",
+      "shortSha": "e7ea0a4",
+      "message": "fix(android): split oversized TotpListContent to avoid ART VerifyError",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-09-13T14:51:50Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/e7ea0a4dbd01bec80a222800134b6226418a4168"
+    },
     {
       "sha": "6c54573f99a916c95d931a610b458b210261e8f5",
       "shortSha": "6c54573",
@@ -1513,51 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-13T05:43:24Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/f1b760f7998e94ece1606fdfea0b0d77d5011ec3"
-    },
-    {
-      "sha": "14ba838ef71accf51aea27e56bd45e8590015ae8",
-      "shortSha": "14ba838",
-      "message": "Refactor native API token screens and stabilize list loading",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-13T04:47:44Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/14ba838ef71accf51aea27e56bd45e8590015ae8"
-    },
-    {
-      "sha": "1dc8925c3ff70931d62ff3e5f0edb005b75c79ca",
-      "shortSha": "1dc8925",
-      "message": "fix(ci): keep Android release assets manually published",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-12T15:16:52Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/1dc8925c3ff70931d62ff3e5f0edb005b75c79ca"
-    },
-    {
-      "sha": "830612b352a1883280e14c144f795043e7dc59e1",
-      "shortSha": "830612b",
-      "message": "fix(android): remove extra keyboard gap in overview search",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-12T13:56:26Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/830612b352a1883280e14c144f795043e7dc59e1"
-    },
-    {
-      "sha": "fa49aefccbbad1ddcdec859b96d7dd5550da8cb4",
-      "shortSha": "fa49aef",
-      "message": "fix(i18n): shorten and improve French UI text",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-12T13:45:20Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/fa49aefccbbad1ddcdec859b96d7dd5550da8cb4"
-    },
-    {
-      "sha": "cbf1df160b63ef6988d58558884aef9692d68ca3",
-      "shortSha": "cbf1df1",
-      "message": "fix(android): make the language dialog scrollable",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-12T13:02:35Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/cbf1df160b63ef6988d58558884aef9692d68ca3"
     }
   ]
 }
