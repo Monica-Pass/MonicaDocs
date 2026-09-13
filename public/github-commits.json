@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-12T15:17:44.295Z",
+  "generatedAt": "2026-09-13T04:48:56.688Z",
   "range": {
-    "from": "2025-09-13",
-    "to": "2026-09-12"
+    "from": "2025-09-14",
+    "to": "2026-09-13"
   },
   "activity": [
-    {
-      "date": "2025-09-13",
-      "count": 0
-    },
     {
       "date": "2025-09-14",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-09-12",
       "count": 20
+    },
+    {
+      "date": "2026-09-13",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "14ba838ef71accf51aea27e56bd45e8590015ae8",
+      "shortSha": "14ba838",
+      "message": "Refactor native API token screens and stabilize list loading",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-13T04:47:44Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/14ba838ef71accf51aea27e56bd45e8590015ae8"
+    },
     {
       "sha": "1dc8925c3ff70931d62ff3e5f0edb005b75c79ca",
       "shortSha": "1dc8925",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-12T06:16:34Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/0990cd4e32f52934baf60e8f86e3c8ebe9f5c3cb"
-    },
-    {
-      "sha": "ef9fadaf89ea1057d0377495107549942871aba7",
-      "shortSha": "ef9fada",
-      "message": "Reduce peak frame decode cost during idle scanning",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-12T06:15:52Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/ef9fadaf89ea1057d0377495107549942871aba7"
     }
   ]
 }
