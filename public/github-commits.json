@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-14T11:10:00.144Z",
+  "generatedAt": "2026-09-15T06:26:55.271Z",
   "range": {
-    "from": "2025-09-15",
-    "to": "2026-09-14"
+    "from": "2025-09-16",
+    "to": "2026-09-15"
   },
   "activity": [
-    {
-      "date": "2025-09-15",
-      "count": 0
-    },
     {
       "date": "2025-09-16",
       "count": 0
@@ -1461,14 +1457,45 @@
     },
     {
       "date": "2026-09-13",
-      "count": 11
+      "count": 12
     },
     {
       "date": "2026-09-14",
-      "count": 0
+      "count": 1
+    },
+    {
+      "date": "2026-09-15",
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "cdd6d2d2895eade2b6493855e97b572b620583c9",
+      "shortSha": "cdd6d2d",
+      "message": "Merge pull request #137 from aiguozhi123456/feat/nya-language",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-15T06:26:26Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/cdd6d2d2895eade2b6493855e97b572b620583c9"
+    },
+    {
+      "sha": "715a6f3c478dffa10fed34467ceafaa4ed726e59",
+      "shortSha": "715a6f3",
+      "message": "fix(android): merge Nya language with Chinese fallback",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-15T06:25:12Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/715a6f3c478dffa10fed34467ceafaa4ed726e59"
+    },
+    {
+      "sha": "aead70b731d2acbf8efe0b5f57d092c402508146",
+      "shortSha": "aead70b",
+      "message": "feat(android): rework Nya pack around a cat-mother worldview",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-09-14T16:44:07Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/aead70b731d2acbf8efe0b5f57d092c402508146"
+    },
     {
       "sha": "7b80545892a6802696c0e00fe3362c8a9656367a",
       "shortSha": "7b80545",
@@ -1515,6 +1542,15 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/e7ea0a4dbd01bec80a222800134b6226418a4168"
     },
     {
+      "sha": "cc650910f671fc16285969028fc35f34c86b0419",
+      "shortSha": "cc65091",
+      "message": "feat(android): add Nya (meow-speak) in-app language",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-09-13T14:51:36Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/cc650910f671fc16285969028fc35f34c86b0419"
+    },
+    {
       "sha": "6c54573f99a916c95d931a610b458b210261e8f5",
       "shortSha": "6c54573",
       "message": "Improve API token detail loading and fix Bitwarden trash deletion",
@@ -1522,42 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-13T12:07:53Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/6c54573f99a916c95d931a610b458b210261e8f5"
-    },
-    {
-      "sha": "96bc4672a60df00471d5ed9fc056e11e67e27c35",
-      "shortSha": "96bc467",
-      "message": "Integrate native API tokens with password cards and editors",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-13T08:13:12Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/96bc4672a60df00471d5ed9fc056e11e67e27c35"
-    },
-    {
-      "sha": "922e08bb7b09154671e611bd99232fe2a297fdde",
-      "shortSha": "922e08b",
-      "message": "Document API token favorites in 1.0.311 release notes",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-13T06:32:25Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/922e08bb7b09154671e611bd99232fe2a297fdde"
-    },
-    {
-      "sha": "a85d353425953ef70ba656001aa20ca3f4a94b56",
-      "shortSha": "a85d353",
-      "message": "Add native API token favorites to editor and vault filters",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-13T06:03:26Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/a85d353425953ef70ba656001aa20ca3f4a94b56"
-    },
-    {
-      "sha": "f1b760f7998e94ece1606fdfea0b0d77d5011ec3",
-      "shortSha": "f1b760f",
-      "message": "Optimize autofill matching and fix stale MDBX sync badges",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-13T05:43:24Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f1b760f7998e94ece1606fdfea0b0d77d5011ec3"
     }
   ]
 }
