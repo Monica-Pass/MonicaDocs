@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-16T10:26:17.022Z",
+  "generatedAt": "2026-09-16T10:35:34.480Z",
   "range": {
     "from": "2025-09-17",
     "to": "2026-09-16"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-16",
-      "count": 2
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "90995f0b537c3378d2d843ad8c0f76d876370789",
+      "shortSha": "90995f0",
+      "message": "fix(android): preserve attachment errors and stream ZIP exports",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-16T10:34:09Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/90995f0b537c3378d2d843ad8c0f76d876370789"
+    },
     {
       "sha": "cc9ecaaa1a2cb10d55e0d4506a8c824386b96452",
       "shortSha": "cc9ecaa",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-13T15:08:24Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/47d9a7aa971cf3c34f8afa174d8f046ccc38cce7"
-    },
-    {
-      "sha": "e7ea0a4dbd01bec80a222800134b6226418a4168",
-      "shortSha": "e7ea0a4",
-      "message": "fix(android): split oversized TotpListContent to avoid ART VerifyError",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-09-13T14:51:50Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/e7ea0a4dbd01bec80a222800134b6226418a4168"
     }
   ]
 }
