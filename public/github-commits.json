@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-15T10:38:02.398Z",
+  "generatedAt": "2026-09-16T09:40:36.377Z",
   "range": {
-    "from": "2025-09-16",
-    "to": "2026-09-15"
+    "from": "2025-09-17",
+    "to": "2026-09-16"
   },
   "activity": [
-    {
-      "date": "2025-09-16",
-      "count": 0
-    },
     {
       "date": "2025-09-17",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-09-15",
       "count": 2
+    },
+    {
+      "date": "2026-09-16",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "9df42da7fd250fd1e270256a55c1d7f2c79a14d9",
+      "shortSha": "9df42da",
+      "message": "feat(android): prepare 1.0.312 with credential exchange, M3E screens and localization",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-16T09:33:44Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/9df42da7fd250fd1e270256a55c1d7f2c79a14d9"
+    },
     {
       "sha": "cdd6d2d2895eade2b6493855e97b572b620583c9",
       "shortSha": "cdd6d2d",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
       "date": "2026-09-13T14:51:36Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/cc650910f671fc16285969028fc35f34c86b0419"
-    },
-    {
-      "sha": "6c54573f99a916c95d931a610b458b210261e8f5",
-      "shortSha": "6c54573",
-      "message": "Improve API token detail loading and fix Bitwarden trash deletion",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-13T12:07:53Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/6c54573f99a916c95d931a610b458b210261e8f5"
     }
   ]
 }
