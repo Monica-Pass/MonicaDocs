@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-16T12:13:20.903Z",
+  "generatedAt": "2026-09-16T22:45:54.380Z",
   "range": {
     "from": "2025-09-17",
     "to": "2026-09-16"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-16",
-      "count": 5
+      "count": 6
     }
   ],
   "latest": [
+    {
+      "sha": "cf8b323d3b4921787e52f8f786d10058331ba893",
+      "shortSha": "cf8b323",
+      "message": "fix(android): honor Chinese script when applying app locale",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-16T22:45:24Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/cf8b323d3b4921787e52f8f786d10058331ba893"
+    },
     {
       "sha": "a58e750ebde726060b528b7ccbfb2a5f79a8a797",
       "shortSha": "a58e750",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-13T16:10:39Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/7b80545892a6802696c0e00fe3362c8a9656367a"
-    },
-    {
-      "sha": "f6915cded4d3f463ae5e600ce62c719b75ae10a1",
-      "shortSha": "f6915cd",
-      "message": "ci(android): run TOTP verification and interactions on emulator",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-13T15:31:10Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f6915cded4d3f463ae5e600ce62c719b75ae10a1"
     }
   ]
 }
