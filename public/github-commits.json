@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-16T09:40:36.377Z",
+  "generatedAt": "2026-09-16T09:42:31.870Z",
   "range": {
     "from": "2025-09-17",
     "to": "2026-09-16"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-16",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "cc9ecaaa1a2cb10d55e0d4506a8c824386b96452",
+      "shortSha": "cc9ecaa",
+      "message": "docs(android): restore concise summary and consolidated 1.0.312 release details",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-16T09:42:01Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/cc9ecaaa1a2cb10d55e0d4506a8c824386b96452"
+    },
     {
       "sha": "9df42da7fd250fd1e270256a55c1d7f2c79a14d9",
       "shortSha": "9df42da",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
       "date": "2026-09-13T14:51:50Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/e7ea0a4dbd01bec80a222800134b6226418a4168"
-    },
-    {
-      "sha": "cc650910f671fc16285969028fc35f34c86b0419",
-      "shortSha": "cc65091",
-      "message": "feat(android): add Nya (meow-speak) in-app language",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-09-13T14:51:36Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/cc650910f671fc16285969028fc35f34c86b0419"
     }
   ]
 }
