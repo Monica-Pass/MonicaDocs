@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-16T11:36:43.272Z",
+  "generatedAt": "2026-09-16T12:13:20.903Z",
   "range": {
     "from": "2025-09-17",
     "to": "2026-09-16"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-16",
-      "count": 4
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "a58e750ebde726060b528b7ccbfb2a5f79a8a797",
+      "shortSha": "a58e750",
+      "message": "fix(android): refresh activity when saved language differs from startup cache",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-16T12:12:11Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/a58e750ebde726060b528b7ccbfb2a5f79a8a797"
+    },
     {
       "sha": "98e45ae55001c9c785df958b9e935cf4b0b89e79",
       "shortSha": "98e45ae",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-13T15:31:10Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/f6915cded4d3f463ae5e600ce62c719b75ae10a1"
-    },
-    {
-      "sha": "443880f01388d714c236f36608ac23be3a64f6cf",
-      "shortSha": "443880f",
-      "message": "test(android): cover TOTP interactions after composable split",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-13T15:18:58Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/443880f01388d714c236f36608ac23be3a64f6cf"
     }
   ]
 }
