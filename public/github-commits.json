@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-17T08:19:20.001Z",
+  "generatedAt": "2026-09-17T09:01:17.835Z",
   "range": {
     "from": "2025-09-18",
     "to": "2026-09-17"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-17",
-      "count": 6
+      "count": 7
     }
   ],
   "latest": [
+    {
+      "sha": "78eeaaa1437ac6bc59d29766cbc640fe6cb12227",
+      "shortSha": "78eeaaa",
+      "message": "fix(android): keep dedup content stationary while refreshing",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-17T09:00:50Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/78eeaaa1437ac6bc59d29766cbc640fe6cb12227"
+    },
     {
       "sha": "469e492a8fffdbd5fbd833642a24b34065e9cd90",
       "shortSha": "469e492",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-16T22:45:24Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/cf8b323d3b4921787e52f8f786d10058331ba893"
-    },
-    {
-      "sha": "a58e750ebde726060b528b7ccbfb2a5f79a8a797",
-      "shortSha": "a58e750",
-      "message": "fix(android): refresh activity when saved language differs from startup cache",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-16T12:12:11Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/a58e750ebde726060b528b7ccbfb2a5f79a8a797"
     }
   ]
 }
