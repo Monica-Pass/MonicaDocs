@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-17T04:47:40.797Z",
+  "generatedAt": "2026-09-17T08:13:22.175Z",
   "range": {
     "from": "2025-09-18",
     "to": "2026-09-17"
@@ -1465,10 +1465,28 @@
     },
     {
       "date": "2026-09-17",
-      "count": 3
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "0f075bf7af9f2c63850b37aef669298870aa4576",
+      "shortSha": "0f075bf",
+      "message": "feat(android): improve deduplication safety and dock performance",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-17T08:12:11Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/0f075bf7af9f2c63850b37aef669298870aa4576"
+    },
+    {
+      "sha": "ffe700edb6002f6da2c6dddf43837d018c158be4",
+      "shortSha": "ffe700e",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-09-17T07:45:58Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/ffe700edb6002f6da2c6dddf43837d018c158be4"
+    },
     {
       "sha": "8a0b4fe19d5c2c892d534fc7deaeda912883a944",
       "shortSha": "8a0b4fe",
@@ -1540,24 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-16T11:32:02Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/98e45ae55001c9c785df958b9e935cf4b0b89e79"
-    },
-    {
-      "sha": "90995f0b537c3378d2d843ad8c0f76d876370789",
-      "shortSha": "90995f0",
-      "message": "fix(android): preserve attachment errors and stream ZIP exports",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-16T10:34:09Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/90995f0b537c3378d2d843ad8c0f76d876370789"
-    },
-    {
-      "sha": "cc9ecaaa1a2cb10d55e0d4506a8c824386b96452",
-      "shortSha": "cc9ecaa",
-      "message": "docs(android): restore concise summary and consolidated 1.0.312 release details",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-16T09:42:01Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/cc9ecaaa1a2cb10d55e0d4506a8c824386b96452"
     }
   ]
 }
