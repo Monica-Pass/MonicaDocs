@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-16T23:48:45.030Z",
+  "generatedAt": "2026-09-17T00:49:22.479Z",
   "range": {
-    "from": "2025-09-17",
-    "to": "2026-09-16"
+    "from": "2025-09-18",
+    "to": "2026-09-17"
   },
   "activity": [
-    {
-      "date": "2025-09-17",
-      "count": 0
-    },
     {
       "date": "2025-09-18",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-09-16",
       "count": 8
+    },
+    {
+      "date": "2026-09-17",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "876be2b14a655497935f88640a0b8c807a6f8a33",
+      "shortSha": "876be2b",
+      "message": "Add quick setup presets and shared draggable Dock settings",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-17T00:48:37Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/876be2b14a655497935f88640a0b8c807a6f8a33"
+    },
     {
       "sha": "c854ef2a6f3db2efbf43838260083fd98fd98f79",
       "shortSha": "c854ef2",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-15T06:26:26Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/cdd6d2d2895eade2b6493855e97b572b620583c9"
-    },
-    {
-      "sha": "715a6f3c478dffa10fed34467ceafaa4ed726e59",
-      "shortSha": "715a6f3",
-      "message": "fix(android): merge Nya language with Chinese fallback",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-15T06:25:12Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/715a6f3c478dffa10fed34467ceafaa4ed726e59"
     }
   ]
 }
