@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-17T10:35:37.190Z",
+  "generatedAt": "2026-09-17T15:08:04.287Z",
   "range": {
     "from": "2025-09-18",
     "to": "2026-09-17"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-17",
-      "count": 8
+      "count": 9
     }
   ],
   "latest": [
+    {
+      "sha": "ba08e0ad963d888207b791990e783d550e999ce7",
+      "shortSha": "ba08e0a",
+      "message": "fix(android): always render vault entries as flat rows",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-17T15:07:28Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/ba08e0ad963d888207b791990e783d550e999ce7"
+    },
     {
       "sha": "b0750d013ab462f105823b8a6d26c9faf258a509",
       "shortSha": "b0750d0",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-16T23:48:15Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/c854ef2a6f3db2efbf43838260083fd98fd98f79"
-    },
-    {
-      "sha": "bb9ff9a488140626a98a8020b1eef5cb0317197f",
-      "shortSha": "bb9ff9a",
-      "message": "Add Hong Kong Traditional Chinese and grouped language selection",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-16T23:23:26Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/bb9ff9a488140626a98a8020b1eef5cb0317197f"
     }
   ]
 }
