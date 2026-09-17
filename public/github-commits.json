@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-17T09:01:17.835Z",
+  "generatedAt": "2026-09-17T09:41:43.028Z",
   "range": {
     "from": "2025-09-18",
     "to": "2026-09-17"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-17",
-      "count": 7
+      "count": 8
     }
   ],
   "latest": [
+    {
+      "sha": "b0750d013ab462f105823b8a6d26c9faf258a509",
+      "shortSha": "b0750d0",
+      "message": "fix(android): restore Sui binder initialization",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-17T09:40:51Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/b0750d013ab462f105823b8a6d26c9faf258a509"
+    },
     {
       "sha": "78eeaaa1437ac6bc59d29766cbc640fe6cb12227",
       "shortSha": "78eeaaa",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-16T23:23:26Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/bb9ff9a488140626a98a8020b1eef5cb0317197f"
-    },
-    {
-      "sha": "cf8b323d3b4921787e52f8f786d10058331ba893",
-      "shortSha": "cf8b323",
-      "message": "fix(android): honor Chinese script when applying app locale",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-16T22:45:24Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/cf8b323d3b4921787e52f8f786d10058331ba893"
     }
   ]
 }
