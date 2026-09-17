@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-17T23:21:55.013Z",
+  "generatedAt": "2026-09-17T23:25:47.694Z",
   "range": {
     "from": "2025-09-18",
     "to": "2026-09-17"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-17",
-      "count": 10
+      "count": 11
     }
   ],
   "latest": [
+    {
+      "sha": "6e10340dc162f1c650f046845aed44aecf7934d5",
+      "shortSha": "6e10340",
+      "message": "perf(android): use rust for medium vault overviews",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-17T23:25:16Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/6e10340dc162f1c650f046845aed44aecf7934d5"
+    },
     {
       "sha": "3cdc12ad315b5b0167e3507e1f51b8f59a827d91",
       "shortSha": "3cdc12a",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-17T04:08:12Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/759ee0082f8f772ece2629abd5f4f0b6679f1380"
-    },
-    {
-      "sha": "876be2b14a655497935f88640a0b8c807a6f8a33",
-      "shortSha": "876be2b",
-      "message": "Add quick setup presets and shared draggable Dock settings",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-17T00:48:37Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/876be2b14a655497935f88640a0b8c807a6f8a33"
     }
   ]
 }
