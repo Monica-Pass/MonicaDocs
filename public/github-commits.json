@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-18T10:14:00.800Z",
+  "generatedAt": "2026-09-19T09:53:09.328Z",
   "range": {
-    "from": "2025-09-19",
-    "to": "2026-09-18"
+    "from": "2025-09-20",
+    "to": "2026-09-19"
   },
   "activity": [
-    {
-      "date": "2025-09-19",
-      "count": 0
-    },
     {
       "date": "2025-09-20",
       "count": 0
@@ -1465,6 +1461,10 @@
     },
     {
       "date": "2026-09-18",
+      "count": 0
+    },
+    {
+      "date": "2026-09-19",
       "count": 0
     }
   ],
