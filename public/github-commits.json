@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-19T09:53:09.328Z",
+  "generatedAt": "2026-09-20T02:36:03.604Z",
   "range": {
-    "from": "2025-09-20",
-    "to": "2026-09-19"
+    "from": "2025-09-21",
+    "to": "2026-09-20"
   },
   "activity": [
-    {
-      "date": "2025-09-20",
-      "count": 0
-    },
     {
       "date": "2025-09-21",
       "count": 0
@@ -1441,7 +1437,7 @@
     },
     {
       "date": "2026-09-13",
-      "count": 12
+      "count": 15
     },
     {
       "date": "2026-09-14",
@@ -1466,9 +1462,76 @@
     {
       "date": "2026-09-19",
       "count": 0
+    },
+    {
+      "date": "2026-09-20",
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "b8857fefe8ccd5566b1a154e2a6cc0841ded3199",
+      "shortSha": "b8857fe",
+      "message": "Merge pull request #140 from tommynok/fix/webdav-test-connection-button-centering",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-20T02:35:33Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/b8857fefe8ccd5566b1a154e2a6cc0841ded3199"
+    },
+    {
+      "sha": "a2a65516f35e662b5a00b28a442ade304892004a",
+      "shortSha": "a2a6551",
+      "message": "Merge pull request #139 from tommynok/fix/card-density-totp-password-group",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-20T02:35:20Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/a2a65516f35e662b5a00b28a442ade304892004a"
+    },
+    {
+      "sha": "a62408ed4e9bbaeafca40268c36ece044c43e582",
+      "shortSha": "a62408e",
+      "message": "fix(android): center wrapped cloud backup action labels",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-20T02:22:00Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/a62408ed4e9bbaeafca40268c36ece044c43e582"
+    },
+    {
+      "sha": "c460665b6bcbaa52efae9f9cdb2752c7816649f2",
+      "shortSha": "c460665",
+      "message": "fix(android): preserve group action sizes when tightening cards",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-20T02:19:45Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/c460665b6bcbaa52efae9f9cdb2752c7816649f2"
+    },
+    {
+      "sha": "04a017d45594b35f95c0c96ac42a180eb1fe7bd8",
+      "shortSha": "04a017d",
+      "message": "fix: center-align wrapped text on the WebDAV test-connection button",
+      "authorName": "claude",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/81847?v=4",
+      "date": "2026-09-13T21:49:25Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/04a017d45594b35f95c0c96ac42a180eb1fe7bd8"
+    },
+    {
+      "sha": "9b86f47c6e5cab7f624aed5c5e44bb7b5ebd3073",
+      "shortSha": "9b86f47",
+      "message": "fix: trim padding on grouped password entry cards (the actual per-item rows)",
+      "authorName": "claude",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/81847?v=4",
+      "date": "2026-09-13T01:43:38Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/9b86f47c6e5cab7f624aed5c5e44bb7b5ebd3073"
+    },
+    {
+      "sha": "8c597a6c3d92f9418883f1dd3bf668d8aec25391",
+      "shortSha": "8c597a6",
+      "message": "fix: reduce padding on TOTP list cards and app-group password header",
+      "authorName": "claude",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/81847?v=4",
+      "date": "2026-09-13T00:14:32Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/8c597a6c3d92f9418883f1dd3bf668d8aec25391"
+    },
     {
       "sha": "6e10340dc162f1c650f046845aed44aecf7934d5",
       "shortSha": "6e10340",
@@ -1495,69 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-17T15:07:28Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/ba08e0ad963d888207b791990e783d550e999ce7"
-    },
-    {
-      "sha": "b0750d013ab462f105823b8a6d26c9faf258a509",
-      "shortSha": "b0750d0",
-      "message": "fix(android): restore Sui binder initialization",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-17T09:40:51Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/b0750d013ab462f105823b8a6d26c9faf258a509"
-    },
-    {
-      "sha": "78eeaaa1437ac6bc59d29766cbc640fe6cb12227",
-      "shortSha": "78eeaaa",
-      "message": "fix(android): keep dedup content stationary while refreshing",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-17T09:00:50Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/78eeaaa1437ac6bc59d29766cbc640fe6cb12227"
-    },
-    {
-      "sha": "469e492a8fffdbd5fbd833642a24b34065e9cd90",
-      "shortSha": "469e492",
-      "message": "chore(android): bump version to 1.0.313",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-17T08:18:12Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/469e492a8fffdbd5fbd833642a24b34065e9cd90"
-    },
-    {
-      "sha": "0f075bf7af9f2c63850b37aef669298870aa4576",
-      "shortSha": "0f075bf",
-      "message": "feat(android): improve deduplication safety and dock performance",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-17T08:12:11Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/0f075bf7af9f2c63850b37aef669298870aa4576"
-    },
-    {
-      "sha": "ffe700edb6002f6da2c6dddf43837d018c158be4",
-      "shortSha": "ffe700e",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-09-17T07:45:58Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/ffe700edb6002f6da2c6dddf43837d018c158be4"
-    },
-    {
-      "sha": "8a0b4fe19d5c2c892d534fc7deaeda912883a944",
-      "shortSha": "8a0b4fe",
-      "message": "feat(android): add credential import entry to quick setup",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-17T04:47:00Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/8a0b4fe19d5c2c892d534fc7deaeda912883a944"
-    },
-    {
-      "sha": "759ee0082f8f772ece2629abd5f4f0b6679f1380",
-      "shortSha": "759ee00",
-      "message": "fix(autofill): stabilize nonstandard and dynamic login forms",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-17T04:08:12Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/759ee0082f8f772ece2629abd5f4f0b6679f1380"
     }
   ]
 }
