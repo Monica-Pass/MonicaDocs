@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-20T02:36:03.604Z",
+  "generatedAt": "2026-09-20T02:38:27.003Z",
   "range": {
     "from": "2025-09-21",
     "to": "2026-09-20"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-20",
-      "count": 4
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "7a179869145bcf31cda86dc4248cedbc4e67668d",
+      "shortSha": "7a17986",
+      "message": "docs(android): document card density and WebDAV label fixes",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-20T02:36:41Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/7a179869145bcf31cda86dc4248cedbc4e67668d"
+    },
     {
       "sha": "b8857fefe8ccd5566b1a154e2a6cc0841ded3199",
       "shortSha": "b8857fe",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-17T23:21:10Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/3cdc12ad315b5b0167e3507e1f51b8f59a827d91"
-    },
-    {
-      "sha": "ba08e0ad963d888207b791990e783d550e999ce7",
-      "shortSha": "ba08e0a",
-      "message": "fix(android): always render vault entries as flat rows",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-17T15:07:28Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/ba08e0ad963d888207b791990e783d550e999ce7"
     }
   ]
 }
