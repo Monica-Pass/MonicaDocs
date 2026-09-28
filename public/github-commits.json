@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-28T09:20:05.209Z",
+  "generatedAt": "2026-09-28T09:55:46.442Z",
   "range": {
     "from": "2025-09-29",
     "to": "2026-09-28"
@@ -1453,11 +1453,11 @@
     },
     {
       "date": "2026-09-25",
-      "count": 0
+      "count": 1
     },
     {
       "date": "2026-09-26",
-      "count": 1
+      "count": 3
     },
     {
       "date": "2026-09-27",
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-28",
-      "count": 3
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "f172937d5ef568f3002fc5a81e29ae1cc5698d52",
+      "shortSha": "f172937",
+      "message": "Merge pull request #145 from Monica-Pass/codex/android-native-vaults-and-keyboard",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-28T09:55:12Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f172937d5ef568f3002fc5a81e29ae1cc5698d52"
+    },
     {
       "sha": "49c6faba459e2d6c0e2f1b3ec0ade6b507615017",
       "shortSha": "49c6fab",
@@ -1477,6 +1486,15 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-28T09:19:19Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/49c6faba459e2d6c0e2f1b3ec0ade6b507615017"
+    },
+    {
+      "sha": "3110adc743c67fc19d1c9b721b582652a626fe67",
+      "shortSha": "3110adc",
+      "message": "feat(android): improve MDBX compatibility, vault sorting and app icons",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-28T09:16:08Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/3110adc743c67fc19d1c9b721b582652a626fe67"
     },
     {
       "sha": "05cf57eac96e257ee9844c71f41b4eb99ed7579a",
@@ -1506,6 +1524,33 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/a0c40a0ea5c6cf3c2b540d22c3ce5600fda92561"
     },
     {
+      "sha": "e45f04a54bde0801f4ee81c7e5518d16f5c9344c",
+      "shortSha": "e45f04a",
+      "message": "checkpoint(android): before optional extended entry editors",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-26T02:52:04Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/e45f04a54bde0801f4ee81c7e5518d16f5c9344c"
+    },
+    {
+      "sha": "1a7d06fc1a9e4d9efbf890b7c2b369be6da44e60",
+      "shortSha": "1a7d06f",
+      "message": "fix(android): preserve native vault content and backup round trips",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-26T02:32:50Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/1a7d06fc1a9e4d9efbf890b7c2b369be6da44e60"
+    },
+    {
+      "sha": "6299cd952832ad855dd1d632ad6a5a8c7524fe0c",
+      "shortSha": "6299cd9",
+      "message": "feat(android): improve native vaults, API keys, icons and keyboard",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-25T22:09:34Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/6299cd952832ad855dd1d632ad6a5a8c7524fe0c"
+    },
+    {
       "sha": "fbdd54a938c0f589f00033b8aae1e8f127fcf2d1",
       "shortSha": "fbdd54a",
       "message": "checkpoint(android): 新版新建模式前最后一次提交",
@@ -1513,51 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-20T14:21:38Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/fbdd54a938c0f589f00033b8aae1e8f127fcf2d1"
-    },
-    {
-      "sha": "eae28e6cebacf7c186ab4c186808218366367d45",
-      "shortSha": "eae28e6",
-      "message": "feat(android): prepare 1.0.314 with GPG tools and UI fixes",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-20T12:39:24Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/eae28e6cebacf7c186ab4c186808218366367d45"
-    },
-    {
-      "sha": "7a179869145bcf31cda86dc4248cedbc4e67668d",
-      "shortSha": "7a17986",
-      "message": "docs(android): document card density and WebDAV label fixes",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-20T02:36:41Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/7a179869145bcf31cda86dc4248cedbc4e67668d"
-    },
-    {
-      "sha": "b8857fefe8ccd5566b1a154e2a6cc0841ded3199",
-      "shortSha": "b8857fe",
-      "message": "Merge pull request #140 from tommynok/fix/webdav-test-connection-button-centering",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-20T02:35:33Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/b8857fefe8ccd5566b1a154e2a6cc0841ded3199"
-    },
-    {
-      "sha": "a2a65516f35e662b5a00b28a442ade304892004a",
-      "shortSha": "a2a6551",
-      "message": "Merge pull request #139 from tommynok/fix/card-density-totp-password-group",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-20T02:35:20Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/a2a65516f35e662b5a00b28a442ade304892004a"
-    },
-    {
-      "sha": "a62408ed4e9bbaeafca40268c36ece044c43e582",
-      "shortSha": "a62408e",
-      "message": "fix(android): center wrapped cloud backup action labels",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-20T02:22:00Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/a62408ed4e9bbaeafca40268c36ece044c43e582"
     }
   ]
 }
