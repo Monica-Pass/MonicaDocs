@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-28T09:55:46.442Z",
+  "generatedAt": "2026-09-28T10:15:39.481Z",
   "range": {
     "from": "2025-09-29",
     "to": "2026-09-28"
@@ -1465,10 +1465,28 @@
     },
     {
       "date": "2026-09-28",
-      "count": 5
+      "count": 7
     }
   ],
   "latest": [
+    {
+      "sha": "8af93ec544501714c8b09ffa346a90f2e4c2c88f",
+      "shortSha": "8af93ec",
+      "message": "Merge remote-tracking branch 'origin/main'",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-28T10:13:04Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/8af93ec544501714c8b09ffa346a90f2e4c2c88f"
+    },
+    {
+      "sha": "e0c1099a2b64496ebe3e6ef0addfad6ec6626020",
+      "shortSha": "e0c1099",
+      "message": "fix(android): refresh snow leopard icon and reduce adaptive cropping",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-28T10:09:36Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/e0c1099a2b64496ebe3e6ef0addfad6ec6626020"
+    },
     {
       "sha": "f172937d5ef568f3002fc5a81e29ae1cc5698d52",
       "shortSha": "f172937",
@@ -1540,24 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-26T02:32:50Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/1a7d06fc1a9e4d9efbf890b7c2b369be6da44e60"
-    },
-    {
-      "sha": "6299cd952832ad855dd1d632ad6a5a8c7524fe0c",
-      "shortSha": "6299cd9",
-      "message": "feat(android): improve native vaults, API keys, icons and keyboard",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-25T22:09:34Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/6299cd952832ad855dd1d632ad6a5a8c7524fe0c"
-    },
-    {
-      "sha": "fbdd54a938c0f589f00033b8aae1e8f127fcf2d1",
-      "shortSha": "fbdd54a",
-      "message": "checkpoint(android): 新版新建模式前最后一次提交",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-20T14:21:38Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/fbdd54a938c0f589f00033b8aae1e8f127fcf2d1"
     }
   ]
 }
