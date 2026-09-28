@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-28T12:15:12.704Z",
+  "generatedAt": "2026-09-28T13:27:06.997Z",
   "range": {
     "from": "2025-09-29",
     "to": "2026-09-28"
@@ -1465,10 +1465,28 @@
     },
     {
       "date": "2026-09-28",
-      "count": 10
+      "count": 12
     }
   ],
   "latest": [
+    {
+      "sha": "4de05bb439e3ecc36bbf509489625d8b9f80a3c5",
+      "shortSha": "4de05bb",
+      "message": "fix(android): dismiss settings search and normalize snow leopard splash",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-28T13:26:21Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/4de05bb439e3ecc36bbf509489625d8b9f80a3c5"
+    },
+    {
+      "sha": "57fb60f999dfcc049188041c0fce99546fdba096",
+      "shortSha": "57fb60f",
+      "message": "fix(mdbx): preserve literal JSON keys across native roundtrips",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-28T13:24:54Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/57fb60f999dfcc049188041c0fce99546fdba096"
+    },
     {
       "sha": "3e2f60beee82c14f409882a8cd72ac772f1346f9",
       "shortSha": "3e2f60b",
@@ -1540,24 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-28T09:16:08Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/3110adc743c67fc19d1c9b721b582652a626fe67"
-    },
-    {
-      "sha": "05cf57eac96e257ee9844c71f41b4eb99ed7579a",
-      "shortSha": "05cf57e",
-      "message": "Merge pull request #143 from wan-ans/feat/cheese-snow-leopard-language",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-28T08:45:54Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/05cf57eac96e257ee9844c71f41b4eb99ed7579a"
-    },
-    {
-      "sha": "c3e0ed404e23b390e3ae9d713f7f91775a29ddb9",
-      "shortSha": "c3e0ed4",
-      "message": "test(android): verify one-release snow leopard language",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-28T08:45:24Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/c3e0ed404e23b390e3ae9d713f7f91775a29ddb9"
     }
   ]
 }
