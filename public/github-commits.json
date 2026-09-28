@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-27T10:58:47.264Z",
+  "generatedAt": "2026-09-28T08:46:24.320Z",
   "range": {
-    "from": "2025-09-28",
-    "to": "2026-09-27"
+    "from": "2025-09-29",
+    "to": "2026-09-28"
   },
   "activity": [
-    {
-      "date": "2025-09-28",
-      "count": 0
-    },
     {
       "date": "2025-09-29",
       "count": 0
@@ -1461,14 +1457,45 @@
     },
     {
       "date": "2026-09-26",
-      "count": 0
+      "count": 1
     },
     {
       "date": "2026-09-27",
       "count": 0
+    },
+    {
+      "date": "2026-09-28",
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "05cf57eac96e257ee9844c71f41b4eb99ed7579a",
+      "shortSha": "05cf57e",
+      "message": "Merge pull request #143 from wan-ans/feat/cheese-snow-leopard-language",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-28T08:45:54Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/05cf57eac96e257ee9844c71f41b4eb99ed7579a"
+    },
+    {
+      "sha": "c3e0ed404e23b390e3ae9d713f7f91775a29ddb9",
+      "shortSha": "c3e0ed4",
+      "message": "test(android): verify one-release snow leopard language",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-28T08:45:24Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/c3e0ed404e23b390e3ae9d713f7f91775a29ddb9"
+    },
+    {
+      "sha": "a0c40a0ea5c6cf3c2b540d22c3ce5600fda92561",
+      "shortSha": "a0c40a0",
+      "message": "feat(android): add cheese snow leopard easter-egg language with launcher icon swap",
+      "authorName": "wan-ans",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/104829459?v=4",
+      "date": "2026-09-26T15:56:58Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/a0c40a0ea5c6cf3c2b540d22c3ce5600fda92561"
+    },
     {
       "sha": "fbdd54a938c0f589f00033b8aae1e8f127fcf2d1",
       "shortSha": "fbdd54a",
@@ -1531,33 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-20T02:19:45Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/c460665b6bcbaa52efae9f9cdb2752c7816649f2"
-    },
-    {
-      "sha": "04a017d45594b35f95c0c96ac42a180eb1fe7bd8",
-      "shortSha": "04a017d",
-      "message": "fix: center-align wrapped text on the WebDAV test-connection button",
-      "authorName": "claude",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/81847?v=4",
-      "date": "2026-09-13T21:49:25Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/04a017d45594b35f95c0c96ac42a180eb1fe7bd8"
-    },
-    {
-      "sha": "9b86f47c6e5cab7f624aed5c5e44bb7b5ebd3073",
-      "shortSha": "9b86f47",
-      "message": "fix: trim padding on grouped password entry cards (the actual per-item rows)",
-      "authorName": "claude",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/81847?v=4",
-      "date": "2026-09-13T01:43:38Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/9b86f47c6e5cab7f624aed5c5e44bb7b5ebd3073"
-    },
-    {
-      "sha": "8c597a6c3d92f9418883f1dd3bf668d8aec25391",
-      "shortSha": "8c597a6",
-      "message": "fix: reduce padding on TOTP list cards and app-group password header",
-      "authorName": "claude",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/81847?v=4",
-      "date": "2026-09-13T00:14:32Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/8c597a6c3d92f9418883f1dd3bf668d8aec25391"
     }
   ]
 }
