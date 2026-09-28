@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-09-28T11:01:20.976Z",
+  "generatedAt": "2026-09-28T11:18:10.736Z",
   "range": {
     "from": "2025-09-29",
     "to": "2026-09-28"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-09-28",
-      "count": 9
+      "count": 10
     }
   ],
   "latest": [
+    {
+      "sha": "3e2f60beee82c14f409882a8cd72ac772f1346f9",
+      "shortSha": "3e2f60b",
+      "message": "fix(icons): recrop snow leopard artwork and improve scaling clarity",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-28T11:17:12Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/3e2f60beee82c14f409882a8cd72ac772f1346f9"
+    },
     {
       "sha": "350e28283ea9077fc5019ec375c7a95f1e3c8030",
       "shortSha": "350e282",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-28T08:45:24Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/c3e0ed404e23b390e3ae9d713f7f91775a29ddb9"
-    },
-    {
-      "sha": "a0c40a0ea5c6cf3c2b540d22c3ce5600fda92561",
-      "shortSha": "a0c40a0",
-      "message": "feat(android): add cheese snow leopard easter-egg language with launcher icon swap",
-      "authorName": "wan-ans",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/104829459?v=4",
-      "date": "2026-09-26T15:56:58Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/a0c40a0ea5c6cf3c2b540d22c3ce5600fda92561"
     }
   ]
 }
