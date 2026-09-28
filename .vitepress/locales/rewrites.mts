@@ -1,4 +1,5 @@
 const rootRewrites: Array<[string, string]> = [
+  ["02.配置/02.相关文档/04.Mdbx相关/09.Monica-CLI-模型中转.md", "reference/monica-cli-model-proxy.md"],
   ["personal.md", "personal/index.md"],
   ["@papes/archivesPage.md", "archives.md"],
   ["@papes/articleOverviewPage.md", "articleOverview.md"],
@@ -33,6 +34,7 @@ const rootRewrites: Array<[string, string]> = [
 ];
 
 const enRewrites: Array<[string, string]> = [
+  ["en/02.Configuration/02.Docs/mdbx/09.Monica-CLI-Model-Proxy.md", "en/reference/monica-cli-model-proxy.md"],
   ["en/personal.md", "en/personal/index.md"],
   ["en/@papes/archivesPage.md", "en/archives.md"],
   ["en/@papes/articleOverviewPage.md", "en/articleOverview.md"],
@@ -66,6 +68,7 @@ const enRewrites: Array<[string, string]> = [
 ];
 
 const jaRewrites: Array<[string, string]> = [
+  ["ja/02.Configuration/02.Docs/mdbx/09.Monica-CLI-Model-Proxy.md", "ja/reference/monica-cli-model-proxy.md"],
   ["ja/personal.md", "ja/personal/index.md"],
   ["ja/@papes/archivesPage.md", "ja/archives.md"],
   ["ja/@papes/articleOverviewPage.md", "ja/articleOverview.md"],
@@ -99,6 +102,7 @@ const jaRewrites: Array<[string, string]> = [
 ];
 
 const ruRewrites: Array<[string, string]> = [
+  ["ru/02.Configuration/02.Docs/mdbx/09.Monica-CLI-Model-Proxy.md", "ru/reference/monica-cli-model-proxy.md"],
   ["ru/personal.md", "ru/personal/index.md"],
   ["ru/@papes/archivesPage.md", "ru/archives.md"],
   ["ru/@papes/articleOverviewPage.md", "ru/articleOverview.md"],
@@ -132,6 +136,7 @@ const ruRewrites: Array<[string, string]> = [
 ];
 
 const viRewrites: Array<[string, string]> = [
+  ["vi/02.Configuration/02.Docs/mdbx/09.Monica-CLI-Model-Proxy.md", "vi/reference/monica-cli-model-proxy.md"],
   ["vi/personal.md", "vi/personal/index.md"],
   ["vi/@papes/archivesPage.md", "vi/archives.md"],
   ["vi/@papes/articleOverviewPage.md", "vi/articleOverview.md"],

@@ -26,6 +26,7 @@ export type SidebarText = {
   mdbxTasks: string;
   mdbxCompletion: string;
   cli: string;
+  modelProxy: string;
 };
 
 const localizedPath = (locale: string, path: string) => `/${locale ? `${locale}/` : ""}${path}`;
@@ -75,6 +76,7 @@ export const createSidebar = (locale: string, text: SidebarText): DefaultTheme.S
         { text: text.mdbxTasks, link: localizedPath(locale, "reference/mdbx-task-breakdown") },
         { text: text.mdbxCompletion, link: localizedPath(locale, "reference/mdbx-implementation-completion-plan") },
         { text: text.cli, link: localizedPath(locale, "reference/monica-pass-cli-development") },
+        { text: text.modelProxy, link: localizedPath(locale, "reference/monica-cli-model-proxy") },
       ],
     },
   ],
@@ -107,6 +109,7 @@ const sidebarText: Record<"root" | "en" | "ja" | "ru" | "vi", SidebarText> = {
     mdbxTasks: "MDBX 低端模型任务拆分清单",
     mdbxCompletion: "MDBX 实现补完计划",
     cli: "Monica Pass CLI 开发文档",
+    modelProxy: "Android API Key 与模型中转",
   },
   en: {
     guide: "Guide",
@@ -134,6 +137,7 @@ const sidebarText: Record<"root" | "en" | "ja" | "ru" | "vi", SidebarText> = {
     mdbxTasks: "MDBX Task Breakdown",
     mdbxCompletion: "MDBX Implementation Completion Plan",
     cli: "Monica Pass CLI Development",
+    modelProxy: "Android API Keys and the local model proxy",
   },
   ja: {
     guide: "ガイド",
@@ -161,6 +165,7 @@ const sidebarText: Record<"root" | "en" | "ja" | "ru" | "vi", SidebarText> = {
     mdbxTasks: "MDBX タスク分解",
     mdbxCompletion: "MDBX 実装補完計画",
     cli: "Monica Pass CLI 開発文書",
+    modelProxy: "Android API Key とローカルモデルプロキシ",
   },
   ru: {
     guide: "Руководство",
@@ -188,6 +193,7 @@ const sidebarText: Record<"root" | "en" | "ja" | "ru" | "vi", SidebarText> = {
     mdbxTasks: "Декомпозиция задач MDBX",
     mdbxCompletion: "План завершения MDBX",
     cli: "Разработка Monica Pass CLI",
+    modelProxy: "Ключи Android и локальный прокси моделей",
   },
   vi: {
     guide: "Hướng dẫn",
@@ -215,6 +221,7 @@ const sidebarText: Record<"root" | "en" | "ja" | "ru" | "vi", SidebarText> = {
     mdbxTasks: "Phân rã tác vụ MDBX",
     mdbxCompletion: "Kế hoạch hoàn thiện MDBX",
     cli: "Phát triển Monica Pass CLI",
+    modelProxy: "API Key Android và proxy mô hình cục bộ",
   },
 };
 
