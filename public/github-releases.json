@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T07:26:14.292Z",
+  "updatedAt": "2026-09-28T14:44:53.237Z",
   "repos": [
     {
       "id": "android",
@@ -8,6 +8,239 @@
       "url": "https://github.com/Monica-Pass/Monica",
       "platform": "android",
       "releases": [
+        {
+          "tag": "V1.0.313k",
+          "name": "V1.0.313补丁",
+          "body": "修复了上版本引入的部分bug，如果你使用Monica并且使用“密码库”页面请务必更新",
+          "publishedAt": "2026-09-17T15:08:45Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.313k",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.313-26091712-07.APK",
+              "size": 41734571,
+              "downloadCount": 717,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.313k/Monica-Android-arm64-v8a-1.0.313-26091712-07.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.313-26091712-07.APK",
+              "size": 39701535,
+              "downloadCount": 12,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.313k/Monica-Android-armeabi-v7a-1.0.313-26091712-07.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.313",
+          "name": "V1.0.313",
+          "body": "# Monica for Android 1.0.313\r\n\r\n## 中文\r\n\r\n### 简要\r\n\r\n- 重做去重引擎，支持单库或多库整理、冲突预览、可用 Passkey 去重和完整字段保存。\r\n- 优化 Dock 连续切换，大列表分组与排序接入 Rust。\r\n- 快速初始化新增六套预设、独立 Dock 设置及应用导入入口。\r\n- 新增繁體中文，采用香港常用书面用语。\r\n- 中文语言选项收纳为可展开的长卡片，简体、繁体、猫语和文言文集中选择。\r\n- 修复标记“非自动填充”后仍出现解锁提示的问题。\r\n- 改进工号、学号、分步登录及网页表单的填充，减少漏填和误填。\r\n\r\n### 详细\r\n\r\n- **去重整理**：来源、目标与冲突策略集中在连接式圆角操作组；数据库和合并明细支持搜索，新增、冲突、跳过分别筛选，写入进度与主操作保持可达。支持将单个或多个来源整理到独立的本地或 MDBX 目标，保留来源与目标已有内容；同账号但内容不同的目标条目另存一份。判重区分 URL 路径、非邮箱账号大小写、密码空格及 OTP 参数，保留自定义字段、附件、照片和卡面，同名不同内容的附件分别保留；再次整理不会重复新增，MDBX 重新打开后内容完整。取消或重新扫描不会执行旧结果，Passkey 按凭据身份和密钥判重，同账号的不同钥匙分别保留；非零计数、不可用或冲突记录会列明跳过原因。批量移动先保存目标再清理来源，删除副本不影响仍在使用的共享私钥。\r\n- **Dock 与列表性能**：切换页面复用已初始化的加密组件，返回密码页复用完全匹配的分组结果；数据或堆叠设置变化时仍及时重算。大列表的归组、评分和稳定排序使用 Rust 批量处理，保留原有卡片顺序与样式，并设定批量上限、结果校验和兼容回退。\r\n- **快速初始化**：新增 Bitwarden 预览／列表、验证器专用、分页管理、日常常用和极简密码六套预设，可先预览 Dock 再应用；支持保留当前布局。流程调整为欢迎、预设、Dock、页面微调、安全与自动填充、接入数据、完成；Dock 复用底栏设置卡片，完整显示已开启及隐藏页面，支持长按拖拽排序；列表、卡片和配色在后续步骤按需展开。返回前一步保留微调，设置入口始终可达，并补齐各语言文案。可直接前往其他应用或文件导入，返回后继续当前初始化步骤。\r\n- **香港繁体中文**：补齐设置、数据库、备份、Passkey、自动填充等页面的繁体文案，统一使用「設定」「檔案」「數據庫」「電郵」等香港常用表达。\r\n- **语言选择**：中文与其他语言保持一致的长卡片样式，最右侧箭头独立展开四种中文选项；选择后同步更新卡片名称和设置页摘要。「跟随系统」保留为独立选项。\r\n- **切换与显示**：明确区分简体与繁体语言，兼容系统上报的特殊中文语言组合；缺失的繁体文案优先回退简体中文。弹窗适配深色模式和大字体，展开使用共用平滑动效。\r\n- **自动填充标记**：标记“非自动填充”后立即撤下当前输入框的系统提示；旧解锁入口与密码建议在启动时重新检查标记，避免开启自动填充验证时反复显示解锁卡片。\r\n- **填充兼容性**：系统与无障碍填充补充工号、学号及非标准中文字段识别，支持账号、密码分步登录；排除搜索框和验证码，避免混入其他窗口或网页的字段。网页优先按指定字段写入，减少异步粘贴错位；取消旧请求后停止回调，保留 Android Q 的免验证填充。\r\n- **键盘填充**：连续填写前确认焦点已切换；App 消费“下一项”但未移动焦点、重建同一输入框连接或切换到其他 App 时停止，避免密码追加到账号中。\r\n\r\n## English\r\n\r\n### Summary\r\n\r\n- Redesign deduplication with single- or multi-vault consolidation, conflict previews, eligible passkey deduplication, and complete field preservation.\r\n- Improve rapid Dock switching and use Rust for large-list grouping and sorting.\r\n- Quick setup adds six layouts, separate Dock controls, and app import.\r\n- Add Traditional Chinese with Hong Kong terminology.\r\n- Group Simplified Chinese, Traditional Chinese, Nya, and Classical Chinese in an expandable language card.\r\n- Fix unlock prompts remaining after a field is marked as unsuitable for autofill.\r\n- Improve filling for employee/student IDs, two-step sign-in, and web forms, reducing missed or incorrect fields.\r\n\r\n### Details\r\n\r\n- **Deduplication:** Configure sources, destination, and conflict policy in connected rounded rows. Search databases and preview details, filter additions, conflicts, and skipped items, and keep progress and primary actions accessible. Consolidate one or more sources into a separate local or MDBX destination while preserving sources and existing destination entries. Keep a separate copy when an existing account has different content. Matching preserves URL path and non-email username case, password whitespace, OTP parameters, custom fields, attachments, photos, and card faces, including after reopening MDBX. Same-name attachments with different content are retained, and repeat runs do not add duplicates. Cancelled or replaced scans cannot execute stale results. Passkeys are matched by credential identity and key data, preserving different keys for the same account. Nonzero counters, unavailable keys, and conflicts show explicit skip reasons. Batch moves save the destination before source cleanup, and deleting a copy preserves keys still referenced by other records.\r\n- **Dock and list performance:** Reuse initialized security components between pages and reuse password groups when the complete input snapshot matches. Data or stack-setting changes still trigger recalculation. Rust batches grouping, scoring, and stable sorting for large lists, preserving card order and appearance with input limits, result validation, and a compatible fallback.\r\n- **Quick setup:** Preview and apply six layouts: Bitwarden overview or list, Authenticator, Separate pages, Everyday, and Minimal. Keep your current layout if preferred. The flow now covers welcome, presets, Dock, page customization, security and autofill, data connections, and completion. Dock uses the existing settings cards, lists both visible and hidden pages, and supports drag-and-drop ordering in its own step; list, card, and color options expand separately in the next step. Going back preserves adjustments, Settings remains accessible, and all supported languages include the new text. Open app or file import directly, then return to the same setup step.\r\n- **Hong Kong Traditional Chinese:** Add translations across settings, databases, backups, passkeys, autofill, and other screens, with consistent Hong Kong terminology.\r\n- **Language selection:** Chinese uses the same full-width card style as other languages. A separate arrow expands its four variants; selecting one updates the card label and the language summary in Settings. Follow system remains a separate option.\r\n- **Switching and display:** Distinguish Simplified and Traditional Chinese, including unusual locale combinations reported by some devices. Missing Traditional Chinese text falls back to Simplified Chinese first. The dialog supports dark mode, large text, and shared smooth expansion animations.\r\n- **Autofill exclusions:** Marking a field as unsuitable for autofill dismisses its current system suggestions. Cached unlock entries and password suggestions recheck the exclusion before opening, preventing repeated unlock cards when autofill verification is enabled.\r\n- **Filling compatibility:** System and accessibility filling recognize employee/student IDs and nonstandard Chinese fields, support separate username/password steps, exclude search and verification-code fields, and keep fields scoped to the active window or web origin. Web fields are addressed directly to avoid asynchronous paste targeting errors; cancelled requests stop delivering callbacks. Android Q filling without verification remains available.\r\n- **Keyboard filling:** Verify that focus has moved before filling the next value. Stop when an app consumes Next without moving focus, restarts the same editor, or switches to another app, preventing passwords from being appended to usernames.\r\n",
+          "publishedAt": "2026-09-17T09:09:19Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.313",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.313-26091712-01.APK",
+              "size": 41734571,
+              "downloadCount": 84,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.313/Monica-Android-arm64-v8a-1.0.313-26091712-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.313-26091712-01.APK",
+              "size": 39701535,
+              "downloadCount": 1,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.313/Monica-Android-armeabi-v7a-1.0.313-26091712-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.312",
+          "name": "V1.0.312",
+          "body": "<img width=\"700\" alt=\"d20c49bf57a88bc76f77ce62ad7c65a0\" src=\"https://github.com/user-attachments/assets/8f891044-0b94-4122-b1fd-469e9769e307\" />\r\n\r\n# Monica for Android 1.0.312\r\n\r\n## 中文\r\n\r\n### 简要\r\n\r\n- 新增文言文（华夏）、波兰语和猫语，完善多语言体验。\r\n- 新增 Android 凭据交换，支持选择数据库导入导出、进度显示和后台导出。\r\n- 数据库、云备份等页面统一采用 M3E 设计，加入平滑展开与可选卡叠循环。\r\n- KeePass 支持冲突合并，改进 MDBX 令牌读取、同步状态和回收站体验。\r\n\r\n### 详细\r\n\r\n- **语言与本地化**：新增文言文（华夏）、波兰语和猫语。文言文采用简洁、统一的古文表达，波兰语调整常用标签与复数形式；猫语缺失内容回退简体中文。清理 Bitwarden、备份恢复、Steam、自动填充等页面的中文硬编码，补齐各语言的新旧功能文案。2FA 和 Steam 卡片统一使用 `Next` 标记。\r\n- **Android 凭据交换**：通过 CXP/CXF 与兼容密码管理器导入、导出密码和 Passkey。导出前验证身份并确认接收应用；按规范跳过非零签名计数、缺少可导出私钥或包含不支持扩展的 Passkey，保留原凭据。\r\n- **选择目标导入**：ZIP 和 CSV 可导入到本地、KeePass、MDBX 或 Bitwarden，按目标数据库格式保存支持的数据类型。加密 ZIP 使用备份文件自身的解密密码，导入结果展示成功、跳过、失败及待上传状态；重复导入进行去重。\r\n- **按数据库导出**：文件导出使用所选数据库作为来源，ZIP 中的密码、Passkey、附件和回收站均跟随该范围。可移植 Passkey 私钥与附件通过加密 ZIP 导出；附件流式写入并校验完整性，异常时指出具体条目与附件。其他数据库的数据与应用连接配置不混入备份。\r\n- **传输进度与性能**：导入展示读取、解密、写入及附件处理进度；导出可在离开页面后继续，并通过通知显示进度与结果。MDBX 使用 Rust 分批写入，减少重复解锁与落盘，按数据大小控制批次；超限记录明确报错，中断后可保留已提交内容并去重重试。\r\n- **数据库管理**：MDBX 与 KeePass 统一使用自适应、等尺寸数据库磁贴和连接式圆角分组，两侧留白收窄，打开／新建始终可达。同步、冲突、历史、快照、结构等页面统一布局，优先呈现常用操作，技术信息按需展开。 数据库筛选菜单按可见范围加载，减少数据库较多时打开与展开的卡顿。\r\n- **云端全量备份**：WebDAV 与 OneDrive 共用 M3E 备份列表、设置分区和固定操作区。列表展示时间、大小、加密与保留状态；连接、加密及备份内容集中设置，目录选择和恢复确认使用一致的交互。\r\n- **语言与多凭据选择**：设置和首次配置共用新的语言选择弹窗。多凭据编辑清晰区分公共信息与当前独立凭据，底栏突出当前编辑对象、新增和保存，切换面板与删除确认明确对应条目。\r\n- **概览与卡包**：类型筛选磁贴统一尺寸，长译文换行时整组增高，并适配窄屏与大字体。卡包可在「页面调整 → 自定义」中开启循环堆叠，保持原有卡片外观，末张接续首张，支持双向浏览。\r\n- **平滑展开动效**：新建、编辑页的折叠区域，以及各类详情中的长密码、私钥和受保护字段使用共用展开动效。显示时自然换行并平滑改变高度，隐藏时立即恢复固定短遮罩；遵循减少动效设置。\r\n- **KeePass 冲突合并**：本地与远端同时修改后，可比较并合并不同条目或字段；重叠修改支持逐项选择保留版本，敏感字段默认遮蔽。上传前再次检查远端版本，失败后保留内容供重试。\r\n- **MDBX API 令牌**：支持自定义服务商、API 地址、多行备注、受保护字段与收藏，并可在原生 MDBX 库之间复制或移动。复用有效读取会话，减少每次查看令牌正文时的重复解锁等待，保留现有 CLI 数据与扩展字段。\r\n- **MDBX 读取与同步**：远端网络传输不再阻塞本地令牌读取。查看令牌产生的安全审计继续同步，但不再误报为条目未同步；真实新增、编辑及同步期间的修改仍保留待上传状态。\r\n- **回收站**：沿用进入前的数据库范围，统一多选、全选、恢复和永久删除操作；返回密码页或密码库的入口改为与其他页面位置一致的悬浮按钮。\r\n- **稳定性修复**：修正 Bitwarden/Vaultwarden 的同步结果与回收站删除处理，保留失败原因和可重试状态；修复密码库概览跳转闪退，以及部分设备打开验证器时的类验证异常。\r\n\r\n感谢 @aiguozhi123456 对猫语语言包和验证器兼容性修复的贡献。\r\n\r\n## English\r\n\r\n### Summary\r\n\r\n- Add Classical Chinese (Huaxia), Polish, and Nya, and improve localization across the app.\r\n- Add Android Credential Exchange, database selection for import/export, progress indicators, and background exports.\r\n- Refresh database and cloud backup pages with M3E layouts, smooth expansion, and optional looping card stacks.\r\n- Add KeePass conflict merging and improve MDBX token loading, sync status, and the recycle bin.\r\n\r\n### Details\r\n\r\n- **Languages and localization:** Add Classical Chinese (Huaxia), Polish, and Nya. Classical Chinese uses concise, consistent terminology; Polish includes compact labels and proper plural forms. Missing Nya text falls back to Simplified Chinese. Replace hardcoded Chinese in Bitwarden, backup, Steam, autofill, and other screens, and complete translations for existing and new features. Both 2FA and Steam cards use the label `Next`.\r\n- **Android Credential Exchange:** Import and export passwords and passkeys with compatible password managers through CXP/CXF. Export requires identity verification and confirmation of the receiving app. Passkeys with nonzero signature counters, no exportable private key, or unsupported extensions are skipped as required by the specification; existing credentials remain intact.\r\n- **Import destinations:** Import ZIP and CSV files into a local, KeePass, MDBX, or Bitwarden database, using the destination's format for supported items. Encrypted ZIP files use their own decryption password. Results show imported, skipped, failed, and pending-upload items, with deduplication for repeated imports.\r\n- **Database-scoped exports:** File exports use the selected database. Passwords, passkeys, attachments, and trash in a ZIP follow that scope. Portable passkey private keys and attachments require an encrypted ZIP. Attachments are streamed and checked for integrity; failures identify the item and attachment. Unrelated databases and app connection settings are excluded.\r\n- **Transfer progress and performance:** Import shows reading, decryption, writing, and attachment stages. Exports continue after leaving the page, with progress and results in notifications. MDBX batches writes through Rust to reduce repeated unlocking and disk writes, limits batches by data size, and reports oversized records. Interrupted imports retain committed items for deduplicated retries.\r\n- **Database management:** MDBX and KeePass share adaptive, equally sized database tiles, grouped rounded controls, and smaller side margins. Open/Create remain accessible above long lists. Sync, conflicts, history, snapshots, structure, and related pages prioritize common actions and reveal technical details on demand. Database filter menus compose visible chips on demand to reduce opening and expansion delays with many databases.\r\n- **Full cloud backups:** WebDAV and OneDrive share M3E backup lists, settings sections, and fixed action areas. Lists show dates, sizes, encryption, and retention status. Connection, encryption, and backup contents are configured together, with consistent folder selection and restore confirmation.\r\n- **Language and credential selection:** Settings and initial setup share the new language dialog. Multiple-credential editing clearly distinguishes shared information from the current individual credential. The bottom bar highlights the current editor, Add, and Save; selection and deletion identify the affected entry.\r\n- **Overview and card wallet:** Type filters use uniform tile sizes, growing together when translated labels wrap and adapting to narrow screens and large text. Optional looping stacks under Page adjustment → Customization preserve the existing card appearance, connect the last card to the first, and support browsing in both directions.\r\n- **Smooth expansion:** Collapsible editor sections and long passwords, private keys, and protected detail fields share smooth expansion. Revealed values wrap naturally as cards resize; hiding immediately restores a short fixed mask. Reduced-motion settings are respected.\r\n- **KeePass conflict merging:** Compare and merge concurrent local and remote changes to entries or fields. Choose versions for overlapping changes, with sensitive values masked by default. The remote version is checked again before upload, and failed uploads retain content for retry.\r\n- **MDBX API tokens:** Add custom providers, API addresses, multiline notes, protected fields, favorites, and copying or moving between native MDBX databases. Reuse valid read sessions to reduce repeated unlock waits for token content while preserving existing CLI data and extension fields.\r\n- **MDBX reading and sync:** Remote network transfers no longer block local token reads. Viewing a token still produces synchronized security audit records without incorrectly marking entries as unsynced. Actual additions, edits, and changes made during sync retain their pending-upload status.\r\n- **Recycle bin:** Preserve the current database scope and use consistent selection, Select all, Restore, and permanent deletion controls. A floating button returns to passwords or the vault, matching the action placement on other pages.\r\n- **Stability fixes:** Correct Bitwarden/Vaultwarden sync results and trash deletion while retaining failure details and retryable state. Fix vault overview navigation crashes and authenticator class verification errors on affected devices.\r\n\r\nThanks to @aiguozhi123456 for contributions to Nya and authenticator compatibility.\r\n",
+          "publishedAt": "2026-09-16T11:52:33Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.312",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.312-26091612-01.APK",
+              "size": 41257199,
+              "downloadCount": 258,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.312/Monica-Android-arm64-v8a-1.0.312-26091612-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.312-26091612-01.APK",
+              "size": 39273315,
+              "downloadCount": 2,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.312/Monica-Android-armeabi-v7a-1.0.312-26091612-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.311",
+          "name": "V1.0.311",
+          "body": "### Monica for Android 1.0.311\r\n\r\n## 中文\r\n\r\n### 简要\r\n\r\n- 新增完整法语界面，覆盖设置、初始化向导、密码库概览、MDBX、附件和 Bitwarden 等模块，保留按模块组织的语言资源。\r\n- 新增默认开启、可关闭的密码库概览，支持自定义模块与数据库筛选；概览内独立搜索复用公共顶栏动画和 Rust 检索索引。\r\n- Monica Plus 的固定金额、自由赞赏二维码及支持作者页共用图片查看器，支持全屏预览、双指缩放和保存原图。\r\n- Bitwarden 登录页自动避让输入法并增加底部滚动空间，自托管服务器 URL 和证书表单获得焦点后保持可见。\r\n- 感谢 [@aiguozhi123456](https://github.com/aiguozhi123456) 贡献 [#133](https://github.com/Monica-Pass/Monica/pull/133)：精简扫码依赖，保留相机与相册识别，支持反色、多码识别并完善长时间扫码的恢复能力。\r\n- 感谢 [@tommynok](https://github.com/tommynok) 贡献 [#134](https://github.com/Monica-Pass/Monica/pull/134)：修复导入页面底部操作栏被系统导航栏遮挡的问题，CSV 导入失败提示适配应用语言。\r\n- 感谢 [@tommynok](https://github.com/tommynok) 贡献 [#131](https://github.com/Monica-Pass/Monica/pull/131)：补全俄语翻译、安全问题本地化，并改善较长文字的布局。\r\n- 修复 [#128](https://github.com/Monica-Pass/Monica/issues/128)：分组样式选项和 MDBX 管理器随应用语言显示，补全英文、中文和俄语文案，切换语言后及时刷新。\r\n- 新增卡包卡叠，支持组合收纳与上下翻阅。\r\n- 卡包多选保留卡叠顺序，以分组底色、选中数量和独立卡片区域区分成员。\r\n- 优化 Monica 键盘列表，新增网站地址填充。\r\n- 新增填充服务保护，支持后台运行检查与可选的无障碍增强恢复。\r\n- 统一下拉搜索与返回行为，减少误触。\r\n- 修复验证器、卡包和笔记多选时按返回误触发退出应用提示的问题。\r\n- 修复解锁页键盘 Enter／完成键无法提交密码的问题。\r\n- 初始化时开启指纹解锁须先通过系统身份验证。\r\n- 感谢 [@tommynok](https://github.com/tommynok) 贡献 [#127](https://github.com/Monica-Pass/Monica/pull/127)：修复初始化向导底部按钮被系统导航栏遮挡的问题（[#129](https://github.com/Monica-Pass/Monica/issues/129)），并将“跳过”按钮与长标题分行显示。\r\n- 初始化页语言选择改为弹出菜单，展开时不再推动页面内容。\r\n- WebDAV 同步设置新增备份数量上限，永久备份不受影响。\r\n- 修复卡面裁剪预览底部漏图的问题。\r\n\r\n### 详细\r\n\r\n- 概览可在页面调整中关闭；常用卡片以卡包卡叠展示，常用项目、收藏夹、类型、文件夹、数据库、归档和回收站按模块排列，支持显隐、排序和折叠。搜索跟随当前数据库范围，在详情返回后保留查询和结果；索引构建及检索在后台完成，大列表使用 Rust，小列表保留轻量回退。\r\n- Steam 与验证器共用 CameraX 相机预览和 ZXing 识别引擎，保留原有 13 种码制、反色二维码和小码识别；同一画面或图片中的多个码交由页面筛选。解码在后台完成，释放相机帧后在主线程处理结果，扫码会话支持中断恢复与前后台切换。\r\n- [@tommynok](https://github.com/tommynok) 的 [#131](https://github.com/Monica-Pass/Monica/pull/131) 补充俄语界面翻译并统一术语；预设安全问题现在随应用语言显示，保留原有问题编号和自定义问题。权限卡片、预设字段对话框及分段按钮为较长文字预留空间，减少文字挤压、异常换行和按钮高度不一致。\r\n- 分组方式的标题、说明和预览标签改用语言资源。MDBX 本地与远程管理、创建与打开、迁移、历史、快照、健康诊断、修复及确认提示移除中文硬编码，其他尚无译文的语言使用英文回退。历史日期遵循当前应用语言；切换语言会刷新缓存的展示文案，保留原有分组标识、用户内容和数据库操作逻辑。\r\n- 多选卡片即可创建或加入卡叠，无需命名；卡叠置顶，普通卡片保留原有排序。\r\n- 展开后可上下翻阅，支持阻尼动效与一键收起，并以当前卡片作为封面。\r\n- 卡面提供数量和管理入口，可调整顺序、移出卡片或解散卡叠。\r\n- 多选时按卡叠显示顺序展开成员，组内沿用已保存的排列。每个卡叠使用连续底色和独立分组头，显示“已选 / 总数”，支持整组选择及进入卡叠管理；独立卡片保留原有排序并单独分区。筛选时整组选中仅作用于当前显示的成员；取消全部选择后仍可继续选其他卡片，按返回退出多选。\r\n- Monica 键盘的密码、验证器和卡包统一列表样式，筛选和搜索与卡片对齐，为滑动条留出独立空间。\r\n- Monica键盘密码条目新增“网站”按钮，一键填入已保存的网址。\r\n- 填充服务保护支持开机解锁后恢复、无障碍连接检查和自启动设置指引；可在了解风险后授权 Shizuku ADB 增强恢复。\r\n- 修正授权确认复选框的间距，避免选中反馈遮挡说明文字。\r\n- 从列表顶部下拉到阈值后松手开启搜索，无需停留；空白区域的多语言提示随阈值变色，从列表下方滑回顶部时不触发。返回先收起键盘并保留查询结果，再次返回退出搜索。\r\n- 验证器、卡包和笔记多选时，系统返回键与退出多选按钮共用清理逻辑，先取消选择并恢复普通列表。\r\n- 解锁时可直接按键盘 Enter／完成键提交密码，与确认按钮共用校验逻辑；首次设置密码也可用键盘完成下一步和确认。\r\n- 初始化页开启生物识别解锁前先验证身份，取消或验证失败时保持关闭；未录入指纹或面容时显示设置提示。\r\n- 包含 [@tommynok](https://github.com/tommynok) 的 [#127](https://github.com/Monica-Pass/Monica/pull/127) 修复：初始化向导底部操作栏避让系统导航栏，避免“开始”“上一步”“下一步”和“完成”按钮被遮挡，覆盖 [#129](https://github.com/Monica-Pass/Monica/issues/129)；“跳过”按钮与后续步骤的长标题分行显示。\r\n- 欢迎页的语言列表改为锚定“更改”按钮的可滚动弹出菜单，标记当前语言；选中语言、点击菜单外部或按返回即可收起，展开时保持页面布局稳定。\r\n- 可在 WebDAV 右上角的同步设置中开启数量限制，设置保留 1–1000 份普通备份；每次上传成功后自动清理超出的旧备份，永久备份单独保留且不占额度。未开启时沿用原有按时间清理规则。\r\n- 卡面裁剪时将图片限制在预览区域内，竖图、放大和拖动时均不会溢出到顶部工具栏或底部提示区。\r\n\r\n## English\r\n\r\n### Summary\r\n\r\n- Added complete French localization across settings, setup, vault overview, MDBX, attachments, and Bitwarden, retaining modular language resources.\r\n- Added a customizable vault overview, enabled by default with an option to return to the classic list. Overview search stays on the page and reuses the shared animated toolbar and Rust search index.\r\n- Fixed-amount and free-donation QR codes in Monica Plus, along with the support page, share full-screen preview, pinch-to-zoom, and saving of the original image.\r\n- Bitwarden login now adjusts to the keyboard and provides extra scroll space, keeping focused self-hosted URL and certificate fields visible.\r\n- Thanks to [@aiguozhi123456](https://github.com/aiguozhi123456) for [#133](https://github.com/Monica-Pass/Monica/pull/133): reduced scanner dependencies while retaining camera and gallery scanning, inverted and multiple-code recognition, and recovery during extended scanning sessions.\r\n- Thanks to [@tommynok](https://github.com/tommynok) for [#134](https://github.com/Monica-Pass/Monica/pull/134): the import action bar now respects system navigation insets, and CSV import failure messages follow the app language.\r\n- Thanks to [@tommynok](https://github.com/tommynok) for [#131](https://github.com/Monica-Pass/Monica/pull/131): expanded Russian translations, localized security questions, and improved layouts for longer labels.\r\n- Fixed [#128](https://github.com/Monica-Pass/Monica/issues/128): grouping options and the MDBX manager follow the app language, with English, Chinese, and Russian text that refreshes after language changes.\r\n- Added wallet card stacks for grouped storage and vertical browsing.\r\n- Wallet selection preserves stack order, with distinct group backgrounds, selection counts, and a separate section for individual cards.\r\n- Refined Monica Keyboard lists and added website address filling.\r\n- Added fill service protection with background checks and optional accessibility recovery.\r\n- Unified pull-to-search and Back behavior to prevent accidental activation.\r\n- Fixed Back showing the app-exit prompt while selecting authenticators, wallet items, or notes.\r\n- Fixed password submission with the keyboard Enter/Done key on the unlock screen.\r\n- Initial setup now requires system authentication before enabling biometric unlock.\r\n- Thanks to [@tommynok](https://github.com/tommynok) for [#127](https://github.com/Monica-Pass/Monica/pull/127): fixed setup buttons overlapping the system navigation bar ([#129](https://github.com/Monica-Pass/Monica/issues/129)) and placed Skip on its own row above longer step titles.\r\n- Language selection during setup now opens a popup menu without shifting page content.\r\n- Added a WebDAV backup count limit in Sync settings, with permanent backups exempt.\r\n- Fixed image overflow below the card-face crop preview.\r\n\r\n### Details\r\n\r\n- Disable the overview in Page adjustment to restore the classic list. Frequent wallet cards appear as a stack; frequent items, favorites, types, folders, databases, archive, and trash form modules that can be shown, hidden, reordered, and collapsed. Search follows the selected database and retains its query and results after returning from details. Index preparation and queries run in the background, using Rust for larger lists and a lightweight fallback for smaller ones.\r\n- Steam and the authenticator share CameraX preview and ZXing decoding, retaining all 13 barcode formats, inverted QR codes, and small-code recognition. Multiple candidates from the camera or gallery are filtered by the calling screen. Decoding stays in the background; frames are released before main-thread result delivery, with camera recovery and support for background/resume transitions.\r\n- [@tommynok](https://github.com/tommynok)'s [#131](https://github.com/Monica-Pass/Monica/pull/131) fills gaps in Russian translations and makes terminology consistent. Preset security questions now follow the app language while retaining existing question IDs and custom questions. Permission cards, preset-field dialogs, and segmented buttons give longer text enough room, reducing cramped labels, awkward wrapping, and mismatched button heights.\r\n- Grouping titles, descriptions, and preview labels now use language resources. Local and remote MDBX management, create/open flows, migration, history, snapshots, health diagnostics, repairs, and confirmation dialogs no longer use hardcoded Chinese. Languages without a translation fall back to English. History dates follow the app locale, and cached presentation text refreshes when the language changes while grouping identifiers, user content, and database operations retain their existing behavior.\r\n- Select cards to create or join a stack without naming it. Stacks appear first; individual cards retain their sort order.\r\n- Browse vertically with damped motion and collapse with one tap. The current card becomes the cover.\r\n- View the card count and manage members directly from the cover: reorder, remove, or dissolve the stack.\r\n- Selection expands stacks in their browsing order and preserves each stack’s saved member order. A shared background and group header identify each stack, show selected/total counts, and provide group selection and stack management. Individual cards retain their ordering in a separate section. Group selection under a filter affects only visible members; clearing all selections keeps selection mode open, and Back exits it.\r\n- Passwords, authenticators, and wallet items share a consistent keyboard layout, with filters and search aligned to the cards and dedicated space for fast scrolling.\r\n- Fill a saved website address using the new Website action on password entries.\r\n- Fill service protection supports resuming after reboot and unlock, accessibility connection checks, and auto-start guidance. Optional Shizuku ADB recovery requires reviewing the access risks.\r\n- Adjusted the authorization acknowledgement checkbox spacing so its selection feedback stays clear of the label.\r\n- Pull from the top past the threshold and release to search, without holding. The localized hint changes color in the revealed space. Scrolling back to the top does not trigger search. Back first hides the keyboard while retaining results; another Back exits search.\r\n- System Back in authenticator, wallet, and note selection mode uses the same cleanup as the selection toolbar: clear the selection and return to the normal list.\r\n- Submit the unlock password with the keyboard Enter/Done key using the same validation as the confirmation button. Initial password setup also supports keyboard Next and Done actions.\r\n- Enabling biometric unlock during initial setup now requires identity verification. Cancelling or failing authentication leaves it off, and devices without enrolled biometrics show setup guidance.\r\n- Includes [@tommynok](https://github.com/tommynok)'s [#127](https://github.com/Monica-Pass/Monica/pull/127): the setup action bar respects system navigation insets so Start, Previous, Next, and Finish remain accessible, covering [#129](https://github.com/Monica-Pass/Monica/issues/129). Skip also appears on its own row above longer step titles.\r\n- The welcome page shows languages in a scrollable popup anchored to Change, with the current language marked. Selecting a language, tapping outside, or pressing Back dismisses the menu without changing the underlying page layout.\r\n- Enable a limit of 1–1000 regular backups in the WebDAV page’s top-right Sync settings. Older excess backups are removed after each successful upload; permanent backups are retained separately and do not count toward the limit. When disabled, the existing age-based cleanup rules apply.\r\n- Card-face images stay within the crop preview when using portrait images, zooming, or panning, keeping the toolbar and footer clear.\r\n",
+          "publishedAt": "2026-09-12T14:13:29Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.311",
+          "assets": [
+            {
+              "name": "checksums.txt",
+              "size": 232,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.311/checksums.txt",
+              "contentType": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.311-26091212-01.APK",
+              "size": 37488179,
+              "downloadCount": 419,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.311/Monica-Android-arm64-v8a-1.0.311-26091212-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.311-26091212-01.APK",
+              "size": 35520679,
+              "downloadCount": 9,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.311/Monica-Android-armeabi-v7a-1.0.311-26091212-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.310",
+          "name": "V1.0.310",
+          "body": "### Monica for Android\r\n\r\n## 中文\r\n### 简要\r\n* 银行卡采用接近实体卡片的圆角；自定义卡面支持固定银行卡选框、拖动与双指缩放，确认后保存裁剪结果。\r\n* 优化验证器和卡包首次进入：验证器只查询带验证码的密码，加载完成前显示加载态；卡包在后台准备列表，大列表复用 Rust 批量排序，并复用未变化条目的解析结果。\r\n* 银行卡、证件和账单地址均支持自定义卡面：添加/编辑页入口位于数据库选择下方，详情页顶部预览可点击定制；支持标准银行卡比例、三种信息模式和银行卡卡组织图标开关。修复正常 JPG 图片被误报不可用的问题。\r\n* Monica 键盘的验证器与卡包页面现在会在数据加载期间显示统一加载态,不再短暂误显示为空。\r\n* 修复卡包混合列表拖动排序时的抽搐、回弹和排序不稳定问题。\r\n* 卡包的卡片和右下角新建按钮现在与其他页面使用同一套视觉组件,颜色、圆角和交互反馈更加统一。\r\n* 卡包页面支持与验证器一致的左右滑动操作,可左滑删除、右滑选择。\r\n* 合并 `@JiangKaslana` 贡献的 [#117](https://github.com/Monica-Pass/Monica/pull/117)、[#120](https://github.com/Monica-Pass/Monica/pull/120) 与 [#122](https://github.com/Monica-Pass/Monica/pull/122),提升大量密码加载、搜索、应用启动和系统认证速度,并由 [#123](https://github.com/Monica-Pass/Monica/pull/123) 将验证后的 MDBX3 Runtime 正式用于 APK。\r\n* 优化验证器和卡包的首次进入路径:合并数据源只建立一次,卡包的兼容性与 Bitwarden 后台任务等首屏完成后再调度,并避免多个安全项 ViewModel 重复扫描或阻塞主线程。\r\n* 修复导入页面文件名显示为内部 `document:<id>` 的问题,现在优先显示文件原名。\r\n* 卡包的全部、银行卡、证件和账单地址筛选从右上角溢出菜单移入分类菜单的快捷筛选区。\r\n* 验证器页右上角菜单新增布局切换,可直接在标准列表和磁贴视图之间切换。\r\n* 修复从其他 Dock 页面进入验证器时先短暂显示标准列表、再切换到磁贴布局的问题。\r\n* 笔记磁贴改为与验证器一致的双列等高布局,整卡点击进入编辑并支持长按多选后的拖动排序;笔记、验证器和 Steam 令牌卡片统一使用磁贴样式的圆角、配色与选中反馈,笔记布局菜单统一为“标准/磁贴”。\r\n* 新增触觉反馈总开关,可一次关闭下拉手势、长按等交互的震动。\r\n* 修复密码库列表快速滑动时右侧滚动条抽搐的问题。\r\n* 优化密码页面“绑定应用”弹窗,大量应用时更快显示并按需加载图标。\r\n* 修复笔记页面在本地、KeePass、MDBX 或全部视图下误触发 Bitwarden 同步的问题。\r\n\r\n### 详细\r\n* 验证器不再为合并密码绑定验证码而读取全部有效密码，删除确认使用单独的 ID/标题查询；合并和展示复用当前快照中的验证码解析结果，数据查询及解析完成前不再误显示“暂无验证器”。卡包的条目投影、排序和筛选移到后台，三类条目的加密载荷仅在内容变化时重新解析；大列表通过一次 JNI 调用按收藏、顺序和原有平局规则排序，原生库不可用时回退 Kotlin。排序边界只传数值元数据，不传卡号、证件内容或验证码密钥。\r\n* 银行卡、证件和账单地址共用卡面定制页：顶部为 ISO/IEC 7810 ID-1 `85.60:53.98` 比例预览，下方依次为图片操作、信息显示方式和银行卡卡组织图标开关。添加/编辑页的紧凑入口放在数据库选择卡片下方，详情页可点击顶部预览进入。“显示全部”展示对应条目的主要信息，“仅显示卡号/证件号码/地址”放在卡面中间偏下，“隐藏全部”只保留图片；银行卡号码与证件号码沿用脱敏展示。\r\n* 图片选择器按实际读取字节执行 25 MB 上限，兼容大小未知、非可定位及只能打开一次的文档流，并在裁切前处理照片方向；图片手动裁切为最大 1280 像素宽的 JPEG。图片通过现有附件系统加密保存，配置只记录稳定附件名、信息模式和图标开关。银行卡与证件支持本地、MDBX、KeePass 和账号允许的 Bitwarden 附件链路；账单地址沿用其现有本地/MDBX 存储能力，WebDAV 全量备份包含这些本地附件。保存和跨数据库复制会等待附件处理完成，账单地址在本地与 MDBX 之间迁移时会一并保留卡面图片；复制后的卡面可独立替换或移除。Bitwarden 不支持附件的账号会收到明确提示。列表按需在后台采样解码，使用 12 MB 内存缓存和最多两个并发任务；未设置卡面的条目保持原列表样式。\r\n* Monica 键盘在切换、解锁恢复或重新打开验证器和卡包页面时,会优先显示与密码页一致的加载状态,真实加载完成后才显示空列表。\r\n* 卡包现在沿用验证器标准列表的单一拖动位移路径,移除缩放、重复布局动画和重复阴影动画,避免同一帧内多套动画同时移动卡片。拖动时保留本地顺序快照,数据库写回期间按条目 ID 合并更新,不会因 Flow 中间状态把列表拉回旧顺序;银行卡、证件和账单地址的混合列表也会一次性保存完整顺序。\r\n* 银行卡、证件、账单地址与验证器磁贴现在复用同一个条目卡片容器,统一使用相同的背景层级、圆角、阴影和选中态;卡包仍保持原有单列布局和信息结构。右下角新建按钮继续复用全局 `SwipeableAddFab`,并移除卡包独有的实心配色分支,使其外观和行为与密码、验证器、笔记等页面一致。\r\n* 卡包的银行卡、证件和账单地址现在共用验证器同款 `SwipeActions`:左滑进入原有删除确认及身份验证流程,右滑进入多选或切换当前条目的选中状态。多选期间禁用删除方向,拖动排序期间暂停左右滑动,避免误删及横向滑动与纵向排序争抢手势。\r\n* 笔记页的自动同步目标现在由当前筛选严格决定:只有 Bitwarden 保险库、文件夹或其快捷筛选拥有同步目标;进入全部或其他数据库筛选时不会创建全库同步会话,避免无关网络请求和首屏卡顿。\r\n* `@JiangKaslana` 在 [#117](https://github.com/Monica-Pass/Monica/pull/117)、[#120](https://github.com/Monica-Pass/Monica/pull/120) 和 [#122](https://github.com/Monica-Pass/Monica/pull/122) 中贡献的性能改进按最终架构合并说明:密码列表不再为首屏提前全量解密密码,搜索和去重先处理非敏感元数据并按需解析;批量搜索元数据使用版本化 UTF-8 数据通过 Rust/JNI 处理,Native 不可用或校验失败时自动回退 Kotlin;Bitwarden 的 PBKDF2-SHA256 与 Argon2id 优先使用经过测试向量验证的 Rust 实现,同时保留 JVM 回退。启动阶段延迟非首屏必需的诊断、历史、附件和同步维护任务,系统生物识别及设备凭据入口复用并预热认证组件。ARM 架构的 Native Library 清理瘦身后,未压缩 `.so` 体积降低约三成;后续 [#123](https://github.com/Monica-Pass/Monica/pull/123) 将来自 Monica-Pass/Mdbx 固定源码版本、通过 535 个 ABI 符号与 237 项校验的 MDBX3 `3.0.0-alpha.1` Runtime 作为正式 APK 的底层 `libmdbx_ffi.so`。上层继续使用 `RUST_MDBX2` 兼容标识和 MDBX-2 可写格式,因此现有数据库无需迁移。这些调整不改变 Android Keystore 安全边界或密码明文的 FFI 边界。\r\n* 验证器的存储 TOTP 与密码绑定 TOTP 现在通过共享的合并流供列表、键盘和详情使用,避免每个消费者重新订阅 Room 并重复解析绑定密钥。卡包只有在银行卡、证件和账单地址三路解析流都完成首帧后才安排 KeePass 兼容索引刷新和 Bitwarden 自动同步;多个安全项 ViewModel 的遗留绑定修复在同一仓库内单飞,并在 `Dispatchers.Default` 执行,不会与主线程首帧争抢。\r\n* Android 文档选择器现在通过 `OpenableColumns.DISPLAY_NAME` 读取用户可见的原始文件名,并在无法查询时从 URI 路径安全回退;查询放在 IO 调度器,避免导入页面卡顿。KDBX 密钥文件选择也使用同一套解析逻辑。\r\n* 卡包的类型筛选此前只在右上角溢出菜单里,与收藏、未分类等快捷筛选分处两个入口。现在这四个类型作为快捷筛选磁贴显示在分类菜单顶部,点击后即时生效并关闭菜单;使用底部弹窗分类样式时仍保留原有的溢出菜单入口。\r\n* 验证器的布局样式此前只能在设置的页面调整里修改。现在验证器页右上角菜单直接提供切换项,菜单文字与图标会显示将要切换到的目标样式;切换结果沿用原有设置项的存储,重启和备份恢复后保持一致。\r\n* 验证器列表不再在每次进入页面时创建独立的设置订阅并以默认标准布局绘制首帧,而是直接复用主界面持续持有的设置快照和布局更新入口。已选择磁贴布局时会从第一帧直接显示磁贴,且 Dock 切换不会因此重新加载验证器数据。\r\n* 笔记网格由独立瀑布流改为与验证器磁贴共用的 `MonicaTileGrid`,统一为两列、固定 220dp 高度、8dp 项目间距和相同页面边距。磁贴摘要使用普通文本,图片和 Markdown 链接不会再在卡片内部拦截整卡点击;标题、标签、附件状态、同步状态仍然保留。长按卡片进入多选后,拖动手柄沿用验证器的网格排序机制;筛选状态下只重排可见项目,再合并回完整顺序并一次写入,数据库更新期间保留本地顺序以避免回弹。`MonicaItemCard` 现在同时承载笔记标准列表与磁贴、验证器标准列表与磁贴、卡包以及 Steam 令牌卡片,统一使用 `surfaceContainer` 背景、8dp 圆角、1dp 阴影和相同选中态;卡包滑动操作的外层也复用同一圆角,消除顶部圆角偏大的双层轮廓。Steam 小资料沉浸背景继续使用共享外壳的透明模式,不会被统一背景遮挡。笔记右上角布局切换文案由“切换到列表/网格”统一为“标准/磁贴”。\r\n* 此前各页面的震动逻辑分散在各自实现里,只有验证器倒计时有独立开关,其余交互无法关闭。现在下拉手势、长按和滑动操作的震动统一走同一套触觉反馈实现,并由「触觉反馈」总开关控制;验证器震动作为它的子项,总开关关闭时一并停用并置灰。设置页和扩展页都提供该开关,且不需要 Plus。\r\n* 密码库的行高并不一致,带验证码进度条的条目明显更高。滚动条此前用滑动平均估算行间距,估值几乎完全跟随最近一屏,快速滑动时屏上高矮条目的组合不断变化,滚动位置的换算随之来回摆动,滑块出现抽搐。现在按条目位置累积实测间距、未测量区间用实测均值补足,同一帧布局重复计算结果一致,滑块在快速滑动时保持平稳。\r\n\r\n## English\r\n### Summary\r\n* Bank cards use physical-card corner proportions. Custom artwork now supports a fixed card frame with drag and pinch-to-zoom cropping before confirmation.\r\n* Improved authenticator and card-wallet entry: query only passwords with OTP keys, show loading until authenticator data is ready, prepare wallet lists in the background, and reuse parsed payloads with batched Rust sorting for large lists.\r\n* Bank cards, documents, and billing addresses now support custom artwork. The Edit entry sits below database selection, and the top detail preview opens the customizer. Standard card proportions, three information modes, and a separate bank-brand icon toggle are supported. Fixed valid JPG images being rejected during import.\r\n* The Monica Keyboard now shows a consistent loading state for authenticator and card-wallet panels instead of briefly presenting an incorrect empty state.\r\n* Fixed stuttering, snapping back, and unstable ordering while dragging items in the mixed card-wallet list.\r\n* Card-wallet cards and the add FAB now share the same visual components as other screens for consistent colors, corners, and interaction feedback.\r\n* The card wallet now supports the same swipe actions as the authenticator: swipe left to delete and right to select.\r\n* Merged performance work contributed by `@JiangKaslana` in [#117](https://github.com/Monica-Pass/Monica/pull/117), [#120](https://github.com/Monica-Pass/Monica/pull/120), and [#122](https://github.com/Monica-Pass/Monica/pull/122), improving large-vault loading, search, startup, and system authentication, with [#123](https://github.com/Monica-Pass/Monica/pull/123) promoting the verified MDBX3 runtime into production APKs.\r\n* Improved the authenticator and card-wallet first-entry path: merged sources are subscribed once, card-wallet compatibility and Bitwarden background work wait until the first frame is ready, and duplicate secure-item scans no longer block the main thread.\r\n* Fixed imported files showing an internal `document:<id>` value instead of the original filename.\r\n* Card-wallet All, Bank Cards, Documents, and Billing Addresses filters moved from the overflow menu into the folder menu's quick filters.\r\n* The authenticator overflow menu can now switch between the standard list and the tile layout directly.\r\n* Fixed the authenticator briefly showing the standard list before switching to the saved tile layout when opened from another Dock screen.\r\n* Note tiles now use the authenticator-style two-column, equal-height layout with whole-card editing, long-press multi-selection, and drag reordering; Notes, Authenticator, and Steam token cards share the tile-style corners, colors, and selected state, and the Notes layout menu uses “Standard/Tiles”.\r\n* Added a master haptic feedback toggle that turns off vibration for pull gestures, long presses, and other interactions at once.\r\n* Fixed the vault list scrollbar handle twitching during fast scrolling.\r\n* Fixed the Notes page triggering Bitwarden synchronization outside an explicitly selected Bitwarden vault.\r\n\r\n### Details\r\n* The authenticator no longer loads every active password to merge password-bound OTPs. Delete confirmation uses an ID/title-only query, and merged snapshots reuse parsed OTP data. An explicit ready state prevents the initial empty value from appearing as an empty authenticator database. Wallet projection, sorting, and filtering run in the background; unchanged encrypted payloads reuse their parsed values. Large lists use one JNI numeric batch with the existing favorite/order/tie-breaking rules and a Kotlin fallback when native code is unavailable. Card numbers, document content, and OTP keys never enter the sorting boundary.\r\n* Bank cards, documents, and billing addresses share a customizer with an ISO/IEC 7810 ID-1 `85.60:53.98` preview, followed by image actions, information modes, and the bank-brand icon switch. A compact Edit entry appears below database selection; tapping the top detail preview opens the same customizer. “Show all” presents the item's main details, “number/address only” places the identifier near the lower middle, and “hide all” leaves only the image. Bank-card and document numbers retain masked previews.\r\n* Image import enforces the 25 MB limit using the bytes actually read, supports unknown-size and nonseekable document streams that can only be opened once, and applies photo orientation before cropping. Images are manually cropped in a fixed card frame and encoded as JPEG at up to 1280 pixels wide and stored as encrypted attachments; metadata contains only a stable filename, display mode, and icon preference. Bank cards and documents use local, MDBX, KeePass, or entitled Bitwarden attachment storage. Billing addresses retain their existing local/MDBX support, and WebDAV full backups include these local attachments. Saves and database copies wait for attachment processing. Billing-address moves between local storage and MDBX preserve the artwork, and copied artwork can be replaced or removed independently. Bitwarden accounts without attachment support receive an explicit warning. Lists use background sampled decoding, a 12 MB memory cache, and at most two concurrent jobs; items without artwork keep their existing layout.\r\n* When the Monica Keyboard switches to, restores after unlock, or reopens an authenticator or card-wallet panel, it shows the same loading state as the password panel until the real result is available.\r\n* The card wallet now follows the authenticator's standard list drag path, removing overlapping scale, placement, and shadow animations that could move a card twice in one frame. A local order snapshot is retained during a drag, and database emissions are reconciled by item ID while the write-back is pending, so intermediate Flow updates cannot restore the old order. Bank cards, documents, and billing addresses in the mixed list are persisted in one complete order update.\r\n* Bank cards, documents, billing addresses, and authenticator tiles now use one shared item-card container for the same surface level, corner radius, elevation, and selected state. The card wallet keeps its existing single-column layout and information structure. Its add button continues to use the global `SwipeableAddFab`, with the card-wallet-only solid color override removed so it matches Passwords, Authenticator, Notes, and other screens.\r\n* Bank cards, documents, and billing addresses now share the authenticator's `SwipeActions`: a left swipe enters the existing delete confirmation and identity-verification flow, while a right swipe starts multi-selection or toggles the current item. Delete swipes are disabled during selection, and all swipes pause during drag reordering to prevent accidental deletion and gesture conflicts.\r\n* Notes now derive the automatic-sync target strictly from the active filter. Only a Bitwarden vault, folder, or related quick filter can create a sync session; All and non-Bitwarden database views no longer start an all-vault session, avoiding unrelated network work and first-frame contention.\r\n* The contributions from `@JiangKaslana` in [#117](https://github.com/Monica-Pass/Monica/pull/117), [#120](https://github.com/Monica-Pass/Monica/pull/120), and [#122](https://github.com/Monica-Pass/Monica/pull/122) are described here as one final performance architecture: the vault list no longer decrypts every password before first render, while search and duplicate detection process non-sensitive metadata first and decrypt only when required. Versioned UTF-8 metadata batches are handled through Rust/JNI with automatic Kotlin fallback when native code is unavailable or validation fails. Bitwarden PBKDF2-SHA256 and Argon2id prefer the test-vector-verified Rust implementation while retaining the JVM fallback. Diagnostics, history, attachment, and sync maintenance work that is not required for the first screen is initialized later; system biometric and device-credential paths reuse prewarmed authentication components. Native cleanup reduced the uncompressed ARM `.so` size by roughly one third. Follow-up [#123](https://github.com/Monica-Pass/Monica/pull/123) promotes the MDBX3 `3.0.0-alpha.1` runtime built from a pinned Monica-Pass/Mdbx source revision and verified against 535 ABI symbols and 237 checksums as the production APK's `libmdbx_ffi.so`. The upper layer retains the `RUST_MDBX2` compatibility identifier and writable MDBX-2 format, so existing databases require no migration. These changes do not alter the Android Keystore boundary or the rule that password plaintext does not cross the search FFI boundary.\r\n* Stored TOTP items and password-bound TOTP items now share one merged upstream for the list, keyboard, and detail consumers, avoiding repeated Room subscriptions and key parsing. The card wallet schedules its KeePass compatibility-index refresh and Bitwarden auto-sync only after the bank-card, document, and billing-address streams have produced the first frame. Legacy secure-item binding repair is single-flight per repository and runs on `Dispatchers.Default`, so concurrent ViewModel creation does not duplicate a full-table scan or contend with the UI thread.\r\n* Android imports now query `OpenableColumns.DISPLAY_NAME` for the user-visible filename, safely fall back to a decoded URI path when providers omit it, and perform the query on the IO dispatcher. KDBX key-file selection uses the same resolver.\r\n* Card-wallet type filters previously lived only in the overflow menu, separate from quick filters such as Favorites and Uncategorized. All four types now appear as quick-filter chips at the top of the folder menu, applying immediately and dismissing the menu. The bottom-sheet folder style keeps its original overflow entry.\r\n* The authenticator layout style was previously reachable only through Settings, under page adjustments. The authenticator overflow menu now offers the switch directly, with its label and icon showing the style you are switching to. The choice reuses the existing setting, so it survives restarts and backup restores.\r\n* The authenticator list no longer creates a fresh settings subscription that paints its first frame with the default standard layout on every entry. It now consumes the settings snapshot and layout update path continuously owned by the main screen, so a saved tile layout is shown from the first frame without reloading authenticator data during Dock navigation.\r\n* The Notes grid replaces its separate staggered layout with the same `MonicaTileGrid` used by authenticator tiles: two columns, a fixed 220dp card height, 8dp item spacing, and shared page insets. Tile previews are plain text, so images and Markdown links no longer intercept whole-card editing; titles, tags, attachment state, sync state, and long-press actions remain available. After long-press multi-selection, the reorder handle uses the authenticator grid mechanism. Filtered drags reorder visible items and merge them back into the complete order in one write, while a pending local snapshot prevents Room emissions from snapping the UI back. `MonicaItemCard` now also wraps the standard and tile variants of Notes and Authenticator, card-wallet entries, and Steam token cards, providing the same `surfaceContainer` background, 8dp corners, 1dp elevation, and selected state. The card-wallet swipe container uses that exact shape as well, removing the oversized top-corner outline caused by mismatched nested surfaces. Steam mini-profile immersive backgrounds retain a transparent shared container, so the unified surface does not cover them. The Notes overflow menu now labels its layout choices “Standard” and “Tiles” instead of “switch to list/grid”.\r\n* Vibration logic was previously scattered across individual screens, and only the authenticator countdown had its own toggle, leaving other interactions impossible to silence. Pull gestures, long presses, and swipe actions now share a single haptic feedback implementation governed by a master \"Haptic Feedback\" switch. Authenticator vibration becomes a sub-item that is disabled and greyed out when the master switch is off. The toggle appears in both Settings and Extensions, and does not require Plus.\r\n* Vault rows vary in height, since entries with a verification-code progress bar are noticeably taller. The scrollbar previously estimated row spacing with a running average that tracked whichever rows were on screen, so a fast scroll made the estimate swing as the mix of tall and short rows changed, and the scroll-position calculation twitched with it. Spacing is now accumulated per row position, with the measured average filling in rows not yet seen, so repeated calculations over one frame's layout agree and the handle stays steady during fast scrolling.\r\n* The password page's linked-app picker now caches lightweight package metadata for five minutes and resolves icons only for visible rows. Large app inventories no longer decode every icon before the dialog can render, while the picker and autofill blacklist screens still show real app icons as rows appear.\r\n* Fixed the Notes page starting Bitwarden synchronization while viewing local, KeePass, MDBX, or All notes. Automatic sync now requires an explicitly selected Bitwarden vault.\r\n",
+          "publishedAt": "2026-09-05T16:28:51Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.310",
+          "assets": [
+            {
+              "name": "checksums.txt",
+              "size": 232,
+              "downloadCount": 4,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.310/checksums.txt",
+              "contentType": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.310-26090612-01.APK",
+              "size": 42455708,
+              "downloadCount": 523,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.310/Monica-Android-arm64-v8a-1.0.310-26090612-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.310-26090612-01.APK",
+              "size": 38817042,
+              "downloadCount": 16,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.310/Monica-Android-armeabi-v7a-1.0.310-26090612-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.309",
+          "name": "V1.0.309",
+          "body": "## 这次修改不多主要快点发包看看tg群的bot推送问题解决了没有\r\n\r\n## 中文\r\n### 简要\r\n* 修复中文主密码在部分输入法中无法输入的问题（#118）。\r\n* 修复卡包及快捷筛选排序体验和顺序持久化问题。\r\n* 修复卡包拖动排序在残留 MDBX 数据库引用下可能闪退的问题。\r\n\r\n\r\n### 详细\r\n* 主密码、KeePass 数据库凭据和重新验证入口不再强制使用会关闭中文拼音组合输入的 Password 键盘变体，同时关闭自动纠错和自动大写，恢复中文及多语言主密码输入。\r\n* 普通条目密码、Bitwarden 登录密码和加密导出密码继续使用密码键盘；多行密钥和格式敏感内容不改变原始换行与大小写。\r\n* 修复卡包拖动排序后立即回弹、筛选状态排序冲突以及重启后顺序丢失的问题；排序会同步保存到本地数据库、MDBX、WebDAV 和 OneDrive 全量备份。\r\n* 快捷筛选编辑模式改用与验证器一致的双列长按拖动网格，项目会自然避让，松手后只提交一次排序变更；同时隐藏仅用于兼容旧设置的空占位项，普通状态仍保留原有紧凑标签布局。\r\n\r\n## English\r\n### Summary\r\n* Fixed Chinese master-password input failures with password keyboard variants (#118).\r\n* Improved card-wallet and quick-filter reordering and persistence.\r\n* Fixed a possible crash when card-wallet reordering encountered a stale MDBX database reference.\r\n### Details\r\n* Master-password, KeePass credential, and re-verification fields no longer force the password keyboard variant that disables Chinese IME composition on some keyboards. Autocorrect and automatic capitalization remain disabled while multilingual input is restored.\r\n* Regular item passwords, Bitwarden login passwords, and encrypted export passwords retain password keyboards. Multiline keys and format-sensitive values preserve line breaks and case.\r\n* Fixed card-wallet order snapping back, filtered reorder conflicts, and lost order after restart. Manual order is now preserved in local storage, MDBX, and WebDAV/OneDrive full backups.\r\n* Quick-filter editing now uses the authenticator-style two-column long-press reorder grid with natural neighbor displacement and a single commit on release. Legacy empty placeholders are hidden while the normal compact chip layout remains unchanged.\r\n",
+          "publishedAt": "2026-08-31T03:44:56Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.309",
+          "assets": [
+            {
+              "name": "checksums.txt",
+              "size": 232,
+              "downloadCount": 3,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.309/checksums.txt",
+              "contentType": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.308-26083112-01.APK",
+              "size": 47021123,
+              "downloadCount": 272,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.309/Monica-Android-arm64-v8a-1.0.308-26083112-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.309-26083112-01.APK",
+              "size": 46414962,
+              "downloadCount": 109,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.309/Monica-Android-arm64-v8a-1.0.309-26083112-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.308-26083112-01.APK",
+              "size": 42383033,
+              "downloadCount": 8,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.309/Monica-Android-armeabi-v7a-1.0.308-26083112-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.309-26083112-01.APK",
+              "size": 41957094,
+              "downloadCount": 5,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.309/Monica-Android-armeabi-v7a-1.0.309-26083112-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.308",
+          "name": "V1.0.308",
+          "body": "## 中文\r\n### 简要\r\n* 开发者设置“关闭密码验证”升级为全场景免验证，覆盖自动填充、Monica 键盘和危险操作（#116）。\r\n* 大幅优化大量密码数据下的首屏加载、页面切换和列表滚动性能，感谢 @JiangKaslana 贡献 [PR #117](https://github.com/Monica-Pass/Monica/pull/117)。\r\n* 设置页分组卡片改为轻量、独立的圆角卡片布局。\r\n* 密码库新增常驻快速滚动条，支持按住展开、跟手拖动和当前位置字母提示，操作时自动隐藏悬浮按钮。\r\n\r\n### 详细\r\n* 开启后，进入自动填充选择器、执行自动填充、打开 Monica 键盘密码库，以及删除密码、验证器、笔记、卡片、Passkey 和分类时不再要求主密码或指纹。\r\n* 删除和清空数据等危险操作仍保留二次确认；ZIP 导出等加密流程仍必须设置加密密码。\r\n* 统一了危险操作确认组件，并为免验证模式增加本机 Keystore 主密钥旁路，避免只跳过界面但无法解密数据。\r\n* [PR #117](https://github.com/Monica-Pass/Monica/pull/117)（@JiangKaslana）重构密码列表关键运行路径：首屏不再全量解密密码，只对幽灵条目冲突候选按需解析；Bitwarden 离线缓存预热和遗留修复等维护任务移出首屏关键路径，密码卡片图标 fallback 也改为按需执行。\r\n* PR #117 同时加入不接收密码、TOTP、卡号或私钥等敏感数据的 Rust 批处理核心，用于非敏感元数据投影、搜索和去重；JNI 不可用时自动使用 Kotlin fallback，并补充 Rust Core/JNI 的测试与 CI 构建检查。\r\n* 设置页移除分组整体外框和描边，各设置项使用独立的 `surfaceContainer` 背景和 2dp 紧凑间距；首尾外侧采用 24dp 大圆角，相邻边采用 4dp 小圆角，准确还原 PixelPlayer 的分组轮廓。\r\n* 密码库列表右侧始终显示细滚动条；按住时手柄平滑展开，拖动会实时定位到对应字母分组并显示当前位置，同时为滚动条预留列表空间。交互期间历史、回到顶部和添加按钮会淡出，松手后恢复，避免遮挡列表与手势。\r\n\r\n## English\r\n### Summary\r\n* The developer “Disable Password Verification” option now provides a full identity-verification bypass for Autofill, Monica Keyboard, and destructive actions (#116).\r\n* Initial loading, page switching, and list scrolling with large vaults are substantially faster. Thanks to @JiangKaslana for [PR #117](https://github.com/Monica-Pass/Monica/pull/117).\r\n* Settings groups now use lightweight, individually rounded cards.\r\n* The vault now has a persistent fast scrollbar with press expansion, direct dragging, live section-letter feedback, and automatic FAB hiding while interacting.\r\n\r\n### Details\r\n* Autofill selection and filling, the Monica Keyboard vault, and deletion of passwords, authenticators, notes, cards, passkeys, and folders no longer request a master password or biometric check while enabled.\r\n* Destructive actions still require an explicit confirmation. Encryption passwords for ZIP exports and similar protected exports remain mandatory.\r\n* Destructive confirmation UI is now shared, and a device-local Keystore wrapper keeps encrypted vault data available in bypass mode.\r\n* [PR #117](https://github.com/Monica-Pass/Monica/pull/117) by @JiangKaslana refactors the vault list's critical path: initial rendering no longer decrypts every password, ghost-entry filtering decrypts only conflict candidates, non-critical Bitwarden cache warm-up and legacy repairs are deferred, and icon fallbacks are resolved only when needed.\r\n* PR #117 also adds a Rust batch-processing core for non-sensitive metadata projection, search, and deduplication. Passwords, TOTP secrets, card numbers, and private keys never cross the JNI boundary; a Kotlin fallback remains available, with Rust Core/JNI tests and CI checks included.\r\n* Settings groups no longer draw a shared outline or container. Items use independent `surfaceContainer` backgrounds with 2dp spacing, 24dp outer corners on the first and last cards, and 4dp adjacent corners, matching PixelPlayer's grouped silhouette.\r\n* A slim scrollbar is always visible beside the vault list. Its handle expands smoothly while pressed, follows the finger during fast scrolling, and shows the current alphabetical section. History, back-to-top, and add buttons fade out during interaction and return on release, keeping the list and gesture path unobstructed.\r\n",
+          "publishedAt": "2026-08-30T06:09:01Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.308",
+          "assets": [
+            {
+              "name": "checksums.txt",
+              "size": 232,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.308/checksums.txt",
+              "contentType": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.308-26083012-01.APK",
+              "size": 47021119,
+              "downloadCount": 128,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.308/Monica-Android-arm64-v8a-1.0.308-26083012-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.308-26083012-01.APK",
+              "size": 42383029,
+              "downloadCount": 2,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.308/Monica-Android-armeabi-v7a-1.0.308-26083012-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
+        {
+          "tag": "V1.0.307",
+          "name": "V1.0.307",
+          "body": "## 中文版\r\n\r\n### 简要\r\n\r\n- 密码页新增按文件夹堆叠。\r\n- WebDAV 支持用户确认后连接证书异常的自部署服务。\r\n- 自动填充黑名单显示应用图标，已屏蔽应用置顶。\r\n- 优化密码页切换时的列表状态保留，减少返回页面时的空列表闪现。\r\n- 增强密码库列表异常容错，避免单条数据解析异常导致页面卡在加载或闪退。\r\n- 优化密码库列表布局复用，减轻滚动和目录切换时的重复测量。\r\n- 优化生成器页面标题滚动过渡，向上滑动时平滑收缩到顶部栏。\r\n- 优化设置主页分组卡片样式，分组首尾使用大圆角，中间项目保持连续布局。\r\n- 编辑密码时支持单选存储位置，保存后可直接将条目移动到新的数据库或文件夹。\r\n- 银行卡、证件、笔记、验证器及其他编辑页统一支持单选移动和多选复制。\r\n- 优化生成器结果卡片在展开与紧凑状态之间的跟手过渡，并移除吸顶时的多余背景框。\r\n- 统一生成器顶部标题字号，修复结果卡片收缩完成时的瞬间跳变。\r\n- 修复生成类型选择区域离开屏幕时，结果卡片短暂重新展开的问题。\r\n- 收紧生成器与设置主页的顶部留白。\r\n- 生成器顶栏改为透明背景，与密码库等主页面保持一致。\r\n- 修复导出 ZIP 备份包含通行密钥时不弹出密码设置、直接提示\"请先启用备份加密\"的问题。\r\n- Monica 键盘的密码、验证器与卡包列表支持中文拼音排序，右侧字母索引条中文条目归入 A-Z# 而不是显示汉字。\r\n\r\n### 详细\r\n\r\n- 按数据库和文件夹的真实身份进行稳定分组，避免不同数据库的同名文件夹合并；默认布局及其他堆叠方式保持不变。\r\n- WebDAV 遇到不受信任证书或证书域名与 DDNS 地址不匹配时显示确认提示，用户确认后仅信任当前主机的当前证书指纹；证书变化时会再次确认。\r\n- 补充 WebDAV 证书异常的错误分类和明确提示。\r\n- 自动填充黑名单使用真实应用图标，已加入黑名单的应用显示在列表顶部，其余应用按名称排序。\r\n- 密码页在已有列表快照时优先显示上一帧完整内容，后台数据准备完成后再平滑替换，避免重复进入时先显示空列表。\r\n- 密码库异步列表计算增加异常隔离：遇到无法解析的条目时保留上一帧内容并结束加载，后续数据更新时自动重试。\r\n- 为筛选行、文件夹、分组标题及不同类型条目声明稳定内容类型，让列表切换时更充分复用已有布局。\r\n- 生成器使用 Material 3 的可折叠顶部栏，保留历史记录和设置入口，滚动内容与标题使用同一滚动状态。\r\n- 设置主页仅调整分组容器和列表卡片外观，独立卡片、设置详情和操作逻辑保持不变。\r\n- 编辑页的多选模式仍保留原有目标，单选模式用于明确的移动操作，避免误删已有副本。\r\n- 编辑页共用同一套存储位置选择交互：单选仅在目标改变时清理旧副本，多选始终保留已有副本，降低误删风险。\r\n- 结果卡片的内边距、图标、间距、阴影和背景色直接跟随滚动距离变化；移除吸顶容器的独立背景层，避免黑框与卡片动画不同步。\r\n- 结果卡片仅在连续收缩接近完成后切换紧凑文本布局，避免中途提前切换造成末尾跳变。\r\n- 收缩进度按生成类型选择区域的实际滚动比例计算，跨越列表项目边界时保持连续。\r\n- 生成器使用更紧凑的固定顶栏；Dock 内的设置主页不再重复应用状态栏安全区，独立设置页仍保留必要的系统边距。\r\n- 移除生成器顶栏额外的 Surface 背景和色调阴影，避免出现整块深色标题背景。\r\n- 数据导出页在导出前统计本次备份将包含的通行密钥数量：当勾选通行密钥且库中存在时，点击开始导出直接弹出\"设置备份密码\"对话框，并附提示说明通行密钥不允许明文导出；设置密码后以加密 .enc.zip 导出。无通行密钥或取消勾选时保持原有流程不变。\r\n- Monica 键盘的密码、验证器和卡包列表在排序与生成右侧字母索引前，先将非 ASCII 标题转写为拉丁字母（ICU Any-Latin; Latin-ASCII），中文条目按拼音首字母归入 A-Z 分组并可拖动跳转，不再以汉字本身作为索引锚点；排序与索引使用同一转写键，与主密码库行为保持一致。\r\n\r\n## English\r\n\r\n### Brief\r\n\r\n- Added folder-based stacking to the password page.\r\n- WebDAV can connect to self-hosted services with certificate issues after explicit user confirmation.\r\n- Autofill blacklist entries now show app icons, with blocked apps pinned to the top.\r\n- Improved password list state retention to reduce empty-list flashes when returning to the page.\r\n- Improved vault list resilience so one malformed item does not leave the page loading or crash it.\r\n- Improved vault list layout reuse to reduce repeated measurement during scrolling and folder navigation.\r\n- Improved the generator title transition so it smoothly collapses into the top bar while scrolling upward.\r\n- Improved settings group cards with large rounded outer corners and a continuous middle layout.\r\n- Editing a password now supports selecting one storage target and moving the entry to a different database or folder on save.\r\n- Bank cards, documents, notes, authenticators, and other editors now use the same single-target move and multi-target copy interaction.\r\n- Improved the scroll-following transition between expanded and compact generator result cards and removed the redundant pinned background frame.\r\n- Matched the generator top-bar title size with other pages and fixed the final snap when the result card finishes compacting.\r\n- Fixed the result card briefly expanding when the generator type selector leaves the viewport.\r\n- Reduced excessive top spacing on the generator and settings home pages.\r\n- Made the generator top bar transparent to match the password vault and other main pages.\r\n- Fixed ZIP export with passkeys showing no password prompt and failing with \"enable backup encryption\".\r\n- Monica Keyboard's password, authenticator, and card wallet lists now sort Chinese titles by pinyin, and the side letter index groups Chinese entries under A-Z# instead of showing Chinese characters.\r\n\r\n### Details\r\n\r\n- Folder groups use stable database and folder identities, so same-named folders from different databases remain separate. Existing layouts and stacking modes are unchanged.\r\n- WebDAV shows a confirmation prompt for untrusted certificates or certificates whose hostname does not match the DDNS address. After confirmation, only the current certificate fingerprint for that host is trusted; certificate changes require confirmation again.\r\n- Added explicit WebDAV certificate error classification and user-facing messages.\r\n- The autofill blacklist uses real application icons. Blocked apps appear first, followed by the remaining apps sorted by name.\r\n- When a complete list snapshot is available, the password page shows it immediately and replaces it after background data preparation finishes.\r\n- Vault list computation now isolates parsing failures, retains the previous frame, and retries on the next data update.\r\n- Stable content types are now declared for filters, folders, section headers, and item types so Compose can reuse list layouts more effectively.\r\n- The generator now uses a Material 3 collapsing top bar while retaining the history and settings actions.\r\n- Only the settings group container and item appearance changed; standalone cards, detail screens, and behavior remain unchanged.\r\n- Multi-select editing still preserves existing targets, while single-select is an explicit move workflow to avoid accidental replica removal.\r\n- The shared storage picker only removes old replicas when an edited item is explicitly moved to a different single target; multi-target edits always keep existing copies.\r\n- Result card padding, icon size, spacing, elevation, and color now follow the scroll distance directly. The separate pinned background layer was removed to prevent an out-of-sync dark frame.\r\n- Compact text layout is applied only after the continuous collapse is nearly complete, preventing a premature end-state snap.\r\n- Collapse progress now uses the generator selector's actual scrolled proportion and remains continuous across list item boundaries.\r\n- The generator now uses a more compact fixed top bar, while the dock-embedded settings page no longer applies the status-bar inset twice. Standalone settings retain required system insets.\r\n- Removed the generator top bar's extra surface background and tonal elevation to avoid a large dark title block.\r\n- The export screen now counts passkeys included in the upcoming backup. When passkeys are selected and present, tapping export opens the \"Set backup password\" dialog directly with a hint that passkeys cannot be exported as plain text, then exports as an encrypted .enc.zip. Exports without passkeys keep the previous flow.\r\n- Monica Keyboard's password, authenticator, and card wallet lists transliterate non-ASCII titles to Latin (ICU Any-Latin; Latin-ASCII) before sorting and building the side letter index. Chinese entries are grouped under their pinyin initial letter and can be jumped to directly instead of anchoring on raw Chinese characters; sorting and indexing share the same transliterated key, matching the main vault behavior.\r\n",
+          "publishedAt": "2026-08-26T06:23:04Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.307",
+          "assets": [
+            {
+              "name": "checksums.txt",
+              "size": 232,
+              "downloadCount": 1,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.307/checksums.txt",
+              "contentType": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.307-26082612-01.APK",
+              "size": 46396094,
+              "downloadCount": 359,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.307/Monica-Android-arm64-v8a-1.0.307-26082612-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.307-26082612-01.APK",
+              "size": 41938226,
+              "downloadCount": 7,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.307/Monica-Android-armeabi-v7a-1.0.307-26082612-01.APK",
+              "contentType": "application/vnd.android.package-archive"
+            }
+          ]
+        },
         {
           "tag": "V1.0.306",
           "name": "V1.0.306",
@@ -18,14 +251,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.306-26082012-01.APK",
               "size": 46393586,
-              "downloadCount": 282,
+              "downloadCount": 410,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.306/Monica-Android-arm64-v8a-1.0.306-26082012-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.306-26082012-01.APK",
               "size": 41935718,
-              "downloadCount": 6,
+              "downloadCount": 16,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.306/Monica-Android-armeabi-v7a-1.0.306-26082012-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -41,14 +274,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.305-26081712-01.APK",
               "size": 45670335,
-              "downloadCount": 249,
+              "downloadCount": 255,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.305/Monica-Android-arm64-v8a-1.0.305-26081712-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.305-26081712-01.APK",
               "size": 41212467,
-              "downloadCount": 6,
+              "downloadCount": 7,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.305/Monica-Android-armeabi-v7a-1.0.305-26081712-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -64,14 +297,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.304-26081612-01.APK",
               "size": 45615071,
-              "downloadCount": 202,
+              "downloadCount": 206,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.304/Monica-Android-arm64-v8a-1.0.304-26081612-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.304-26081612-01.APK",
               "size": 41157203,
-              "downloadCount": 2,
+              "downloadCount": 3,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.304/Monica-Android-armeabi-v7a-1.0.304-26081612-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -87,14 +320,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.303-26081412-01.APK",
               "size": 45587067,
-              "downloadCount": 193,
+              "downloadCount": 196,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.303/Monica-Android-arm64-v8a-1.0.303-26081412-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.303-26081412-01.APK",
               "size": 41129199,
-              "downloadCount": 52,
+              "downloadCount": 53,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.303/Monica-Android-armeabi-v7a-1.0.303-26081412-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -110,14 +343,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.302-26081212-01.APK",
               "size": 45569203,
-              "downloadCount": 243,
+              "downloadCount": 246,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.302/Monica-Android-arm64-v8a-1.0.302-26081212-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.302-26081212-01.APK",
               "size": 41111335,
-              "downloadCount": 9,
+              "downloadCount": 10,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.302/Monica-Android-armeabi-v7a-1.0.302-26081212-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -133,14 +366,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.301-26081012-01.APK",
               "size": 44926503,
-              "downloadCount": 199,
+              "downloadCount": 201,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.301/Monica-Android-arm64-v8a-1.0.301-26081012-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.301-26081012-01.APK",
               "size": 40468635,
-              "downloadCount": 2,
+              "downloadCount": 3,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.301/Monica-Android-armeabi-v7a-1.0.301-26081012-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -156,14 +389,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.300-26080812-02.APK",
               "size": 44891647,
-              "downloadCount": 193,
+              "downloadCount": 196,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.300/Monica-Android-arm64-v8a-1.0.300-26080812-02.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.300-26080812-02.APK",
               "size": 40433779,
-              "downloadCount": 3,
+              "downloadCount": 5,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.300/Monica-Android-armeabi-v7a-1.0.300-26080812-02.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -179,14 +412,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.299-26080711-02.APK",
               "size": 44801579,
-              "downloadCount": 178,
+              "downloadCount": 181,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.299/Monica-Android-arm64-v8a-1.0.299-26080711-02.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.299-26080711-02.APK",
               "size": 40343711,
-              "downloadCount": 1,
+              "downloadCount": 2,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.299/Monica-Android-armeabi-v7a-1.0.299-26080711-02.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -202,14 +435,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.298-26080111-01.APK",
               "size": 44461111,
-              "downloadCount": 313,
+              "downloadCount": 315,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.298/Monica-Android-arm64-v8a-1.0.298-26080111-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.298-26080111-01.APK",
               "size": 40019627,
-              "downloadCount": 5,
+              "downloadCount": 6,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.298/Monica-Android-armeabi-v7a-1.0.298-26080111-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -225,14 +458,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.297-26072410-01.APK",
               "size": 33168820,
-              "downloadCount": 453,
+              "downloadCount": 458,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.297/Monica-Android-arm64-v8a-1.0.297-26072410-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.297-26072410-01.APK",
               "size": 31397924,
-              "downloadCount": 15,
+              "downloadCount": 16,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.297/Monica-Android-armeabi-v7a-1.0.297-26072410-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -248,14 +481,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.296-26072010-04.APK",
               "size": 33158538,
-              "downloadCount": 160,
+              "downloadCount": 162,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.296%E8%A1%A5%E5%85%85%E5%8C%85/Monica-Android-arm64-v8a-1.0.296-26072010-04.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.296-26072010-04.APK",
               "size": 31387642,
-              "downloadCount": 2,
+              "downloadCount": 3,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.296%E8%A1%A5%E5%85%85%E5%8C%85/Monica-Android-armeabi-v7a-1.0.296-26072010-04.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -271,14 +504,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.296-26072010-01.APK",
               "size": 33158538,
-              "downloadCount": 113,
+              "downloadCount": 115,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.296/Monica-Android-arm64-v8a-1.0.296-26072010-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.296-26072010-01.APK",
               "size": 31387642,
-              "downloadCount": 1,
+              "downloadCount": 2,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.296/Monica-Android-armeabi-v7a-1.0.296-26072010-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -294,14 +527,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.295-26071810-08.APK",
               "size": 33119114,
-              "downloadCount": 178,
+              "downloadCount": 180,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.295%E8%A1%A5%E4%B8%81/Monica-Android-arm64-v8a-1.0.295-26071810-08.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.295-26071810-08.APK",
               "size": 31348218,
-              "downloadCount": 3,
+              "downloadCount": 4,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.295%E8%A1%A5%E4%B8%81/Monica-Android-armeabi-v7a-1.0.295-26071810-08.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -317,14 +550,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.295-26071810-01.APK",
               "size": 33102730,
-              "downloadCount": 70,
+              "downloadCount": 72,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.295/Monica-Android-arm64-v8a-1.0.295-26071810-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.295-26071810-01.APK",
               "size": 31331834,
-              "downloadCount": 0,
+              "downloadCount": 1,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.295/Monica-Android-armeabi-v7a-1.0.295-26071810-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -340,14 +573,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.294-26071610-01.APK",
               "size": 32910278,
-              "downloadCount": 128,
+              "downloadCount": 130,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.294/Monica-Android-arm64-v8a-1.0.294-26071610-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.294-26071610-01.APK",
               "size": 31139382,
-              "downloadCount": 0,
+              "downloadCount": 1,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.294/Monica-Android-armeabi-v7a-1.0.294-26071610-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -363,14 +596,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.293-26070610-04.APK",
               "size": 32737964,
-              "downloadCount": 119,
+              "downloadCount": 121,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.293/Monica-Android-arm64-v8a-1.0.293-26070610-04.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.293-26070610-04.APK",
               "size": 30961250,
-              "downloadCount": 4,
+              "downloadCount": 5,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.293/Monica-Android-armeabi-v7a-1.0.293-26070610-04.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -386,14 +619,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.292-26070510-04.APK",
               "size": 32680080,
-              "downloadCount": 82,
+              "downloadCount": 84,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.292/Monica-Android-arm64-v8a-1.0.292-26070510-04.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.292-26070510-04.APK",
               "size": 30903366,
-              "downloadCount": 1,
+              "downloadCount": 2,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.292/Monica-Android-armeabi-v7a-1.0.292-26070510-04.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -409,7 +642,7 @@
             {
               "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.291-26062510-01.APK",
               "size": 26128149,
-              "downloadCount": 189,
+              "downloadCount": 191,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.291Pre/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.291-26062510-01.APK",
               "contentType": "application/octet-stream"
             }
@@ -425,7 +658,7 @@
             {
               "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.289-26061110-01.APK",
               "size": 25879037,
-              "downloadCount": 34,
+              "downloadCount": 37,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.289/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.289-26061110-01.APK",
               "contentType": "application/octet-stream"
             }
@@ -441,7 +674,7 @@
             {
               "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.288-26060110-01.APK",
               "size": 25646208,
-              "downloadCount": 117,
+              "downloadCount": 119,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.288c/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.288-26060110-01.APK",
               "contentType": "application/octet-stream"
             }
@@ -457,7 +690,7 @@
             {
               "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.288-26060110-01.APK",
               "size": 25646104,
-              "downloadCount": 1,
+              "downloadCount": 3,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.288b/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.288-26060110-01.APK",
               "contentType": "application/octet-stream"
             }
@@ -473,7 +706,7 @@
             {
               "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.288-26052310-03.APK",
               "size": 25350770,
-              "downloadCount": 140,
+              "downloadCount": 142,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.288/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.288-26052310-03.APK",
               "contentType": "application/octet-stream"
             }
@@ -489,7 +722,7 @@
             {
               "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.287-26052010-01.APK",
               "size": 25097110,
-              "downloadCount": 68,
+              "downloadCount": 71,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.287/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.287-26052010-01.APK",
               "contentType": "application/octet-stream"
             }
@@ -505,7 +738,7 @@
             {
               "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.286-26051510-03.APK",
               "size": 24194573,
-              "downloadCount": 131,
+              "downloadCount": 133,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.286b/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.286-26051510-03.APK",
               "contentType": "application/octet-stream"
             }
@@ -521,7 +754,7 @@
             {
               "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.285-26050710-01.APK",
               "size": 23988794,
-              "downloadCount": 141,
+              "downloadCount": 143,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.285c/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.285-26050710-01.APK",
               "contentType": "application/octet-stream"
             }
@@ -537,7 +770,7 @@
             {
               "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.285-26050410-01.APK",
               "size": 23569898,
-              "downloadCount": 129,
+              "downloadCount": 131,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.285b/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.285-26050410-01.APK",
               "contentType": "application/octet-stream"
             }
@@ -553,7 +786,7 @@
             {
               "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.285-26050110-01.APK",
               "size": 23482010,
-              "downloadCount": 113,
+              "downloadCount": 115,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.285/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.285-26050110-01.APK",
               "contentType": "application/octet-stream"
             }
@@ -569,7 +802,7 @@
             {
               "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.283-26042010-01.APK",
               "size": 23443414,
-              "downloadCount": 119,
+              "downloadCount": 121,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.283/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.283-26042010-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -585,7 +818,7 @@
             {
               "name": "Monica-Android-arm64-v8a+armeabi-v7a-1.0.282-26040910-02.APK",
               "size": 21449312,
-              "downloadCount": 140,
+              "downloadCount": 142,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.282/Monica-Android-arm64-v8a%2Barmeabi-v7a-1.0.282-26040910-02.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -601,7 +834,7 @@
             {
               "name": "Monica-android-amr64-V1.0.27.apk",
               "size": 19563690,
-              "downloadCount": 180,
+              "downloadCount": 182,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.27/Monica-android-amr64-V1.0.27.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -617,7 +850,7 @@
             {
               "name": "Monica-arm64-V1.0.26.apk",
               "size": 19241428,
-              "downloadCount": 194,
+              "downloadCount": 196,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.26/Monica-arm64-V1.0.26.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -633,7 +866,7 @@
             {
               "name": "Monica-arm64-V1.0.25a.apk",
               "size": 21419682,
-              "downloadCount": 272,
+              "downloadCount": 274,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.25a/Monica-arm64-V1.0.25a.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -649,7 +882,7 @@
             {
               "name": "Monica-V1.0.25.apk",
               "size": 26950763,
-              "downloadCount": 181,
+              "downloadCount": 183,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.25Preview/Monica-V1.0.25.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -665,7 +898,7 @@
             {
               "name": "Monica-V1.0.24.apk",
               "size": 26849863,
-              "downloadCount": 94,
+              "downloadCount": 96,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.24/Monica-V1.0.24.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -681,7 +914,7 @@
             {
               "name": "Monica-arm64-V1.0.23.apk",
               "size": 26877111,
-              "downloadCount": 40,
+              "downloadCount": 42,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.23/Monica-arm64-V1.0.23.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -697,7 +930,7 @@
             {
               "name": "Monica-arm64-Android-V1.0.22.apk",
               "size": 26196133,
-              "downloadCount": 61,
+              "downloadCount": 63,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.22%E2%84%A2/Monica-arm64-Android-V1.0.22.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -713,7 +946,7 @@
             {
               "name": "Monica-arm64-V1.0.22K.apk",
               "size": 25649373,
-              "downloadCount": 56,
+              "downloadCount": 58,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.22K/Monica-arm64-V1.0.22K.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -729,7 +962,7 @@
             {
               "name": "Monica-Android-V1.0.21.apk",
               "size": 25316585,
-              "downloadCount": 5,
+              "downloadCount": 7,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.21/Monica-Android-V1.0.21.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -745,7 +978,7 @@
             {
               "name": "Monica-arm64-V1.0.2.apk",
               "size": 25210081,
-              "downloadCount": 59,
+              "downloadCount": 61,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.20/Monica-arm64-V1.0.2.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -761,7 +994,7 @@
             {
               "name": "Monica-arm64-V1.0.19.apk",
               "size": 25177321,
-              "downloadCount": 4,
+              "downloadCount": 6,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.19/Monica-arm64-V1.0.19.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -777,14 +1010,14 @@
             {
               "name": "Monica-android-arm64-V1.0.18.apk",
               "size": 24624253,
-              "downloadCount": 48,
+              "downloadCount": 50,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.18/Monica-android-arm64-V1.0.18.apk",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-wear-V1.0.18.apk",
               "size": 8529265,
-              "downloadCount": 10,
+              "downloadCount": 11,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.18/Monica-wear-V1.0.18.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -800,7 +1033,7 @@
             {
               "name": "Monica-android-arm64-V1.0.17.apk",
               "size": 24446170,
-              "downloadCount": 16,
+              "downloadCount": 18,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.17/Monica-android-arm64-V1.0.17.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -816,14 +1049,14 @@
             {
               "name": "Monica-Android-arm64-V1.0.16.apk",
               "size": 24408242,
-              "downloadCount": 31,
+              "downloadCount": 33,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.16/Monica-Android-arm64-V1.0.16.apk",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica_Browser_Extension_v1.0.16.zip",
               "size": 1096476,
-              "downloadCount": 13,
+              "downloadCount": 14,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.16/Monica_Browser_Extension_v1.0.16.zip",
               "contentType": "application/x-zip-compressed"
             },
@@ -846,7 +1079,7 @@
             {
               "name": "Monica-android-arm64-V1.0.15.apk",
               "size": 24408242,
-              "downloadCount": 29,
+              "downloadCount": 31,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.15/Monica-android-arm64-V1.0.15.apk",
               "contentType": "application/vnd.android.package-archive"
             },
@@ -869,7 +1102,7 @@
             {
               "name": "Monica-V1.0.14.apk",
               "size": 24355305,
-              "downloadCount": 8,
+              "downloadCount": 10,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.14/Monica-V1.0.14.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -885,7 +1118,7 @@
             {
               "name": "Monica-arm64-v1.0.13b.apk",
               "size": 24131565,
-              "downloadCount": 9,
+              "downloadCount": 11,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.13b/Monica-arm64-v1.0.13b.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -901,7 +1134,7 @@
             {
               "name": "Monica-arm64-V1.0.13.apk",
               "size": 23929141,
-              "downloadCount": 1,
+              "downloadCount": 3,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.13/Monica-arm64-V1.0.13.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -917,7 +1150,7 @@
             {
               "name": "Monica-arm64-V1.0.12.apk",
               "size": 23886201,
-              "downloadCount": 14,
+              "downloadCount": 16,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.12/Monica-arm64-V1.0.12.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -933,14 +1166,14 @@
             {
               "name": "Monica-wear_arm64_V1.1.2.apk",
               "size": 7232019,
-              "downloadCount": 21,
+              "downloadCount": 22,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.1.2/Monica-wear_arm64_V1.1.2.apk",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica_arm64_V1.1.2.apk",
               "size": 22010885,
-              "downloadCount": 40,
+              "downloadCount": 42,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.1.2/Monica_arm64_V1.1.2.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -956,14 +1189,14 @@
             {
               "name": "Monica-wear_arm64_V1.1.1.apk",
               "size": 7223979,
-              "downloadCount": 7,
+              "downloadCount": 8,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.1.1/Monica-wear_arm64_V1.1.1.apk",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica_arm64_V1.1.1.apk",
               "size": 21978117,
-              "downloadCount": 5,
+              "downloadCount": 7,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.1.1/Monica_arm64_V1.1.1.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -979,7 +1212,7 @@
             {
               "name": "Monica_arm64_V1.1.0.apk",
               "size": 21899337,
-              "downloadCount": 7,
+              "downloadCount": 9,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.1.0/Monica_arm64_V1.1.0.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -995,14 +1228,14 @@
             {
               "name": "Monica-wear-V1.0.9.apk",
               "size": 7156635,
-              "downloadCount": 3,
+              "downloadCount": 4,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.9c/Monica-wear-V1.0.9.apk",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica_arm64_V1.0.9.apk",
               "size": 21223072,
-              "downloadCount": 4,
+              "downloadCount": 6,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.9c/Monica_arm64_V1.0.9.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1018,7 +1251,7 @@
             {
               "name": "Monica_arm64_V1.0.9b.apk",
               "size": 21143668,
-              "downloadCount": 4,
+              "downloadCount": 6,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.9b/Monica_arm64_V1.0.9b.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1034,7 +1267,7 @@
             {
               "name": "Monica_arm64_V1.0.9.apk",
               "size": 21031440,
-              "downloadCount": 7,
+              "downloadCount": 11,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.9/Monica_arm64_V1.0.9.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1050,7 +1283,7 @@
             {
               "name": "Monica_arm64_V1.0.8.apk",
               "size": 20960196,
-              "downloadCount": 4,
+              "downloadCount": 6,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.8/Monica_arm64_V1.0.8.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1066,7 +1299,7 @@
             {
               "name": "monica_arm64_V1.0.7d.apk",
               "size": 20892072,
-              "downloadCount": 14,
+              "downloadCount": 16,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.7d/monica_arm64_V1.0.7d.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1082,7 +1315,7 @@
             {
               "name": "Monica_arm64_V1.0.7c.apk",
               "size": 20646983,
-              "downloadCount": 8,
+              "downloadCount": 10,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.7c/Monica_arm64_V1.0.7c.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1098,7 +1331,7 @@
             {
               "name": "Monica_arm64_V1.0.7.apk",
               "size": 20581619,
-              "downloadCount": 8,
+              "downloadCount": 10,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.7b/Monica_arm64_V1.0.7.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1114,7 +1347,7 @@
             {
               "name": "Monica_arm64_V1.0.7.apk",
               "size": 20355654,
-              "downloadCount": 14,
+              "downloadCount": 17,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.7/Monica_arm64_V1.0.7.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1130,7 +1363,7 @@
             {
               "name": "monica_arm64_V1.0.6beta.apk",
               "size": 20275218,
-              "downloadCount": 6,
+              "downloadCount": 8,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/v1.0.6/monica_arm64_V1.0.6beta.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1146,7 +1379,7 @@
             {
               "name": "Monica_arm64_V1.0.5c.apk",
               "size": 21169730,
-              "downloadCount": 5,
+              "downloadCount": 8,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.5c/Monica_arm64_V1.0.5c.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1162,7 +1395,7 @@
             {
               "name": "Monica_arm64_V1.0.5-b.apk",
               "size": 21168454,
-              "downloadCount": 4,
+              "downloadCount": 6,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.5b/Monica_arm64_V1.0.5-b.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1178,7 +1411,7 @@
             {
               "name": "Monica_arm64_V1.0.5.apk",
               "size": 19650631,
-              "downloadCount": 17,
+              "downloadCount": 19,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.5/Monica_arm64_V1.0.5.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1194,7 +1427,7 @@
             {
               "name": "Monica_arm64_v1.0.3.apk",
               "size": 19197338,
-              "downloadCount": 4,
+              "downloadCount": 6,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.3/Monica_arm64_v1.0.3.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1210,7 +1443,7 @@
             {
               "name": "Monica_arm64_V1.0.2.apk",
               "size": 18489840,
-              "downloadCount": 11,
+              "downloadCount": 13,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.2/Monica_arm64_V1.0.2.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1226,7 +1459,7 @@
             {
               "name": "Monica_arm64_V1.0.1.apk",
               "size": 71027152,
-              "downloadCount": 4,
+              "downloadCount": 7,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.1/Monica_arm64_V1.0.1.apk",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -1242,7 +1475,7 @@
             {
               "name": "Monica.apk",
               "size": 70872100,
-              "downloadCount": 5,
+              "downloadCount": 7,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.0/Monica.apk",
               "contentType": "application/vnd.android.package-archive"
             }
