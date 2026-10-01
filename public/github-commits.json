@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-01T11:59:22.601Z",
+  "generatedAt": "2026-10-01T17:06:46.622Z",
   "range": {
     "from": "2025-10-02",
     "to": "2026-10-01"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-01",
-      "count": 2
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "76d4fbf2403218b79099f585f36d4d4cc183b84f",
+      "shortSha": "76d4fbf",
+      "message": "Unify 1.0.316 filter menus and protect authenticator visibility",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-01T17:05:51Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/76d4fbf2403218b79099f585f36d4d4cc183b84f"
+    },
     {
       "sha": "2aa0a89e843a98adae0039ad068e9d05b759a394",
       "shortSha": "2aa0a89",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-28T13:24:54Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/57fb60f999dfcc049188041c0fce99546fdba096"
-    },
-    {
-      "sha": "3e2f60beee82c14f409882a8cd72ac772f1346f9",
-      "shortSha": "3e2f60b",
-      "message": "fix(icons): recrop snow leopard artwork and improve scaling clarity",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-28T11:17:12Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/3e2f60beee82c14f409882a8cd72ac772f1346f9"
     }
   ]
 }
