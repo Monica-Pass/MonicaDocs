@@ -298,4 +298,10 @@ const currentCopy = computed(() => copy[localeKey.value]);
   color: var(--vp-c-white);
   background: var(--vp-c-brand-1);
 }
+
+@media (max-width: 960px) {
+  .friend-links {
+    padding-inline: 20px;
+  }
+}
 </style>

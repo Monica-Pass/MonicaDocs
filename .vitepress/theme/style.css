@@ -331,6 +331,14 @@ html.dark {
   animation: monica-page-in var(--monica-animation-page);
 }
 
+@media (max-width: 960px) {
+  .vp-doc table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+}
+
 @keyframes monica-float {
   0%,
   100% {
