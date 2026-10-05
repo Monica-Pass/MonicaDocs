@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-04T11:28:00.470Z",
+  "generatedAt": "2026-10-05T02:22:50.799Z",
   "range": {
-    "from": "2025-10-05",
-    "to": "2026-10-04"
+    "from": "2025-10-06",
+    "to": "2026-10-05"
   },
   "activity": [
-    {
-      "date": "2025-10-05",
-      "count": 0
-    },
     {
       "date": "2025-10-06",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-10-04",
       "count": 0
+    },
+    {
+      "date": "2026-10-05",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "da61cec4221d3595b521d8c39ea90751fa56c834",
+      "shortSha": "da61cec",
+      "message": "feat(android): improve sync, settings and wallet ordering for 1.0.317",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-05T02:21:47Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/da61cec4221d3595b521d8c39ea90751fa56c834"
+    },
     {
       "sha": "63bb37b4f92f958d59a3a3aa5225a4ad20eb05d2",
       "shortSha": "63bb37b",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-28T15:22:11Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/226354b50f6abc16f537b48b17ce37d07e7dccfd"
-    },
-    {
-      "sha": "4b63083def0e03aa9312659af9670ff4fd995615",
-      "shortSha": "4b63083",
-      "message": "feat(android): support all password OTP types and preserve native parameters",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-28T14:46:48Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/4b63083def0e03aa9312659af9670ff4fd995615"
     }
   ]
 }
