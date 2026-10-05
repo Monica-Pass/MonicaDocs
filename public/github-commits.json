@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-05T04:06:17.107Z",
+  "generatedAt": "2026-10-05T04:10:40.345Z",
   "range": {
     "from": "2025-10-06",
     "to": "2026-10-05"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-05",
-      "count": 2
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "8334e6bff9d08529f5d88b911b57a9d0a2579997",
+      "shortSha": "8334e6b",
+      "message": "docs: consolidate friend links across all README languages",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-05T04:10:06Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/8334e6bff9d08529f5d88b911b57a9d0a2579997"
+    },
     {
       "sha": "c5bbf8d7cc1b295e326d9f5186f575297ad95650",
       "shortSha": "c5bbf8d",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-09-30T08:39:33Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/f00963d0bb014ebd90316136432a0416bcf3b287"
-    },
-    {
-      "sha": "a19912fb3a521a930400d8a1461f81eb8f65595d",
-      "shortSha": "a19912f",
-      "message": "Complete 1.0.315 editor integration, data integrity fixes and settings redesign",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-09-28T21:32:51Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/a19912fb3a521a930400d8a1461f81eb8f65595d"
     }
   ]
 }
