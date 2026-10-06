@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-05T12:55:18.957Z",
+  "generatedAt": "2026-10-06T08:54:00.456Z",
   "range": {
-    "from": "2025-10-06",
-    "to": "2026-10-05"
+    "from": "2025-10-07",
+    "to": "2026-10-06"
   },
   "activity": [
-    {
-      "date": "2025-10-06",
-      "count": 0
-    },
     {
       "date": "2025-10-07",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-10-05",
       "count": 3
+    },
+    {
+      "date": "2026-10-06",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "e597bd26afed8e44f32b0b82167224090ecba240",
+      "shortSha": "e597bd2",
+      "message": "fix(android): finalize MDBX editing and defer Glitter client support",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-06T08:52:49Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/e597bd26afed8e44f32b0b82167224090ecba240"
+    },
     {
       "sha": "8334e6bff9d08529f5d88b911b57a9d0a2579997",
       "shortSha": "8334e6b",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-09-30T17:48:18Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/1c6a5b035e19ea6279bee28eb7a5cf2fe6ce7dc5"
-    },
-    {
-      "sha": "f00963d0bb014ebd90316136432a0416bcf3b287",
-      "shortSha": "f00963d",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-09-30T08:39:33Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f00963d0bb014ebd90316136432a0416bcf3b287"
     }
   ]
 }
