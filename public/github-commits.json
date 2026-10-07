@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-07T12:14:24.225Z",
+  "generatedAt": "2026-10-07T12:42:47.357Z",
   "range": {
     "from": "2025-10-08",
     "to": "2026-10-07"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-07",
-      "count": 0
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "97a9ce9e606d10c6d0aa112179639dfba6378c9f",
+      "shortSha": "97a9ce9",
+      "message": "feat(android): prepare 1.0.318 improvements",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-07T12:41:48Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/97a9ce9e606d10c6d0aa112179639dfba6378c9f"
+    },
     {
       "sha": "086c1298c94a4fb2a81bf198bc5b922b3ef525a5",
       "shortSha": "086c129",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-10-01T09:02:22Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/2aa0a89e843a98adae0039ad068e9d05b759a394"
-    },
-    {
-      "sha": "2117395ffbd47f32b8970cd0028f3ba15979566d",
-      "shortSha": "2117395",
-      "message": "Keep data transfers running in background and reduce WebDAV requests",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-01T03:02:41Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/2117395ffbd47f32b8970cd0028f3ba15979566d"
     }
   ]
 }
