@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-07T12:42:47.357Z",
+  "generatedAt": "2026-10-08T11:07:53.733Z",
   "range": {
-    "from": "2025-10-08",
-    "to": "2026-10-07"
+    "from": "2025-10-09",
+    "to": "2026-10-08"
   },
   "activity": [
-    {
-      "date": "2025-10-08",
-      "count": 0
-    },
     {
       "date": "2025-10-09",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-10-07",
       "count": 1
+    },
+    {
+      "date": "2026-10-08",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "83664b96995d3d4ba7ecc6ad705b6716ac594431",
+      "shortSha": "83664b9",
+      "message": "feat(android): finalize wallet editing, KDBX deletion and input suggestions",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-08T11:07:05Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/83664b96995d3d4ba7ecc6ad705b6716ac594431"
+    },
     {
       "sha": "97a9ce9e606d10c6d0aa112179639dfba6378c9f",
       "shortSha": "97a9ce9",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-01T17:05:51Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/76d4fbf2403218b79099f585f36d4d4cc183b84f"
-    },
-    {
-      "sha": "2aa0a89e843a98adae0039ad068e9d05b759a394",
-      "shortSha": "2aa0a89",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-10-01T09:02:22Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/2aa0a89e843a98adae0039ad068e9d05b759a394"
     }
   ]
 }
