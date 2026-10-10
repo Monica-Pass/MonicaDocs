@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-09T12:13:56.477Z",
+  "generatedAt": "2026-10-10T09:42:58.180Z",
   "range": {
-    "from": "2025-10-10",
-    "to": "2026-10-09"
+    "from": "2025-10-11",
+    "to": "2026-10-10"
   },
   "activity": [
-    {
-      "date": "2025-10-10",
-      "count": 0
-    },
     {
       "date": "2025-10-11",
       "count": 0
@@ -1466,9 +1462,31 @@
     {
       "date": "2026-10-09",
       "count": 2
+    },
+    {
+      "date": "2026-10-10",
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "4475d167c2fa74e52a5aa770653d370a1099491a",
+      "shortSha": "4475d16",
+      "message": "chore(repo): stop tracking design sketches and device captures",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-10T09:39:56Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/4475d167c2fa74e52a5aa770653d370a1099491a"
+    },
+    {
+      "sha": "85ff2cbd9f742eb568c913a2cf1b7fe3eb0bfef7",
+      "shortSha": "85ff2cb",
+      "message": "feat(android): persist WebAuthn backup flags and extend passkey portability",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-10T09:38:42Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/85ff2cbd9f742eb568c913a2cf1b7fe3eb0bfef7"
+    },
     {
       "sha": "89d8b70a77fccbff3d97a4a63d74adc4659eddaf",
       "shortSha": "89d8b70",
@@ -1540,24 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-05T04:05:43Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/c5bbf8d7cc1b295e326d9f5186f575297ad95650"
-    },
-    {
-      "sha": "da61cec4221d3595b521d8c39ea90751fa56c834",
-      "shortSha": "da61cec",
-      "message": "feat(android): improve sync, settings and wallet ordering for 1.0.317",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-05T02:21:47Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/da61cec4221d3595b521d8c39ea90751fa56c834"
-    },
-    {
-      "sha": "63bb37b4f92f958d59a3a3aa5225a4ad20eb05d2",
-      "shortSha": "63bb37b",
-      "message": "feat: complete 1.0.316 vault recovery, credential groups and database management",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-03T03:14:00Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/63bb37b4f92f958d59a3a3aa5225a4ad20eb05d2"
     }
   ]
 }
