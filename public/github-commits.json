@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-10T11:47:16.137Z",
+  "generatedAt": "2026-10-10T12:00:08.842Z",
   "range": {
     "from": "2025-10-11",
     "to": "2026-10-10"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-10",
-      "count": 6
+      "count": 7
     }
   ],
   "latest": [
+    {
+      "sha": "0cb05e03ed9086877f47a1d478414610b1ec9623",
+      "shortSha": "0cb05e0",
+      "message": "fix(android): unify Steam folder filters and preserve selection",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-10T11:57:42Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/0cb05e03ed9086877f47a1d478414610b1ec9623"
+    },
     {
       "sha": "642cebc00fb2116e01b140f551314db9350c3448",
       "shortSha": "642cebc",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-08T11:07:05Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/83664b96995d3d4ba7ecc6ad705b6716ac594431"
-    },
-    {
-      "sha": "97a9ce9e606d10c6d0aa112179639dfba6378c9f",
-      "shortSha": "97a9ce9",
-      "message": "feat(android): prepare 1.0.318 improvements",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-07T12:41:48Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/97a9ce9e606d10c6d0aa112179639dfba6378c9f"
     }
   ]
 }
