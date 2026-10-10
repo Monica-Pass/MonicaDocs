@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-10T11:31:26.653Z",
+  "generatedAt": "2026-10-10T11:47:16.137Z",
   "range": {
     "from": "2025-10-11",
     "to": "2026-10-10"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-10",
-      "count": 5
+      "count": 6
     }
   ],
   "latest": [
+    {
+      "sha": "642cebc00fb2116e01b140f551314db9350c3448",
+      "shortSha": "642cebc",
+      "message": "ci: follow AtomGit upload_url contract for release assets",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-10T11:43:09Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/642cebc00fb2116e01b140f551314db9350c3448"
+    },
     {
       "sha": "8cf9a9123b27231243dee2edd337aa5d1a48362b",
       "shortSha": "8cf9a91",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-07T12:41:48Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/97a9ce9e606d10c6d0aa112179639dfba6378c9f"
-    },
-    {
-      "sha": "086c1298c94a4fb2a81bf198bc5b922b3ef525a5",
-      "shortSha": "086c129",
-      "message": "fix(passkey): preserve credential interoperability and bind authentication requests",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-06T09:05:41Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/086c1298c94a4fb2a81bf198bc5b922b3ef525a5"
     }
   ]
 }
