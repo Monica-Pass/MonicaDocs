@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-10T09:42:58.180Z",
+  "generatedAt": "2026-10-10T11:30:59.457Z",
   "range": {
     "from": "2025-10-11",
     "to": "2026-10-10"
@@ -1465,10 +1465,37 @@
     },
     {
       "date": "2026-10-10",
-      "count": 2
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "8cf9a9123b27231243dee2edd337aa5d1a48362b",
+      "shortSha": "8cf9a91",
+      "message": "ci: make AtomGit sync manual trigger take a single release tag",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-10T11:21:28Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/8cf9a9123b27231243dee2edd337aa5d1a48362b"
+    },
+    {
+      "sha": "f342c221a91a05907689cc970462f396afd9a332",
+      "shortSha": "f342c22",
+      "message": "ci: sync GitHub releases to AtomGit",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-10T11:19:39Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f342c221a91a05907689cc970462f396afd9a332"
+    },
+    {
+      "sha": "183fb41b13453f9cd6922f815000fd44415fc8d4",
+      "shortSha": "183fb41",
+      "message": "docs: add AtomGit hosting to acknowledgements",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-10T10:56:31Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/183fb41b13453f9cd6922f815000fd44415fc8d4"
+    },
     {
       "sha": "4475d167c2fa74e52a5aa770653d370a1099491a",
       "shortSha": "4475d16",
@@ -1531,33 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-06T09:05:41Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/086c1298c94a4fb2a81bf198bc5b922b3ef525a5"
-    },
-    {
-      "sha": "e597bd26afed8e44f32b0b82167224090ecba240",
-      "shortSha": "e597bd2",
-      "message": "fix(android): finalize MDBX editing and defer Glitter client support",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-06T08:52:49Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/e597bd26afed8e44f32b0b82167224090ecba240"
-    },
-    {
-      "sha": "8334e6bff9d08529f5d88b911b57a9d0a2579997",
-      "shortSha": "8334e6b",
-      "message": "docs: consolidate friend links across all README languages",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-05T04:10:06Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/8334e6bff9d08529f5d88b911b57a9d0a2579997"
-    },
-    {
-      "sha": "c5bbf8d7cc1b295e326d9f5186f575297ad95650",
-      "shortSha": "c5bbf8d",
-      "message": "docs: add TinadecOffice to Chinese README friend links",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-05T04:05:43Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/c5bbf8d7cc1b295e326d9f5186f575297ad95650"
     }
   ]
 }
