@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-10T12:11:58.177Z",
+  "generatedAt": "2026-10-10T12:33:48.407Z",
   "range": {
     "from": "2025-10-11",
     "to": "2026-10-10"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-10",
-      "count": 8
+      "count": 9
     }
   ],
   "latest": [
+    {
+      "sha": "f9fe7321866fba6d6f0697a5bdce61bf45f6011a",
+      "shortSha": "f9fe732",
+      "message": "ci: wait for release assets before syncing to AtomGit",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-10T12:31:37Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f9fe7321866fba6d6f0697a5bdce61bf45f6011a"
+    },
     {
       "sha": "84dde96a37722c7f9ad2f9fb3d68b670ba9896a3",
       "shortSha": "84dde96",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-10-09T09:12:21Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/89d8b70a77fccbff3d97a4a63d74adc4659eddaf"
-    },
-    {
-      "sha": "d7702cac415af9ca02318971aa33d61d8ec30ab8",
-      "shortSha": "d7702ca",
-      "message": "fix(android): include synced vaults in default overview scope",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-09T05:03:32Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/d7702cac415af9ca02318971aa33d61d8ec30ab8"
     }
   ]
 }
