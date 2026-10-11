@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-11T13:48:05.928Z",
+  "generatedAt": "2026-10-11T14:10:38.769Z",
   "range": {
     "from": "2025-10-12",
     "to": "2026-10-11"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-11",
-      "count": 15
+      "count": 16
     }
   ],
   "latest": [
+    {
+      "sha": "62d888a09057f5a85202f7a189336c4c5f46a905",
+      "shortSha": "62d888a",
+      "message": "chore(android): bump unreleased version to 1.0.319",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-11T14:10:01Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/62d888a09057f5a85202f7a189336c4c5f46a905"
+    },
     {
       "sha": "220e835eb6789aa698218992f9b033cf31e848e7",
       "shortSha": "220e835",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
       "date": "2026-10-11T10:04:12Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/7441042cc9dfaa70008c4987dda044b7503612e3"
-    },
-    {
-      "sha": "f941867a1c0df5cba562ce5d8a51a12e13aa8c63",
-      "shortSha": "f941867",
-      "message": "fix(sync): retain WebAuthn backup metadata from target main",
-      "authorName": "Junyxor",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
-      "date": "2026-10-11T07:00:16Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f941867a1c0df5cba562ce5d8a51a12e13aa8c63"
     }
   ]
 }
