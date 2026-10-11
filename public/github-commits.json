@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-11T11:44:58.464Z",
+  "generatedAt": "2026-10-11T13:48:05.928Z",
   "range": {
     "from": "2025-10-12",
     "to": "2026-10-11"
@@ -1465,99 +1465,99 @@
     },
     {
       "date": "2026-10-11",
-      "count": 0
+      "count": 15
     }
   ],
   "latest": [
     {
-      "sha": "f9fe7321866fba6d6f0697a5bdce61bf45f6011a",
-      "shortSha": "f9fe732",
-      "message": "ci: wait for release assets before syncing to AtomGit",
+      "sha": "220e835eb6789aa698218992f9b033cf31e848e7",
+      "shortSha": "220e835",
+      "message": "Merge pull request #160 from Junyxor/codex/lan-sync-progress",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-10T12:31:37Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f9fe7321866fba6d6f0697a5bdce61bf45f6011a"
+      "date": "2026-10-11T13:47:32Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/220e835eb6789aa698218992f9b033cf31e848e7"
     },
     {
-      "sha": "84dde96a37722c7f9ad2f9fb3d68b670ba9896a3",
-      "shortSha": "84dde96",
-      "message": "ci: report AtomGit upload throughput and abort stalled uploads",
+      "sha": "34721df68533a132f54a1b83a78a4101bbac8702",
+      "shortSha": "34721df",
+      "message": "fix(storage): preserve corrupt vaults during format checks",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-10T12:10:58Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/84dde96a37722c7f9ad2f9fb3d68b670ba9896a3"
+      "date": "2026-10-11T13:20:22Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/34721df68533a132f54a1b83a78a4101bbac8702"
     },
     {
-      "sha": "0cb05e03ed9086877f47a1d478414610b1ec9623",
-      "shortSha": "0cb05e0",
-      "message": "fix(android): unify Steam folder filters and preserve selection",
+      "sha": "c4bb0db6c10f51546a7349d7c31263a9d134e81d",
+      "shortSha": "c4bb0db",
+      "message": "fix(sync): require review of passkey portability before nearby transfers",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-10T11:57:42Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/0cb05e03ed9086877f47a1d478414610b1ec9623"
+      "date": "2026-10-11T12:46:55Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/c4bb0db6c10f51546a7349d7c31263a9d134e81d"
     },
     {
-      "sha": "642cebc00fb2116e01b140f551314db9350c3448",
-      "shortSha": "642cebc",
-      "message": "ci: follow AtomGit upload_url contract for release assets",
+      "sha": "977d66c9157da560446068f9d39bdc701c5c54e2",
+      "shortSha": "977d66c",
+      "message": "test(sync): make Room invalidation deterministic for passkey copies",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-10T11:43:09Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/642cebc00fb2116e01b140f551314db9350c3448"
+      "date": "2026-10-11T12:05:06Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/977d66c9157da560446068f9d39bdc701c5c54e2"
     },
     {
-      "sha": "8cf9a9123b27231243dee2edd337aa5d1a48362b",
-      "shortSha": "8cf9a91",
-      "message": "ci: make AtomGit sync manual trigger take a single release tag",
+      "sha": "5ca99f7788c5adb840fade3a5734bb340ffbb589",
+      "shortSha": "5ca99f7",
+      "message": "Merge latest PR 160 test fix while retaining nearby route coverage",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-10T11:21:28Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/8cf9a9123b27231243dee2edd337aa5d1a48362b"
+      "date": "2026-10-11T11:59:02Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/5ca99f7788c5adb840fade3a5734bb340ffbb589"
     },
     {
-      "sha": "f342c221a91a05907689cc970462f396afd9a332",
-      "shortSha": "f342c22",
-      "message": "ci: sync GitHub releases to AtomGit",
+      "sha": "ce4f5905dbbd424f532aa888ba45b5441077eedb",
+      "shortSha": "ce4f590",
+      "message": "fix(sync): preserve passkey copies and validate nearby sync integration",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-10T11:19:39Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f342c221a91a05907689cc970462f396afd9a332"
+      "date": "2026-10-11T11:58:25Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/ce4f5905dbbd424f532aa888ba45b5441077eedb"
     },
     {
-      "sha": "183fb41b13453f9cd6922f815000fd44415fc8d4",
-      "shortSha": "183fb41",
-      "message": "docs: add AtomGit hosting to acknowledgements",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-10T10:56:31Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/183fb41b13453f9cd6922f815000fd44415fc8d4"
+      "sha": "902b6c9b4dcf1613cf7aab79255132f922d8dec6",
+      "shortSha": "902b6c9",
+      "message": "fix(androidTest): name Plus activation argument after LAN sync callback",
+      "authorName": "Junyxor",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
+      "date": "2026-10-11T11:22:19Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/902b6c9b4dcf1613cf7aab79255132f922d8dec6"
     },
     {
-      "sha": "4475d167c2fa74e52a5aa770653d370a1099491a",
-      "shortSha": "4475d16",
-      "message": "chore(repo): stop tracking design sketches and device captures",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-10T09:39:56Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/4475d167c2fa74e52a5aa770653d370a1099491a"
+      "sha": "a7ca55ddb9417f1a911bd5e2fae7c80182318b8e",
+      "shortSha": "a7ca55d",
+      "message": "fix(ci): validate portable runtime provenance and handle SDK input",
+      "authorName": "Junyxor",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
+      "date": "2026-10-11T10:21:41Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/a7ca55ddb9417f1a911bd5e2fae7c80182318b8e"
     },
     {
-      "sha": "85ff2cbd9f742eb568c913a2cf1b7fe3eb0bfef7",
-      "shortSha": "85ff2cb",
-      "message": "feat(android): persist WebAuthn backup flags and extend passkey portability",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-10T09:38:42Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/85ff2cbd9f742eb568c913a2cf1b7fe3eb0bfef7"
+      "sha": "7441042cc9dfaa70008c4987dda044b7503612e3",
+      "shortSha": "7441042",
+      "message": "fix(sync): preserve backup flags from resolved prior credentials",
+      "authorName": "Junyxor",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
+      "date": "2026-10-11T10:04:12Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/7441042cc9dfaa70008c4987dda044b7503612e3"
     },
     {
-      "sha": "89d8b70a77fccbff3d97a4a63d74adc4659eddaf",
-      "shortSha": "89d8b70",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-10-09T09:12:21Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/89d8b70a77fccbff3d97a4a63d74adc4659eddaf"
+      "sha": "f941867a1c0df5cba562ce5d8a51a12e13aa8c63",
+      "shortSha": "f941867",
+      "message": "fix(sync): retain WebAuthn backup metadata from target main",
+      "authorName": "Junyxor",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
+      "date": "2026-10-11T07:00:16Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f941867a1c0df5cba562ce5d8a51a12e13aa8c63"
     }
   ]
 }
