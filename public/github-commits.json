@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-11T16:09:37.462Z",
+  "generatedAt": "2026-10-11T17:31:41.023Z",
   "range": {
     "from": "2025-10-12",
     "to": "2026-10-11"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-11",
-      "count": 17
+      "count": 18
     }
   ],
   "latest": [
+    {
+      "sha": "9134c4cabaef869fa56db841e60e3a5197c842de",
+      "shortSha": "9134c4c",
+      "message": "fix(android): repair nearby sync folder preparation",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-11T17:30:33Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/9134c4cabaef869fa56db841e60e3a5197c842de"
+    },
     {
       "sha": "73f5828636749f8e410b2601c820f11b879b3109",
       "shortSha": "73f5828",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
       "date": "2026-10-11T11:22:19Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/902b6c9b4dcf1613cf7aab79255132f922d8dec6"
-    },
-    {
-      "sha": "a7ca55ddb9417f1a911bd5e2fae7c80182318b8e",
-      "shortSha": "a7ca55d",
-      "message": "fix(ci): validate portable runtime provenance and handle SDK input",
-      "authorName": "Junyxor",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
-      "date": "2026-10-11T10:21:41Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/a7ca55ddb9417f1a911bd5e2fae7c80182318b8e"
     }
   ]
 }
