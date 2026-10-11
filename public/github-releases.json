@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T13:10:03.131Z",
+  "updatedAt": "2026-10-11T13:39:18.929Z",
   "repos": [
     {
       "id": "android",
@@ -18,14 +18,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.318-26100812-02.APK",
               "size": 45099878,
-              "downloadCount": 370,
+              "downloadCount": 779,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.318/Monica-Android-arm64-v8a-1.0.318-26100812-02.APK",
               "contentType": "application/vnd.android.package-archive"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.318-26100812-02.APK",
               "size": 42984924,
-              "downloadCount": 6,
+              "downloadCount": 7,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.318/Monica-Android-armeabi-v7a-1.0.318-26100812-02.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -64,7 +64,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.316-26100312-24.APK",
               "size": 44857901,
-              "downloadCount": 411,
+              "downloadCount": 413,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.316/Monica-Android-arm64-v8a-1.0.316-26100312-24.APK",
               "contentType": "application/vnd.android.package-archive"
             },
@@ -343,7 +343,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.307-26082612-01.APK",
               "size": 46396094,
-              "downloadCount": 363,
+              "downloadCount": 365,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.307/Monica-Android-arm64-v8a-1.0.307-26082612-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
