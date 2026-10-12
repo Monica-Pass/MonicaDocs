@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-12T03:50:00.346Z",
+  "generatedAt": "2026-10-12T05:38:12.030Z",
   "range": {
     "from": "2025-10-13",
     "to": "2026-10-12"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-12",
-      "count": 3
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "2b2096fc606d79d914e2ca4735eca0b7d493956d",
+      "shortSha": "2b2096f",
+      "message": "fix(android): complete nearby sync for trash and attachments",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-12T05:35:32Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/2b2096fc606d79d914e2ca4735eca0b7d493956d"
+    },
     {
       "sha": "3d9c086e94fc4145ba3dd9625dd5b8541b9bd023",
       "shortSha": "3d9c086",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-11T12:46:55Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/c4bb0db6c10f51546a7349d7c31263a9d134e81d"
-    },
-    {
-      "sha": "977d66c9157da560446068f9d39bdc701c5c54e2",
-      "shortSha": "977d66c",
-      "message": "test(sync): make Room invalidation deterministic for passkey copies",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-11T12:05:06Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/977d66c9157da560446068f9d39bdc701c5c54e2"
     }
   ]
 }
