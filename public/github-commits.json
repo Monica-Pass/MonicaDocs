@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-12T00:39:20.999Z",
+  "generatedAt": "2026-10-12T03:15:57.009Z",
   "range": {
     "from": "2025-10-13",
     "to": "2026-10-12"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-12",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "887fb9558f089ccd9f50f3c3cf19483fe5b306e2",
+      "shortSha": "887fb95",
+      "message": "fix(sync): stabilize nearby status and improve diagnostics",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-12T03:14:15Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/887fb9558f089ccd9f50f3c3cf19483fe5b306e2"
+    },
     {
       "sha": "6a71b22e7ae23c44d077f2ef353482401633d212",
       "shortSha": "6a71b22",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-11T11:59:02Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/5ca99f7788c5adb840fade3a5734bb340ffbb589"
-    },
-    {
-      "sha": "ce4f5905dbbd424f532aa888ba45b5441077eedb",
-      "shortSha": "ce4f590",
-      "message": "fix(sync): preserve passkey copies and validate nearby sync integration",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-11T11:58:25Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/ce4f5905dbbd424f532aa888ba45b5441077eedb"
     }
   ]
 }
