@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-11T17:31:41.023Z",
+  "generatedAt": "2026-10-12T00:39:20.999Z",
   "range": {
-    "from": "2025-10-12",
-    "to": "2026-10-11"
+    "from": "2025-10-13",
+    "to": "2026-10-12"
   },
   "activity": [
-    {
-      "date": "2025-10-12",
-      "count": 0
-    },
     {
       "date": "2025-10-13",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-10-11",
       "count": 18
+    },
+    {
+      "date": "2026-10-12",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "6a71b22e7ae23c44d077f2ef353482401633d212",
+      "shortSha": "6a71b22",
+      "message": "fix: scope nearby references and enable manual database sync",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-12T00:37:38Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/6a71b22e7ae23c44d077f2ef353482401633d212"
+    },
     {
       "sha": "9134c4cabaef869fa56db841e60e3a5197c842de",
       "shortSha": "9134c4c",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-11T11:58:25Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/ce4f5905dbbd424f532aa888ba45b5441077eedb"
-    },
-    {
-      "sha": "902b6c9b4dcf1613cf7aab79255132f922d8dec6",
-      "shortSha": "902b6c9",
-      "message": "fix(androidTest): name Plus activation argument after LAN sync callback",
-      "authorName": "Junyxor",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130233273?v=4",
-      "date": "2026-10-11T11:22:19Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/902b6c9b4dcf1613cf7aab79255132f922d8dec6"
     }
   ]
 }
