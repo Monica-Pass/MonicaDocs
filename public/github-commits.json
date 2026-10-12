@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-12T05:38:12.030Z",
+  "generatedAt": "2026-10-12T08:40:40.819Z",
   "range": {
     "from": "2025-10-13",
     "to": "2026-10-12"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-12",
-      "count": 4
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "93d7e7f10dce3f98120ef4f0d0705de283cfbf97",
+      "shortSha": "93d7e7f",
+      "message": "fix(android): keep automatic sync toggle responsive during transfers",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-12T08:38:05Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/93d7e7f10dce3f98120ef4f0d0705de283cfbf97"
+    },
     {
       "sha": "2b2096fc606d79d914e2ca4735eca0b7d493956d",
       "shortSha": "2b2096f",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-11T13:20:22Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/34721df68533a132f54a1b83a78a4101bbac8702"
-    },
-    {
-      "sha": "c4bb0db6c10f51546a7349d7c31263a9d134e81d",
-      "shortSha": "c4bb0db",
-      "message": "fix(sync): require review of passkey portability before nearby transfers",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-11T12:46:55Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/c4bb0db6c10f51546a7349d7c31263a9d134e81d"
     }
   ]
 }
