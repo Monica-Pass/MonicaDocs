@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-13T17:59:40.176Z",
+  "generatedAt": "2026-10-13T19:19:59.718Z",
   "range": {
     "from": "2025-10-14",
     "to": "2026-10-13"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-13",
-      "count": 4
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "c791b28f3a39b814c5dde28f51f2eeb3349322e1",
+      "shortSha": "c791b28",
+      "message": "Improve database manager pane selection and focused actions",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-13T19:17:41Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/c791b28f3a39b814c5dde28f51f2eeb3349322e1"
+    },
     {
       "sha": "833233cd2e9f91140ca6f581a92d389b49b7b9cf",
       "shortSha": "833233c",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-10-12T09:21:07Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/f673729e7c3a3283e2b5ef98323d5494575fd11b"
-    },
-    {
-      "sha": "93d7e7f10dce3f98120ef4f0d0705de283cfbf97",
-      "shortSha": "93d7e7f",
-      "message": "fix(android): keep automatic sync toggle responsive during transfers",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-12T08:38:05Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/93d7e7f10dce3f98120ef4f0d0705de283cfbf97"
     }
   ]
 }
