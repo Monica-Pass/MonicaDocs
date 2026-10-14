@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-14T10:47:37.505Z",
+  "generatedAt": "2026-10-14T12:22:08.196Z",
   "range": {
     "from": "2025-10-15",
     "to": "2026-10-14"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-14",
-      "count": 0
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "4e4a13dcf9445605dbc56a717c3abbc5ab620e36",
+      "shortSha": "4e4a13d",
+      "message": "Improve browser autofill hints and focused form isolation",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-14T12:18:10Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/4e4a13dcf9445605dbc56a717c3abbc5ab620e36"
+    },
     {
       "sha": "c791b28f3a39b814c5dde28f51f2eeb3349322e1",
       "shortSha": "c791b28",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-12T10:05:57Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/138b0b1ed1c088c01041c4598b155145e474d778"
-    },
-    {
-      "sha": "f673729e7c3a3283e2b5ef98323d5494575fd11b",
-      "shortSha": "f673729",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-10-12T09:21:07Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f673729e7c3a3283e2b5ef98323d5494575fd11b"
     }
   ]
 }
