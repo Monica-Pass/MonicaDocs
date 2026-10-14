@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-14T18:06:17.867Z",
+  "generatedAt": "2026-10-14T23:33:18.560Z",
   "range": {
     "from": "2025-10-15",
     "to": "2026-10-14"
@@ -1465,10 +1465,28 @@
     },
     {
       "date": "2026-10-14",
-      "count": 2
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "74d272a5acd89ef819d9736e0a3a02b2fc870a92",
+      "shortSha": "74d272a",
+      "message": "Harden autofill roles, lock revocation, and post-fill completion",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-14T23:29:55Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/74d272a5acd89ef819d9736e0a3a02b2fc870a92"
+    },
+    {
+      "sha": "a7aeb52f75fa56fc062da432c02d307029a78857",
+      "shortSha": "a7aeb52",
+      "message": "test: verify isolated browser LAN password and Passkey interoperability",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-14T23:17:36Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/a7aeb52f75fa56fc062da432c02d307029a78857"
+    },
     {
       "sha": "b777e3d5c12df218fb188e416a7252c26f9d81d8",
       "shortSha": "b777e3d",
@@ -1540,24 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-12T22:52:42Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/d60bc75e70f598f2b7c2dfa940df7d20ad95d0b4"
-    },
-    {
-      "sha": "85e13fab88a51c2c6f01c5230ddf2ff8dc8b28ef",
-      "shortSha": "85e13fa",
-      "message": "fix(android): suspend nearby auto sync for unavailable apps",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-12T13:42:57Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/85e13fab88a51c2c6f01c5230ddf2ff8dc8b28ef"
-    },
-    {
-      "sha": "15b5ec7203c1ba51e19e298aebf2daca82fa55c2",
-      "shortSha": "15b5ec7",
-      "message": "feat(android): add manual nearby sync to shared overflow menus",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-12T11:47:24Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/15b5ec7203c1ba51e19e298aebf2daca82fa55c2"
     }
   ]
 }
