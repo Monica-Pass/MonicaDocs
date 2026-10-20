@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-20T15:35:18.150Z",
+  "generatedAt": "2026-10-20T17:30:03.341Z",
   "range": {
     "from": "2025-10-21",
     "to": "2026-10-20"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-20",
-      "count": 2
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "157b26cd42066e4ca4b953b03b708a3b3f21565e",
+      "shortSha": "157b26c",
+      "message": "feat(autofill): add centered actions dialog and accessibility fill",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-20T17:28:28Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/157b26cd42066e4ca4b953b03b708a3b3f21565e"
+    },
     {
       "sha": "f56d780e0c3c7872fed4ed7c16c2b077047eb385",
       "shortSha": "f56d780",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-16T06:22:26Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/74118c2a6f28fbb9ec8a674ab62b0c81385aedb5"
-    },
-    {
-      "sha": "05fe9c323cacadf673815497ce559255b70e5e50",
-      "shortSha": "05fe9c3",
-      "message": "fix(android): resolve Rust tools for IDE release builds",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-15T02:27:18Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/05fe9c323cacadf673815497ce559255b70e5e50"
     }
   ]
 }
