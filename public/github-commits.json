@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-20T14:42:14.360Z",
+  "generatedAt": "2026-10-20T15:35:18.150Z",
   "range": {
     "from": "2025-10-21",
     "to": "2026-10-20"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-20",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "f56d780e0c3c7872fed4ed7c16c2b077047eb385",
+      "shortSha": "f56d780",
+      "message": "fix(wallet): preserve expiry cursor when inserting separator",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-20T15:32:52Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f56d780e0c3c7872fed4ed7c16c2b077047eb385"
+    },
     {
       "sha": "7a840bde027191d6981edbfcb79701adb095acda",
       "shortSha": "7a840bd",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-15T02:27:18Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/05fe9c323cacadf673815497ce559255b70e5e50"
-    },
-    {
-      "sha": "dce526ef51e8986eb5438176c6fc3e63e9fc8f84",
-      "shortSha": "dce526e",
-      "message": "fix(sync): preserve folder and root metadata attachments",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-15T01:19:08Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/dce526ef51e8986eb5438176c6fc3e63e9fc8f84"
     }
   ]
 }
