@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-20T10:34:02.732Z",
+  "generatedAt": "2026-10-20T14:42:14.360Z",
   "range": {
     "from": "2025-10-21",
     "to": "2026-10-20"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-20",
-      "count": 0
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "7a840bde027191d6981edbfcb79701adb095acda",
+      "shortSha": "7a840bd",
+      "message": "fix(autofill): match bare app packages saved as websites",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-20T14:38:46Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/7a840bde027191d6981edbfcb79701adb095acda"
+    },
     {
       "sha": "496ecc63a6271d13cca837094669f9fbbf878b3b",
       "shortSha": "496ecc6",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-15T01:19:08Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/dce526ef51e8986eb5438176c6fc3e63e9fc8f84"
-    },
-    {
-      "sha": "74d272a5acd89ef819d9736e0a3a02b2fc870a92",
-      "shortSha": "74d272a",
-      "message": "Harden autofill roles, lock revocation, and post-fill completion",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-14T23:29:55Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/74d272a5acd89ef819d9736e0a3a02b2fc870a92"
     }
   ]
 }
