@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-21T13:21:21.904Z",
+  "generatedAt": "2026-10-21T13:24:08.266Z",
   "range": {
     "from": "2025-10-22",
     "to": "2026-10-21"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-21",
-      "count": 6
+      "count": 7
     }
   ],
   "latest": [
+    {
+      "sha": "b722a1fca52d3dbbf82edde6addb9a03c5eb5de2",
+      "shortSha": "b722a1f",
+      "message": "style(rust): format sync transport regression tests",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-21T13:22:28Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/b722a1fca52d3dbbf82edde6addb9a03c5eb5de2"
+    },
     {
       "sha": "30fc0cba21061d70a0994dbe823bebb49614c451",
       "shortSha": "30fc0cb",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-20T21:39:30Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/7b4c3498351f29751db6ddf41317ef8bbd7d41fb"
-    },
-    {
-      "sha": "a1b98ac12ccf440ffd82fa2496cc8af0ea5bfe56",
-      "shortSha": "a1b98ac",
-      "message": "Add per-URL autofill matching and shared M3E editor menus",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-20T21:07:23Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/a1b98ac12ccf440ffd82fa2496cc8af0ea5bfe56"
     }
   ]
 }
