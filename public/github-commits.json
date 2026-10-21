@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-20T23:20:29.834Z",
+  "generatedAt": "2026-10-21T05:08:37.386Z",
   "range": {
-    "from": "2025-10-21",
-    "to": "2026-10-20"
+    "from": "2025-10-22",
+    "to": "2026-10-21"
   },
   "activity": [
-    {
-      "date": "2025-10-21",
-      "count": 0
-    },
     {
       "date": "2025-10-22",
       "count": 0
@@ -1466,9 +1462,31 @@
     {
       "date": "2026-10-20",
       "count": 10
+    },
+    {
+      "date": "2026-10-21",
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "3158a936a74a323b4a88736a07e396a281676442",
+      "shortSha": "3158a93",
+      "message": "docs(android): record Tianyi autofill follow-up and emulator limitation",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-21T05:08:02Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/3158a936a74a323b4a88736a07e396a281676442"
+    },
+    {
+      "sha": "e5895500b9f0e24f9457c2a0cb8b03f13f0f0764",
+      "shortSha": "e589550",
+      "message": "fix(android): use continuous adaptive editor action menus",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-21T05:07:05Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/e5895500b9f0e24f9457c2a0cb8b03f13f0f0764"
+    },
     {
       "sha": "427ef1c3b9031bc00665e2341abc04d68ae20761",
       "shortSha": "427ef1c",
@@ -1540,24 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-20T17:28:28Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/157b26cd42066e4ca4b953b03b708a3b3f21565e"
-    },
-    {
-      "sha": "f56d780e0c3c7872fed4ed7c16c2b077047eb385",
-      "shortSha": "f56d780",
-      "message": "fix(wallet): preserve expiry cursor when inserting separator",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-20T15:32:52Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f56d780e0c3c7872fed4ed7c16c2b077047eb385"
-    },
-    {
-      "sha": "7a840bde027191d6981edbfcb79701adb095acda",
-      "shortSha": "7a840bd",
-      "message": "fix(autofill): match bare app packages saved as websites",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-20T14:38:46Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/7a840bde027191d6981edbfcb79701adb095acda"
     }
   ]
 }
