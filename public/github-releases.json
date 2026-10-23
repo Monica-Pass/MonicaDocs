@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T12:39:10.452Z",
+  "updatedAt": "2026-10-23T12:17:58.872Z",
   "repos": [
     {
       "id": "android",
@@ -18,14 +18,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.321-26102112-46.APK",
               "size": 46494495,
-              "downloadCount": 202,
+              "downloadCount": 331,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.321/Monica-Android-arm64-v8a-1.0.321-26102112-46.APK",
               "contentType": "application/octet-stream"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.321-26102112-46.APK",
               "size": 44035477,
-              "downloadCount": 6,
+              "downloadCount": 8,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.321/Monica-Android-armeabi-v7a-1.0.321-26102112-46.APK",
               "contentType": "application/octet-stream"
             }
@@ -41,7 +41,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.320-26101612-18.APK",
               "size": 46202139,
-              "downloadCount": 771,
+              "downloadCount": 773,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.320/Monica-Android-arm64-v8a-1.0.320-26101612-18.APK",
               "contentType": "application/vnd.android.package-archive"
             },
@@ -64,7 +64,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.319-26101312-01.APK",
               "size": 45897610,
-              "downloadCount": 548,
+              "downloadCount": 549,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.319/Monica-Android-arm64-v8a-1.0.319-26101312-01.APK",
               "contentType": "application/vnd.android.package-archive"
             },
@@ -375,7 +375,7 @@
             {
               "name": "checksums.txt",
               "size": 232,
-              "downloadCount": 0,
+              "downloadCount": 1,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.308/checksums.txt",
               "contentType": "text/plain; charset=utf-8"
             },
