@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-22T10:47:52.493Z",
+  "generatedAt": "2026-10-23T04:16:09.579Z",
   "range": {
-    "from": "2025-10-23",
-    "to": "2026-10-22"
+    "from": "2025-10-24",
+    "to": "2026-10-23"
   },
   "activity": [
-    {
-      "date": "2025-10-23",
-      "count": 0
-    },
     {
       "date": "2025-10-24",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-10-22",
       "count": 0
+    },
+    {
+      "date": "2026-10-23",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "f5018b64b00ef3bb1ec4033d573d7dace6b2d319",
+      "shortSha": "f5018b6",
+      "message": "feat(android): add secure direct root authorization",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-23T04:14:45Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f5018b64b00ef3bb1ec4033d573d7dace6b2d319"
+    },
     {
       "sha": "6181922b040a0e8cf0db5abd79a5576fb54d684b",
       "shortSha": "6181922",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-21T05:08:02Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/3158a936a74a323b4a88736a07e396a281676442"
-    },
-    {
-      "sha": "e5895500b9f0e24f9457c2a0cb8b03f13f0f0764",
-      "shortSha": "e589550",
-      "message": "fix(android): use continuous adaptive editor action menus",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-21T05:07:05Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/e5895500b9f0e24f9457c2a0cb8b03f13f0f0764"
     }
   ]
 }
