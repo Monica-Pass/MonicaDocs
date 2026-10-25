@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-24T09:57:07.959Z",
+  "generatedAt": "2026-10-25T03:28:07.426Z",
   "range": {
-    "from": "2025-10-25",
-    "to": "2026-10-24"
+    "from": "2025-10-26",
+    "to": "2026-10-25"
   },
   "activity": [
-    {
-      "date": "2025-10-25",
-      "count": 0
-    },
     {
       "date": "2025-10-26",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-10-24",
       "count": 0
+    },
+    {
+      "date": "2026-10-25",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "fa969be136e24fe6c171e845073015019904d60e",
+      "shortSha": "fa969be",
+      "message": "perf(android): reduce password list scroll and loading work",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-25T02:56:24Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/fa969be136e24fe6c171e845073015019904d60e"
+    },
     {
       "sha": "f5018b64b00ef3bb1ec4033d573d7dace6b2d319",
       "shortSha": "f5018b6",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-21T05:50:11Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/407a9d053df254ccf4c15d015ad0c2c952289390"
-    },
-    {
-      "sha": "3158a936a74a323b4a88736a07e396a281676442",
-      "shortSha": "3158a93",
-      "message": "docs(android): record Tianyi autofill follow-up and emulator limitation",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-21T05:08:02Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/3158a936a74a323b4a88736a07e396a281676442"
     }
   ]
 }
