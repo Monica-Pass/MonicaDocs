@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-25T10:19:56.136Z",
+  "generatedAt": "2026-10-26T03:08:23.724Z",
   "range": {
-    "from": "2025-10-26",
-    "to": "2026-10-25"
+    "from": "2025-10-27",
+    "to": "2026-10-26"
   },
   "activity": [
-    {
-      "date": "2025-10-26",
-      "count": 0
-    },
     {
       "date": "2025-10-27",
       "count": 0
@@ -1466,9 +1462,22 @@
     {
       "date": "2026-10-25",
       "count": 1
+    },
+    {
+      "date": "2026-10-26",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "768c458546215af7a1a4e2a2c4f090bf2119f84d",
+      "shortSha": "768c458",
+      "message": "fix(android): keep HOTP generation in place and tiles compact",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-26T03:07:47Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/768c458546215af7a1a4e2a2c4f090bf2119f84d"
+    },
     {
       "sha": "fa969be136e24fe6c171e845073015019904d60e",
       "shortSha": "fa969be",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-21T06:20:13Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/662e17a678b017b82ead2996953e8244da61ec14"
-    },
-    {
-      "sha": "407a9d053df254ccf4c15d015ad0c2c952289390",
-      "shortSha": "407a9d0",
-      "message": "fix(android): add external folder transfers and local WebView app matching",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-21T05:50:11Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/407a9d053df254ccf4c15d015ad0c2c952289390"
     }
   ]
 }
