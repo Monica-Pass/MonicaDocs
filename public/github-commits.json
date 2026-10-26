@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-26T03:08:23.724Z",
+  "generatedAt": "2026-10-26T11:46:59.362Z",
   "range": {
     "from": "2025-10-27",
     "to": "2026-10-26"
@@ -1465,10 +1465,19 @@
     },
     {
       "date": "2026-10-26",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "cd3aedd2c5e74e96bc4aeb87321b3430e79887aa",
+      "shortSha": "cd3aedd",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-10-26T07:52:35Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/cd3aedd2c5e74e96bc4aeb87321b3430e79887aa"
+    },
     {
       "sha": "768c458546215af7a1a4e2a2c4f090bf2119f84d",
       "shortSha": "768c458",
@@ -1549,15 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-10-21T07:45:36Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/de87ffa31b39e05b86635d3e753f80ff9bb41daf"
-    },
-    {
-      "sha": "662e17a678b017b82ead2996953e8244da61ec14",
-      "shortSha": "662e17a",
-      "message": "feat(android): add local raw manager and confirmed selection deletion",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-21T06:20:13Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/662e17a678b017b82ead2996953e8244da61ec14"
     }
   ]
 }
