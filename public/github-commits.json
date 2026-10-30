@@ -1,7 +1,7 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-30T11:48:45.604Z",
+  "generatedAt": "2026-10-30T17:41:00.295Z",
   "range": {
     "from": "2025-10-31",
     "to": "2026-10-30"
@@ -1461,14 +1461,50 @@
     },
     {
       "date": "2026-10-29",
-      "count": 1
+      "count": 3
     },
     {
       "date": "2026-10-30",
-      "count": 0
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "d70d818fd5287ed0996a12bd8258596b4d6c1345",
+      "shortSha": "d70d818",
+      "message": "Merge remote-tracking branch 'origin/main'",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-30T17:40:09Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/d70d818fd5287ed0996a12bd8258596b4d6c1345"
+    },
+    {
+      "sha": "27d4b0028ac01257ee789e75e131e57a850ba67f",
+      "shortSha": "27d4b00",
+      "message": "feat(android): complete KeePass file management and localized credential UI",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-30T17:39:46Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/27d4b0028ac01257ee789e75e131e57a850ba67f"
+    },
+    {
+      "sha": "09b7140fb65f3c6c5168be90c724c1ba04f5d6b5",
+      "shortSha": "09b7140",
+      "message": "fix(android): bound secure startup and preserve existing key material",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-29T22:34:41Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/09b7140fb65f3c6c5168be90c724c1ba04f5d6b5"
+    },
+    {
+      "sha": "2ac92c96f822135073c432600e2d84dbf6d1d5ac",
+      "shortSha": "2ac92c9",
+      "message": "feat(android): checkpoint unreleased 1.0.323 before startup hardening",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-29T18:56:05Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/2ac92c96f822135073c432600e2d84dbf6d1d5ac"
+    },
     {
       "sha": "fbeac33a93f2ae8f81de6564bc53a02c5ed6ea2a",
       "shortSha": "fbeac33",
@@ -1522,42 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-26T03:07:47Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/768c458546215af7a1a4e2a2c4f090bf2119f84d"
-    },
-    {
-      "sha": "fa969be136e24fe6c171e845073015019904d60e",
-      "shortSha": "fa969be",
-      "message": "perf(android): reduce password list scroll and loading work",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-25T02:56:24Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/fa969be136e24fe6c171e845073015019904d60e"
-    },
-    {
-      "sha": "f5018b64b00ef3bb1ec4033d573d7dace6b2d319",
-      "shortSha": "f5018b6",
-      "message": "feat(android): add secure direct root authorization",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-23T04:14:45Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f5018b64b00ef3bb1ec4033d573d7dace6b2d319"
-    },
-    {
-      "sha": "6181922b040a0e8cf0db5abd79a5576fb54d684b",
-      "shortSha": "6181922",
-      "message": "docs(android): finalize 1.0.321 release notes",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-21T15:21:42Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/6181922b040a0e8cf0db5abd79a5576fb54d684b"
-    },
-    {
-      "sha": "b785b51849776dc33d0a8d8c3eaa5c67bad8e06c",
-      "shortSha": "b785b51",
-      "message": "test(android): use real vault fixtures for template navigation",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-21T14:44:09Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/b785b51849776dc33d0a8d8c3eaa5c67bad8e06c"
     }
   ]
 }
