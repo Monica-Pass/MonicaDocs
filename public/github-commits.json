@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-01T13:21:57.379Z",
+  "generatedAt": "2026-11-01T13:29:55.102Z",
   "range": {
     "from": "2025-11-02",
     "to": "2026-11-01"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-01",
-      "count": 16
+      "count": 17
     }
   ],
   "latest": [
+    {
+      "sha": "568d529118fd4a0842efb8968e93b4faf38a43cb",
+      "shortSha": "568d529",
+      "repo": "Monica-Pass/Monica",
+      "message": "fix: redirect old GitHub Pages site to MonicaDocs (#178)",
+      "authorName": "Mrmiaomrzh",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
+      "date": "2026-11-01T13:29:32Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/568d529118fd4a0842efb8968e93b4faf38a43cb"
+    },
     {
       "sha": "14581e14942d003d86ef2cad812b2cc9beb8a3c5",
       "shortSha": "14581e1",
@@ -1780,16 +1790,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-29T18:56:09Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5d3a9971dff5e66dfff0319597d6e3ea85481acd"
-    },
-    {
-      "sha": "2ac92c96f822135073c432600e2d84dbf6d1d5ac",
-      "shortSha": "2ac92c9",
-      "repo": "Monica-Pass/Monica",
-      "message": "feat(android): checkpoint unreleased 1.0.323 before startup hardening",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-29T18:56:05Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/2ac92c96f822135073c432600e2d84dbf6d1d5ac"
     },
     {
       "sha": "016a96756170d9c93b251c8030a16182afbddb9a",
