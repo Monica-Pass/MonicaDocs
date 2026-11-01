@@ -1,16 +1,12 @@
 {
   "repo": "Monica-Pass/Monica",
   "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-10-31T11:22:11.722Z",
+  "generatedAt": "2026-11-01T12:14:24.230Z",
   "range": {
-    "from": "2025-11-01",
-    "to": "2026-10-31"
+    "from": "2025-11-02",
+    "to": "2026-11-01"
   },
   "activity": [
-    {
-      "date": "2025-11-01",
-      "count": 0
-    },
     {
       "date": "2025-11-02",
       "count": 0
@@ -1465,10 +1461,50 @@
     },
     {
       "date": "2026-10-31",
-      "count": 1
+      "count": 3
+    },
+    {
+      "date": "2026-11-01",
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "f44865e4e58106feb5f809f6112cfe52cc998e43",
+      "shortSha": "f44865e",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-11-01T09:21:15Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f44865e4e58106feb5f809f6112cfe52cc998e43"
+    },
+    {
+      "sha": "07a1e15d47008c7b192dd69fc7c899292a6b438e",
+      "shortSha": "07a1e15",
+      "message": "feat(android): add secure LAN delta sync and KDBX fixes for 1.0.324 [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-01T06:58:24Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/07a1e15d47008c7b192dd69fc7c899292a6b438e"
+    },
+    {
+      "sha": "a8f61e778af8fbb490f3fd59c8d84aa9b6a6351b",
+      "shortSha": "a8f61e7",
+      "message": "feat(android): add confirmed storage recovery for 1.0.324 [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-31T16:48:28Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/a8f61e778af8fbb490f3fd59c8d84aa9b6a6351b"
+    },
+    {
+      "sha": "9e50c0d204b2b7b5f509fa835bf357c209ae788f",
+      "shortSha": "9e50c0d",
+      "message": "fix(android): improve backup operation lifecycle [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-31T14:24:37Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/9e50c0d204b2b7b5f509fa835bf357c209ae788f"
+    },
     {
       "sha": "969cad6538900f040108b74c4b9f3a41efad7673",
       "shortSha": "969cad6",
@@ -1522,42 +1558,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-10-29T08:36:49Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/fbeac33a93f2ae8f81de6564bc53a02c5ed6ea2a"
-    },
-    {
-      "sha": "5ef2f3a64b53094351210f1e316fbab51852708e",
-      "shortSha": "5ef2f3a",
-      "message": "feat(android): collapse and reorder wallet stacks in multiselect",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-26T16:26:00Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/5ef2f3a64b53094351210f1e316fbab51852708e"
-    },
-    {
-      "sha": "c2913312ecc9737fcf7cb56254a76a1007cf75a1",
-      "shortSha": "c291331",
-      "message": "chore(android): start unreleased 1.0.322",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-26T15:45:25Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/c2913312ecc9737fcf7cb56254a76a1007cf75a1"
-    },
-    {
-      "sha": "061be2d7fa0bd2853f8ea15adecda6a4bacd01ea",
-      "shortSha": "061be2d",
-      "message": "fix(android): keep received notes plain and repair encrypted note data",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-26T15:26:52Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/061be2d7fa0bd2853f8ea15adecda6a4bacd01ea"
-    },
-    {
-      "sha": "cd3aedd2c5e74e96bc4aeb87321b3430e79887aa",
-      "shortSha": "cd3aedd",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-10-26T07:52:35Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/cd3aedd2c5e74e96bc4aeb87321b3430e79887aa"
     }
   ]
 }
