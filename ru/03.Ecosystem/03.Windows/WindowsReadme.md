@@ -7,7 +7,7 @@ permalink: /ecosystem/WindowsReadme
 # Monica by Avalonia
 
 > Monica by Avalonia: local-first кроссплатформенное хранилище паролей на Avalonia, .NET и MDBX.  
-> Windows / macOS / Linux · Local Vault · MDBX-1 · KeePass · TOTP · WebDAV / OneDrive
+> Windows / macOS / Linux · Local Vault · MDBX-2 · KeePass · TOTP · WebDAV / OneDrive
 
 ::: navCard
 ```yaml
@@ -33,6 +33,8 @@ permalink: /ecosystem/WindowsReadme
   badgeType: info
 ```
 :::
+
+> Текущая цель локальной проверки — Windows x64; для macOS и Linux ещё нужны нативные библиотеки, подпись и ручная проверка. См. [готовность к выпуску](https://github.com/Monica-Pass/Monica-by-Avalonia/blob/main/docs/release-readiness.md). Данные хранилища использует MDBX, метаданные приложения и состояние миграции — SQLite.
 
 ::: note Кратко
 Monica by Avalonia — desktop-реализация хранилища паролей Monica, сфокусированная на local-first подходе, управлении паролями и совместимости MDBX vault. Документ оформлен в стиле README и содержит обзор функций, стек, архитектуру и сведения для разработки.
@@ -65,7 +67,7 @@ Monica by Avalonia — local-first клиент хранилища пароле�
 - Локальное шифрование: инициализация, разблокировка, изменение мастер-пароля и настройки безопасного восстановления
 - Импорт/экспорт: Monica JSON, password CSV, TOTP CSV, Aegis JSON и другие форматы
 - Синхронизация и backup: WebDAV / OneDrive backup и restore
-- MDBX vault: создание, проверка и управление локальными базами Monica MDBX-1
+- MDBX vault: создание, проверка и управление локальными базами Monica MDBX-2
 
 ---
 
@@ -153,9 +155,9 @@ mindmap
 
 ---
 
-## Интеграция MDBX-1
+## Интеграция MDBX-2
 
-Monica by Avalonia поддерживает MDBX-1 local-first vault. Это не обычная SQLite-таблица паролей, а локальный формат базы данных с историей версий, обработкой конфликтов, восстановлением snapshot и границами безопасности.
+Monica by Avalonia поддерживает MDBX-2 local-first vault. Это не обычная SQLite-таблица паролей, а локальный формат базы данных с историей версий, обработкой конфликтов, восстановлением snapshot и границами безопасности.
 
 На стороне Avalonia сейчас есть два пути интеграции MDBX:
 

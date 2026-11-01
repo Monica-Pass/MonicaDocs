@@ -30,10 +30,9 @@ export default defineConfig({
         items: [
           { text: "アーカイブ", link: "/ja/archives" },
           { text: "一覧ページ", link: "/ja/articleOverview" },
+          { text: "リンク", link: "/ja/friends" },
         ],
       },
-      { text: "Monica-cloud", link: "/ja/login" },
-      { text: "リンク", link: "/ja/friends" },
       { text: "✨ 支援", link: "/ja/personal/" },
     ],
     editLink: {

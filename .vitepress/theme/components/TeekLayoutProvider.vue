@@ -7,6 +7,7 @@ import ArchivesDashboard from "./ArchivesDashboard.vue";
 import ContributeChart from "./ContributeChart.vue";
 import GitHubCommitsPanel from "./GitHubCommitsPanel.vue";
 import NotFound from "./404.vue";
+import MonicaHome from "./MonicaHome.vue";
 
 const storageKey = "monica-docs-custom-theme-color";
 const radiusStorageKey = "monica-docs-cta-radius-v2";
@@ -14,7 +15,7 @@ const defaultColor = "#3451b2";
 const defaultRadius = 25;
 const customThemeName = "monica-custom";
 
-const { isDark, lang } = useData();
+const { isDark, lang, frontmatter } = useData();
 const color = ref(defaultColor);
 const radius = ref(defaultRadius);
 const customColorActive = ref(false);
@@ -217,6 +218,9 @@ watch(isDark, () => {
 
 <template>
   <Teek.Layout :locale="teekLocale">
+    <template #home-hero-before>
+      <MonicaHome v-if="frontmatter.landingFeatures" />
+    </template>
     <template #teek-archives-top-before>
       <GitHubCommitsPanel />
       <ContributeChart />

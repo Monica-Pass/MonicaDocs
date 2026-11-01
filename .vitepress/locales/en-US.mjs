@@ -30,10 +30,9 @@ export default defineConfig({
         items: [
           { text: "Archives", link: "/en/archives" },
           { text: "Overview", link: "/en/articleOverview" },
+          { text: "Friends", link: "/en/friends" },
         ],
       },
-      { text: "Monica-cloud", link: "/en/login" },
-      { text: "Friends", link: "/en/friends" },
       { text: "✨ Sponsor", link: "/en/personal/" },
     ],
     editLink: {

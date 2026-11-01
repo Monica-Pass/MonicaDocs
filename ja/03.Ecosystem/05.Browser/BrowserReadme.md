@@ -19,12 +19,12 @@ Monica for Browser は Monica パスワードエコシステムにおけるブ�
 
 - ウェブ上でのスマート自動入力
 - ローカル保管庫のログイン情報へのクイックアクセス
-- Monica for Android などのクライアントと同一の認証情報モデルを共有
 
 ## 現在の状態
 
-- ブラウザ拡張機能 `Monica-for-Extension` は現在アクティブな更新を一時停止しており、プロジェクトは Monica Android の機能改善・体験最適化・安定性維持を優先しています。
-- 関連コードと議論は [Monica-Pass](https://github.com/Monica-Pass) 組織をご参照ください。
+- ブラウザ拡張機能 [Monica for Extension](https://github.com/Monica-Pass/Monica-for-Extension) は公開済みです。最新版は [GitHub Releases](https://github.com/Monica-Pass/Monica-for-Extension/releases) とリポジトリの README を参照してください。
+- Chrome/Edge 128 以降に対応しています。Firefox 153 以降は別の未署名ビルドを使用し、恒久的なインストールには Mozilla の署名が必要です。[Firefox の説明](https://github.com/Monica-Pass/Monica-for-Extension/blob/main/docs/FIREFOX.md)を参照してください。
+- 拡張機能は独自の暗号化ローカル保管庫を持ち、対応する同期方法で Android とデータを交換できます。制限は[同期互換性の説明](https://github.com/Monica-Pass/Monica-for-Extension/blob/main/docs/SYNC_COMPATIBILITY.md)を参照してください。
 
 ## エコシステムとの関係
 

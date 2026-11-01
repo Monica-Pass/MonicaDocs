@@ -7,7 +7,7 @@ permalink: /ecosystem/WindowsReadme
 # Monica by Avalonia
 
 > Monica by Avalonia：用 Avalonia、.NET 与 MDBX 打造本地优先的跨平台密码库。  
-> Windows / macOS / Linux · Local Vault · MDBX-1 · KeePass · TOTP · WebDAV / OneDrive
+> Windows / macOS / Linux · Local Vault · MDBX-2 · KeePass · TOTP · WebDAV / OneDrive
 
 ::: navCard
 ```yaml
@@ -33,6 +33,8 @@ permalink: /ecosystem/WindowsReadme
   badgeType: info
 ```
 :::
+
+> 当前 Windows x64 是本机验证目标；macOS 和 Linux 仍需原生库、签名及人工验收。具体状态见 [发布就绪说明](https://github.com/Monica-Pass/Monica-by-Avalonia/blob/main/docs/release-readiness.md)。当前 vault 业务数据以 MDBX 为准，SQLite 用于应用元数据和迁移状态。
 
 ::: note 摘要
 Monica by Avalonia 是 Monica 密码库的桌面端实现，聚焦本地优先、密码管理与 MDBX vault 兼容。本文按项目 README 风格撰写，提供功能介绍、技术栈、架构视图与开发说明。
@@ -65,7 +67,7 @@ Monica by Avalonia 是面向桌面用户的本地优先密码库客户端。它�
 - 本地加密：主密码初始化、解锁、变更与安全恢复设置
 - 导入导出：支持 Monica JSON、密码 CSV、TOTP CSV、Aegis JSON 等格式
 - 同步与备份：WebDAV / OneDrive 备份与恢复能力
-- MDBX vault：创建、检查与管理 Monica MDBX-1 本地数据库
+- MDBX vault：创建、检查与管理 Monica MDBX-2 本地数据库
 
 ---
 
@@ -152,9 +154,9 @@ mindmap
 
 ---
 
-## MDBX-1 接入
+## MDBX-2 接入
 
-Monica by Avalonia 支持 MDBX-1 本地优先 vault，它不是普通的 SQLite 密码表，而是一个带有版本历史、冲突处理、快照恢复与安全边界的本地数据库格式。
+Monica by Avalonia 支持 MDBX-2 本地优先 vault，它不是普通的 SQLite 密码表，而是一个带有版本历史、冲突处理、快照恢复与安全边界的本地数据库格式。
 
 Avalonia 端当前包含两条 MDBX 接入路径：
 

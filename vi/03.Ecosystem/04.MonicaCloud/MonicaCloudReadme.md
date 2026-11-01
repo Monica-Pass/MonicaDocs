@@ -6,11 +6,11 @@ permalink: /ecosystem/MonicaCloudReadme
 
 # Monica Cloud
 
-> Hướng dịch vụ đám mây của Monica: đồng bộ, sao lưu và khôi phục tùy chọn giữa các thiết bị cho các client ưu tiên cục bộ.  
+> Monica Cloud hướng tới đồng bộ, sao lưu và khôi phục tùy chọn giữa các thiết bị cho ứng dụng ưu tiên cục bộ.<br>
 > Cloud · Sync · Backup · Recovery
 
 ::: note Tóm tắt
-Monica Cloud là hướng dịch vụ đám mây trong hệ sinh thái mật khẩu Monica. Dịch vụ tiếp nối triết lý ưu tiên cục bộ, chỉ đóng vai trò kênh đồng bộ và sao lưu tùy chọn, không thay đổi nguyên tắc dữ liệu lõi nằm trên thiết bị của người dùng. Hiện đang trong giai đoạn lên kế hoạch và phát triển.
+Monica Cloud là dịch vụ tự lưu trữ đang được lên kế hoạch, hiện ở giai đoạn bản mẫu.
 :::
 
 ---
@@ -25,10 +25,11 @@ Monica Cloud hướng tới người dùng cần đồng bộ đa thiết bị, 
 
 ## Trạng thái hiện tại
 
+- [Kho Monica Cloud](https://github.com/Monica-Pass/Monica-Cloud) hiện chỉ có bản mẫu WebUI dùng dữ liệu giả lập; API backend chưa được triển khai, đồng bộ và sao lưu vẫn đang được lên kế hoạch.
 - Dự án đang ở giai đoạn phát triển ban đầu; các tính năng cụ thể và thời điểm ra mắt sẽ được công bố sau.
 - Dữ liệu lõi vẫn ưu tiên cục bộ; tính năng đám mây là tùy chọn, không bắt buộc.
 
 ## Quan hệ với hệ sinh thái
 
 - Monica: kho mật khẩu ưu tiên cục bộ và triết lý sản phẩm
-- Monica Cloud: kênh đồng bộ và sao lưu đám mây tùy chọn
+- Monica Cloud: kênh đồng bộ và sao lưu tùy chọn đang được lên kế hoạch

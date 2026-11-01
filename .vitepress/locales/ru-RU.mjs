@@ -30,10 +30,9 @@ export default defineConfig({
         items: [
           { text: "Архив", link: "/ru/archives" },
           { text: "Список статей", link: "/ru/articleOverview" },
+          { text: "Друзья", link: "/ru/friends" },
         ],
       },
-      { text: "Monica-cloud", link: "/ru/login" },
-      { text: "Друзья", link: "/ru/friends" },
       { text: "✨ Донат", link: "/ru/personal/" },
     ],
     editLink: {

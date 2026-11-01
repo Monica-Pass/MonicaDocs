@@ -52,6 +52,13 @@ test("filters non-installable release artifacts", () => {
   assert.deepEqual(assets.map((asset) => asset.name), [arm64Asset.name]);
 });
 
+test("keeps different installers and archives while excluding source and checksums", () => {
+  const names = ["Monica-v0.3.1-win-x64-AOT.zip", "Monica-v0.3.1-linux-x64-JIT.tar.gz", "Monica-v0.3.1-macos-arm64.dmg", "Monica-source.zip", "checksums.txt", "Monica.zip.sha256"];
+  const assets = names.map((name) => ({ ...arm64Asset, name }));
+  assert.deepEqual(new Set(listDownloadAssets({ assets }).map((asset) => asset.name)), new Set(names.slice(0, 3)));
+  assert.deepEqual(listDownloadAssets({ assets: assets.slice(3) }), []);
+});
+
 test("maps Android APK architectures to user-facing bitness", () => {
   assert.equal(getAssetBitness(arm64Asset.name), 64);
   assert.equal(getAssetBitness(arm32Asset.name), 32);
@@ -74,7 +81,7 @@ test("handles empty, fallback, and architecture-neutral release assets", () => {
   assert.deepEqual(listDownloadAssets({ assets: [] }), []);
 
   const debugOnly = { ...arm32Asset, name: "Monica-debug.APK" };
-  assert.deepEqual(listDownloadAssets({ assets: [debugOnly] }), [debugOnly]);
+  assert.deepEqual(listDownloadAssets({ assets: [debugOnly] }), []);
   assert.deepEqual(listDownloadAssets({ assets: [{ ...debugOnly, url: "" }] }), []);
 
   const smallerZip = { ...arm32Asset, name: "Monica-portable.zip", size: 10 };

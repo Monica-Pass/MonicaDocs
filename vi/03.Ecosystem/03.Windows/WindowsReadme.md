@@ -7,7 +7,7 @@ permalink: /ecosystem/WindowsReadme
 # Monica by Avalonia
 
 > Monica by Avalonia: kho mật khẩu đa nền tảng ưu tiên cục bộ được xây dựng bằng Avalonia, .NET và MDBX.  
-> Windows / macOS / Linux · Local Vault · MDBX-1 · KeePass · TOTP · WebDAV / OneDrive
+> Windows / macOS / Linux · Local Vault · MDBX-2 · KeePass · TOTP · WebDAV / OneDrive
 
 ::: navCard
 ```yaml
@@ -33,6 +33,8 @@ permalink: /ecosystem/WindowsReadme
   badgeType: info
 ```
 :::
+
+> Windows x64 là mục tiêu kiểm thử cục bộ hiện tại; macOS và Linux vẫn cần thư viện native, ký và kiểm thử thủ công. Xem [trạng thái sẵn sàng phát hành](https://github.com/Monica-Pass/Monica-by-Avalonia/blob/main/docs/release-readiness.md). Dữ liệu kho dùng MDBX; SQLite lưu siêu dữ liệu ứng dụng và trạng thái di trú.
 
 ::: note Tóm tắt
 Monica by Avalonia là bản triển khai desktop của kho mật khẩu Monica, tập trung vào ưu tiên cục bộ, quản lý mật khẩu và tương thích MDBX vault. Tài liệu này theo phong cách README, cung cấp giới thiệu tính năng, công nghệ, kiến trúc và ghi chú phát triển.
@@ -65,7 +67,7 @@ Mục tiêu cốt lõi:
 - Mã hóa cục bộ: thiết lập, mở khóa, thay đổi mật khẩu chính và cấu hình khôi phục an toàn
 - Nhập và xuất: hỗ trợ Monica JSON, password CSV, TOTP CSV, Aegis JSON và các định dạng khác
 - Đồng bộ và sao lưu: sao lưu/khôi phục WebDAV / OneDrive
-- MDBX vault: tạo, kiểm tra và quản lý cơ sở dữ liệu cục bộ Monica MDBX-1
+- MDBX vault: tạo, kiểm tra và quản lý cơ sở dữ liệu cục bộ Monica MDBX-2
 
 ---
 
@@ -153,9 +155,9 @@ mindmap
 
 ---
 
-## Tích hợp MDBX-1
+## Tích hợp MDBX-2
 
-Monica by Avalonia hỗ trợ MDBX-1 local-first vault. Đây không phải là bảng mật khẩu SQLite thông thường, mà là định dạng cơ sở dữ liệu cục bộ có lịch sử phiên bản, xử lý xung đột, khôi phục snapshot và ranh giới bảo mật.
+Monica by Avalonia hỗ trợ MDBX-2 local-first vault. Đây không phải là bảng mật khẩu SQLite thông thường, mà là định dạng cơ sở dữ liệu cục bộ có lịch sử phiên bản, xử lý xung đột, khôi phục snapshot và ranh giới bảo mật.
 
 Phía Avalonia hiện có hai đường tích hợp MDBX:
 

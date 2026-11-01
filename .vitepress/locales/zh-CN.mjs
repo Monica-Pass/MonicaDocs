@@ -30,10 +30,9 @@ export default defineConfig({
         items: [
           { text: "归档页", link: "/archives" },
           { text: "清单页", link: "/articleOverview" },
+          { text: "友链", link: "/friends" },
         ],
       },
-      { text: "Monica-cloud", link: "/login" },
-      { text: "友链", link: "/friends" },
       { text: "✨ 赞赏", link: "/personal/" },
     ],
     editLink: {

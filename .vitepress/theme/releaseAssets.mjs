@@ -1,6 +1,6 @@
 const CHECKSUM_PATTERN = /\.(sha256|sha1|sha512|md5|asc|sig|sum|txt)$/i;
-const DEBUG_ASSET_PATTERN = /\b(debug|test|staging)\b|\.pdb|mapping|proguard|symbols|sources|-dbg/i;
-const INSTALLER_EXT_PATTERN = /\.(apk|aab|ipa|exe|msi|msix|dmg|pkg|deb|rpm|appimage|crx|xapk)$/i;
+const DEBUG_ASSET_PATTERN = /\b(debug|test|staging)\b|\.pdb|mapping|proguard|symbols|(?:^|[-_. ])sources?(?:[-_. ]|$)|-dbg/i;
+const INSTALLER_EXT_PATTERN = /\.(apk|aab|ipa|exe|msi|msix|dmg|pkg|deb|rpm|appimage|crx|xapk|zip|tar\.gz)$/i;
 
 const ASSET_ARCH_RULES = [
   [/arm64|aarch64|armv8/i, "arm64"],
@@ -105,10 +105,10 @@ function compareVersions(left, right) {
 function dedupeByNewestVersion(assets) {
   const groups = new Map();
   for (const asset of assets) {
-    const parsed = assetVersion(asset.name);
-    // No dotted version (portable zip, universal build, ...) -> unique group,
-    // kept as-is since there is nothing to compare it against.
-    const key = parsed ? asset.name.slice(0, parsed.index).toLowerCase() : `__unversioned__:${asset.name}`;
+    // Only Android APKs use this known version/build naming scheme. Other
+    // projects may place OS, runtime or package type after the version.
+    const parsed = /^Monica-Android-.*\.apk$/i.test(asset.name) ? assetVersion(asset.name) : null;
+    const key = parsed ? asset.name.slice(0, parsed.index).toLowerCase() : `__unique__:${asset.name}`;
     if (!groups.has(key)) groups.set(key, { assets: [], max: null });
     const group = groups.get(key);
     group.assets.push(asset);
@@ -118,8 +118,8 @@ function dedupeByNewestVersion(assets) {
   }
 
   return assets.filter((asset) => {
-    const parsed = assetVersion(asset.name);
-    const key = parsed ? asset.name.slice(0, parsed.index).toLowerCase() : `__unversioned__:${asset.name}`;
+    const parsed = /^Monica-Android-.*\.apk$/i.test(asset.name) ? assetVersion(asset.name) : null;
+    const key = parsed ? asset.name.slice(0, parsed.index).toLowerCase() : `__unique__:${asset.name}`;
     const group = groups.get(key);
     return group.max === null || (parsed && compareVersions(parsed.version, group.max) === 0);
   });
@@ -137,15 +137,9 @@ export function listDownloadAssets(release, userArch = null) {
   const usable = release.assets.filter(
     (asset) => asset?.url && !CHECKSUM_PATTERN.test(asset.name) && !DEBUG_ASSET_PATTERN.test(asset.name),
   );
-  if (!usable.length) {
-    const fallback = release.assets.find((asset) => asset?.url);
-    return fallback ? [fallback] : [];
-  }
-
   const installers = usable.filter((asset) => INSTALLER_EXT_PATTERN.test(asset.name));
-  const pool = installers.length ? installers : usable;
 
-  const sorted = [...pool].sort((left, right) => {
+  const sorted = [...installers].sort((left, right) => {
     const score = (asset) => {
       const arch = getAssetArchitecture(asset.name);
       const deviceMatch = userArch && arch === userArch ? 100 : 0;

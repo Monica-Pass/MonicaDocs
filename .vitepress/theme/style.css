@@ -100,6 +100,25 @@
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
+/* VitePress sets a 320px body minimum; allow narrower zoomed mobile viewports. */
+@media (max-width: 320px) {
+  body {
+    min-width: 0;
+  }
+
+  .share-card__item,
+  .nav-card__item {
+    min-width: 0 !important;
+    max-width: 100%;
+  }
+
+  .share-card__item__content,
+  .nav-card__item__info {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+}
+
 html.dark {
   --monica-brand-light-3: #c2c8ff;
   --monica-brand-light-5: #d4d9ff;

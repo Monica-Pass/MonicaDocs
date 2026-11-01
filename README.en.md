@@ -44,9 +44,10 @@ The dev server defaults to `http://localhost:5173/MonicaDocs/`. When publishing 
 - Simplified Chinese content lives in `01.指南`, `02.配置`, and `03.生态`; other languages live in `en`, `ja`, `ru`, and `vi`.
 - Multilingual navigation, edit links, and rewrite rules live in `.vitepress/locales/`; theme components and styles live in `.vitepress/theme/`.
 - GitHub Pages builds `.vitepress/dist/` and deploys via Actions after pushing to `main`.
-- `update-github-commits.yml` periodically updates `public/github-commits.json` and requires a `MONICA_SOURCE_REPO_TOKEN` with `Contents: Read` permission.
-- Publishing an Android or browser extension release from the main repository immediately triggers `update-github-releases.yml` to fetch the latest release metadata and assets before redeploying the site.
-- Updates to the Monica main repository's `main` branch trigger an immediate commit-data sync through `repository_dispatch`; configure `DOCS_REPOSITORY` and a `DOCS_REPO_TOKEN` with write access to this repository in the source repository.
+- `update-github-commits.yml` aggregates the past year's commits from Monica-Pass repositories' default branches. It runs on a schedule and can also be triggered manually or by the `monica-main-updated` repository event.
+- `update-github-releases.yml` periodically syncs releases for Android, iOS, desktop, the browser extension, and CLI. It also accepts manual runs and the `monica-release-published` repository event.
+- Both sync jobs use `MONICA_SOURCE_REPO_TOKEN` when configured and otherwise use the workflow's `GITHUB_TOKEN` to read public repositories. Changed data is committed and triggers a site deployment.
+- Each source repository needs a notification workflow and a `DOCS_REPO_TOKEN` with Contents write access to MonicaDocs to dispatch immediate updates after commits or releases; scheduled sync remains available without them.
 
 ## Acknowledgements
 

@@ -19,12 +19,12 @@ Monica for Browser — браузерное расширение в экосис
 
 - Умное автозаполнение в вебе
 - Быстрый доступ к данным входа из локального хранилища
-- Общая модель учётных данных с такими клиентами, как Monica for Android
 
 ## Текущее состояние
 
-- Расширение `Monica-for-Extension` в настоящее время не обновляется активно: проект сосредоточен на развитии, улучшении опыта и стабильности Monica for Android.
-- За актуальным кодом и обсуждениями обращайтесь в организацию [Monica-Pass](https://github.com/Monica-Pass).
+- Для браузерного расширения [Monica for Extension](https://github.com/Monica-Pass/Monica-for-Extension) опубликованы выпуски; актуальную версию смотрите в [GitHub Releases](https://github.com/Monica-Pass/Monica-for-Extension/releases) и README репозитория.
+- Поддерживаются Chrome/Edge 128+. Для Firefox 153+ предусмотрена отдельная неподписанная сборка; для постоянной установки нужна подпись Mozilla. См. [инструкцию для Firefox](https://github.com/Monica-Pass/Monica-for-Extension/blob/main/docs/FIREFOX.md).
+- У расширения собственное зашифрованное локальное хранилище; обмен данными с Android возможен поддерживаемыми способами синхронизации с [указанными ограничениями](https://github.com/Monica-Pass/Monica-for-Extension/blob/main/docs/SYNC_COMPATIBILITY.md).
 
 ## Связь с экосистемой
 

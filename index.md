@@ -2,27 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-hero:
-  name: "Monica Pass"
-  text: "安全 · 本地 · 开源"
-  tagline: "Monica 是一款开源的本地化密码管理器。管理您的密码、2FA 验证码和加密便签，所有数据完全存储在您的本地设备上，不经过任何云端。"
-  image:
-    src: /themepng.png
-    alt: Monica 应用图标
-  actions:
-    - theme: brand
-      text: 前往 Monica-cloud
-      link: /login
-    - theme: alt
-      text: 了解 Monica 生态
-      link: /ecosystem.html
-    - theme: alt
-      text: 下载 Monica
-      link: /download.html
-
-features:
+landingFeatures:
   - title: 密码管理
-    details: 支持自动填充和多字段存储。采用 AES-256 高强度加密，确保数据仅存在于您的本地设备中。
+    details: 支持自动填充和多字段存储，使用 AES-256 加密保护本地密码库。
     icon: <i class="ri-key-2-fill"></i>
   - title: 2FA 验证器
     details: 内置 TOTP 验证器，支持扫描二维码添加。支持在验证码过期前自动倒计时并一键复制。
@@ -36,7 +18,7 @@ features:
   - title: 硬件级 Keystore
     details: 密钥受 Android 系统 Keystore (TEE) 保护，为您的加密数据提供基于硬件的安全隔离边界。
     icon: <i class="ri-shield-keyhole-fill"></i>
-  - title: 零知识架构
-    details: 默认完全离线运行，无需网络权限。确保即使是开发者也无法访问或获取您的任何数据。
+  - title: 自主同步与备份
+    details: 本地优先管理数据，并可按需使用 Bitwarden 或 WebDAV 进行同步与备份。
     icon: <i class="ri-cloud-off-fill"></i>
 ---

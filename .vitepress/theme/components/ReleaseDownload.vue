@@ -19,6 +19,7 @@ type ReleaseAsset = {
 
 type Release = {
   tag: string;
+  prerelease: boolean;
   name: string;
   publishedAt: string;
   htmlUrl: string;
@@ -50,6 +51,7 @@ type LocaleText = {
   noData: string;
   retry: string;
   latest: string;
+  prerelease: string;
   download: string;
   download32: string;
   download64: string;
@@ -67,6 +69,7 @@ const SHARED_REPO_LABELS: Record<string, string> = {
   ios: "Monica for iOS",
   windows: "Monica by Avalonia",
   browser: "Monica for Browser",
+  cli: "Monica CLI",
 };
 const SUPPORTED_LOCALES = new Set<LocaleKey>(["zh", "en", "ja", "vi", "ru"]);
 type DeviceArch = "arm64" | "arm" | "x64" | "x86";
@@ -161,6 +164,7 @@ function parseReleasesData(input: unknown): ReleasesData | null {
 
         releases.push({
           tag: item.tag,
+          prerelease: item.prerelease === true,
           name: typeof item.name === "string" ? item.name : item.tag,
           body: typeof item.body === "string" ? item.body : "",
           publishedAt: typeof item.publishedAt === "string" ? item.publishedAt : "",
@@ -214,6 +218,7 @@ const localeText: Record<LocaleKey, LocaleText> = {
     noData: "暂无发布数据。",
     retry: "重试",
     latest: "最新版本",
+    prerelease: "预发布",
     download: "下载",
     download32: "下载 32 位",
     download64: "下载 64 位",
@@ -236,6 +241,7 @@ const localeText: Record<LocaleKey, LocaleText> = {
     noData: "No release data yet.",
     retry: "Retry",
     latest: "Latest",
+    prerelease: "Pre-release",
     download: "Download",
     download32: "Download 32-bit",
     download64: "Download 64-bit",
@@ -258,6 +264,7 @@ const localeText: Record<LocaleKey, LocaleText> = {
     noData: "リリースデータはまだありません。",
     retry: "再試行",
     latest: "最新バージョン",
+    prerelease: "プレリリース",
     download: "ダウンロード",
     download32: "32 ビット版をダウンロード",
     download64: "64 ビット版をダウンロード",
@@ -280,6 +287,7 @@ const localeText: Record<LocaleKey, LocaleText> = {
     noData: "Данных о релизах пока нет.",
     retry: "Повторить",
     latest: "Последняя версия",
+    prerelease: "Предварительный выпуск",
     download: "Скачать",
     download32: "Скачать 32-битную версию",
     download64: "Скачать 64-битную версию",
@@ -302,6 +310,7 @@ const localeText: Record<LocaleKey, LocaleText> = {
     noData: "Chưa có dữ liệu bản phát hành.",
     retry: "Thử lại",
     latest: "Phiên bản mới nhất",
+    prerelease: "Bản phát hành thử nghiệm",
     download: "Tải xuống",
     download32: "Tải bản 32-bit",
     download64: "Tải bản 64-bit",
@@ -322,6 +331,14 @@ const localeKey = computed<LocaleKey>(() => {
 });
 
 const text = computed(() => localeText[localeKey.value]);
+const sectionText: Record<LocaleKey, { platforms: string; platformsHint: string; history: string; historyHint: string }> = {
+  zh: { platforms: "选择你的平台", platformsHint: "选择平台，查看对应的最新版本与安装包。", history: "历史版本", historyHint: "查看之前的发布记录和文件。" },
+  en: { platforms: "Choose your platform", platformsHint: "Choose a platform to see its latest release and downloads.", history: "Previous releases", historyHint: "Explore earlier releases and their files." },
+  ja: { platforms: "プラットフォームを選択", platformsHint: "プラットフォームを選び、最新バージョンとファイルを確認できます。", history: "過去のリリース", historyHint: "以前のリリースとファイルを確認できます。" },
+  ru: { platforms: "Выберите платформу", platformsHint: "Выберите платформу, чтобы увидеть последнюю версию и файлы.", history: "Предыдущие версии", historyHint: "Посмотрите предыдущие релизы и файлы." },
+  vi: { platforms: "Chọn nền tảng", platformsHint: "Chọn nền tảng để xem phiên bản và tệp tải mới nhất.", history: "Các phiên bản trước", historyHint: "Xem những bản phát hành và tệp trước đây." },
+};
+const section = computed(() => sectionText[localeKey.value]);
 const dateLocale = computed(() => lang.value || "en-US");
 
 const repos = computed(() => data.value?.repos ?? []);
@@ -436,34 +453,38 @@ onMounted(load);
         <div v-if="!repos.length" class="rd-state">{{ text.noData }}</div>
 
         <template v-else>
-          <div class="rd-tabs" role="tablist" aria-label="Repository">
+          <div class="rd-section-heading">
+            <div><span class="rd-section-index">01 / PLATFORMS</span><h2>{{ section.platforms }}</h2><p>{{ section.platformsHint }}</p></div>
+          </div>
+          <div class="rd-tabs" role="group" :aria-label="section.platforms">
             <button
               v-for="repo in repos"
               :key="repo.id"
               type="button"
-              role="tab"
               class="rd-tab"
               :class="{ 'is-active': activeRepo?.id === repo.id }"
-              :aria-selected="activeRepo?.id === repo.id"
+              :aria-pressed="activeRepo?.id === repo.id"
               @click="activeRepoId = repo.id"
             >
-              <i
-                class="rd-tab__icon"
-                :class="repoPlatformIcon(repo)"
-                aria-hidden="true"
-              />
-              {{ repoLabel(repo) }}
+              <span class="rd-tab__icon"><i :class="repoPlatformIcon(repo)" aria-hidden="true" /></span>
+              <span class="rd-tab__label">{{ repoLabel(repo) }}</span>
+              <i class="ri-arrow-right-up-line rd-tab__arrow" aria-hidden="true" />
             </button>
           </div>
 
-          <div role="tabpanel">
-            <div v-if="activeRepo && !activeRepo.releases.length" class="rd-state">{{ text.noData }}</div>
+          <div>
+            <div v-if="activeRepo && !activeRepo.releases.length" class="rd-state">
+              <p>{{ text.noData }}</p>
+              <a class="rd-gh" :href="activeRepo.url" target="_blank" rel="noreferrer noopener">{{ text.viewOnGitHub }}</a>
+            </div>
 
             <template v-else>
-              <div v-if="latestRelease" class="rd-hero">
-                <span class="rd-badge">{{ text.latest }}</span>
+              <div v-if="latestRelease" :key="activeRepo?.id" class="rd-hero">
+                <div class="rd-hero-platform" aria-hidden="true"><i :class="repoPlatformIcon(activeRepo!)" /></div>
+                <span class="rd-badge"><span class="rd-status-dot" />{{ text.latest }}<template v-if="latestRelease.prerelease"> · {{ text.prerelease }}</template></span>
+                <div class="rd-platform-name">{{ activeRepo ? repoLabel(activeRepo) : '' }}</div>
                 <div class="rd-hero-tag">{{ latestRelease.tag }}</div>
-                <div class="rd-hero-name">{{ latestRelease.name }}</div>
+                <div v-if="latestRelease.name !== latestRelease.tag" class="rd-hero-name">{{ latestRelease.name }}</div>
                 <div class="rd-hero-meta">
                   <span>{{ text.published }} {{ formatDate(latestRelease.publishedAt, dateLocale) }}</span>
                   <span v-if="latestDownloadCount">· {{ formatCount(latestDownloadCount, dateLocale) }} {{ text.downloads }}</span>
@@ -478,38 +499,39 @@ onMounted(load);
                     :aria-label="`${downloadAssetLabel(asset)} — ${asset.name}`"
                   >
                     <i class="ri-download-2-line" aria-hidden="true"></i>
-                    <span>{{ downloadAssetLabel(asset) }}</span>
-                    <small>{{ formatBytes(asset.size) }}</small>
+                    <span class="rd-cta-text"><span>{{ downloadAssetLabel(asset) }} <small>{{ formatBytes(asset.size) }}</small></span><span class="rd-cta-filename">{{ asset.name }}</span></span>
                   </a>
                   <a v-if="!downloadAssets.length" class="rd-cta" :href="latestRelease.htmlUrl" target="_blank" rel="noreferrer noopener">
                     <i class="ri-external-link-line" aria-hidden="true"></i>
                     <span>{{ text.viewOnGitHub }}</span>
                   </a>
-                  <a class="rd-gh" :href="latestRelease.htmlUrl" target="_blank" rel="noreferrer noopener">
+                  <a v-if="downloadAssets.length" class="rd-gh" :href="latestRelease.htmlUrl" target="_blank" rel="noreferrer noopener">
                     <i class="ri-external-link-line" aria-hidden="true"></i>
                     {{ text.viewOnGitHub }}
                   </a>
                 </div>
 
-                <div v-if="latestRelease.body" class="rd-hero-body">
-                  <div class="rd-assets-label">{{ text.changelog }}</div>
+                <details v-if="latestRelease.body" class="rd-hero-body">
+                  <summary class="rd-assets-label">{{ text.changelog }} <i class="ri-arrow-down-s-line" aria-hidden="true" /></summary>
                   <div class="rd-markdown" v-html="renderMarkdown(latestRelease.body)" />
-                </div>
+                </details>
               </div>
 
               <div v-if="olderReleases.length" class="rd-list">
+                <div class="rd-section-heading rd-history-heading"><div><span class="rd-section-index">02 / ARCHIVE</span><h2>{{ section.history }}</h2><p>{{ section.historyHint }}</p></div></div>
                 <details v-for="release in olderReleases" :key="release.tag" class="rd-release">
                   <summary>
                     <span class="rd-release-tag">{{ release.tag }}</span>
+                    <span v-if="release.prerelease" class="rd-badge">{{ text.prerelease }}</span>
                     <span class="rd-release-name">{{ release.name }}</span>
                     <span class="rd-release-date">{{ formatDate(release.publishedAt, dateLocale) }}</span>
                     <i class="ri-arrow-right-s-line rd-caret" aria-hidden="true"></i>
                   </summary>
                   <div class="rd-release-body">
                     <div class="rd-markdown" v-html="renderMarkdown(release.body)" />
-                    <div v-if="release.assets.length" class="rd-assets">
+                    <div v-if="listDownloadAssets(release).length" class="rd-assets">
                       <div class="rd-assets-label">{{ text.assets }}</div>
-                      <a v-for="asset in release.assets" :key="asset.name" class="rd-asset" :href="asset.url">
+                      <a v-for="asset in listDownloadAssets(release)" :key="asset.name" class="rd-asset" :href="asset.url">
                         <i class="ri-download-2-line rd-asset__icon" aria-hidden="true"></i>
                         <span class="rd-asset__meta">
                           <span class="rd-asset__name">{{ asset.name }}</span>
@@ -1154,5 +1176,116 @@ onMounted(load);
   .rd-release[open] .rd-release-body {
     animation: none !important;
   }
+}
+
+/* Download page */
+.release-download { width: min(100%, 1120px); margin: 32px auto 80px; animation: none; }
+.rd-header { position: relative; overflow: hidden; align-items: end; gap: 40px; margin: 0 0 46px; padding: 48px; border-radius: 16px; background: var(--vp-c-bg-soft); }
+.rd-header__main, .rd-stats { position: relative; z-index: 1; }
+.rd-kicker, .rd-section-index { color: var(--vp-c-brand-1); font-size: 11px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
+.rd-kicker::before { content: ''; display: inline-block; width: 7px; height: 7px; margin-right: 8px; border-radius: 50%; background: currentColor; vertical-align: 1px; }
+.rd-header h1 { margin: 20px 0 0; font-size: clamp(38px, 5vw, 60px); font-weight: 750; letter-spacing: -.045em; }
+.rd-desc { max-width: 540px; margin-top: 16px; font-size: 16px; line-height: 1.8; }
+.rd-updated { margin-top: 20px; }
+.rd-stats { gap: 12px; grid-template-columns: repeat(2, minmax(112px, 1fr)); }
+.rd-stats div { min-height: 112px; padding: 16px; border-color: var(--vp-c-divider); }
+.rd-stat__icon { margin-bottom: 14px; }
+.rd-stats dd { overflow-wrap: anywhere; font-size: 20px; }
+.rd-content { padding: 0; border: 0; background: transparent; }
+.rd-section-heading { display: flex; align-items: end; justify-content: space-between; gap: 20px; margin: 0 0 20px; }
+.rd-section-heading h2 { margin: 10px 0 0; padding: 0; border: 0; font-size: clamp(23px, 3vw, 30px); letter-spacing: -.03em; }
+.rd-section-heading p { margin: 8px 0 0; color: var(--vp-c-text-2); font-size: 14px; line-height: 1.6; }
+.rd-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-bottom: 24px; border: 0; }
+.rd-tab { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 18px; min-width: 0; min-height: 134px; padding: 18px; border: 1px solid var(--vp-c-divider); border-radius: 10px; color: var(--vp-c-text-1); background: var(--vp-c-bg); text-align: left; }
+.rd-tab:hover { border-color: var(--vp-c-brand-1); background: var(--vp-c-bg-soft); }
+.rd-tab.is-active { border: 1px solid var(--vp-c-brand-1); color: var(--vp-c-text-1); background: var(--vp-c-brand-soft); }
+.rd-tab__icon { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 10px; color: var(--vp-c-brand-1); background: var(--vp-c-brand-soft); font-size: 22px; }
+.rd-tab.is-active .rd-tab__icon { color: white; background: var(--vp-c-brand-3); }
+.rd-tab__label { font-size: 14px; font-weight: 700; line-height: 1.4; overflow-wrap: anywhere; }
+.rd-tab__arrow { position: absolute; right: 17px; top: 19px; color: var(--vp-c-text-3); font-size: 18px; }
+.rd-tab.is-active .rd-tab__arrow { color: var(--vp-c-brand-1); }
+.rd-hero { position: relative; display: block; overflow: hidden; margin: 0; padding: 36px; border-radius: 14px; background: var(--vp-c-bg-soft); }
+.rd-hero-platform { position: absolute; top: 37px; right: 46px; display: grid; place-items: center; width: 130px; height: 130px; border: 1px solid var(--vp-c-divider); border-radius: 32px; color: var(--vp-c-brand-1); background: var(--vp-c-bg); font-size: 58px; transform: rotate(7deg); }
+.rd-badge { display: inline-flex; align-items: center; gap: 7px; padding: 6px 11px; font-size: 12px; animation: none; }
+.rd-status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--vp-c-brand-1); }
+.rd-platform-name { margin-top: 26px; color: var(--vp-c-text-2); font-size: 14px; font-weight: 650; }
+.rd-hero-tag { margin-top: 8px; padding-right: 160px; font-family: var(--vp-font-family-base); font-size: clamp(30px, 4vw, 46px); letter-spacing: -.04em; overflow-wrap: anywhere; }
+.rd-hero-name { margin-top: 5px; padding-right: 160px; font-size: 16px; overflow-wrap: anywhere; }
+.rd-hero-meta { margin-top: 10px; font-size: 13px; }
+.rd-hero-actions { gap: 10px; margin-top: 28px; }
+.rd-cta, .rd-gh { min-height: 52px; text-decoration: none !important; }
+.rd-cta { max-width: 100%; padding: 11px 19px; }
+.rd-cta-text { display: grid; min-width: 0; gap: 2px; line-height: 1.3; }
+.rd-cta-filename { overflow-wrap: anywhere; font-family: var(--vp-font-family-mono); font-size: 10px; font-weight: 400; opacity: .8; }
+.rd-hero-body { margin-top: 30px; padding: 24px; border: 1px solid var(--vp-c-divider); border-radius: 10px; background: var(--vp-c-bg); }
+.rd-markdown { min-width: 0; overflow-wrap: anywhere; }
+.rd-markdown :deep(table) { display: block; max-width: 100%; overflow-x: auto; }
+.rd-markdown :deep(img) { max-width: 100%; height: auto; }
+.rd-markdown :deep(pre) { max-width: 100%; }
+.rd-hero-body .rd-assets-label { justify-content: space-between; margin: 0; color: var(--vp-c-text-1); font-size: 16px; list-style: none; cursor: pointer; }
+.rd-hero-body .rd-assets-label::-webkit-details-marker { display: none; }
+.rd-hero-body[open] .rd-assets-label { margin-bottom: 16px; }
+.rd-hero-body[open] .rd-assets-label i { transform: rotate(180deg); }
+.rd-hero-body summary:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 4px; }
+.rd-list { gap: 10px; margin-top: 60px; }
+.rd-history-heading { margin-bottom: 10px; }
+.rd-release { border-radius: 10px; }
+.rd-release > summary { min-height: 64px; padding: 16px 20px; }
+.rd-release-body { padding: 10px 20px 20px; }
+.rd-state { padding: 40px 20px; border: 1px solid var(--vp-c-divider); border-radius: 10px; background: var(--vp-c-bg-soft); }
+.rd-tab:focus-visible, .rd-cta:focus-visible, .rd-gh:focus-visible, .rd-retry:focus-visible, .rd-release summary:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 3px; }
+@media (prefers-reduced-motion: no-preference) {
+  .release-download { animation: rd-fade-in .45s ease-out both; }
+  .rd-tab { animation: rd-card-in .45s ease-out both; }
+  .rd-tab:nth-child(2) { animation-delay: 60ms; }
+  .rd-tab:nth-child(3) { animation-delay: 120ms; }
+  .rd-tab:nth-child(4) { animation-delay: 180ms; }
+  .rd-hero { animation: rd-card-in .35s ease-out both; }
+  .rd-hero-platform { animation: rd-icon-float 6s ease-in-out infinite; }
+  .rd-tab, .rd-cta, .rd-gh { transition: transform .2s ease, border-color .2s ease, background-color .2s ease, box-shadow .2s ease; }
+  .rd-tab__icon, .rd-tab__arrow, .rd-hero-body .rd-assets-label i, .rd-caret { transition: transform .2s ease; }
+  @media (hover: hover) {
+    .rd-tab:hover, .rd-cta:hover, .rd-gh:hover { transform: translateY(-3px); }
+    .rd-tab:hover { box-shadow: 0 10px 24px var(--vp-c-brand-soft); }
+    .rd-tab:hover .rd-tab__icon { transform: scale(1.08); }
+    .rd-tab:hover .rd-tab__arrow { transform: translate(3px, -3px); }
+  }
+}
+@keyframes rd-card-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes rd-icon-float {
+  0%, 100% { transform: translateY(0) rotate(7deg); }
+  50% { transform: translateY(-7px) rotate(3deg); }
+}
+@media (max-width: 900px) {
+  .rd-header { grid-template-columns: 1fr; gap: 26px; }
+  .rd-stats { max-width: 320px; }
+  .rd-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .release-download { width: auto; margin: 12px 16px 56px; }
+  .rd-header { padding: 26px 22px; margin-bottom: 36px; }
+  .rd-header h1 { font-size: 38px; }
+  .rd-desc { font-size: 14px; }
+  .rd-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: none; }
+  .rd-stats div { min-height: 90px; padding: 12px; }
+  .rd-tabs { overflow: visible; gap: 8px; }
+  .rd-tab { min-height: 120px; gap: 12px; padding: 14px; }
+  .rd-tab__label { font-size: 13px; }
+  .rd-hero { padding: 24px 18px; }
+  .rd-hero-platform { top: 25px; right: 22px; width: 64px; height: 64px; border-radius: 18px; font-size: 29px; }
+  .rd-hero > .rd-badge { max-width: calc(100% - 80px); }
+  .rd-hero-tag, .rd-hero-name { padding-right: 0; }
+  .rd-platform-name { margin-top: 32px; padding-right: 65px; }
+  .rd-hero-actions { align-items: stretch; }
+  .rd-cta, .rd-gh { box-sizing: border-box; min-width: 0; justify-content: flex-start; }
+  .rd-hero-body { padding: 18px; }
+  .rd-list { margin-top: 48px; }
+  .rd-release-tag, .rd-release > summary .rd-badge { max-width: 100%; overflow-wrap: anywhere; }
+  .rd-release-name { min-width: 0; }
+  .rd-release-date { order: 1; }
+  .rd-caret { margin-left: auto; }
 }
 </style>

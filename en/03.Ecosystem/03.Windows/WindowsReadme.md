@@ -7,7 +7,7 @@ permalink: /ecosystem/WindowsReadme
 # Monica by Avalonia
 
 > Monica by Avalonia: a local-first cross-platform password vault built with Avalonia, .NET, and MDBX.  
-> Windows / macOS / Linux · Local Vault · MDBX-1 · KeePass · TOTP · WebDAV / OneDrive
+> Windows / macOS / Linux · Local Vault · MDBX-2 · KeePass · TOTP · WebDAV / OneDrive
 
 ::: navCard
 ```yaml
@@ -33,6 +33,8 @@ permalink: /ecosystem/WindowsReadme
   badgeType: info
 ```
 :::
+
+> Windows x64 is the current local validation target; macOS and Linux still require native libraries, signing and manual acceptance. See [release readiness](https://github.com/Monica-Pass/Monica-by-Avalonia/blob/main/docs/release-readiness.md). Vault data uses MDBX; SQLite holds application metadata and migration state.
 
 ::: note Abstract
 Monica by Avalonia is the desktop implementation of the Monica password vault, focused on local-first password management and MDBX vault compatibility. This document follows a README-style structure and provides a feature overview, tech stack, architecture view, and development notes.
@@ -65,7 +67,7 @@ Core goals of the project:
 - Local encryption: master password initialization, unlock, change, and secure recovery settings
 - Import and export: support Monica JSON, password CSV, TOTP CSV, Aegis JSON, and more
 - Sync and backup: WebDAV / OneDrive backup and restore
-- MDBX vault: create, inspect, and manage Monica MDBX-1 local databases
+- MDBX vault: create, inspect, and manage Monica MDBX-2 local databases
 
 ---
 
@@ -153,9 +155,9 @@ mindmap
 
 ---
 
-## MDBX-1 Integration
+## MDBX-2 Integration
 
-Monica by Avalonia supports the MDBX-1 local-first vault. It is not an ordinary SQLite password table, but a local database format with version history, conflict handling, snapshot recovery, and security boundaries.
+Monica by Avalonia supports the MDBX-2 local-first vault. It is not an ordinary SQLite password table, but a local database format with version history, conflict handling, snapshot recovery, and security boundaries.
 
 The Avalonia side currently includes two MDBX integration paths:
 

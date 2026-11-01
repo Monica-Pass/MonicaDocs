@@ -44,9 +44,10 @@ npm run docs:dev
 - 简体中文内容位于 `01.指南`、`02.配置` 和 `03.生态`；其他语言位于 `en`、`ja`、`ru` 与 `vi`。
 - 多语言导航、编辑链接与重写规则位于 `.vitepress/locales/`；主题组件和样式位于 `.vitepress/theme/`。
 - GitHub Pages 在推送到 `main` 后通过 Actions 构建 `.vitepress/dist/` 并部署。
-- `update-github-commits.yml` 定时更新 `public/github-commits.json`，需要具备 `Contents: Read` 权限的 `MONICA_SOURCE_REPO_TOKEN`。
-- 主仓库 Android 或浏览器扩展发布完成后，会立即触发 `update-github-releases.yml`，拉取最新 Release 与附件并重新部署网站。
-- Monica 主仓库的 `main` 更新会通过 `repository_dispatch` 触发即时提交数据同步；需要在主仓库配置 `DOCS_REPOSITORY` 和具备文档仓库写权限的 `DOCS_REPO_TOKEN`。
+- `update-github-commits.yml` 汇总 Monica-Pass 各仓库默认分支最近一年的提交，定时运行，也可通过 `monica-main-updated` 仓库事件或手动触发。
+- `update-github-releases.yml` 定时同步 Android、iOS、桌面端、浏览器扩展和 CLI 的 GitHub Releases，也可通过 `monica-release-published` 仓库事件或手动触发。
+- 两个同步任务优先使用 `MONICA_SOURCE_REPO_TOKEN`，未配置时使用工作流的 `GITHUB_TOKEN` 读取公开仓库；数据发生变化后会提交并触发网站部署。
+- 各源仓库需要配置通知工作流和对 MonicaDocs 具有 Contents 写权限的 `DOCS_REPO_TOKEN`，才能在提交或发布后即时发送 `repository_dispatch`；未配置时仍由定时任务刷新。
 
 ## 致谢
 - [Monica](https://github.com/Monica-Pass/Monica)

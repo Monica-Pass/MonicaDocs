@@ -19,12 +19,12 @@ Monica for Browser is the browser extension in the Monica password ecosystem. It
 
 - Smart autofill on the web
 - Quick access to login credentials in your local vault
-- Shares the same credential model with clients such as Monica for Android
 
 ## Current status
 
-- The `Monica-for-Extension` browser extension is currently not under active development; the project is focusing on completing, improving, and stabilizing Monica for Android.
-- Refer to the [Monica-Pass](https://github.com/Monica-Pass) organization for related code and discussions.
+- The [Monica for Extension](https://github.com/Monica-Pass/Monica-for-Extension) browser extension has published releases; see [GitHub Releases](https://github.com/Monica-Pass/Monica-for-Extension/releases) and the repository README for the latest version.
+- Chrome/Edge 128+ are supported. Firefox 153+ uses a separate unsigned build; permanent installation requires Mozilla signing. See the [Firefox instructions](https://github.com/Monica-Pass/Monica-for-Extension/blob/main/docs/FIREFOX.md).
+- The extension has its own encrypted local vault; data can be exchanged with Android through supported sync methods, subject to the [sync compatibility limits](https://github.com/Monica-Pass/Monica-for-Extension/blob/main/docs/SYNC_COMPATIBILITY.md).
 
 ## Relationship to the ecosystem
 

@@ -2,27 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-hero:
-  name: "Monica Pass"
-  text: "安全 · ローカル · オープンソース"
-  tagline: "Monicaはオープンソースのローカルファーストなパスワードマネージャーです。パスワード、2FA認証コード、暗号化メモを管理し、すべてのデータはクラウドを経由せず、お使いのローカルデバイスのみに完全に保存されます。"
-  image:
-    src: /themepng.png
-    alt: Monica アプリのアイコン
-  actions:
-    - theme: brand
-      text: Monica-cloud へ移動
-      link: /ja/login
-    - theme: alt
-      text: Monica エコシステムを見る
-      link: /ja/ecosystem.html
-    - theme: alt
-      text: Monica をダウンロード
-      link: /ja/download.html
-
-features:
+landingFeatures:
   - title: パスワード管理
-    details: 自動入力と複数フィールドの保存をサポート。高強度のAES-256暗号化を採用し、データがローカルデバイスのみに存在することを保証します。
+    details: 自動入力と複数フィールドの保存に対応。AES-256 暗号化でローカルの保管庫を保護します。
     icon: <i class="ri-key-2-fill"></i>
   - title: 2FA 認証器
     details: QRコードスキャン対応のTOTP認証器を内蔵。コードの有効期限が切れる前に自動でカウントダウンし、ワンタップでコピーできます。
@@ -36,7 +18,7 @@ features:
   - title: ハードウェア級 Keystore
     details: 暗号化キーはAndroidシステムのKeystore (TEE) によって保護され、暗号化データにハードウェアベースの安全な隔離境界を提供します。
     icon: <i class="ri-shield-keyhole-fill"></i>
-  - title: ゼロナレッジアーキテクチャ
-    details: デフォルトで完全にオフラインで動作し、ネットワーク権限を必要としません。開発者であってもあなたのデータに一切アクセスできないことを保証します。
+  - title: 選べる同期とバックアップ
+    details: データをローカルで管理し、必要に応じて Bitwarden や WebDAV で同期・バックアップできます。
     icon: <i class="ri-cloud-off-fill"></i>
 ---

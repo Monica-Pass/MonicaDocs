@@ -19,12 +19,12 @@ Monica for Browser 是 Monica 密码库生态中的浏览器端扩展，聚焦�
 
 - 网页端智能自动填充
 - 快捷访问本地保险库中的登录凭据
-- 与 Monica Android 等客户端共享同一套凭据模型
 
 ## 当前状态
 
-- 浏览器扩展 `Monica-for-Extension` 目前暂停活跃更新，项目优先聚焦 Android 端的功能完善、体验优化与稳定性维护。
-- 相关代码与讨论以 [Monica-Pass](https://github.com/Monica-Pass) 组织为准。
+- 浏览器扩展 [Monica for Extension](https://github.com/Monica-Pass/Monica-for-Extension) 已发布；请查看 [GitHub Releases](https://github.com/Monica-Pass/Monica-for-Extension/releases) 和仓库 README 获取最新版本。
+- 支持 Chrome/Edge 128+。Firefox 153+ 使用独立的未签名构建；永久安装需要 Mozilla 签名，具体见 [Firefox 说明](https://github.com/Monica-Pass/Monica-for-Extension/blob/main/docs/FIREFOX.md)。
+- 扩展拥有独立的加密本地保险库；与 Android 的数据可通过支持的同步方式交换，具体限制见 [同步兼容说明](https://github.com/Monica-Pass/Monica-for-Extension/blob/main/docs/SYNC_COMPATIBILITY.md)。
 
 ## 与生态的关系
 

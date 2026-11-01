@@ -12,6 +12,7 @@ type ActivityDay = {
 type LatestCommit = {
   sha: string;
   shortSha: string;
+  repo?: string;
   message: string;
   authorName: string;
   authorAvatar: string;
@@ -22,6 +23,7 @@ type LatestCommit = {
 type GitHubCommitsData = {
   repo: string;
   repoUrl: string;
+  repos?: string[];
   generatedAt: string;
   range: {
     from: string;
@@ -46,7 +48,8 @@ const localeText = {
     title: "GitHub 提交",
     fallbackDescription: "Monica-Pass/Monica 的提交活跃度",
     commitsInLastYear: "过去一年提交",
-    updated: "更新于",
+    updated: "数据更新于",
+    scope: "各仓库默认分支过去一年的提交，热力图合并相同提交；每个项目最多显示最近 10 条。",
     loading: "正在加载 GitHub 提交...",
     unavailable: "GitHub 提交数据暂不可用。",
     noData: "暂无提交活跃数据。",
@@ -61,7 +64,8 @@ const localeText = {
     title: "GitHub Commits",
     fallbackDescription: "Commit activity for Monica-Pass/Monica",
     commitsInLastYear: "commits in the last year",
-    updated: "Updated",
+    updated: "Data updated",
+    scope: "Default branches over the last year; shared commits counted once in the calendar. Up to 10 per project.",
     loading: "Loading GitHub commits...",
     unavailable: "GitHub commit data is unavailable.",
     noData: "No commit activity data yet.",
@@ -76,7 +80,8 @@ const localeText = {
     title: "GitHub コミット",
     fallbackDescription: "Monica-Pass/Monica のコミットアクティビティ",
     commitsInLastYear: "過去1年間のコミット",
-    updated: "更新",
+    updated: "データ更新",
+    scope: "各リポジトリの既定ブランチの過去1年間。共通コミットは1回のみ集計し、各プロジェクトの最新10件まで表示します。",
     loading: "GitHub コミットを読み込み中...",
     unavailable: "GitHub コミットデータを利用できません。",
     noData: "コミットアクティビティデータはまだありません。",
@@ -91,7 +96,8 @@ const localeText = {
     title: "Commit GitHub",
     fallbackDescription: "Hoạt động commit của Monica-Pass/Monica",
     commitsInLastYear: "commit trong năm qua",
-    updated: "Cập nhật",
+    updated: "Dữ liệu cập nhật",
+    scope: "Nhánh mặc định của mỗi kho trong năm qua; commit chung chỉ tính một lần trên lịch. Tối đa 10 commit mỗi dự án.",
     loading: "Đang tải commit GitHub...",
     unavailable: "Dữ liệu commit GitHub hiện không khả dụng.",
     noData: "Chưa có dữ liệu hoạt động commit.",
@@ -106,7 +112,8 @@ const localeText = {
     title: "Коммиты GitHub",
     fallbackDescription: "Активность коммитов Monica-Pass/Monica",
     commitsInLastYear: "коммитов за последний год",
-    updated: "Обновлено",
+    updated: "Данные обновлены",
+    scope: "Ветки по умолчанию за последний год; общие коммиты учитываются в календаре один раз. До 10 коммитов на проект.",
     loading: "Загрузка коммитов GitHub...",
     unavailable: "Данные коммитов GitHub недоступны.",
     noData: "Данных об активности коммитов пока нет.",
@@ -241,6 +248,7 @@ function commitTitle(day: CalendarCell) {
           · {{ totalCommits }} {{ text.commitsInLastYear }}
         </p>
         <p v-else>{{ text.fallbackDescription }}</p>
+        <p v-if="data?.repos">{{ text.scope }}</p>
       </div>
       <span v-if="data?.generatedAt" class="github-commits-panel__updated">
         {{ text.updated }} {{ formatGeneratedAt(data.generatedAt) }}
@@ -301,7 +309,7 @@ function commitTitle(day: CalendarCell) {
       <div class="github-commits-list">
         <a
           v-for="commit in latest"
-          :key="commit.sha"
+          :key="`${commit.repo || data.repo}:${commit.sha}`"
           class="github-commit"
           :href="commit.url"
           target="_blank"
@@ -320,7 +328,7 @@ function commitTitle(day: CalendarCell) {
 
           <span class="github-commit__content">
             <strong>{{ commit.message }}</strong>
-            <span>{{ commit.authorName }} · {{ formatDate(commit.date) }}</span>
+            <span>{{ commit.repo || data.repo }} · {{ commit.authorName }} · {{ formatDate(commit.date) }}</span>
           </span>
 
           <code class="github-commit__sha">{{ commit.shortSha }}</code>

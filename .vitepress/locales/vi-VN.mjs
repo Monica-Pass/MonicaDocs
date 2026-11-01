@@ -30,10 +30,9 @@ export default defineConfig({
         items: [
           { text: "Lưu trữ", link: "/vi/archives" },
           { text: "Danh sách bài viết", link: "/vi/articleOverview" },
+          { text: "Liên kết", link: "/vi/friends" },
         ],
       },
-      { text: "Monica-cloud", link: "/vi/login" },
-      { text: "Liên kết", link: "/vi/friends" },
       { text: "✨ Tài trợ", link: "/vi/personal/" },
     ],
     editLink: {

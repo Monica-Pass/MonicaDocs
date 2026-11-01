@@ -19,12 +19,12 @@ Monica for Browser là tiện ích mở rộng trình duyệt trong hệ sinh th
 
 - Tự động điền thông minh trên web
 - Truy cập nhanh thông tin đăng nhập trong kho cục bộ
-- Chia sẻ cùng mô hình dữ liệu với các client như Monica for Android
 
 ## Trạng thái hiện tại
 
-- Tiện ích `Monica-for-Extension` hiện tạm dừng cập nhật tích cực; dự án ưu tiên hoàn thiện, tối ưu trải nghiệm và duy trì ổn định cho Monica Android.
-- Tham khảo tổ chức [Monica-Pass](https://github.com/Monica-Pass) để biết mã nguồn và thảo luận liên quan.
+- Tiện ích trình duyệt [Monica for Extension](https://github.com/Monica-Pass/Monica-for-Extension) đã có bản phát hành; xem [GitHub Releases](https://github.com/Monica-Pass/Monica-for-Extension/releases) và README của kho mã để biết phiên bản mới nhất.
+- Hỗ trợ Chrome/Edge 128+. Firefox 153+ dùng bản dựng riêng chưa ký; cài đặt lâu dài cần chữ ký Mozilla. Xem [hướng dẫn Firefox](https://github.com/Monica-Pass/Monica-for-Extension/blob/main/docs/FIREFOX.md).
+- Tiện ích có kho cục bộ được mã hóa riêng; dữ liệu có thể trao đổi với Android qua các cách đồng bộ được hỗ trợ, theo [giới hạn tương thích](https://github.com/Monica-Pass/Monica-for-Extension/blob/main/docs/SYNC_COMPATIBILITY.md).
 
 ## Quan hệ với hệ sinh thái
 

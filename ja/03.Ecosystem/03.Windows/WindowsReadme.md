@@ -7,7 +7,7 @@ permalink: /ecosystem/WindowsReadme
 # Monica by Avalonia
 
 > Monica by Avalonia: Avalonia、.NET、MDBX で構築するローカルファーストのクロスプラットフォームパスワード保管庫。  
-> Windows / macOS / Linux · Local Vault · MDBX-1 · KeePass · TOTP · WebDAV / OneDrive
+> Windows / macOS / Linux · Local Vault · MDBX-2 · KeePass · TOTP · WebDAV / OneDrive
 
 ::: navCard
 ```yaml
@@ -33,6 +33,8 @@ permalink: /ecosystem/WindowsReadme
   badgeType: info
 ```
 :::
+
+> 現在の実機検証対象は Windows x64 です。macOS と Linux にはネイティブライブラリ、署名、手動検証が必要です。詳細は[リリース準備状況](https://github.com/Monica-Pass/Monica-by-Avalonia/blob/main/docs/release-readiness.md)を参照してください。保管庫データは MDBX、アプリのメタデータと移行状態は SQLite に保存します。
 
 ::: note 概要
 Monica by Avalonia は Monica パスワード保管庫のデスクトップ実装であり、ローカルファースト、パスワード管理、MDBX vault 互換に重点を置いています。このページは README スタイルで、機能紹介、技術スタック、アーキテクチャの見取り図、開発情報をまとめています。
@@ -65,7 +67,7 @@ Monica by Avalonia は、デスクトップユーザー向けのローカルフ�
 - ローカル暗号化: マスターパスワード初期化、ロック解除、変更、安全な復旧設定
 - インポート/エクスポート: Monica JSON、パスワード CSV、TOTP CSV、Aegis JSON などの形式に対応
 - 同期とバックアップ: WebDAV / OneDrive によるバックアップと復元
-- MDBX vault: Monica MDBX-1 ローカルデータベースの作成、検査、管理
+- MDBX vault: Monica MDBX-2 ローカルデータベースの作成、検査、管理
 
 ---
 
@@ -153,9 +155,9 @@ mindmap
 
 ---
 
-## MDBX-1 統合
+## MDBX-2 統合
 
-Monica by Avalonia は MDBX-1 ローカルファースト vault をサポートします。これは単なる SQLite のパスワードテーブルではなく、バージョン履歴、競合処理、スナップショット復元、安全境界を備えたローカルデータベース形式です。
+Monica by Avalonia は MDBX-2 ローカルファースト vault をサポートします。これは単なる SQLite のパスワードテーブルではなく、バージョン履歴、競合処理、スナップショット復元、安全境界を備えたローカルデータベース形式です。
 
 Avalonia 側には現在、次の 2 つの MDBX 統合ルートがあります。
 

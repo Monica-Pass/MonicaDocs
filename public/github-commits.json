@@ -1,7 +1,19 @@
 {
-  "repo": "Monica-Pass/Monica",
-  "repoUrl": "https://github.com/Monica-Pass/Monica",
-  "generatedAt": "2026-11-01T12:14:24.230Z",
+  "repo": "Monica-Pass",
+  "repoUrl": "https://github.com/Monica-Pass",
+  "repos": [
+    "Monica-Pass/Monica",
+    "Monica-Pass/Mdbx",
+    "Monica-Pass/Monica-by-Avalonia",
+    "Monica-Pass/Monica-for-iOS",
+    "Monica-Pass/Monica-Cloud",
+    "Monica-Pass/Monica-for-Extension",
+    "Monica-Pass/MonicaDocs",
+    "Monica-Pass/Monica-CE",
+    "Monica-Pass/Monica-Fdroid",
+    "Monica-Pass/Monica-cli"
+  ],
+  "generatedAt": "2026-11-01T13:00:53.720Z",
   "range": {
     "from": "2025-11-02",
     "to": "2026-11-01"
@@ -853,35 +865,35 @@
     },
     {
       "date": "2026-06-01",
-      "count": 5
+      "count": 66
     },
     {
       "date": "2026-06-02",
-      "count": 2
+      "count": 77
     },
     {
       "date": "2026-06-03",
-      "count": 4
+      "count": 84
     },
     {
       "date": "2026-06-04",
-      "count": 5
+      "count": 40
     },
     {
       "date": "2026-06-05",
-      "count": 0
+      "count": 14
     },
     {
       "date": "2026-06-06",
-      "count": 9
+      "count": 13
     },
     {
       "date": "2026-06-07",
-      "count": 2
+      "count": 5
     },
     {
       "date": "2026-06-08",
-      "count": 3
+      "count": 4
     },
     {
       "date": "2026-06-09",
@@ -893,7 +905,7 @@
     },
     {
       "date": "2026-06-11",
-      "count": 1
+      "count": 2
     },
     {
       "date": "2026-06-12",
@@ -945,7 +957,7 @@
     },
     {
       "date": "2026-06-24",
-      "count": 2
+      "count": 3
     },
     {
       "date": "2026-06-25",
@@ -997,7 +1009,7 @@
     },
     {
       "date": "2026-07-07",
-      "count": 7
+      "count": 11
     },
     {
       "date": "2026-07-08",
@@ -1021,43 +1033,43 @@
     },
     {
       "date": "2026-07-13",
-      "count": 1
+      "count": 75
     },
     {
       "date": "2026-07-14",
-      "count": 1
+      "count": 31
     },
     {
       "date": "2026-07-15",
-      "count": 0
+      "count": 82
     },
     {
       "date": "2026-07-16",
-      "count": 4
+      "count": 33
     },
     {
       "date": "2026-07-17",
-      "count": 2
+      "count": 7
     },
     {
       "date": "2026-07-18",
-      "count": 3
+      "count": 31
     },
     {
       "date": "2026-07-19",
-      "count": 3
+      "count": 67
     },
     {
       "date": "2026-07-20",
-      "count": 1
+      "count": 45
     },
     {
       "date": "2026-07-21",
-      "count": 2
+      "count": 47
     },
     {
       "date": "2026-07-22",
-      "count": 6
+      "count": 62
     },
     {
       "date": "2026-07-23",
@@ -1065,15 +1077,15 @@
     },
     {
       "date": "2026-07-24",
-      "count": 3
+      "count": 21
     },
     {
       "date": "2026-07-25",
-      "count": 15
+      "count": 41
     },
     {
       "date": "2026-07-26",
-      "count": 16
+      "count": 35
     },
     {
       "date": "2026-07-27",
@@ -1097,11 +1109,11 @@
     },
     {
       "date": "2026-08-01",
-      "count": 2
+      "count": 13
     },
     {
       "date": "2026-08-02",
-      "count": 4
+      "count": 15
     },
     {
       "date": "2026-08-03",
@@ -1109,35 +1121,35 @@
     },
     {
       "date": "2026-08-04",
-      "count": 6
+      "count": 7
     },
     {
       "date": "2026-08-05",
-      "count": 0
+      "count": 2
     },
     {
       "date": "2026-08-06",
-      "count": 3
+      "count": 13
     },
     {
       "date": "2026-08-07",
-      "count": 3
+      "count": 20
     },
     {
       "date": "2026-08-08",
-      "count": 2
+      "count": 18
     },
     {
       "date": "2026-08-09",
-      "count": 5
+      "count": 10
     },
     {
       "date": "2026-08-10",
-      "count": 1
+      "count": 6
     },
     {
       "date": "2026-08-11",
-      "count": 2
+      "count": 4
     },
     {
       "date": "2026-08-12",
@@ -1145,31 +1157,31 @@
     },
     {
       "date": "2026-08-13",
-      "count": 0
-    },
-    {
-      "date": "2026-08-14",
       "count": 3
     },
     {
-      "date": "2026-08-15",
+      "date": "2026-08-14",
       "count": 6
     },
     {
+      "date": "2026-08-15",
+      "count": 7
+    },
+    {
       "date": "2026-08-16",
-      "count": 10
+      "count": 17
     },
     {
       "date": "2026-08-17",
-      "count": 5
+      "count": 10
     },
     {
       "date": "2026-08-18",
-      "count": 1
+      "count": 2
     },
     {
       "date": "2026-08-19",
-      "count": 2
+      "count": 7
     },
     {
       "date": "2026-08-20",
@@ -1181,31 +1193,31 @@
     },
     {
       "date": "2026-08-22",
-      "count": 5
-    },
-    {
-      "date": "2026-08-23",
       "count": 8
     },
     {
+      "date": "2026-08-23",
+      "count": 72
+    },
+    {
       "date": "2026-08-24",
-      "count": 2
+      "count": 24
     },
     {
       "date": "2026-08-25",
-      "count": 6
+      "count": 14
     },
     {
       "date": "2026-08-26",
-      "count": 6
+      "count": 12
     },
     {
       "date": "2026-08-27",
-      "count": 1
+      "count": 4
     },
     {
       "date": "2026-08-28",
-      "count": 1
+      "count": 3
     },
     {
       "date": "2026-08-29",
@@ -1217,11 +1229,11 @@
     },
     {
       "date": "2026-08-31",
-      "count": 37
+      "count": 70
     },
     {
       "date": "2026-09-01",
-      "count": 8
+      "count": 9
     },
     {
       "date": "2026-09-02",
@@ -1229,7 +1241,7 @@
     },
     {
       "date": "2026-09-03",
-      "count": 38
+      "count": 40
     },
     {
       "date": "2026-09-04",
@@ -1245,19 +1257,19 @@
     },
     {
       "date": "2026-09-07",
-      "count": 1
+      "count": 2
     },
     {
       "date": "2026-09-08",
-      "count": 3
+      "count": 13
     },
     {
       "date": "2026-09-09",
-      "count": 3
+      "count": 4
     },
     {
       "date": "2026-09-10",
-      "count": 6
+      "count": 7
     },
     {
       "date": "2026-09-11",
@@ -1265,147 +1277,147 @@
     },
     {
       "date": "2026-09-12",
-      "count": 20
+      "count": 26
     },
     {
       "date": "2026-09-13",
-      "count": 15
-    },
-    {
-      "date": "2026-09-14",
-      "count": 1
-    },
-    {
-      "date": "2026-09-15",
-      "count": 2
-    },
-    {
-      "date": "2026-09-16",
-      "count": 8
-    },
-    {
-      "date": "2026-09-17",
-      "count": 11
-    },
-    {
-      "date": "2026-09-18",
-      "count": 0
-    },
-    {
-      "date": "2026-09-19",
-      "count": 0
-    },
-    {
-      "date": "2026-09-20",
-      "count": 7
-    },
-    {
-      "date": "2026-09-21",
-      "count": 0
-    },
-    {
-      "date": "2026-09-22",
-      "count": 0
-    },
-    {
-      "date": "2026-09-23",
-      "count": 0
-    },
-    {
-      "date": "2026-09-24",
-      "count": 0
-    },
-    {
-      "date": "2026-09-25",
-      "count": 1
-    },
-    {
-      "date": "2026-09-26",
-      "count": 3
-    },
-    {
-      "date": "2026-09-27",
-      "count": 0
-    },
-    {
-      "date": "2026-09-28",
-      "count": 15
-    },
-    {
-      "date": "2026-09-29",
-      "count": 0
-    },
-    {
-      "date": "2026-09-30",
-      "count": 2
-    },
-    {
-      "date": "2026-10-01",
-      "count": 3
-    },
-    {
-      "date": "2026-10-02",
-      "count": 1
-    },
-    {
-      "date": "2026-10-03",
-      "count": 1
-    },
-    {
-      "date": "2026-10-04",
-      "count": 0
-    },
-    {
-      "date": "2026-10-05",
-      "count": 3
-    },
-    {
-      "date": "2026-10-06",
-      "count": 2
-    },
-    {
-      "date": "2026-10-07",
-      "count": 1
-    },
-    {
-      "date": "2026-10-08",
-      "count": 1
-    },
-    {
-      "date": "2026-10-09",
-      "count": 2
-    },
-    {
-      "date": "2026-10-10",
-      "count": 9
-    },
-    {
-      "date": "2026-10-11",
       "count": 18
     },
     {
-      "date": "2026-10-12",
-      "count": 10
-    },
-    {
-      "date": "2026-10-13",
-      "count": 5
-    },
-    {
-      "date": "2026-10-14",
-      "count": 4
-    },
-    {
-      "date": "2026-10-15",
-      "count": 2
-    },
-    {
-      "date": "2026-10-16",
+      "date": "2026-09-14",
       "count": 3
     },
     {
-      "date": "2026-10-17",
+      "date": "2026-09-15",
+      "count": 5
+    },
+    {
+      "date": "2026-09-16",
+      "count": 16
+    },
+    {
+      "date": "2026-09-17",
+      "count": 21
+    },
+    {
+      "date": "2026-09-18",
+      "count": 6
+    },
+    {
+      "date": "2026-09-19",
+      "count": 37
+    },
+    {
+      "date": "2026-09-20",
+      "count": 17
+    },
+    {
+      "date": "2026-09-21",
+      "count": 11
+    },
+    {
+      "date": "2026-09-22",
+      "count": 36
+    },
+    {
+      "date": "2026-09-23",
+      "count": 36
+    },
+    {
+      "date": "2026-09-24",
+      "count": 7
+    },
+    {
+      "date": "2026-09-25",
+      "count": 26
+    },
+    {
+      "date": "2026-09-26",
+      "count": 9
+    },
+    {
+      "date": "2026-09-27",
+      "count": 14
+    },
+    {
+      "date": "2026-09-28",
+      "count": 41
+    },
+    {
+      "date": "2026-09-29",
+      "count": 9
+    },
+    {
+      "date": "2026-09-30",
       "count": 4
+    },
+    {
+      "date": "2026-10-01",
+      "count": 6
+    },
+    {
+      "date": "2026-10-02",
+      "count": 2
+    },
+    {
+      "date": "2026-10-03",
+      "count": 2
+    },
+    {
+      "date": "2026-10-04",
+      "count": 2
+    },
+    {
+      "date": "2026-10-05",
+      "count": 16
+    },
+    {
+      "date": "2026-10-06",
+      "count": 15
+    },
+    {
+      "date": "2026-10-07",
+      "count": 14
+    },
+    {
+      "date": "2026-10-08",
+      "count": 2
+    },
+    {
+      "date": "2026-10-09",
+      "count": 4
+    },
+    {
+      "date": "2026-10-10",
+      "count": 11
+    },
+    {
+      "date": "2026-10-11",
+      "count": 31
+    },
+    {
+      "date": "2026-10-12",
+      "count": 35
+    },
+    {
+      "date": "2026-10-13",
+      "count": 24
+    },
+    {
+      "date": "2026-10-14",
+      "count": 20
+    },
+    {
+      "date": "2026-10-15",
+      "count": 12
+    },
+    {
+      "date": "2026-10-16",
+      "count": 11
+    },
+    {
+      "date": "2026-10-17",
+      "count": 22
     },
     {
       "date": "2026-10-18",
@@ -1417,11 +1429,11 @@
     },
     {
       "date": "2026-10-20",
-      "count": 10
+      "count": 44
     },
     {
       "date": "2026-10-21",
-      "count": 10
+      "count": 23
     },
     {
       "date": "2026-10-22",
@@ -1429,7 +1441,7 @@
     },
     {
       "date": "2026-10-23",
-      "count": 1
+      "count": 3
     },
     {
       "date": "2026-10-24",
@@ -1437,11 +1449,11 @@
     },
     {
       "date": "2026-10-25",
-      "count": 1
+      "count": 4
     },
     {
       "date": "2026-10-26",
-      "count": 5
+      "count": 12
     },
     {
       "date": "2026-10-27",
@@ -1453,25 +1465,66 @@
     },
     {
       "date": "2026-10-29",
-      "count": 3
+      "count": 6
     },
     {
       "date": "2026-10-30",
-      "count": 2
+      "count": 11
     },
     {
       "date": "2026-10-31",
-      "count": 3
+      "count": 31
     },
     {
       "date": "2026-11-01",
-      "count": 2
+      "count": 10
     }
   ],
   "latest": [
     {
+      "sha": "f027c0fc96a524df66f14786f6c59bbbc3870620",
+      "shortSha": "f027c0f",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "docs: record successful preview publication for 3d1a878",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-01T10:58:18Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/f027c0fc96a524df66f14786f6c59bbbc3870620"
+    },
+    {
+      "sha": "3d1a8783de514d836051dca6ae5f9051d63a03b2",
+      "shortSha": "3d1a878",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "fix(ci): repair browser upgrade and restart preview gates",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-01T10:10:38Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/3d1a8783de514d836051dca6ae5f9051d63a03b2"
+    },
+    {
+      "sha": "8dfeb03baed9bd84d6aad38468503ca0ec4f46f9",
+      "shortSha": "8dfeb03",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "feat(settings): support custom vault auto-lock duration",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-01T09:43:22Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/8dfeb03baed9bd84d6aad38468503ca0ec4f46f9"
+    },
+    {
+      "sha": "338eb60a78e31a81cacaa064fd0c64036e8392ef",
+      "shortSha": "338eb60",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-11-01T09:21:17Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/338eb60a78e31a81cacaa064fd0c64036e8392ef"
+    },
+    {
       "sha": "f44865e4e58106feb5f809f6112cfe52cc998e43",
       "shortSha": "f44865e",
+      "repo": "Monica-Pass/Monica",
       "message": "docs: update Afdian sponsor list",
       "authorName": "github-actions[bot]",
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
@@ -1479,8 +1532,19 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/f44865e4e58106feb5f809f6112cfe52cc998e43"
     },
     {
+      "sha": "70f9483982a6b14a5690268c8add3c7e2eaeed12",
+      "shortSha": "70f9483",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "feat(android): add secure LAN delta sync and KDBX fixes for 1.0.324",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-01T06:58:26Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/70f9483982a6b14a5690268c8add3c7e2eaeed12"
+    },
+    {
       "sha": "07a1e15d47008c7b192dd69fc7c899292a6b438e",
       "shortSha": "07a1e15",
+      "repo": "Monica-Pass/Monica",
       "message": "feat(android): add secure LAN delta sync and KDBX fixes for 1.0.324 [skip ci]",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
@@ -1488,8 +1552,69 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/07a1e15d47008c7b192dd69fc7c899292a6b438e"
     },
     {
+      "sha": "7be33a35422730ecabf5b6d2101aa09586d9cc2c",
+      "shortSha": "7be33a3",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "test(nearby): verify Android and F-Droid incremental interoperability",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-01T05:24:50Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/7be33a35422730ecabf5b6d2101aa09586d9cc2c"
+    },
+    {
+      "sha": "39bb7f8d457b40067fd5303d73f84f202aa2b84d",
+      "shortSha": "39bb7f8",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "feat(nearby): align incremental sync and resume with Android 1.0.324",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-01T04:17:04Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/39bb7f8d457b40067fd5303d73f84f202aa2b84d"
+    },
+    {
+      "sha": "4ec504ef3d8bcb10503cd943b391c6d9522488ed",
+      "shortSha": "4ec504e",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "chore(ui): retire unused mock management interface",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-01T00:29:57Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/4ec504ef3d8bcb10503cd943b391c6d9522488ed"
+    },
+    {
+      "sha": "0a0a3509cd780b741b004cda992251f4994805cf",
+      "shortSha": "0a0a350",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "refactor(background): modularize workflows and typed command routing",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-31T18:32:39Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/0a0a3509cd780b741b004cda992251f4994805cf"
+    },
+    {
+      "sha": "b51137b45892b860d984fc1cfaed382e676db820",
+      "shortSha": "b51137b",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "refactor(background): isolate sync and attachment runtimes",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-31T17:31:28Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/b51137b45892b860d984fc1cfaed382e676db820"
+    },
+    {
+      "sha": "2c26acd517a537e38573d8390eacd269da0af9cb",
+      "shortSha": "2c26acd",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "feat(android): add confirmed storage recovery for 1.0.324",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-31T16:48:30Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/2c26acd517a537e38573d8390eacd269da0af9cb"
+    },
+    {
       "sha": "a8f61e778af8fbb490f3fd59c8d84aa9b6a6351b",
       "shortSha": "a8f61e7",
+      "repo": "Monica-Pass/Monica",
       "message": "feat(android): add confirmed storage recovery for 1.0.324 [skip ci]",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
@@ -1497,8 +1622,29 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/a8f61e778af8fbb490f3fd59c8d84aa9b6a6351b"
     },
     {
+      "sha": "e21ed3b0f39617f5f3e29f7ab2d3a6bd12118631",
+      "shortSha": "e21ed3b",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "docs: clarify Windows packaging note [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-31T14:31:41Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/e21ed3b0f39617f5f3e29f7ab2d3a6bd12118631"
+    },
+    {
+      "sha": "3128603410dcb85ab28b421d127be22614bd51ad",
+      "shortSha": "3128603",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "docs: record verified 1.0.103 release [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-31T14:30:00Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/3128603410dcb85ab28b421d127be22614bd51ad"
+    },
+    {
       "sha": "9e50c0d204b2b7b5f509fa835bf357c209ae788f",
       "shortSha": "9e50c0d",
+      "repo": "Monica-Pass/Monica",
       "message": "fix(android): improve backup operation lifecycle [skip ci]",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
@@ -1506,8 +1652,29 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/9e50c0d204b2b7b5f509fa835bf357c209ae788f"
     },
     {
+      "sha": "6600ddc4f8713fd6426fc005fd33760edbcf38c6",
+      "shortSha": "6600ddc",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "fix(android): improve backup operation lifecycle",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-31T14:11:54Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/6600ddc4f8713fd6426fc005fd33760edbcf38c6"
+    },
+    {
+      "sha": "c02882a34169d08297f8732429e6da6511aa0ae0",
+      "shortSha": "c02882a",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "release(fdroid): publish 1.0.323 with native KeePass management",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-31T09:08:42Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c02882a34169d08297f8732429e6da6511aa0ae0"
+    },
+    {
       "sha": "969cad6538900f040108b74c4b9f3a41efad7673",
       "shortSha": "969cad6",
+      "repo": "Monica-Pass/Monica",
       "message": "release(android): publish 1.0.323 with native KeePass management [skip ci]",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
@@ -1517,6 +1684,7 @@
     {
       "sha": "d70d818fd5287ed0996a12bd8258596b4d6c1345",
       "shortSha": "d70d818",
+      "repo": "Monica-Pass/Monica",
       "message": "Merge remote-tracking branch 'origin/main'",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
@@ -1524,8 +1692,19 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/d70d818fd5287ed0996a12bd8258596b4d6c1345"
     },
     {
+      "sha": "34380b58f17860ccd05928a765f1921096d0c619",
+      "shortSha": "34380b5",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "feat(android): complete KeePass file management and localized credential UI",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-30T17:39:48Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/34380b58f17860ccd05928a765f1921096d0c619"
+    },
+    {
       "sha": "27d4b0028ac01257ee789e75e131e57a850ba67f",
       "shortSha": "27d4b00",
+      "repo": "Monica-Pass/Monica",
       "message": "feat(android): complete KeePass file management and localized credential UI",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
@@ -1533,8 +1712,19 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/27d4b0028ac01257ee789e75e131e57a850ba67f"
     },
     {
+      "sha": "014480425311967cc5c5c86ff7d91818074a87ab",
+      "shortSha": "0144804",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "fix(android): bound secure startup and preserve existing key material",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-29T22:34:55Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/014480425311967cc5c5c86ff7d91818074a87ab"
+    },
+    {
       "sha": "09b7140fb65f3c6c5168be90c724c1ba04f5d6b5",
       "shortSha": "09b7140",
+      "repo": "Monica-Pass/Monica",
       "message": "fix(android): bound secure startup and preserve existing key material",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
@@ -1542,8 +1732,19 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/09b7140fb65f3c6c5168be90c724c1ba04f5d6b5"
     },
     {
+      "sha": "5d3a9971dff5e66dfff0319597d6e3ea85481acd",
+      "shortSha": "5d3a997",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "feat(android): checkpoint unreleased 1.0.323 before startup hardening",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-29T18:56:09Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5d3a9971dff5e66dfff0319597d6e3ea85481acd"
+    },
+    {
       "sha": "2ac92c96f822135073c432600e2d84dbf6d1d5ac",
       "shortSha": "2ac92c9",
+      "repo": "Monica-Pass/Monica",
       "message": "feat(android): checkpoint unreleased 1.0.323 before startup hardening",
       "authorName": "JoyinJoester",
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
@@ -1551,13 +1752,674 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/2ac92c96f822135073c432600e2d84dbf6d1d5ac"
     },
     {
+      "sha": "016a96756170d9c93b251c8030a16182afbddb9a",
+      "shortSha": "016a967",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-10-29T08:36:51Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/016a96756170d9c93b251c8030a16182afbddb9a"
+    },
+    {
       "sha": "fbeac33a93f2ae8f81de6564bc53a02c5ed6ea2a",
       "shortSha": "fbeac33",
+      "repo": "Monica-Pass/Monica",
       "message": "docs: update Afdian sponsor list",
       "authorName": "github-actions[bot]",
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-10-29T08:36:49Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/fbeac33a93f2ae8f81de6564bc53a02c5ed6ea2a"
+    },
+    {
+      "sha": "4139e94236c4ee5c086640fb0179adb0432cec4f",
+      "shortSha": "4139e94",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "release(android): prepare F-Droid 1.0.322 with note repair and wallet stacks",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-26T16:49:26Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/4139e94236c4ee5c086640fb0179adb0432cec4f"
+    },
+    {
+      "sha": "abff3efeba95d4c1ebe4516493adc43eca2e01c1",
+      "shortSha": "abff3ef",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "feat(android): collapse and reorder wallet stacks in multiselect",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-26T16:26:54Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/abff3efeba95d4c1ebe4516493adc43eca2e01c1"
+    },
+    {
+      "sha": "bae21947563550e3889998a0f7d480b0428bdb7f",
+      "shortSha": "bae2194",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "chore(android): start unreleased F-Droid 1.0.322",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-26T15:46:02Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/bae21947563550e3889998a0f7d480b0428bdb7f"
+    },
+    {
+      "sha": "598e3831dab16177a27d0b811b0d323310bbfe5a",
+      "shortSha": "598e383",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-10-26T07:52:37Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/598e3831dab16177a27d0b811b0d323310bbfe5a"
+    },
+    {
+      "sha": "e9dcf62403fbcf255d57b45bc2a03514ddbc9966",
+      "shortSha": "e9dcf62",
+      "repo": "Monica-Pass/Monica-cli",
+      "message": "feat: support fixed-ID Firefox native messaging",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-21T12:51:06Z",
+      "url": "https://github.com/Monica-Pass/Monica-cli/commit/e9dcf62403fbcf255d57b45bc2a03514ddbc9966"
+    },
+    {
+      "sha": "515278a77d8aef7427d94866a90d42882c535a76",
+      "shortSha": "515278a",
+      "repo": "Monica-Pass/Monica-cli",
+      "message": "fix(ci): install verified official actionlint binary",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-21T12:26:34Z",
+      "url": "https://github.com/Monica-Pass/Monica-cli/commit/515278a77d8aef7427d94866a90d42882c535a76"
+    },
+    {
+      "sha": "4083d7fe7d752bc7d1c5c7cfc6ce232f94308edb",
+      "shortSha": "4083d7f",
+      "repo": "Monica-Pass/Monica-cli",
+      "message": "feat: add browser management bridge and continuous verification",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-21T12:24:11Z",
+      "url": "https://github.com/Monica-Pass/Monica-cli/commit/4083d7fe7d752bc7d1c5c7cfc6ce232f94308edb"
+    },
+    {
+      "sha": "950e7cdfd510867837872eb7829faa399277a0d3",
+      "shortSha": "950e7cd",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-10-21T07:45:38Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/950e7cdfd510867837872eb7829faa399277a0d3"
+    },
+    {
+      "sha": "b2460724245d5aeb450c4ecc64cdbabc73b2af7a",
+      "shortSha": "b246072",
+      "repo": "Monica-Pass/Monica-by-Avalonia",
+      "message": "Bump Microsoft.Extensions.Http from 10.0.8 to 10.0.13 (#67)",
+      "authorName": "dependabot[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "date": "2026-10-20T07:10:11Z",
+      "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/b2460724245d5aeb450c4ecc64cdbabc73b2af7a"
+    },
+    {
+      "sha": "e2ad6c62f62e84143467214b61de12700b160e5d",
+      "shortSha": "e2ad6c6",
+      "repo": "Monica-Pass/Monica-by-Avalonia",
+      "message": "Bump Microsoft.Identity.Client and Microsoft.Identity.Client.Extensions.Msal (#69)",
+      "authorName": "dependabot[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "date": "2026-10-20T06:41:14Z",
+      "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/e2ad6c62f62e84143467214b61de12700b160e5d"
+    },
+    {
+      "sha": "6dbaa455cc1d0592dbcccad7c7bc8e4b39d58e90",
+      "shortSha": "6dbaa45",
+      "repo": "Monica-Pass/Monica-by-Avalonia",
+      "message": "Bump Avalonia and FluentIcons.Avalonia (#59)",
+      "authorName": "dependabot[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "date": "2026-10-20T06:40:35Z",
+      "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/6dbaa455cc1d0592dbcccad7c7bc8e4b39d58e90"
+    },
+    {
+      "sha": "fe4855c721110cfe80678b17f57940796fa8444d",
+      "shortSha": "fe4855c",
+      "repo": "Monica-Pass/Monica-by-Avalonia",
+      "message": "perf(ci): cut redundant checkout, restore and Linux setup work (#73)",
+      "authorName": "wwiinnddyy",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/170236045?v=4",
+      "date": "2026-10-20T04:57:38Z",
+      "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/fe4855c721110cfe80678b17f57940796fa8444d"
+    },
+    {
+      "sha": "2cc44947d92d8e69b58387b0df49f6cca7b09606",
+      "shortSha": "2cc4494",
+      "repo": "Monica-Pass/Monica-by-Avalonia",
+      "message": "release: bump version to 0.3.1 (#72)",
+      "authorName": "wwiinnddyy",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/170236045?v=4",
+      "date": "2026-10-20T04:57:18Z",
+      "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/2cc44947d92d8e69b58387b0df49f6cca7b09606"
+    },
+    {
+      "sha": "3a30d5ee1db8be9272459912dc56084aa007f76d",
+      "shortSha": "3a30d5e",
+      "repo": "Monica-Pass/Monica-by-Avalonia",
+      "message": "Bump coverlet.collector from 6.0.4 to 10.1.0 (#52)",
+      "authorName": "dependabot[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "date": "2026-10-20T04:56:39Z",
+      "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/3a30d5ee1db8be9272459912dc56084aa007f76d"
+    },
+    {
+      "sha": "23b9b8e32500c72ae75dbefe27f3a5ac8d07ef73",
+      "shortSha": "23b9b8e",
+      "repo": "Monica-Pass/Monica-by-Avalonia",
+      "message": "Bump Microsoft.Graph from 6.1.0 to 6.8.0 (#63)",
+      "authorName": "dependabot[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "date": "2026-10-20T04:08:06Z",
+      "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/23b9b8e32500c72ae75dbefe27f3a5ac8d07ef73"
+    },
+    {
+      "sha": "0848cf9cbe8edfe03436c8a3c7e74e64fb523a4a",
+      "shortSha": "0848cf9",
+      "repo": "Monica-Pass/Monica-by-Avalonia",
+      "message": "Bump Microsoft.Data.Sqlite from 10.0.8 to 10.0.13 (#66)",
+      "authorName": "dependabot[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "date": "2026-10-20T03:52:42Z",
+      "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/0848cf9cbe8edfe03436c8a3c7e74e64fb523a4a"
+    },
+    {
+      "sha": "1669ee30aeb73cbf3b65d65946e9103e302c84e6",
+      "shortSha": "1669ee3",
+      "repo": "Monica-Pass/Monica-by-Avalonia",
+      "message": "Bump xunit.runner.visualstudio from 3.1.4 to 4.0.1 (#64)",
+      "authorName": "dependabot[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "date": "2026-10-20T03:52:30Z",
+      "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/1669ee30aeb73cbf3b65d65946e9103e302c84e6"
+    },
+    {
+      "sha": "ea4387ab7962a2ec3ceabec8d6c011e2567f498d",
+      "shortSha": "ea4387a",
+      "repo": "Monica-Pass/Monica-by-Avalonia",
+      "message": "feat(import): decrypt Android encrypted Monica backups (#71)",
+      "authorName": "wwiinnddyy",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/170236045?v=4",
+      "date": "2026-10-20T03:38:47Z",
+      "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/ea4387ab7962a2ec3ceabec8d6c011e2567f498d"
+    },
+    {
+      "sha": "86c63936ca58666dc65f1e3d9bce772be31c7112",
+      "shortSha": "86c6393",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-10-13T09:30:58Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/86c63936ca58666dc65f1e3d9bce772be31c7112"
+    },
+    {
+      "sha": "8e06d80ca913b04d91a7d97d6b0a2ac8eff204b0",
+      "shortSha": "8e06d80",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-10-12T09:21:08Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/8e06d80ca913b04d91a7d97d6b0a2ac8eff204b0"
+    },
+    {
+      "sha": "9893b61bc7d58eabcb63be060131a8dc9a872fdf",
+      "shortSha": "9893b61",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-10-09T09:12:23Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/9893b61bc7d58eabcb63be060131a8dc9a872fdf"
+    },
+    {
+      "sha": "b388636f95ac5b0a0d930be2eeba2481d503ddf7",
+      "shortSha": "b388636",
+      "repo": "Monica-Pass/Monica-cli",
+      "message": "Merge CLI 1.0.101 features with Glitter opt-out and combined credentials",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-06T09:39:00Z",
+      "url": "https://github.com/Monica-Pass/Monica-cli/commit/b388636f95ac5b0a0d930be2eeba2481d503ddf7"
+    },
+    {
+      "sha": "f004673ef07a04c31702eaf1015e062f29730537",
+      "shortSha": "f004673",
+      "repo": "Monica-Pass/Mdbx",
+      "message": "Merge upstream Build ID fix with native Glitter and credential hardening",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-06T09:18:24Z",
+      "url": "https://github.com/Monica-Pass/Mdbx/commit/f004673ef07a04c31702eaf1015e062f29730537"
+    },
+    {
+      "sha": "546f6f2ebcf2b7f81c95ae941a6f6bbc2ce24a7b",
+      "shortSha": "546f6f2",
+      "repo": "Monica-Pass/Mdbx",
+      "message": "feat: preserve native Glitter support and harden portable credentials",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-06T09:04:20Z",
+      "url": "https://github.com/Monica-Pass/Mdbx/commit/546f6f2ebcf2b7f81c95ae941a6f6bbc2ce24a7b"
+    },
+    {
+      "sha": "b0b7f6d03248db9e9104e095edff0e42aa31e328",
+      "shortSha": "b0b7f6d",
+      "repo": "Monica-Pass/Monica-cli",
+      "message": "feat(cli): defer Glitter integration and preserve native credential compatibility",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-10-06T09:04:20Z",
+      "url": "https://github.com/Monica-Pass/Monica-cli/commit/b0b7f6d03248db9e9104e095edff0e42aa31e328"
+    },
+    {
+      "sha": "e0ef1b382024273fde4e15a51e7288af09c49a57",
+      "shortSha": "e0ef1b3",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "Merge branch 'main' of https://github.com/Monica-Pass/MonicaDocs",
+      "authorName": "Mrmiaomrzh",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
+      "date": "2026-10-04T14:19:30Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/e0ef1b382024273fde4e15a51e7288af09c49a57"
+    },
+    {
+      "sha": "8e6bdb43f80bc81332d786279fa7baf28b8b1eb5",
+      "shortSha": "8e6bdb4",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "fix: Fixed some display issues on mobile devices.",
+      "authorName": "Mrmiaomrzh",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
+      "date": "2026-10-04T14:16:03Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/8e6bdb43f80bc81332d786279fa7baf28b8b1eb5"
+    },
+    {
+      "sha": "5e9ee7a2007c5173088381136c76711596b33cbd",
+      "shortSha": "5e9ee7a",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-10-01T09:02:23Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/5e9ee7a2007c5173088381136c76711596b33cbd"
+    },
+    {
+      "sha": "a26b0c108a1434a379107f04ead1facb42720d12",
+      "shortSha": "a26b0c1",
+      "repo": "Monica-Pass/Monica-cli",
+      "message": "fix: include complete tracked offline documentation in release packages",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-29T08:18:48Z",
+      "url": "https://github.com/Monica-Pass/Monica-cli/commit/a26b0c108a1434a379107f04ead1facb42720d12"
+    },
+    {
+      "sha": "982049b9fb3fed82b53384e4c92f5bae6acc9ca4",
+      "shortSha": "982049b",
+      "repo": "Monica-Pass/Monica-cli",
+      "message": "fix: package historical license timestamps on Windows",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-29T08:11:46Z",
+      "url": "https://github.com/Monica-Pass/Monica-cli/commit/982049b9fb3fed82b53384e4c92f5bae6acc9ca4"
+    },
+    {
+      "sha": "7a2330da2340864b68eaf017f28fe65fb64035ad",
+      "shortSha": "7a2330d",
+      "repo": "Monica-Pass/Monica-cli",
+      "message": "fix: reserve Windows CLI stack and resolve documentation binary paths",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-29T07:46:57Z",
+      "url": "https://github.com/Monica-Pass/Monica-cli/commit/7a2330da2340864b68eaf017f28fe65fb64035ad"
+    },
+    {
+      "sha": "5779c0e868335fa5d4ec5b33a0fa0288e4b97cff",
+      "shortSha": "5779c0e",
+      "repo": "Monica-Pass/Monica-cli",
+      "message": "release: prepare Monica CLI 1.0.101 for Linux and Windows",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-29T07:15:09Z",
+      "url": "https://github.com/Monica-Pass/Monica-cli/commit/5779c0e868335fa5d4ec5b33a0fa0288e4b97cff"
+    },
+    {
+      "sha": "0e840edd912dee94e8ac6f42f451f0c8e376a65c",
+      "shortSha": "0e840ed",
+      "repo": "Monica-Pass/Monica-cli",
+      "message": "feat: configure Codex and Claude Code with direct API credentials",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-29T06:32:44Z",
+      "url": "https://github.com/Monica-Pass/Monica-cli/commit/0e840edd912dee94e8ac6f42f451f0c8e376a65c"
+    },
+    {
+      "sha": "d1d3cc4fdff4e33fcb70099b3e7df36eeae43ba4",
+      "shortSha": "d1d3cc4",
+      "repo": "Monica-Pass/Mdbx",
+      "message": "Merge pull request #5 from Monica-Pass/codex/mdbx3-build-id",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-03T23:06:59Z",
+      "url": "https://github.com/Monica-Pass/Mdbx/commit/d1d3cc4fdff4e33fcb70099b3e7df36eeae43ba4"
+    },
+    {
+      "sha": "90005c8c608c952093a4522ffa507a562e2e39a4",
+      "shortSha": "90005c8",
+      "repo": "Monica-Pass/Mdbx",
+      "message": "build: preserve MDBX3 GNU build IDs when stripping Android libraries",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-09-03T22:49:38Z",
+      "url": "https://github.com/Monica-Pass/Mdbx/commit/90005c8c608c952093a4522ffa507a562e2e39a4"
+    },
+    {
+      "sha": "5cf8af697727095654884e0a76bec6ca12d0ce6b",
+      "shortSha": "5cf8af6",
+      "repo": "Monica-Pass/Mdbx",
+      "message": "build: enforce MDBX2 capability parity",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-31T16:01:09Z",
+      "url": "https://github.com/Monica-Pass/Mdbx/commit/5cf8af697727095654884e0a76bec6ca12d0ce6b"
+    },
+    {
+      "sha": "2c1d5fc6925d9149ed0d0847514a9cb2133ae140",
+      "shortSha": "2c1d5fc",
+      "repo": "Monica-Pass/Mdbx",
+      "message": "docs: mark MDBX3 implementation complete",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-31T15:51:35Z",
+      "url": "https://github.com/Monica-Pass/Mdbx/commit/2c1d5fc6925d9149ed0d0847514a9cb2133ae140"
+    },
+    {
+      "sha": "25652cdbbf2b86f09e96ecf1eada4071562ac02d",
+      "shortSha": "25652cd",
+      "repo": "Monica-Pass/Mdbx",
+      "message": "test: make MDBX3 Android smoke release-selectable",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-31T15:46:31Z",
+      "url": "https://github.com/Monica-Pass/Mdbx/commit/25652cdbbf2b86f09e96ecf1eada4071562ac02d"
+    },
+    {
+      "sha": "88058b9fab85d0d11b13a6c5a16e9b69b933a61d",
+      "shortSha": "88058b9",
+      "repo": "Monica-Pass/Mdbx",
+      "message": "docs: align MDBX3 artifact provenance",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-31T15:41:56Z",
+      "url": "https://github.com/Monica-Pass/Mdbx/commit/88058b9fab85d0d11b13a6c5a16e9b69b933a61d"
+    },
+    {
+      "sha": "1457390ed1e212e50244ab9eef2a9c24b35de0c0",
+      "shortSha": "1457390",
+      "repo": "Monica-Pass/Mdbx",
+      "message": "docs: close MDBX3 long operations task",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-31T15:31:48Z",
+      "url": "https://github.com/Monica-Pass/Mdbx/commit/1457390ed1e212e50244ab9eef2a9c24b35de0c0"
+    },
+    {
+      "sha": "73e0c899d023d450aa5f68e4915fc16b930fbab0",
+      "shortSha": "73e0c89",
+      "repo": "Monica-Pass/Mdbx",
+      "message": "chore: ignore Android smoke build outputs",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-31T15:25:34Z",
+      "url": "https://github.com/Monica-Pass/Mdbx/commit/73e0c899d023d450aa5f68e4915fc16b930fbab0"
+    },
+    {
+      "sha": "f7575ef7bab57a71e80d4fb8259f0e5494c8fb1a",
+      "shortSha": "f7575ef",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "feat(android): prepare 1.0.302",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-11T17:04:02Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/f7575ef7bab57a71e80d4fb8259f0e5494c8fb1a"
+    },
+    {
+      "sha": "c96bf95ba9d38e72b398c81ef4c37bdc235d9bd0",
+      "shortSha": "c96bf95",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "fix(android): recover Steam tokens from Bitwarden",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-11T09:45:01Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/c96bf95ba9d38e72b398c81ef4c37bdc235d9bd0"
+    },
+    {
+      "sha": "afaf23d01f5c2a7ca6734de7d2e6771ba4cce48f",
+      "shortSha": "afaf23d",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "fix(android): harden external vault imports",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-10T03:25:18Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/afaf23d01f5c2a7ca6734de7d2e6771ba4cce48f"
+    },
+    {
+      "sha": "f06913866794679cbb795fb7cfe9e77fa5a49f47",
+      "shortSha": "f069138",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "fix(android): harden vault interactions for 1.0.301",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-09T17:58:58Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/f06913866794679cbb795fb7cfe9e77fa5a49f47"
+    },
+    {
+      "sha": "f0953a8b5cd9a57fada9df9874f63c48dbf0b615",
+      "shortSha": "f0953a8",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "feat(steam): support KeePass and Bitwarden storage",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-09T17:03:36Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/f0953a8b5cd9a57fada9df9874f63c48dbf0b615"
+    },
+    {
+      "sha": "aa1b0de3543e5ac0695c60323628ad2f7102c7c8",
+      "shortSha": "aa1b0de",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "Merge pull request #90 from wzcv/main",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-09T16:49:40Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/aa1b0de3543e5ac0695c60323628ad2f7102c7c8"
+    },
+    {
+      "sha": "5595324d783b3546e6608173523e4507e4a30d2a",
+      "shortSha": "5595324",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "fix(bitwarden): scope auto sync to selected vault",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-09T16:48:43Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/5595324d783b3546e6608173523e4507e4a30d2a"
+    },
+    {
+      "sha": "047e1efdda93aeead2505b434b6ce23276153d9e",
+      "shortSha": "047e1ef",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "feat(bitwarden): 完善Bitwarden自动同步逻辑，缓解多账号同步卡顿",
+      "authorName": "wzcv",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/16702445?v=4",
+      "date": "2026-08-09T12:00:28Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/047e1efdda93aeead2505b434b6ce23276153d9e"
+    },
+    {
+      "sha": "150618b8231dd9e9e9ab342b90ed66b106e672c0",
+      "shortSha": "150618b",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "Run contributor flag update on stable releases",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-08T13:48:45Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/150618b8231dd9e9e9ab342b90ed66b106e672c0"
+    },
+    {
+      "sha": "f5a4cc9ea97697255893e0f188711443c167d3de",
+      "shortSha": "f5a4cc9",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "Release Monica Android 1.0.300",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-08-08T13:39:10Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/f5a4cc9ea97697255893e0f188711443c167d3de"
+    },
+    {
+      "sha": "db44d3fbb806152b2f5b6db7559c5076b5144abc",
+      "shortSha": "db44d3f",
+      "repo": "Monica-Pass/Monica-Cloud",
+      "message": "fix.图标不居中的问题",
+      "authorName": "wwiinnddyy",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/170236045?v=4",
+      "date": "2026-08-05T09:51:35Z",
+      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/db44d3fbb806152b2f5b6db7559c5076b5144abc"
+    },
+    {
+      "sha": "85b7e48b92eadb3531418df09387f9472f8f4794",
+      "shortSha": "85b7e48",
+      "repo": "Monica-Pass/Monica-Cloud",
+      "message": "Update README.md",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-07-24T12:32:19Z",
+      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/85b7e48b92eadb3531418df09387f9472f8f4794"
+    },
+    {
+      "sha": "78974ee8b793954302e79fc7d557499c252cc487",
+      "shortSha": "78974ee",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #9 from Monica-Pass/codex/remove-remaining-dev-copy",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-06-24T01:47:19Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/78974ee8b793954302e79fc7d557499c252cc487"
+    },
+    {
+      "sha": "097a0cc225a432367512e4c256e99acdd613a9f5",
+      "shortSha": "097a0cc",
+      "repo": "Monica-Pass/Monica-Cloud",
+      "message": "Add Monica Server WebUI scaffold",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-06-06T13:54:38Z",
+      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/097a0cc225a432367512e4c256e99acdd613a9f5"
+    },
+    {
+      "sha": "f33624a7e57e7cdb40feea24e8183ecafdf40ed6",
+      "shortSha": "f33624a",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "chore: remove remaining development copy",
+      "authorName": "zzstar101",
+      "authorAvatar": "",
+      "date": "2026-06-06T05:09:03Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f33624a7e57e7cdb40feea24e8183ecafdf40ed6"
+    },
+    {
+      "sha": "2e57a3cfb5cf37bdb0547d6c20f67681fa58610c",
+      "shortSha": "2e57a3c",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #8 from Monica-Pass/codex/ios-full-android-parity",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-06-06T04:42:01Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/2e57a3cfb5cf37bdb0547d6c20f67681fa58610c"
+    },
+    {
+      "sha": "4fa7c4903832ac82e58c9e0d5896fc4233d6494a",
+      "shortSha": "4fa7c49",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "chore: remove development UI for release",
+      "authorName": "zzstar101",
+      "authorAvatar": "",
+      "date": "2026-06-05T20:11:12Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/4fa7c4903832ac82e58c9e0d5896fc4233d6494a"
+    },
+    {
+      "sha": "bfd05e70e0bc8157aff5fde95db228676110a15b",
+      "shortSha": "bfd05e7",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #7 from Monica-Pass/codex/ios-full-android-parity",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-06-05T19:29:09Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/bfd05e70e0bc8157aff5fde95db228676110a15b"
+    },
+    {
+      "sha": "6507321b9727e51b50c00e3a62972e6482928d28",
+      "shortSha": "6507321",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "feat: complete iOS Android parity gaps",
+      "authorName": "zzstar101",
+      "authorAvatar": "",
+      "date": "2026-06-05T12:22:36Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/6507321b9727e51b50c00e3a62972e6482928d28"
+    },
+    {
+      "sha": "91d37743a43ad60f3b49e8b5fb204dfdbc780c26",
+      "shortSha": "91d3774",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #6 from Monica-Pass/codex/ios-full-android-parity",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-06-05T07:23:10Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/91d37743a43ad60f3b49e8b5fb204dfdbc780c26"
+    },
+    {
+      "sha": "59773adc6b24f6041ec9f183c4594cbd0ffc9c8d",
+      "shortSha": "59773ad",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Align iOS Android parity surface",
+      "authorName": "zzstar101",
+      "authorAvatar": "",
+      "date": "2026-06-05T06:43:45Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/59773adc6b24f6041ec9f183c4594cbd0ffc9c8d"
+    },
+    {
+      "sha": "f5ad1edc3e3228a7b8a8272c877ec5e0764ab1c5",
+      "shortSha": "f5ad1ed",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #2 from Monica-Pass/codex/next-android-parity",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-06-05T02:54:47Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f5ad1edc3e3228a7b8a8272c877ec5e0764ab1c5"
+    },
+    {
+      "sha": "93bf0a9dc23b1004a7b9dd33a9e470716af2c880",
+      "shortSha": "93bf0a9",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #3 from Monica-Pass/codex/android-backup-restore-state",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-06-05T02:54:28Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/93bf0a9dc23b1004a7b9dd33a9e470716af2c880"
+    },
+    {
+      "sha": "f6924dd5dbe15ddb42f937d03963866134f10e49",
+      "shortSha": "f6924dd",
+      "repo": "Monica-Pass/Monica-Cloud",
+      "message": "Initial commit",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-06-04T13:56:59Z",
+      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/f6924dd5dbe15ddb42f937d03963866134f10e49"
     }
   ]
 }

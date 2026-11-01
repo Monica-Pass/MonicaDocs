@@ -26,7 +26,7 @@ export default defineConfig({
     image: { lazyLoading: true },
   },
   themeConfig: {
-    logo: "/themepng.png",
+    logo: "/monica-logo.png",
     socialLinks: [{ icon: "github", link: "https://github.com/Monica-Pass/Monica" }],
     search: { provider: "local" },
   },
