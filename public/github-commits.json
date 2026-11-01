@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-01T13:00:53.720Z",
+  "generatedAt": "2026-11-01T13:20:03.288Z",
   "range": {
     "from": "2025-11-02",
     "to": "2026-11-01"
@@ -1477,10 +1477,60 @@
     },
     {
       "date": "2026-11-01",
-      "count": 10
+      "count": 15
     }
   ],
   "latest": [
+    {
+      "sha": "ccb12ba47edb2c10d304c66951e5bb1797742fca",
+      "shortSha": "ccb12ba",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "ci: add MonicaDocs notification workflow",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-01T13:19:41Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/ccb12ba47edb2c10d304c66951e5bb1797742fca"
+    },
+    {
+      "sha": "ab8de17b3f57aef0ff3967af60510d0a91e65b25",
+      "shortSha": "ab8de17",
+      "repo": "Monica-Pass/Monica-by-Avalonia",
+      "message": "ci: add MonicaDocs notification workflow",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-01T13:19:38Z",
+      "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/ab8de17b3f57aef0ff3967af60510d0a91e65b25"
+    },
+    {
+      "sha": "44df6a5492746bf4b5437af3157a78e5f305ee34",
+      "shortSha": "44df6a5",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "ci: add MonicaDocs notification workflow",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-01T13:19:32Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/44df6a5492746bf4b5437af3157a78e5f305ee34"
+    },
+    {
+      "sha": "752b2bbef736220a558ed03536fffebec55c5d8f",
+      "shortSha": "752b2bb",
+      "repo": "Monica-Pass/Monica",
+      "message": "ci: add MonicaDocs notification workflow",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-01T13:19:29Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/752b2bbef736220a558ed03536fffebec55c5d8f"
+    },
+    {
+      "sha": "6fbd92b3fcbb27ce818ef51cc2495fbaedb9201d",
+      "shortSha": "6fbd92b",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "feat: sync commits and releases across Monica projects",
+      "authorName": "Mrmiaomrzh",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
+      "date": "2026-11-01T12:57:37Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/6fbd92b3fcbb27ce818ef51cc2495fbaedb9201d"
+    },
     {
       "sha": "f027c0fc96a524df66f14786f6c59bbbc3870620",
       "shortSha": "f027c0f",
@@ -1632,16 +1682,6 @@
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/e21ed3b0f39617f5f3e29f7ab2d3a6bd12118631"
     },
     {
-      "sha": "3128603410dcb85ab28b421d127be22614bd51ad",
-      "shortSha": "3128603",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "docs: record verified 1.0.103 release [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-31T14:30:00Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/3128603410dcb85ab28b421d127be22614bd51ad"
-    },
-    {
       "sha": "9e50c0d204b2b7b5f509fa835bf357c209ae788f",
       "shortSha": "9e50c0d",
       "repo": "Monica-Pass/Monica",
@@ -1760,16 +1800,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-10-29T08:36:51Z",
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/016a96756170d9c93b251c8030a16182afbddb9a"
-    },
-    {
-      "sha": "fbeac33a93f2ae8f81de6564bc53a02c5ed6ea2a",
-      "shortSha": "fbeac33",
-      "repo": "Monica-Pass/Monica",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-10-29T08:36:49Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/fbeac33a93f2ae8f81de6564bc53a02c5ed6ea2a"
     },
     {
       "sha": "4139e94236c4ee5c086640fb0179adb0432cec4f",
@@ -1942,16 +1972,6 @@
       "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/1669ee30aeb73cbf3b65d65946e9103e302c84e6"
     },
     {
-      "sha": "ea4387ab7962a2ec3ceabec8d6c011e2567f498d",
-      "shortSha": "ea4387a",
-      "repo": "Monica-Pass/Monica-by-Avalonia",
-      "message": "feat(import): decrypt Android encrypted Monica backups (#71)",
-      "authorName": "wwiinnddyy",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/170236045?v=4",
-      "date": "2026-10-20T03:38:47Z",
-      "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/ea4387ab7962a2ec3ceabec8d6c011e2567f498d"
-    },
-    {
       "sha": "86c63936ca58666dc65f1e3d9bce772be31c7112",
       "shortSha": "86c6393",
       "repo": "Monica-Pass/MonicaDocs",
@@ -2040,16 +2060,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
       "date": "2026-10-04T14:16:03Z",
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/8e6bdb43f80bc81332d786279fa7baf28b8b1eb5"
-    },
-    {
-      "sha": "5e9ee7a2007c5173088381136c76711596b33cbd",
-      "shortSha": "5e9ee7a",
-      "repo": "Monica-Pass/MonicaDocs",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-10-01T09:02:23Z",
-      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/5e9ee7a2007c5173088381136c76711596b33cbd"
     },
     {
       "sha": "a26b0c108a1434a379107f04ead1facb42720d12",
@@ -2400,16 +2410,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-06-05T02:54:47Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f5ad1edc3e3228a7b8a8272c877ec5e0764ab1c5"
-    },
-    {
-      "sha": "93bf0a9dc23b1004a7b9dd33a9e470716af2c880",
-      "shortSha": "93bf0a9",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #3 from Monica-Pass/codex/android-backup-restore-state",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-06-05T02:54:28Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/93bf0a9dc23b1004a7b9dd33a9e470716af2c880"
     },
     {
       "sha": "f6924dd5dbe15ddb42f937d03963866134f10e49",
