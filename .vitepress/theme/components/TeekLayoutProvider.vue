@@ -8,9 +8,11 @@ import ContributeChart from "./ContributeChart.vue";
 import GitHubCommitsPanel from "./GitHubCommitsPanel.vue";
 import NotFound from "./404.vue";
 import MonicaHome from "./MonicaHome.vue";
+import { setupAppearanceTransition } from "../appearanceTransition";
 
 const storageKey = "monica-docs-custom-theme-color";
 const radiusStorageKey = "monica-docs-cta-radius-v2";
+const genshinEggStorageKey = "monica-docs-genshin-egg";
 const defaultColor = "#3451b2";
 const defaultRadius = 25;
 const customThemeName = "monica-custom";
@@ -33,6 +35,25 @@ const customThemeCopy = computed(() => {
 
   return labels[lang.value] ?? labels["en-US"];
 });
+
+const genshinEggEnabled = ref(false);
+
+const genshinEggCopy = computed(() => {
+  const labels: Record<string, { title: string; desc: string; on: string; off: string }> = {
+    "zh-CN": { title: "神秘彩蛋", desc: "开启后，把主题从深色切换到浅色会有一场惊喜之旅。", on: "已开启", off: "未开启" },
+    "en-US": { title: "Mystery easter egg", desc: "When enabled, switching the theme from dark to light starts a surprise journey.", on: "On", off: "Off" },
+    "ja-JP": { title: "謎の隠し機能", desc: "有効にすると、テーマをダークからライトへ切り替えたときにサプライズが発生します。", on: "オン", off: "オフ" },
+    "ru-RU": { title: "Секретная пасхалка", desc: "Когда включено, переключение темы из тёмной в светлую запускает сюрприз.", on: "Вкл.", off: "Выкл." },
+    "vi-VN": { title: "Trứng phục sinh bí mật", desc: "Khi bật, chuyển giao diện từ tối sang sáng sẽ mở ra một điều bất ngờ.", on: "Đã bật", off: "Đã tắt" },
+  };
+
+  return labels[lang.value] ?? labels["en-US"];
+});
+
+const applyGenshinEgg = () => {
+  if (genshinEggEnabled.value) localStorage.setItem(genshinEggStorageKey, "1");
+  else localStorage.removeItem(genshinEggStorageKey);
+};
 
 const normalizeHex = (value: string) => {
   const normalized = value.trim().replace(/^#?([\da-f]{6})$/i, "#$1");
@@ -195,6 +216,9 @@ const teekLocale = computed(() => {
 });
 
 onMounted(() => {
+  setupAppearanceTransition();
+  genshinEggEnabled.value = localStorage.getItem(genshinEggStorageKey) === "1";
+
   const storedColor = localStorage.getItem(storageKey);
   if (storedColor) applyCustomColor(storedColor);
   const storedRadius = localStorage.getItem(radiusStorageKey);
@@ -260,6 +284,17 @@ watch(isDark, () => {
           <input v-model.number="radius" type="range" min="0" max="30" step="1" :aria-label="customThemeCopy.radiusTitle" @input="applyRadius(radius)" />
           <output>{{ radius }}px</output>
         </div>
+      </section>
+      <section class="easter-egg">
+        <div class="easter-egg__heading">
+          <span><i class="ri-magic-line" aria-hidden="true" />{{ genshinEggCopy.title }}</span>
+        </div>
+        <p class="easter-egg__desc">{{ genshinEggCopy.desc }}</p>
+        <label class="easter-egg__toggle">
+          <input v-model="genshinEggEnabled" type="checkbox" @change="applyGenshinEgg" />
+          <span class="easter-egg__track" aria-hidden="true" />
+          <span class="easter-egg__state">{{ genshinEggEnabled ? genshinEggCopy.on : genshinEggCopy.off }}</span>
+        </label>
       </section>
     </template>
   </Teek.Layout>
@@ -395,5 +430,89 @@ watch(isDark, () => {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
+}
+
+.easter-egg {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.easter-egg__heading {
+  color: var(--vp-c-text-1);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.easter-egg__heading span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.easter-egg__desc {
+  margin: 6px 0 0;
+  color: var(--vp-c-text-2);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.easter-egg__toggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.easter-egg__toggle input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.easter-egg__track {
+  position: relative;
+  flex-shrink: 0;
+  width: 36px;
+  height: 20px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.easter-egg__track::after {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  content: "";
+  border-radius: 50%;
+  background: var(--vp-c-text-2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.easter-egg__toggle input:checked + .easter-egg__track {
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-1);
+}
+
+.easter-egg__toggle input:checked + .easter-egg__track::after {
+  background: #ffffff;
+  transform: translateX(16px);
+}
+
+.easter-egg__toggle input:focus-visible + .easter-egg__track {
+  outline: 2px solid var(--vp-c-brand-soft);
+  outline-offset: 2px;
+}
+
+.easter-egg__state {
+  color: var(--vp-c-text-2);
+  font-size: 12px;
 }
 </style>

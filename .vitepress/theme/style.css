@@ -98,6 +98,9 @@
   --vp-custom-block-tip-text: var(--vp-c-text-1);
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+  --vp-c-bg: #f7f8fa;
+  --vp-c-bg-alt: #eff1f5;
+  --vp-c-bg-soft: #eff1f5;
 }
 
 /* VitePress sets a 320px body minimum; allow narrower zoomed mobile viewports. */
@@ -123,6 +126,9 @@ html.dark {
   --monica-brand-light-3: #c2c8ff;
   --monica-brand-light-5: #d4d9ff;
   --monica-brand-light-8: #eceeff;
+  --vp-c-bg: #26272c;
+  --vp-c-bg-alt: #1f2024;
+  --vp-c-bg-soft: #2f3036;
 
   /* GitHub contribution activity squares (dark). */
   --vp-c-github-0: #2d333b;
@@ -356,6 +362,28 @@ html.dark {
     width: 100%;
     overflow-x: auto;
   }
+}
+
+body,
+.VPNav,
+.VPSidebar,
+.VPContent,
+.VPNavScreen,
+.VPFooter {
+  transition: background-color 0.4s ease, border-color 0.4s ease, color 0.4s ease;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+html[data-monica-appearance="to-dark"]::view-transition-old(root) {
+  z-index: 9999;
+}
+html[data-monica-appearance="to-light"]::view-transition-old(root),
+html[data-monica-appearance="to-dark"]::view-transition-new(root) {
+  z-index: 1;
 }
 
 @keyframes monica-float {
