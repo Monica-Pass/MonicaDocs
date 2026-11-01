@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-01T13:20:03.288Z",
+  "generatedAt": "2026-11-01T13:21:57.379Z",
   "range": {
     "from": "2025-11-02",
     "to": "2026-11-01"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-01",
-      "count": 15
+      "count": 16
     }
   ],
   "latest": [
+    {
+      "sha": "14581e14942d003d86ef2cad812b2cc9beb8a3c5",
+      "shortSha": "14581e1",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "ci: pin github-script to commit SHA (repo requires SHA pinning)",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-01T13:21:37Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/14581e14942d003d86ef2cad812b2cc9beb8a3c5"
+    },
     {
       "sha": "ccb12ba47edb2c10d304c66951e5bb1797742fca",
       "shortSha": "ccb12ba",
@@ -1670,16 +1680,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-31T16:48:28Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/a8f61e778af8fbb490f3fd59c8d84aa9b6a6351b"
-    },
-    {
-      "sha": "e21ed3b0f39617f5f3e29f7ab2d3a6bd12118631",
-      "shortSha": "e21ed3b",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "docs: clarify Windows packaging note [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-31T14:31:41Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/e21ed3b0f39617f5f3e29f7ab2d3a6bd12118631"
     },
     {
       "sha": "9e50c0d204b2b7b5f509fa835bf357c209ae788f",
