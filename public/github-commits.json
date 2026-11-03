@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-02T14:04:15.445Z",
+  "generatedAt": "2026-11-03T13:10:58.998Z",
   "range": {
-    "from": "2025-11-03",
-    "to": "2026-11-02"
+    "from": "2025-11-04",
+    "to": "2026-11-03"
   },
   "activity": [
-    {
-      "date": "2025-11-03",
-      "count": 0
-    },
     {
       "date": "2025-11-04",
       "count": 0
@@ -1478,9 +1474,53 @@
     {
       "date": "2026-11-02",
       "count": 0
+    },
+    {
+      "date": "2026-11-03",
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "c5f5c3c2b40248ff457b09434f7b5ecb1a9a2131",
+      "shortSha": "c5f5c3c",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Release F-Droid 1.0.324 with verified permission management",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-03T03:42:57Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c5f5c3c2b40248ff457b09434f7b5ecb1a9a2131"
+    },
+    {
+      "sha": "2b5b900fd6deb8e37db1ed0e1bb88c0a974dd02e",
+      "shortSha": "2b5b900",
+      "repo": "Monica-Pass/Monica",
+      "message": "Release Android 1.0.324 with verified permission management [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-03T03:42:53Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/2b5b900fd6deb8e37db1ed0e1bb88c0a974dd02e"
+    },
+    {
+      "sha": "9632ecc11a4e533dbf353e7cadbfaaa7cb10bb9c",
+      "shortSha": "9632ecc",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "fix(android): support LAN IP autofill in 1.0.324",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-03T03:11:56Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/9632ecc11a4e533dbf353e7cadbfaaa7cb10bb9c"
+    },
+    {
+      "sha": "5f65b1887540be8e58f0b5334a77d2913df2afa4",
+      "shortSha": "5f65b18",
+      "repo": "Monica-Pass/Monica",
+      "message": "fix(android): support LAN IP autofill in 1.0.324 [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-03T03:10:50Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/5f65b1887540be8e58f0b5334a77d2913df2afa4"
+    },
     {
       "sha": "b3687621b5d8a3b70ba46464076b81b91a49cde6",
       "shortSha": "b368762",
@@ -1762,16 +1802,6 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/969cad6538900f040108b74c4b9f3a41efad7673"
     },
     {
-      "sha": "d70d818fd5287ed0996a12bd8258596b4d6c1345",
-      "shortSha": "d70d818",
-      "repo": "Monica-Pass/Monica",
-      "message": "Merge remote-tracking branch 'origin/main'",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-30T17:40:09Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/d70d818fd5287ed0996a12bd8258596b4d6c1345"
-    },
-    {
       "sha": "34380b58f17860ccd05928a765f1921096d0c619",
       "shortSha": "34380b5",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1780,16 +1810,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-30T17:39:48Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/34380b58f17860ccd05928a765f1921096d0c619"
-    },
-    {
-      "sha": "27d4b0028ac01257ee789e75e131e57a850ba67f",
-      "shortSha": "27d4b00",
-      "repo": "Monica-Pass/Monica",
-      "message": "feat(android): complete KeePass file management and localized credential UI",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-30T17:39:46Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/27d4b0028ac01257ee789e75e131e57a850ba67f"
     },
     {
       "sha": "014480425311967cc5c5c86ff7d91818074a87ab",
@@ -1820,26 +1840,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-10-29T08:36:51Z",
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/016a96756170d9c93b251c8030a16182afbddb9a"
-    },
-    {
-      "sha": "4139e94236c4ee5c086640fb0179adb0432cec4f",
-      "shortSha": "4139e94",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "release(android): prepare F-Droid 1.0.322 with note repair and wallet stacks",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-26T16:49:26Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/4139e94236c4ee5c086640fb0179adb0432cec4f"
-    },
-    {
-      "sha": "abff3efeba95d4c1ebe4516493adc43eca2e01c1",
-      "shortSha": "abff3ef",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "feat(android): collapse and reorder wallet stacks in multiselect",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-26T16:26:54Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/abff3efeba95d4c1ebe4516493adc43eca2e01c1"
     },
     {
       "sha": "598e3831dab16177a27d0b811b0d323310bbfe5a",
@@ -2337,7 +2337,7 @@
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "chore: remove remaining development copy",
       "authorName": "zzstar101",
-      "authorAvatar": "",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-06-06T05:09:03Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f33624a7e57e7cdb40feea24e8183ecafdf40ed6"
     },
@@ -2357,7 +2357,7 @@
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "chore: remove development UI for release",
       "authorName": "zzstar101",
-      "authorAvatar": "",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-06-05T20:11:12Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/4fa7c4903832ac82e58c9e0d5896fc4233d6494a"
     },
@@ -2377,7 +2377,7 @@
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "feat: complete iOS Android parity gaps",
       "authorName": "zzstar101",
-      "authorAvatar": "",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-06-05T12:22:36Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/6507321b9727e51b50c00e3a62972e6482928d28"
     },
@@ -2397,7 +2397,7 @@
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "Align iOS Android parity surface",
       "authorName": "zzstar101",
-      "authorAvatar": "",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-06-05T06:43:45Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/59773adc6b24f6041ec9f183c4594cbd0ffc9c8d"
     },
