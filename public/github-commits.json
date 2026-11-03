@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-03T13:10:58.998Z",
+  "generatedAt": "2026-11-03T18:26:29.660Z",
   "range": {
     "from": "2025-11-04",
     "to": "2026-11-03"
@@ -1469,7 +1469,7 @@
     },
     {
       "date": "2026-11-01",
-      "count": 20
+      "count": 21
     },
     {
       "date": "2026-11-02",
@@ -1477,10 +1477,70 @@
     },
     {
       "date": "2026-11-03",
-      "count": 4
+      "count": 10
     }
   ],
   "latest": [
+    {
+      "sha": "9c7810661be6240eb6328d8954ef0b6a5e583828",
+      "shortSha": "9c78106",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "Merge pull request #27: introduce ESLint 10 hard gate with source-level security guardrails",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-03T18:25:50Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/9c7810661be6240eb6328d8954ef0b6a5e583828"
+    },
+    {
+      "sha": "ec7ac3ceb37cc76fb531fda00caaf8c827a74338",
+      "shortSha": "ec7ac3c",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "chore: refresh build identity after the lint fixes",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-03T17:39:01Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/ec7ac3ceb37cc76fb531fda00caaf8c827a74338"
+    },
+    {
+      "sha": "decfb3fbe1d0ae2f6d20df57579c2cb2248b4c79",
+      "shortSha": "decfb3f",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "fix(lint): restore Playwright test-callback signatures; scope no-empty-pattern to tests",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-03T16:51:35Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/decfb3fbe1d0ae2f6d20df57579c2cb2248b4c79"
+    },
+    {
+      "sha": "00fb1fba60f2d266c95f18f7702625bd42417b95",
+      "shortSha": "00fb1fb",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "ci: gate lint in release:check and validate; document guardrails",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-03T16:17:50Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/00fb1fba60f2d266c95f18f7702625bd42417b95"
+    },
+    {
+      "sha": "ef9ea7bedd4ec4d352af95ba95e592d6a4da9407",
+      "shortSha": "ef9ea7b",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "chore(lint): fix pre-existing violations across src, tests and scripts",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-03T16:17:43Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/ef9ea7bedd4ec4d352af95ba95e592d6a4da9407"
+    },
+    {
+      "sha": "220c9b0ae7534a478b21b4c81b31f2c61bb0c445",
+      "shortSha": "220c9b0",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "build: add ESLint 10 hard gate with source-level security guardrails",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-03T16:17:25Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/220c9b0ae7534a478b21b4c81b31f2c61bb0c445"
+    },
     {
       "sha": "c5f5c3c2b40248ff457b09434f7b5ecb1a9a2131",
       "shortSha": "c5f5c3c",
@@ -1540,6 +1600,16 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-01T23:52:17Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/68c7090cafa8c9e5992d31f4a8400de06a193cee"
+    },
+    {
+      "sha": "b0ef1edbbfa24a10138a679d4d636e29cae98b02",
+      "shortSha": "b0ef1ed",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "chore: ignore local ZCode tooling directory",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-01T16:25:24Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/b0ef1edbbfa24a10138a679d4d636e29cae98b02"
     },
     {
       "sha": "297e4ef7fa6e62637593fbf4245afd59a25bfbc9",
@@ -1632,26 +1702,6 @@
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/f027c0fc96a524df66f14786f6c59bbbc3870620"
     },
     {
-      "sha": "3d1a8783de514d836051dca6ae5f9051d63a03b2",
-      "shortSha": "3d1a878",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "fix(ci): repair browser upgrade and restart preview gates",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-01T10:10:38Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/3d1a8783de514d836051dca6ae5f9051d63a03b2"
-    },
-    {
-      "sha": "8dfeb03baed9bd84d6aad38468503ca0ec4f46f9",
-      "shortSha": "8dfeb03",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "feat(settings): support custom vault auto-lock duration",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-01T09:43:22Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/8dfeb03baed9bd84d6aad38468503ca0ec4f46f9"
-    },
-    {
       "sha": "338eb60a78e31a81cacaa064fd0c64036e8392ef",
       "shortSha": "338eb60",
       "repo": "Monica-Pass/MonicaDocs",
@@ -1690,56 +1740,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-01T06:58:24Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/07a1e15d47008c7b192dd69fc7c899292a6b438e"
-    },
-    {
-      "sha": "7be33a35422730ecabf5b6d2101aa09586d9cc2c",
-      "shortSha": "7be33a3",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "test(nearby): verify Android and F-Droid incremental interoperability",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-01T05:24:50Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/7be33a35422730ecabf5b6d2101aa09586d9cc2c"
-    },
-    {
-      "sha": "39bb7f8d457b40067fd5303d73f84f202aa2b84d",
-      "shortSha": "39bb7f8",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "feat(nearby): align incremental sync and resume with Android 1.0.324",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-01T04:17:04Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/39bb7f8d457b40067fd5303d73f84f202aa2b84d"
-    },
-    {
-      "sha": "4ec504ef3d8bcb10503cd943b391c6d9522488ed",
-      "shortSha": "4ec504e",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "chore(ui): retire unused mock management interface",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-01T00:29:57Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/4ec504ef3d8bcb10503cd943b391c6d9522488ed"
-    },
-    {
-      "sha": "0a0a3509cd780b741b004cda992251f4994805cf",
-      "shortSha": "0a0a350",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "refactor(background): modularize workflows and typed command routing",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-31T18:32:39Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/0a0a3509cd780b741b004cda992251f4994805cf"
-    },
-    {
-      "sha": "b51137b45892b860d984fc1cfaed382e676db820",
-      "shortSha": "b51137b",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "refactor(background): isolate sync and attachment runtimes",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-31T17:31:28Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/b51137b45892b860d984fc1cfaed382e676db820"
     },
     {
       "sha": "2c26acd517a537e38573d8390eacd269da0af9cb",
