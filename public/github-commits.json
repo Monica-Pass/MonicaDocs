@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-04T13:25:41.882Z",
+  "generatedAt": "2026-11-04T14:03:32.342Z",
   "range": {
     "from": "2025-11-05",
     "to": "2026-11-04"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-04",
-      "count": 2
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "4bb23f414d92305828f3ba32ebd6aaf74f493eda",
+      "shortSha": "4bb23f4",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "release: prepare extension 1.0.104 and optional Windows helper 0.1.6",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-04T14:02:55Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/4bb23f414d92305828f3ba32ebd6aaf74f493eda"
+    },
+    {
+      "sha": "b176f7e5111d6ddf62dbde7ca5843e5859f49394",
+      "shortSha": "b176f7e",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "fix(extension): deduplicate Bitwarden OTPs and guide safe unpacked updates",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-04T13:51:07Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/b176f7e5111d6ddf62dbde7ca5843e5859f49394"
+    },
     {
       "sha": "0a63d0ca46d60993b90e1a05fafe4b3a97d561b9",
       "shortSha": "0a63d0c",
@@ -1662,16 +1682,6 @@
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/14581e14942d003d86ef2cad812b2cc9beb8a3c5"
     },
     {
-      "sha": "ccb12ba47edb2c10d304c66951e5bb1797742fca",
-      "shortSha": "ccb12ba",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "ci: add MonicaDocs notification workflow",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-01T13:19:41Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/ccb12ba47edb2c10d304c66951e5bb1797742fca"
-    },
-    {
       "sha": "ab8de17b3f57aef0ff3967af60510d0a91e65b25",
       "shortSha": "ab8de17",
       "repo": "Monica-Pass/Monica-by-Avalonia",
@@ -1710,16 +1720,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
       "date": "2026-11-01T12:57:37Z",
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/6fbd92b3fcbb27ce818ef51cc2495fbaedb9201d"
-    },
-    {
-      "sha": "f027c0fc96a524df66f14786f6c59bbbc3870620",
-      "shortSha": "f027c0f",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "docs: record successful preview publication for 3d1a878",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-01T10:58:18Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/f027c0fc96a524df66f14786f6c59bbbc3870620"
     },
     {
       "sha": "338eb60a78e31a81cacaa064fd0c64036e8392ef",
