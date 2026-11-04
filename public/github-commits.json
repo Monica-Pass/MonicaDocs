@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-03T18:26:29.660Z",
+  "generatedAt": "2026-11-04T13:25:41.882Z",
   "range": {
-    "from": "2025-11-04",
-    "to": "2026-11-03"
+    "from": "2025-11-05",
+    "to": "2026-11-04"
   },
   "activity": [
-    {
-      "date": "2025-11-04",
-      "count": 0
-    },
     {
       "date": "2025-11-05",
       "count": 0
@@ -1478,9 +1474,33 @@
     {
       "date": "2026-11-03",
       "count": 10
+    },
+    {
+      "date": "2026-11-04",
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "0a63d0ca46d60993b90e1a05fafe4b3a97d561b9",
+      "shortSha": "0a63d0c",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "fix(android): complete verified Bitwarden sync and native management for 1.0.325",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-04T06:53:35Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/0a63d0ca46d60993b90e1a05fafe4b3a97d561b9"
+    },
+    {
+      "sha": "cb41fe73b200a05662e9fb14751548a1d0d47b80",
+      "shortSha": "cb41fe7",
+      "repo": "Monica-Pass/Monica",
+      "message": "fix(android): complete verified Bitwarden sync and native management for 1.0.325 [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-04T06:53:24Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/cb41fe73b200a05662e9fb14751548a1d0d47b80"
+    },
     {
       "sha": "9c7810661be6240eb6328d8954ef0b6a5e583828",
       "shortSha": "9c78106",
@@ -1792,16 +1812,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c02882a34169d08297f8732429e6da6511aa0ae0"
     },
     {
-      "sha": "969cad6538900f040108b74c4b9f3a41efad7673",
-      "shortSha": "969cad6",
-      "repo": "Monica-Pass/Monica",
-      "message": "release(android): publish 1.0.323 with native KeePass management [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-31T09:08:39Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/969cad6538900f040108b74c4b9f3a41efad7673"
-    },
-    {
       "sha": "34380b58f17860ccd05928a765f1921096d0c619",
       "shortSha": "34380b5",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1820,16 +1830,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-29T22:34:55Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/014480425311967cc5c5c86ff7d91818074a87ab"
-    },
-    {
-      "sha": "5d3a9971dff5e66dfff0319597d6e3ea85481acd",
-      "shortSha": "5d3a997",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "feat(android): checkpoint unreleased 1.0.323 before startup hardening",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-29T18:56:09Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5d3a9971dff5e66dfff0319597d6e3ea85481acd"
     },
     {
       "sha": "016a96756170d9c93b251c8030a16182afbddb9a",
