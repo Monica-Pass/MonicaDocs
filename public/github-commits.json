@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-04T14:11:34.368Z",
+  "generatedAt": "2026-11-05T13:39:57.904Z",
   "range": {
-    "from": "2025-11-05",
-    "to": "2026-11-04"
+    "from": "2025-11-06",
+    "to": "2026-11-05"
   },
   "activity": [
-    {
-      "date": "2025-11-05",
-      "count": 0
-    },
     {
       "date": "2025-11-06",
       "count": 0
@@ -1477,10 +1473,164 @@
     },
     {
       "date": "2026-11-04",
-      "count": 5
+      "count": 18
+    },
+    {
+      "date": "2026-11-05",
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "240314045b912eea6f168cc28c92f2d2ef57deb1",
+      "shortSha": "2403140",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "feat(android): complete Bitwarden personal account and recovery flows",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-05T02:40:08Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/240314045b912eea6f168cc28c92f2d2ef57deb1"
+    },
+    {
+      "sha": "9336b39343c030f381de99c826fa4b93cc5e6488",
+      "shortSha": "9336b39",
+      "repo": "Monica-Pass/Monica",
+      "message": "feat(android): complete Bitwarden personal account and recovery flows [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-05T02:40:06Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/9336b39343c030f381de99c826fa4b93cc5e6488"
+    },
+    {
+      "sha": "d7327e48113edfb7e2a97e4d404cacb8ff7babc7",
+      "shortSha": "d7327e4",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "Merge pull request #1 from Monica-Pass/feat/monica-cloud",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-04T19:07:27Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/d7327e48113edfb7e2a97e4d404cacb8ff7babc7"
+    },
+    {
+      "sha": "9ce2ec318f7c1110e7e076d226e450e2b8c00e9f",
+      "shortSha": "9ce2ec3",
+      "repo": "Monica-Pass/Monica-Cloud",
+      "message": "Merge pull request #1 from Monica-Pass/feat/server-v1",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-04T19:07:22Z",
+      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/9ce2ec318f7c1110e7e076d226e450e2b8c00e9f"
+    },
+    {
+      "sha": "5613e3eb27aa58667c3c5cc81912edf51a7c02f0",
+      "shortSha": "5613e3e",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "feat(cloud): add Monica Cloud crypto, API client and sync engine",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-04T18:55:20Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/5613e3eb27aa58667c3c5cc81912edf51a7c02f0"
+    },
+    {
+      "sha": "8e46b0d4670217fb571559a1f49dbc8912968bf1",
+      "shortSha": "8e46b0d",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "feat(cloud): add Monica Cloud settings screen and background sync",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-04T18:55:20Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/8e46b0d4670217fb571559a1f49dbc8912968bf1"
+    },
+    {
+      "sha": "b18c1c6a2b838a6e2d3905012e756dd747dd462f",
+      "shortSha": "b18c1c6",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "feat(cloud): map Monica entries to cloud items and add database migration 78",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-04T18:55:20Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/b18c1c6a2b838a6e2d3905012e756dd747dd462f"
+    },
+    {
+      "sha": "9b0cd870e8d25d3694570b899ad2fb9002609d74",
+      "shortSha": "9b0cd87",
+      "repo": "Monica-Pass/Monica-Cloud",
+      "message": "chore: remove .claude folder",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-04T18:55:07Z",
+      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/9b0cd870e8d25d3694570b899ad2fb9002609d74"
+    },
+    {
+      "sha": "87710cc66bf8bc4633f438fa13e00a3798edfcef",
+      "shortSha": "87710cc",
+      "repo": "Monica-Pass/Monica-Cloud",
+      "message": "webui: rebuild the web vault on the real API",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-04T18:55:01Z",
+      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/87710cc66bf8bc4633f438fa13e00a3798edfcef"
+    },
+    {
+      "sha": "a6dc7d488fab7ff862bf8a6ddece62095a870272",
+      "shortSha": "a6dc7d4",
+      "repo": "Monica-Pass/Monica-Cloud",
+      "message": "server: add Monica Cloud sync server",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-04T18:55:01Z",
+      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/a6dc7d488fab7ff862bf8a6ddece62095a870272"
+    },
+    {
+      "sha": "bcbd7261919c7b83f47747822ca94f0f46ec9942",
+      "shortSha": "bcbd726",
+      "repo": "Monica-Pass/Monica-Cloud",
+      "message": "docs: add Monica Cloud sync protocol v1 and test vectors",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-04T18:55:01Z",
+      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/bcbd7261919c7b83f47747822ca94f0f46ec9942"
+    },
+    {
+      "sha": "d56c0173a0701ccaafe4eada24284f408cd86d15",
+      "shortSha": "d56c017",
+      "repo": "Monica-Pass/Monica-Cloud",
+      "message": "docs: describe the project layout and the Android integration",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-04T18:55:01Z",
+      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/d56c0173a0701ccaafe4eada24284f408cd86d15"
+    },
+    {
+      "sha": "51e042eadb9d41d609ad7c3d961965a236ffaac9",
+      "shortSha": "51e042e",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "feat(android): finish 325 editors, Bitwarden tools and sparse KeePass fields",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-04T15:59:50Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/51e042eadb9d41d609ad7c3d961965a236ffaac9"
+    },
+    {
+      "sha": "908138d2ea253b9c1e27432577b7e4b48cab4a8e",
+      "shortSha": "908138d",
+      "repo": "Monica-Pass/Monica",
+      "message": "feat(android): finish 325 editors, Bitwarden tools and sparse KeePass fields [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-04T15:58:42Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/908138d2ea253b9c1e27432577b7e4b48cab4a8e"
+    },
+    {
+      "sha": "09b94da677db2277aeda86c5c401e62dc4118713",
+      "shortSha": "09b94da",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "docs(release): record 1.0.104 publication evidence [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-04T15:09:01Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/09b94da677db2277aeda86c5c401e62dc4118713"
+    },
     {
       "sha": "dfd4fc2f8f26cb555b6289f2ae31d78bcbaa6518",
       "shortSha": "dfd4fc2",
@@ -1652,16 +1802,6 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/68c7090cafa8c9e5992d31f4a8400de06a193cee"
     },
     {
-      "sha": "b0ef1edbbfa24a10138a679d4d636e29cae98b02",
-      "shortSha": "b0ef1ed",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "chore: ignore local ZCode tooling directory",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-01T16:25:24Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/b0ef1edbbfa24a10138a679d4d636e29cae98b02"
-    },
-    {
       "sha": "297e4ef7fa6e62637593fbf4245afd59a25bfbc9",
       "shortSha": "297e4ef",
       "repo": "Monica-Pass/MonicaDocs",
@@ -1772,26 +1912,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/2c26acd517a537e38573d8390eacd269da0af9cb"
     },
     {
-      "sha": "a8f61e778af8fbb490f3fd59c8d84aa9b6a6351b",
-      "shortSha": "a8f61e7",
-      "repo": "Monica-Pass/Monica",
-      "message": "feat(android): add confirmed storage recovery for 1.0.324 [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-31T16:48:28Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/a8f61e778af8fbb490f3fd59c8d84aa9b6a6351b"
-    },
-    {
-      "sha": "9e50c0d204b2b7b5f509fa835bf357c209ae788f",
-      "shortSha": "9e50c0d",
-      "repo": "Monica-Pass/Monica",
-      "message": "fix(android): improve backup operation lifecycle [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-31T14:24:37Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/9e50c0d204b2b7b5f509fa835bf357c209ae788f"
-    },
-    {
       "sha": "6600ddc4f8713fd6426fc005fd33760edbcf38c6",
       "shortSha": "6600ddc",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1810,26 +1930,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-31T09:08:42Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c02882a34169d08297f8732429e6da6511aa0ae0"
-    },
-    {
-      "sha": "34380b58f17860ccd05928a765f1921096d0c619",
-      "shortSha": "34380b5",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "feat(android): complete KeePass file management and localized credential UI",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-30T17:39:48Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/34380b58f17860ccd05928a765f1921096d0c619"
-    },
-    {
-      "sha": "014480425311967cc5c5c86ff7d91818074a87ab",
-      "shortSha": "0144804",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "fix(android): bound secure startup and preserve existing key material",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-29T22:34:55Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/014480425311967cc5c5c86ff7d91818074a87ab"
     },
     {
       "sha": "016a96756170d9c93b251c8030a16182afbddb9a",
@@ -2250,46 +2350,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-08-09T16:49:40Z",
       "url": "https://github.com/Monica-Pass/Monica-CE/commit/aa1b0de3543e5ac0695c60323628ad2f7102c7c8"
-    },
-    {
-      "sha": "5595324d783b3546e6608173523e4507e4a30d2a",
-      "shortSha": "5595324",
-      "repo": "Monica-Pass/Monica-CE",
-      "message": "fix(bitwarden): scope auto sync to selected vault",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-09T16:48:43Z",
-      "url": "https://github.com/Monica-Pass/Monica-CE/commit/5595324d783b3546e6608173523e4507e4a30d2a"
-    },
-    {
-      "sha": "047e1efdda93aeead2505b434b6ce23276153d9e",
-      "shortSha": "047e1ef",
-      "repo": "Monica-Pass/Monica-CE",
-      "message": "feat(bitwarden): 完善Bitwarden自动同步逻辑，缓解多账号同步卡顿",
-      "authorName": "wzcv",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/16702445?v=4",
-      "date": "2026-08-09T12:00:28Z",
-      "url": "https://github.com/Monica-Pass/Monica-CE/commit/047e1efdda93aeead2505b434b6ce23276153d9e"
-    },
-    {
-      "sha": "150618b8231dd9e9e9ab342b90ed66b106e672c0",
-      "shortSha": "150618b",
-      "repo": "Monica-Pass/Monica-CE",
-      "message": "Run contributor flag update on stable releases",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-08T13:48:45Z",
-      "url": "https://github.com/Monica-Pass/Monica-CE/commit/150618b8231dd9e9e9ab342b90ed66b106e672c0"
-    },
-    {
-      "sha": "f5a4cc9ea97697255893e0f188711443c167d3de",
-      "shortSha": "f5a4cc9",
-      "repo": "Monica-Pass/Monica-CE",
-      "message": "Release Monica Android 1.0.300",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-08T13:39:10Z",
-      "url": "https://github.com/Monica-Pass/Monica-CE/commit/f5a4cc9ea97697255893e0f188711443c167d3de"
     },
     {
       "sha": "db44d3fbb806152b2f5b6db7559c5076b5144abc",
