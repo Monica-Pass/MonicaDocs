@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T15:03:30.510Z",
+  "updatedAt": "2026-11-06T14:42:39.055Z",
   "repos": [
     {
       "id": "android",
@@ -19,7 +19,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.324-26110312-02.APK",
               "size": 48184888,
-              "downloadCount": 327,
+              "downloadCount": 372,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.324/Monica-Android-arm64-v8a-1.0.324-26110312-02.APK",
               "contentType": "application/octet-stream"
             },
@@ -43,7 +43,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.323-26103112-99.APK",
               "size": 47059160,
-              "downloadCount": 340,
+              "downloadCount": 342,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.323b/Monica-Android-arm64-v8a-1.0.323-26103112-99.APK",
               "contentType": "application/vnd.android.package-archive"
             },
@@ -67,7 +67,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.323-26103112-97.APK",
               "size": 47059160,
-              "downloadCount": 95,
+              "downloadCount": 96,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.323/Monica-Android-arm64-v8a-1.0.323-26103112-97.APK",
               "contentType": "application/octet-stream"
             },
@@ -297,7 +297,7 @@
             {
               "name": "Monica-0.3.1-osx-arm64-jit.dmg",
               "size": 125525518,
-              "downloadCount": 0,
+              "downloadCount": 1,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-osx-arm64-jit.dmg",
               "contentType": "application/x-apple-diskimage"
             },
@@ -311,14 +311,14 @@
             {
               "name": "Monica-0.3.1-osx-x64-jit.dmg",
               "size": 131784910,
-              "downloadCount": 1,
+              "downloadCount": 2,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-osx-x64-jit.dmg",
               "contentType": "application/x-apple-diskimage"
             },
             {
               "name": "Monica-0.3.1-windows-x64-aot-setup.exe",
               "size": 74586181,
-              "downloadCount": 17,
+              "downloadCount": 18,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-windows-x64-aot-setup.exe",
               "contentType": "application/x-msdos-program"
             },
@@ -431,7 +431,7 @@
             {
               "name": "monica-extension-1.0.104.zip",
               "size": 14080759,
-              "downloadCount": 9,
+              "downloadCount": 11,
               "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/v1.0.104/monica-extension-1.0.104.zip",
               "contentType": "application/zip"
             },
@@ -445,7 +445,7 @@
             {
               "name": "monica-mdbx2-host-windows-x64-0.1.6.zip",
               "size": 3760992,
-              "downloadCount": 4,
+              "downloadCount": 7,
               "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/v1.0.104/monica-mdbx2-host-windows-x64-0.1.6.zip",
               "contentType": "application/zip"
             },
@@ -499,37 +499,37 @@
         {
           "tag": "preview",
           "prerelease": true,
-          "name": "Development Preview (1.0.104 / dfd4fc2f8f26-41845019723-1)",
-          "body": "## 中文\n\n自动更新的开发预览版，可能含有尚未稳定的改动。\n\n- 扩展版本：1.0.104；源提交：`dfd4fc2f8f26cb555b6289f2ae31d78bcbaa6518`。\n- [验证与构建记录](https://github.com/Monica-Pass/Monica-for-Extension/actions/runs/41845019723)：Linux 发布门禁和 Windows Edge / MDBX Host 验证通过。\n- Chrome / Edge 使用扩展 ZIP；Windows MDBX Host 为可选本机助手。解压扩展后在开发者模式加载，更新时替换解压目录并重新加载。\n- 每个 ZIP 附带 SHA-256；内含的源码提交和清单保持原构建内容。此预览版不替代正式版更新通道。\n\n## English\n\nRolling development preview; changes may be unstable.\n\n- Extension version: 1.0.104; source commit: `dfd4fc2f8f26cb555b6289f2ae31d78bcbaa6518`.\n- [Validation and build](https://github.com/Monica-Pass/Monica-for-Extension/actions/runs/41845019723): Linux release gates and Windows Edge / MDBX Host checks passed.\n- Use the extension ZIP for Chrome / Edge; the Windows MDBX Host is optional. Extract and load in developer mode; replace the extracted directory and reload to update.\n- Each ZIP includes a SHA-256 sidecar. Embedded source evidence and manifests retain the original build contents. Stable update checks continue to use stable releases.\n",
+          "name": "Development Preview (1.0.104 / 022e8fb07cbd-42225457563-1)",
+          "body": "## 中文\n\n自动更新的开发预览版，可能含有尚未稳定的改动。\n\n- 扩展版本：1.0.104；源提交：`022e8fb07cbdeb75fb9ad67b005748d6bbdac62c`。\n- [验证与构建记录](https://github.com/Monica-Pass/Monica-for-Extension/actions/runs/42225457563)：Linux 发布门禁和 Windows Edge / MDBX Host 验证通过。\n- Chrome / Edge 使用扩展 ZIP；Windows MDBX Host 为可选本机助手。解压扩展后在开发者模式加载，更新时替换解压目录并重新加载。\n- 每个 ZIP 附带 SHA-256；内含的源码提交和清单保持原构建内容。此预览版不替代正式版更新通道。\n\n## English\n\nRolling development preview; changes may be unstable.\n\n- Extension version: 1.0.104; source commit: `022e8fb07cbdeb75fb9ad67b005748d6bbdac62c`.\n- [Validation and build](https://github.com/Monica-Pass/Monica-for-Extension/actions/runs/42225457563): Linux release gates and Windows Edge / MDBX Host checks passed.\n- Use the extension ZIP for Chrome / Edge; the Windows MDBX Host is optional. Extract and load in developer mode; replace the extracted directory and reload to update.\n- Each ZIP includes a SHA-256 sidecar. Embedded source evidence and manifests retain the original build contents. Stable update checks continue to use stable releases.\n",
           "publishedAt": "2026-10-26T00:33:11Z",
           "htmlUrl": "https://github.com/Monica-Pass/Monica-for-Extension/releases/tag/preview",
           "assets": [
             {
-              "name": "monica-extension-1.0.104-preview-dfd4fc2f8f26-41845019723-1.zip",
-              "size": 10352350,
-              "downloadCount": 2,
-              "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/preview/monica-extension-1.0.104-preview-dfd4fc2f8f26-41845019723-1.zip",
+              "name": "monica-extension-1.0.104-preview-022e8fb07cbd-42225457563-1.zip",
+              "size": 10352099,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/preview/monica-extension-1.0.104-preview-022e8fb07cbd-42225457563-1.zip",
               "contentType": "application/zip"
             },
             {
-              "name": "monica-extension-1.0.104-preview-dfd4fc2f8f26-41845019723-1.zip.sha256",
+              "name": "monica-extension-1.0.104-preview-022e8fb07cbd-42225457563-1.zip.sha256",
               "size": 130,
-              "downloadCount": 1,
-              "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/preview/monica-extension-1.0.104-preview-dfd4fc2f8f26-41845019723-1.zip.sha256",
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/preview/monica-extension-1.0.104-preview-022e8fb07cbd-42225457563-1.zip.sha256",
               "contentType": "application/octet-stream"
             },
             {
-              "name": "monica-mdbx2-host-windows-x64-0.1.6-preview-dfd4fc2f8f26-41845019723-1.zip",
-              "size": 3760992,
+              "name": "monica-mdbx2-host-windows-x64-0.1.6-preview-022e8fb07cbd-42225457563-1.zip",
+              "size": 3760994,
               "downloadCount": 0,
-              "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/preview/monica-mdbx2-host-windows-x64-0.1.6-preview-dfd4fc2f8f26-41845019723-1.zip",
+              "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/preview/monica-mdbx2-host-windows-x64-0.1.6-preview-022e8fb07cbd-42225457563-1.zip",
               "contentType": "application/zip"
             },
             {
-              "name": "monica-mdbx2-host-windows-x64-0.1.6-preview-dfd4fc2f8f26-41845019723-1.zip.sha256",
+              "name": "monica-mdbx2-host-windows-x64-0.1.6-preview-022e8fb07cbd-42225457563-1.zip.sha256",
               "size": 141,
-              "downloadCount": 1,
-              "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/preview/monica-mdbx2-host-windows-x64-0.1.6-preview-dfd4fc2f8f26-41845019723-1.zip.sha256",
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/preview/monica-mdbx2-host-windows-x64-0.1.6-preview-022e8fb07cbd-42225457563-1.zip.sha256",
               "contentType": "application/octet-stream"
             }
           ]
