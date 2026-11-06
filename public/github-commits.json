@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-06T13:23:26.397Z",
+  "generatedAt": "2026-11-06T13:26:25.406Z",
   "range": {
     "from": "2025-11-07",
     "to": "2026-11-06"
@@ -1477,10 +1477,60 @@
     },
     {
       "date": "2026-11-06",
-      "count": 3
+      "count": 8
     }
   ],
   "latest": [
+    {
+      "sha": "022e8fb07cbdeb75fb9ad67b005748d6bbdac62c",
+      "shortSha": "022e8fb",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "Merge pull request #30 from aiguozhi123456/docs/knowledge-base-and-index",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-06T13:26:00Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/022e8fb07cbdeb75fb9ad67b005748d6bbdac62c"
+    },
+    {
+      "sha": "01c510d8d18972d0d09a7974dee1469c70ee59c2",
+      "shortSha": "01c510d",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "test: guard docs index coverage and catalog non-markdown assets",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-06T12:33:14Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/01c510d8d18972d0d09a7974dee1469c70ee59c2"
+    },
+    {
+      "sha": "4b13e9b15bf64a82ae566cd637c3a2c861961fe0",
+      "shortSha": "4b13e9b",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "docs: relocate legacy release and validation records",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-06T12:28:45Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/4b13e9b15bf64a82ae566cd637c3a2c861961fe0"
+    },
+    {
+      "sha": "8b6f5bd96ddd1519efc0a8263468c51bd5701ea6",
+      "shortSha": "8b6f5bd",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "docs: add documentation index and entry wiring",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-06T12:28:45Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/8b6f5bd96ddd1519efc0a8263468c51bd5701ea6"
+    },
+    {
+      "sha": "76555adf0be1570ebdd63aafb389ad3b9b08c0df",
+      "shortSha": "76555ad",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "docs: add solutions knowledge base and glossary",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-06T12:28:44Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/76555adf0be1570ebdd63aafb389ad3b9b08c0df"
+    },
     {
       "sha": "8702f5d532e9d28f8a8b6fe1c85e746bf527e629",
       "shortSha": "8702f5d",
@@ -1550,26 +1600,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
       "date": "2026-11-05T16:53:18Z",
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/f1c6e2d8baa675327b06e6707de7bfbf28e2c782"
-    },
-    {
-      "sha": "ac4b9c56422723b6c4c822f0a5313fa8abfb835a",
-      "shortSha": "ac4b9c5",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "refactor(core): share canonical-json digest helpers for removal journals",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-05T16:53:11Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/ac4b9c56422723b6c4c822f0a5313fa8abfb835a"
-    },
-    {
-      "sha": "d535d7afdd9d74056e9b6daffe9d760cf1d2483f",
-      "shortSha": "d535d7a",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "refactor(vault): share pending-removal predicates across contention checks",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-05T16:53:00Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/d535d7afdd9d74056e9b6daffe9d760cf1d2483f"
     },
     {
       "sha": "0c351fffdfb483b77262c50ba40261a5d4858f16",
@@ -1750,36 +1780,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-04T15:58:42Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/908138d2ea253b9c1e27432577b7e4b48cab4a8e"
-    },
-    {
-      "sha": "09b94da677db2277aeda86c5c401e62dc4118713",
-      "shortSha": "09b94da",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "docs(release): record 1.0.104 publication evidence [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-04T15:09:01Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/09b94da677db2277aeda86c5c401e62dc4118713"
-    },
-    {
-      "sha": "dfd4fc2f8f26cb555b6289f2ae31d78bcbaa6518",
-      "shortSha": "dfd4fc2",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "test(release): capture ZIP downloads across extension tabs",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-04T14:10:57Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/dfd4fc2f8f26cb555b6289f2ae31d78bcbaa6518"
-    },
-    {
-      "sha": "4bb23f414d92305828f3ba32ebd6aaf74f493eda",
-      "shortSha": "4bb23f4",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "release: prepare extension 1.0.104 and optional Windows helper 0.1.6",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-04T14:02:55Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/4bb23f414d92305828f3ba32ebd6aaf74f493eda"
     },
     {
       "sha": "0a63d0ca46d60993b90e1a05fafe4b3a97d561b9",
