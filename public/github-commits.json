@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-05T13:39:57.904Z",
+  "generatedAt": "2026-11-06T04:34:27.700Z",
   "range": {
-    "from": "2025-11-06",
-    "to": "2026-11-05"
+    "from": "2025-11-07",
+    "to": "2026-11-06"
   },
   "activity": [
-    {
-      "date": "2025-11-06",
-      "count": 0
-    },
     {
       "date": "2025-11-07",
       "count": 0
@@ -1477,10 +1473,124 @@
     },
     {
       "date": "2026-11-05",
-      "count": 2
+      "count": 12
+    },
+    {
+      "date": "2026-11-06",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "1aef93ebde7caf485a5945c6a9d99defd6d42307",
+      "shortSha": "1aef93e",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "Merge pull request #28 from aiguozhi123456/refactor/removal-convergence",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-06T04:33:52Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/1aef93ebde7caf485a5945c6a9d99defd6d42307"
+    },
+    {
+      "sha": "5f8cc80f89fe0b85aa3ae1db3cbdede490816869",
+      "shortSha": "5f8cc80",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "fix(android): preserve vault recovery and complete 325 reliability fixes",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-05T23:06:47Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5f8cc80f89fe0b85aa3ae1db3cbdede490816869"
+    },
+    {
+      "sha": "62211ede1c51920f77d5a45799b542f873ae0c3a",
+      "shortSha": "62211ed",
+      "repo": "Monica-Pass/Monica",
+      "message": "fix(android): preserve vault recovery and complete 325 reliability fixes [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-05T23:06:45Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/62211ede1c51920f77d5a45799b542f873ae0c3a"
+    },
+    {
+      "sha": "ece7bbe307dc8ea823f18cef3ff80d4b6890fa02",
+      "shortSha": "ece7bbe",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "chore: refresh build identity after the removal convergence",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-05T17:57:25Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/ece7bbe307dc8ea823f18cef3ff80d4b6890fa02"
+    },
+    {
+      "sha": "f1c6e2d8baa675327b06e6707de7bfbf28e2c782",
+      "shortSha": "f1c6e2d",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "refactor(manager): merge removal save fallbacks and derive keepass phase once",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-05T16:53:18Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/f1c6e2d8baa675327b06e6707de7bfbf28e2c782"
+    },
+    {
+      "sha": "ac4b9c56422723b6c4c822f0a5313fa8abfb835a",
+      "shortSha": "ac4b9c5",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "refactor(core): share canonical-json digest helpers for removal journals",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-05T16:53:11Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/ac4b9c56422723b6c4c822f0a5313fa8abfb835a"
+    },
+    {
+      "sha": "d535d7afdd9d74056e9b6daffe9d760cf1d2483f",
+      "shortSha": "d535d7a",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "refactor(vault): share pending-removal predicates across contention checks",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-05T16:53:00Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/d535d7afdd9d74056e9b6daffe9d760cf1d2483f"
+    },
+    {
+      "sha": "0c351fffdfb483b77262c50ba40261a5d4858f16",
+      "shortSha": "0c351ff",
+      "repo": "Monica-Pass/Monica-Cloud",
+      "message": "Merge pull request #2 from Monica-Pass/docs/android-attachments",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-05T14:28:20Z",
+      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/0c351fffdfb483b77262c50ba40261a5d4858f16"
+    },
+    {
+      "sha": "2dad60da39f68f8473ec6eeda618cbd489969f67",
+      "shortSha": "2dad60d",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "Merge pull request #2 from Monica-Pass/feat/cloud-attachments",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-05T14:28:15Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/2dad60da39f68f8473ec6eeda618cbd489969f67"
+    },
+    {
+      "sha": "120b4d5919f46ddf3fdac6c8bd2bbcb53f5a6692",
+      "shortSha": "120b4d5",
+      "repo": "Monica-Pass/Monica-Cloud",
+      "message": "docs: Android app now syncs attachments",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-05T14:26:44Z",
+      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/120b4d5919f46ddf3fdac6c8bd2bbcb53f5a6692"
+    },
+    {
+      "sha": "7f00dd8bd7bef3cd59e14912b52a593e76bc8769",
+      "shortSha": "7f00dd8",
+      "repo": "Monica-Pass/Monica-CE",
+      "message": "feat(cloud): sync attachments with Monica Cloud",
+      "authorName": "XMZO",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
+      "date": "2026-11-05T14:26:41Z",
+      "url": "https://github.com/Monica-Pass/Monica-CE/commit/7f00dd8bd7bef3cd59e14912b52a593e76bc8769"
+    },
     {
       "sha": "240314045b912eea6f168cc28c92f2d2ef57deb1",
       "shortSha": "2403140",
@@ -1692,56 +1802,6 @@
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/9c7810661be6240eb6328d8954ef0b6a5e583828"
     },
     {
-      "sha": "ec7ac3ceb37cc76fb531fda00caaf8c827a74338",
-      "shortSha": "ec7ac3c",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "chore: refresh build identity after the lint fixes",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-03T17:39:01Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/ec7ac3ceb37cc76fb531fda00caaf8c827a74338"
-    },
-    {
-      "sha": "decfb3fbe1d0ae2f6d20df57579c2cb2248b4c79",
-      "shortSha": "decfb3f",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "fix(lint): restore Playwright test-callback signatures; scope no-empty-pattern to tests",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-03T16:51:35Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/decfb3fbe1d0ae2f6d20df57579c2cb2248b4c79"
-    },
-    {
-      "sha": "00fb1fba60f2d266c95f18f7702625bd42417b95",
-      "shortSha": "00fb1fb",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "ci: gate lint in release:check and validate; document guardrails",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-03T16:17:50Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/00fb1fba60f2d266c95f18f7702625bd42417b95"
-    },
-    {
-      "sha": "ef9ea7bedd4ec4d352af95ba95e592d6a4da9407",
-      "shortSha": "ef9ea7b",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "chore(lint): fix pre-existing violations across src, tests and scripts",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-03T16:17:43Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/ef9ea7bedd4ec4d352af95ba95e592d6a4da9407"
-    },
-    {
-      "sha": "220c9b0ae7534a478b21b4c81b31f2c61bb0c445",
-      "shortSha": "220c9b0",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "build: add ESLint 10 hard gate with source-level security guardrails",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-03T16:17:25Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/220c9b0ae7534a478b21b4c81b31f2c61bb0c445"
-    },
-    {
       "sha": "c5f5c3c2b40248ff457b09434f7b5ecb1a9a2131",
       "shortSha": "c5f5c3c",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1892,16 +1952,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/70f9483982a6b14a5690268c8add3c7e2eaeed12"
     },
     {
-      "sha": "07a1e15d47008c7b192dd69fc7c899292a6b438e",
-      "shortSha": "07a1e15",
-      "repo": "Monica-Pass/Monica",
-      "message": "feat(android): add secure LAN delta sync and KDBX fixes for 1.0.324 [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-01T06:58:24Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/07a1e15d47008c7b192dd69fc7c899292a6b438e"
-    },
-    {
       "sha": "2c26acd517a537e38573d8390eacd269da0af9cb",
       "shortSha": "2c26acd",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1920,16 +1970,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-31T14:11:54Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/6600ddc4f8713fd6426fc005fd33760edbcf38c6"
-    },
-    {
-      "sha": "c02882a34169d08297f8732429e6da6511aa0ae0",
-      "shortSha": "c02882a",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "release(fdroid): publish 1.0.323 with native KeePass management",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-10-31T09:08:42Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c02882a34169d08297f8732429e6da6511aa0ae0"
     },
     {
       "sha": "016a96756170d9c93b251c8030a16182afbddb9a",
@@ -2332,26 +2372,6 @@
       "url": "https://github.com/Monica-Pass/Monica-CE/commit/f06913866794679cbb795fb7cfe9e77fa5a49f47"
     },
     {
-      "sha": "f0953a8b5cd9a57fada9df9874f63c48dbf0b615",
-      "shortSha": "f0953a8",
-      "repo": "Monica-Pass/Monica-CE",
-      "message": "feat(steam): support KeePass and Bitwarden storage",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-09T17:03:36Z",
-      "url": "https://github.com/Monica-Pass/Monica-CE/commit/f0953a8b5cd9a57fada9df9874f63c48dbf0b615"
-    },
-    {
-      "sha": "aa1b0de3543e5ac0695c60323628ad2f7102c7c8",
-      "shortSha": "aa1b0de",
-      "repo": "Monica-Pass/Monica-CE",
-      "message": "Merge pull request #90 from wzcv/main",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-08-09T16:49:40Z",
-      "url": "https://github.com/Monica-Pass/Monica-CE/commit/aa1b0de3543e5ac0695c60323628ad2f7102c7c8"
-    },
-    {
       "sha": "db44d3fbb806152b2f5b6db7559c5076b5144abc",
       "shortSha": "db44d3f",
       "repo": "Monica-Pass/Monica-Cloud",
@@ -2380,16 +2400,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-06-24T01:47:19Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/78974ee8b793954302e79fc7d557499c252cc487"
-    },
-    {
-      "sha": "097a0cc225a432367512e4c256e99acdd613a9f5",
-      "shortSha": "097a0cc",
-      "repo": "Monica-Pass/Monica-Cloud",
-      "message": "Add Monica Server WebUI scaffold",
-      "authorName": "XMZO",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
-      "date": "2026-06-06T13:54:38Z",
-      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/097a0cc225a432367512e4c256e99acdd613a9f5"
     },
     {
       "sha": "f33624a7e57e7cdb40feea24e8183ecafdf40ed6",
@@ -2470,16 +2480,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-06-05T02:54:47Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f5ad1edc3e3228a7b8a8272c877ec5e0764ab1c5"
-    },
-    {
-      "sha": "f6924dd5dbe15ddb42f937d03963866134f10e49",
-      "shortSha": "f6924dd",
-      "repo": "Monica-Pass/Monica-Cloud",
-      "message": "Initial commit",
-      "authorName": "XMZO",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
-      "date": "2026-06-04T13:56:59Z",
-      "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/f6924dd5dbe15ddb42f937d03963866134f10e49"
     }
   ]
 }
