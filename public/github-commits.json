@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-06T04:34:27.700Z",
+  "generatedAt": "2026-11-06T13:23:26.397Z",
   "range": {
     "from": "2025-11-07",
     "to": "2026-11-06"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-06",
-      "count": 1
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "8702f5d532e9d28f8a8b6fe1c85e746bf527e629",
+      "shortSha": "8702f5d",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "docs: expand extension agent checks and maintenance precautions [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-06T09:01:18Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/8702f5d532e9d28f8a8b6fe1c85e746bf527e629"
+    },
+    {
+      "sha": "f92790298adad38b7411b57c76bbfaddd02d7c0f",
+      "shortSha": "f927902",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "docs: add extension agent guide and version checklist [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-06T08:53:15Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/f92790298adad38b7411b57c76bbfaddd02d7c0f"
+    },
     {
       "sha": "1aef93ebde7caf485a5945c6a9d99defd6d42307",
       "shortSha": "1aef93e",
@@ -1762,16 +1782,6 @@
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/4bb23f414d92305828f3ba32ebd6aaf74f493eda"
     },
     {
-      "sha": "b176f7e5111d6ddf62dbde7ca5843e5859f49394",
-      "shortSha": "b176f7e",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "fix(extension): deduplicate Bitwarden OTPs and guide safe unpacked updates",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-04T13:51:07Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/b176f7e5111d6ddf62dbde7ca5843e5859f49394"
-    },
-    {
       "sha": "0a63d0ca46d60993b90e1a05fafe4b3a97d561b9",
       "shortSha": "0a63d0c",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1790,16 +1800,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-04T06:53:24Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/cb41fe73b200a05662e9fb14751548a1d0d47b80"
-    },
-    {
-      "sha": "9c7810661be6240eb6328d8954ef0b6a5e583828",
-      "shortSha": "9c78106",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "Merge pull request #27: introduce ESLint 10 hard gate with source-level security guardrails",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-03T18:25:50Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/9c7810661be6240eb6328d8954ef0b6a5e583828"
     },
     {
       "sha": "c5f5c3c2b40248ff457b09434f7b5ecb1a9a2131",
