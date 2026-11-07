@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-07T03:50:49.866Z",
+  "generatedAt": "2026-11-07T05:58:55.850Z",
   "range": {
     "from": "2025-11-08",
     "to": "2026-11-07"
@@ -1469,18 +1469,38 @@
     },
     {
       "date": "2026-11-05",
-      "count": 12
+      "count": 24
     },
     {
       "date": "2026-11-06",
-      "count": 16
+      "count": 17
     },
     {
       "date": "2026-11-07",
-      "count": 5
+      "count": 7
     }
   ],
   "latest": [
+    {
+      "sha": "ccde787b592f4ec31b9e2c2ab66d725008c50d76",
+      "shortSha": "ccde787",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "Merge pull request #29 from Junyxor/main",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-07T05:58:32Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/ccde787b592f4ec31b9e2c2ab66d725008c50d76"
+    },
+    {
+      "sha": "ea00025677ca532f7d05f551cc9ab5a533cb7486",
+      "shortSha": "ea00025",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "Merge upstream main into PR #29 and resolve documentation/build identity conflicts",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-07T05:18:47Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/ea00025677ca532f7d05f551cc9ab5a533cb7486"
+    },
     {
       "sha": "bcbc82ab40f9d3eb0e888c8a983402815432950b",
       "shortSha": "bcbc82a",
@@ -1710,26 +1730,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-05T23:06:45Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/62211ede1c51920f77d5a45799b542f873ae0c3a"
-    },
-    {
-      "sha": "ece7bbe307dc8ea823f18cef3ff80d4b6890fa02",
-      "shortSha": "ece7bbe",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "chore: refresh build identity after the removal convergence",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-05T17:57:25Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/ece7bbe307dc8ea823f18cef3ff80d4b6890fa02"
-    },
-    {
-      "sha": "f1c6e2d8baa675327b06e6707de7bfbf28e2c782",
-      "shortSha": "f1c6e2d",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "refactor(manager): merge removal save fallbacks and derive keepass phase once",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-05T16:53:18Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/f1c6e2d8baa675327b06e6707de7bfbf28e2c782"
     },
     {
       "sha": "0c351fffdfb483b77262c50ba40261a5d4858f16",
