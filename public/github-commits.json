@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-07T03:47:05.045Z",
+  "generatedAt": "2026-11-07T03:50:49.866Z",
   "range": {
     "from": "2025-11-08",
     "to": "2026-11-07"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-07",
-      "count": 4
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "bcbc82ab40f9d3eb0e888c8a983402815432950b",
+      "shortSha": "bcbc82a",
+      "repo": "Monica-Pass/Monica",
+      "message": "test(ci): distinguish dry-run from completed release synchronization",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-07T03:50:24Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/bcbc82ab40f9d3eb0e888c8a983402815432950b"
+    },
     {
       "sha": "5956ff58ae92918c8e296078a5da73d6b2e83de5",
       "shortSha": "5956ff5",
@@ -1770,16 +1780,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-05T02:40:08Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/240314045b912eea6f168cc28c92f2d2ef57deb1"
-    },
-    {
-      "sha": "9336b39343c030f381de99c826fa4b93cc5e6488",
-      "shortSha": "9336b39",
-      "repo": "Monica-Pass/Monica",
-      "message": "feat(android): complete Bitwarden personal account and recovery flows [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-05T02:40:06Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/9336b39343c030f381de99c826fa4b93cc5e6488"
     },
     {
       "sha": "d7327e48113edfb7e2a97e4d404cacb8ff7babc7",
