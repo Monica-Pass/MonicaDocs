@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-07T05:58:55.850Z",
+  "generatedAt": "2026-11-07T12:01:45.838Z",
   "range": {
     "from": "2025-11-08",
     "to": "2026-11-07"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-07",
-      "count": 7
+      "count": 9
     }
   ],
   "latest": [
+    {
+      "sha": "91618a919ac0ce49f8da1a9278c0247383776d67",
+      "shortSha": "91618a9",
+      "repo": "Monica-Pass/Monica",
+      "message": "Fix Bitwarden detail crash and republish 1.0.325 [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-07T06:01:32Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/91618a919ac0ce49f8da1a9278c0247383776d67"
+    },
+    {
+      "sha": "a2e4e59df7e367b08c79ebd7445a1a8816958cd7",
+      "shortSha": "a2e4e59",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Fix Bitwarden detail crash and republish 1.0.325",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-07T06:01:06Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/a2e4e59df7e367b08c79ebd7445a1a8816958cd7"
+    },
     {
       "sha": "ccde787b592f4ec31b9e2c2ab66d725008c50d76",
       "shortSha": "ccde787",
@@ -1722,16 +1742,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5f8cc80f89fe0b85aa3ae1db3cbdede490816869"
     },
     {
-      "sha": "62211ede1c51920f77d5a45799b542f873ae0c3a",
-      "shortSha": "62211ed",
-      "repo": "Monica-Pass/Monica",
-      "message": "fix(android): preserve vault recovery and complete 325 reliability fixes [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-05T23:06:45Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/62211ede1c51920f77d5a45799b542f873ae0c3a"
-    },
-    {
       "sha": "0c351fffdfb483b77262c50ba40261a5d4858f16",
       "shortSha": "0c351ff",
       "repo": "Monica-Pass/Monica-Cloud",
@@ -1910,16 +1920,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-03T03:42:57Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c5f5c3c2b40248ff457b09434f7b5ecb1a9a2131"
-    },
-    {
-      "sha": "9632ecc11a4e533dbf353e7cadbfaaa7cb10bb9c",
-      "shortSha": "9632ecc",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "fix(android): support LAN IP autofill in 1.0.324",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-03T03:11:56Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/9632ecc11a4e533dbf353e7cadbfaaa7cb10bb9c"
     },
     {
       "sha": "297e4ef7fa6e62637593fbf4245afd59a25bfbc9",
