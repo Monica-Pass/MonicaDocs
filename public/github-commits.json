@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-07T03:38:24.259Z",
+  "generatedAt": "2026-11-07T03:47:05.045Z",
   "range": {
     "from": "2025-11-08",
     "to": "2026-11-07"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-07",
-      "count": 3
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "5956ff58ae92918c8e296078a5da73d6b2e83de5",
+      "shortSha": "5956ff5",
+      "repo": "Monica-Pass/Monica",
+      "message": "fix(ci): defer releases until the read-only AtomGit mirror is ready",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-07T03:46:33Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/5956ff58ae92918c8e296078a5da73d6b2e83de5"
+    },
     {
       "sha": "9bcdcd3c5f595d2a18ae86a8c415cf2ceebde95d",
       "shortSha": "9bcdcd3",
@@ -1880,16 +1890,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-04T15:59:50Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/51e042eadb9d41d609ad7c3d961965a236ffaac9"
-    },
-    {
-      "sha": "908138d2ea253b9c1e27432577b7e4b48cab4a8e",
-      "shortSha": "908138d",
-      "repo": "Monica-Pass/Monica",
-      "message": "feat(android): finish 325 editors, Bitwarden tools and sparse KeePass fields [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-04T15:58:42Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/908138d2ea253b9c1e27432577b7e4b48cab4a8e"
     },
     {
       "sha": "0a63d0ca46d60993b90e1a05fafe4b3a97d561b9",
