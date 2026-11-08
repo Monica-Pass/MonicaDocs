@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-08T03:47:06.425Z",
+  "generatedAt": "2026-11-08T12:22:22.272Z",
   "range": {
     "from": "2025-11-09",
     "to": "2026-11-08"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-08",
-      "count": 2
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "259e1ef8c2de574edf04dedadb34221a0751be89",
+      "shortSha": "259e1ef",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Fix native KeePass autofill for F-Droid 1.0.326",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-08T11:35:36Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/259e1ef8c2de574edf04dedadb34221a0751be89"
+    },
+    {
+      "sha": "75f286b7167602b0346334d0b0488e39d89d4e50",
+      "shortSha": "75f286b",
+      "repo": "Monica-Pass/Monica",
+      "message": "Fix native KeePass autofill for Android 1.0.326 [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-08T11:35:23Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/75f286b7167602b0346334d0b0488e39d89d4e50"
+    },
     {
       "sha": "9e2b708e50a9a117ac0c022bbd1c11456c28c3c3",
       "shortSha": "9e2b708",
@@ -1722,16 +1742,6 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/f8100e436a6dc8b338daf4979b299882093ba0c8"
     },
     {
-      "sha": "b1411f28624fb15b223de9bc805928a2199b2b30",
-      "shortSha": "b1411f2",
-      "repo": "Monica-Pass/Monica",
-      "message": "docs: add concise Android agent maintenance guide [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-06T08:53:13Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/b1411f28624fb15b223de9bc805928a2199b2b30"
-    },
-    {
       "sha": "5f8cc80f89fe0b85aa3ae1db3cbdede490816869",
       "shortSha": "5f8cc80",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1910,16 +1920,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-04T06:53:35Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/0a63d0ca46d60993b90e1a05fafe4b3a97d561b9"
-    },
-    {
-      "sha": "c5f5c3c2b40248ff457b09434f7b5ecb1a9a2131",
-      "shortSha": "c5f5c3c",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Release F-Droid 1.0.324 with verified permission management",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-03T03:42:57Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c5f5c3c2b40248ff457b09434f7b5ecb1a9a2131"
     },
     {
       "sha": "297e4ef7fa6e62637593fbf4245afd59a25bfbc9",
