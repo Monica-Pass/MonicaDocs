@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-08T14:24:11.832Z",
+  "generatedAt": "2026-11-08T15:14:22.922Z",
   "range": {
     "from": "2025-11-09",
     "to": "2026-11-08"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-08",
-      "count": 6
+      "count": 8
     }
   ],
   "latest": [
+    {
+      "sha": "e7a178835db9cb65e91c1aa71c6c58a8c7b252fb",
+      "shortSha": "e7a1788",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Finalize F-Droid 1.0.326 release notes",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-08T15:13:47Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/e7a178835db9cb65e91c1aa71c6c58a8c7b252fb"
+    },
+    {
+      "sha": "f7bc49f29a55ae7494d234844ec7ed7deab36b55",
+      "shortSha": "f7bc49f",
+      "repo": "Monica-Pass/Monica",
+      "message": "Finalize Android 1.0.326 release notes",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-08T15:13:44Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f7bc49f29a55ae7494d234844ec7ed7deab36b55"
+    },
     {
       "sha": "5067cc2c4ddb885d011b9ff8809ac2f83081064c",
       "shortSha": "5067cc2",
@@ -1742,16 +1762,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/07ea123bd422fb0079428c90faaaa701d3f4cab6"
     },
     {
-      "sha": "ac1a2b6625d5fcf09d221a3b50d4aeba224416c5",
-      "shortSha": "ac1a2b6",
-      "repo": "Monica-Pass/Monica",
-      "message": "Remove dedup engine and preserve upgrade compatibility [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-06T16:31:11Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/ac1a2b6625d5fcf09d221a3b50d4aeba224416c5"
-    },
-    {
       "sha": "5f8cc80f89fe0b85aa3ae1db3cbdede490816869",
       "shortSha": "5f8cc80",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1910,16 +1920,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
       "date": "2026-11-04T18:55:01Z",
       "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/d56c0173a0701ccaafe4eada24284f408cd86d15"
-    },
-    {
-      "sha": "51e042eadb9d41d609ad7c3d961965a236ffaac9",
-      "shortSha": "51e042e",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "feat(android): finish 325 editors, Bitwarden tools and sparse KeePass fields",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-04T15:59:50Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/51e042eadb9d41d609ad7c3d961965a236ffaac9"
     },
     {
       "sha": "297e4ef7fa6e62637593fbf4245afd59a25bfbc9",
