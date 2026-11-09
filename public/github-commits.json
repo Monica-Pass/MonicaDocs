@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-08T15:14:22.922Z",
+  "generatedAt": "2026-11-09T14:36:49.144Z",
   "range": {
-    "from": "2025-11-09",
-    "to": "2026-11-08"
+    "from": "2025-11-10",
+    "to": "2026-11-09"
   },
   "activity": [
-    {
-      "date": "2025-11-09",
-      "count": 0
-    },
     {
       "date": "2025-11-10",
       "count": 0
@@ -1478,6 +1474,10 @@
     {
       "date": "2026-11-08",
       "count": 8
+    },
+    {
+      "date": "2026-11-09",
+      "count": 0
     }
   ],
   "latest": [
