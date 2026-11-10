@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-10T02:31:16.549Z",
+  "generatedAt": "2026-11-10T13:54:42.777Z",
   "range": {
     "from": "2025-11-11",
     "to": "2026-11-10"
@@ -1477,10 +1477,70 @@
     },
     {
       "date": "2026-11-10",
-      "count": 2
+      "count": 9
     }
   ],
   "latest": [
+    {
+      "sha": "bc1785f907f36869e2f81e8496326733ea0dfbaa",
+      "shortSha": "bc1785f",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Add NFC bank card entry and simplify Send creation",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-10T07:52:13Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/bc1785f907f36869e2f81e8496326733ea0dfbaa"
+    },
+    {
+      "sha": "a0c5ac00fe041b652381be949159f78e95cdfcdf",
+      "shortSha": "a0c5ac0",
+      "repo": "Monica-Pass/Monica",
+      "message": "Add NFC bank card entry and simplify Send creation [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-10T07:51:22Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/a0c5ac00fe041b652381be949159f78e95cdfcdf"
+    },
+    {
+      "sha": "115abf714c6100d4ca57ba1f10a96b1d18cd4ec0",
+      "shortSha": "115abf7",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Merge upstream Monica icon synchronization into main",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-10T03:35:38Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/115abf714c6100d4ca57ba1f10a96b1d18cd4ec0"
+    },
+    {
+      "sha": "8c9578ad41e5ff92646cb8ec249709c82db5f54f",
+      "shortSha": "8c9578a",
+      "repo": "Monica-Pass/Monica",
+      "message": "Merge upstream icon and contributor updates into main [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-10T03:35:37Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/8c9578ad41e5ff92646cb8ec249709c82db5f54f"
+    },
+    {
+      "sha": "1f469c7ca1d8357daa134b56d572d20c71c59978",
+      "shortSha": "1f469c7",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Update F-Droid toolchain, editors and update flow",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-10T03:33:14Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/1f469c7ca1d8357daa134b56d572d20c71c59978"
+    },
+    {
+      "sha": "c32c42279022856878457e24a84b24788108f0ba",
+      "shortSha": "c32c422",
+      "repo": "Monica-Pass/Monica",
+      "message": "Update Android toolchain, editors and update flow [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-10T03:32:38Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/c32c42279022856878457e24a84b24788108f0ba"
+    },
     {
       "sha": "b99e7db524842e6f7930571443148ee2e67b5bf3",
       "shortSha": "b99e7db",
@@ -1490,6 +1550,16 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-10T02:30:28Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/b99e7db524842e6f7930571443148ee2e67b5bf3"
+    },
+    {
+      "sha": "b91826436f7fdf5710b27f8cc640acb74099b10d",
+      "shortSha": "b918264",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "feat(fdroid): add Monica to built-in icon library",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-10T02:30:28Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/b91826436f7fdf5710b27f8cc640acb74099b10d"
     },
     {
       "sha": "1be270e2b14ba59aaa465666b642502b8f92c0e2",
@@ -1692,36 +1762,6 @@
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/3788c1ad697ff20830b03aec04888c0c60e0bb20"
     },
     {
-      "sha": "bcbc82ab40f9d3eb0e888c8a983402815432950b",
-      "shortSha": "bcbc82a",
-      "repo": "Monica-Pass/Monica",
-      "message": "test(ci): distinguish dry-run from completed release synchronization",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-07T03:50:24Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/bcbc82ab40f9d3eb0e888c8a983402815432950b"
-    },
-    {
-      "sha": "5956ff58ae92918c8e296078a5da73d6b2e83de5",
-      "shortSha": "5956ff5",
-      "repo": "Monica-Pass/Monica",
-      "message": "fix(ci): defer releases until the read-only AtomGit mirror is ready",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-07T03:46:33Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/5956ff58ae92918c8e296078a5da73d6b2e83de5"
-    },
-    {
-      "sha": "9bcdcd3c5f595d2a18ae86a8c415cf2ceebde95d",
-      "shortSha": "9bcdcd3",
-      "repo": "Monica-Pass/Monica",
-      "message": "fix(ci): sync missing release tags before AtomGit publication",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-07T03:37:54Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/9bcdcd3c5f595d2a18ae86a8c415cf2ceebde95d"
-    },
-    {
       "sha": "9322936a47cd7fe069c0031045c0ba419d7ff43d",
       "shortSha": "9322936",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1740,36 +1780,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-06T19:44:28Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/8d9bdf6329c60db45e378a2d535f0b5b8d8c24de"
-    },
-    {
-      "sha": "c08fac5150686654b9251e38e959ce2ad6ba1ca7",
-      "shortSha": "c08fac5",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "fix(android): retain actual KeePass lists while switching",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-06T18:26:51Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c08fac5150686654b9251e38e959ce2ad6ba1ca7"
-    },
-    {
-      "sha": "07ea123bd422fb0079428c90faaaa701d3f4cab6",
-      "shortSha": "07ea123",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Remove dedup engine and preserve upgrade compatibility",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-06T16:31:44Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/07ea123bd422fb0079428c90faaaa701d3f4cab6"
-    },
-    {
-      "sha": "5f8cc80f89fe0b85aa3ae1db3cbdede490816869",
-      "shortSha": "5f8cc80",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "fix(android): preserve vault recovery and complete 325 reliability fixes",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-05T23:06:47Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5f8cc80f89fe0b85aa3ae1db3cbdede490816869"
     },
     {
       "sha": "0c351fffdfb483b77262c50ba40261a5d4858f16",
@@ -1810,16 +1820,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
       "date": "2026-11-05T14:26:41Z",
       "url": "https://github.com/Monica-Pass/Monica-CE/commit/7f00dd8bd7bef3cd59e14912b52a593e76bc8769"
-    },
-    {
-      "sha": "240314045b912eea6f168cc28c92f2d2ef57deb1",
-      "shortSha": "2403140",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "feat(android): complete Bitwarden personal account and recovery flows",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-05T02:40:08Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/240314045b912eea6f168cc28c92f2d2ef57deb1"
     },
     {
       "sha": "d7327e48113edfb7e2a97e4d404cacb8ff7babc7",
