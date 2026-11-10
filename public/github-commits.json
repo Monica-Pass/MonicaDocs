@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-09T14:36:49.144Z",
+  "generatedAt": "2026-11-10T02:29:30.261Z",
   "range": {
-    "from": "2025-11-10",
-    "to": "2026-11-09"
+    "from": "2025-11-11",
+    "to": "2026-11-10"
   },
   "activity": [
-    {
-      "date": "2025-11-10",
-      "count": 0
-    },
     {
       "date": "2025-11-11",
       "count": 0
@@ -1477,10 +1473,34 @@
     },
     {
       "date": "2026-11-09",
-      "count": 0
+      "count": 1
+    },
+    {
+      "date": "2026-11-10",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "1be270e2b14ba59aaa465666b642502b8f92c0e2",
+      "shortSha": "1be270e",
+      "repo": "Monica-Pass/Monica",
+      "message": "Merge pull request #181 from buzhidao10068/feat/add-monica-icon",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-10T02:29:03Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/1be270e2b14ba59aaa465666b642502b8f92c0e2"
+    },
+    {
+      "sha": "f5c8cd5d7278bc04a1eae5b5c3df3fa7ba5405ae",
+      "shortSha": "f5c8cd5",
+      "repo": "Monica-Pass/Monica",
+      "message": "feat(android): add Monica to built-in icon library",
+      "authorName": "buzhidao10068",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/200157145?v=4",
+      "date": "2026-11-09T01:59:20Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/f5c8cd5d7278bc04a1eae5b5c3df3fa7ba5405ae"
+    },
     {
       "sha": "e7a178835db9cb65e91c1aa71c6c58a8c7b252fb",
       "shortSha": "e7a1788",
@@ -1722,16 +1742,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/8d9bdf6329c60db45e378a2d535f0b5b8d8c24de"
     },
     {
-      "sha": "bf7bb644d353adfa78170666619a91952e047b93",
-      "shortSha": "bf7bb64",
-      "repo": "Monica-Pass/Monica",
-      "message": "fix(android): scope move and copy folders to their database [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-06T19:44:07Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/bf7bb644d353adfa78170666619a91952e047b93"
-    },
-    {
       "sha": "c08fac5150686654b9251e38e959ce2ad6ba1ca7",
       "shortSha": "c08fac5",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1740,16 +1750,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-06T18:26:51Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c08fac5150686654b9251e38e959ce2ad6ba1ca7"
-    },
-    {
-      "sha": "d527730ef0b2c24de5110b52407daf26d2f0aa0a",
-      "shortSha": "d527730",
-      "repo": "Monica-Pass/Monica",
-      "message": "fix(android): retain actual KeePass lists while switching [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-06T18:26:17Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/d527730ef0b2c24de5110b52407daf26d2f0aa0a"
     },
     {
       "sha": "07ea123bd422fb0079428c90faaaa701d3f4cab6",
