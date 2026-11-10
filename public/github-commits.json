@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-10T02:29:30.261Z",
+  "generatedAt": "2026-11-10T02:31:16.549Z",
   "range": {
     "from": "2025-11-11",
     "to": "2026-11-10"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-10",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "b99e7db524842e6f7930571443148ee2e67b5bf3",
+      "shortSha": "b99e7db",
+      "repo": "Monica-Pass/Monica",
+      "message": "docs(android): mark Monica icon as an unreleased addition",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-10T02:30:28Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/b99e7db524842e6f7930571443148ee2e67b5bf3"
+    },
     {
       "sha": "1be270e2b14ba59aaa465666b642502b8f92c0e2",
       "shortSha": "1be270e",
@@ -1720,16 +1730,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-07T03:20:41Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/9322936a47cd7fe069c0031045c0ba419d7ff43d"
-    },
-    {
-      "sha": "5f58fa95a000bdca7e7787dcc2bcc04735bb9f91",
-      "shortSha": "5f58fa9",
-      "repo": "Monica-Pass/Monica",
-      "message": "docs(android): finalize 1.0.325 release notes [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-07T03:20:40Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/5f58fa95a000bdca7e7787dcc2bcc04735bb9f91"
     },
     {
       "sha": "8d9bdf6329c60db45e378a2d535f0b5b8d8c24de",
