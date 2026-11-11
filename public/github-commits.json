@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-11T12:13:40.078Z",
+  "generatedAt": "2026-11-11T13:02:22.960Z",
   "range": {
     "from": "2025-11-12",
     "to": "2026-11-11"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-11",
-      "count": 6
+      "count": 7
     }
   ],
   "latest": [
+    {
+      "sha": "e46f8ba53eb91b0824efc7093442e70a72aa7b29",
+      "shortSha": "e46f8ba",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "feat(backup): support Android V2 encrypted ZIP and WebDAV",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-11T12:58:54Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/e46f8ba53eb91b0824efc7093442e70a72aa7b29"
+    },
     {
       "sha": "29d73efb6b53f269a865641777e501a42898de82",
       "shortSha": "29d73ef",
@@ -1780,16 +1790,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
       "date": "2026-11-07T05:51:37Z",
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/044567b94777cc9a7d2c595ffe67f3ad66677a1b"
-    },
-    {
-      "sha": "3788c1ad697ff20830b03aec04888c0c60e0bb20",
-      "shortSha": "3788c1a",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "fix(nearby): bound discovery wait; index snapshot scans",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-07T05:51:37Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/3788c1ad697ff20830b03aec04888c0c60e0bb20"
     },
     {
       "sha": "0c351fffdfb483b77262c50ba40261a5d4858f16",
