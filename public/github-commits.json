@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-10T13:54:42.777Z",
+  "generatedAt": "2026-11-11T12:13:40.078Z",
   "range": {
-    "from": "2025-11-11",
-    "to": "2026-11-10"
+    "from": "2025-11-12",
+    "to": "2026-11-11"
   },
   "activity": [
-    {
-      "date": "2025-11-11",
-      "count": 0
-    },
     {
       "date": "2025-11-12",
       "count": 0
@@ -1477,10 +1473,114 @@
     },
     {
       "date": "2026-11-10",
-      "count": 9
+      "count": 13
+    },
+    {
+      "date": "2026-11-11",
+      "count": 6
     }
   ],
   "latest": [
+    {
+      "sha": "29d73efb6b53f269a865641777e501a42898de82",
+      "shortSha": "29d73ef",
+      "repo": "Monica-Pass/Monica",
+      "message": "docs(android): correct PBKDF2 parameters in README translations",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-11T12:12:22Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/29d73efb6b53f269a865641777e501a42898de82"
+    },
+    {
+      "sha": "d05d78658187758b58597f1939f34373dd3ddbb9",
+      "shortSha": "d05d786",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "docs(android): correct PBKDF2 parameters in README translations",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-11T12:12:22Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/d05d78658187758b58597f1939f34373dd3ddbb9"
+    },
+    {
+      "sha": "57809c538c0c3a7ba2af06fe2f90033d620eff88",
+      "shortSha": "57809c5",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "fix(android): unify local password protection and repair IME",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-11T10:52:39Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/57809c538c0c3a7ba2af06fe2f90033d620eff88"
+    },
+    {
+      "sha": "b03b1a1c564557c3cebd48b743c368b477789527",
+      "shortSha": "b03b1a1",
+      "repo": "Monica-Pass/Monica",
+      "message": "fix(android): unify local password protection and repair IME [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-11T10:52:32Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/b03b1a1c564557c3cebd48b743c368b477789527"
+    },
+    {
+      "sha": "d48cbc54b8ef706835fc0806c056d2d0508ec300",
+      "shortSha": "d48cbc5",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-11-11T09:31:42Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/d48cbc54b8ef706835fc0806c056d2d0508ec300"
+    },
+    {
+      "sha": "120fef15b9d6ee7f9a9e86eb4158ff3576055c5a",
+      "shortSha": "120fef1",
+      "repo": "Monica-Pass/Monica",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-11-11T09:31:41Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/120fef15b9d6ee7f9a9e86eb4158ff3576055c5a"
+    },
+    {
+      "sha": "e9e99c3bd4fcdbdbe88d01557749c77005f3ef24",
+      "shortSha": "e9e99c3",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Fix Release XML startup crash and verify retained-data upgrades",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-10T18:21:56Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/e9e99c3bd4fcdbdbe88d01557749c77005f3ef24"
+    },
+    {
+      "sha": "273b2ccf86d4cfc001f83e040f4ef11466ce04e8",
+      "shortSha": "273b2cc",
+      "repo": "Monica-Pass/Monica",
+      "message": "Fix Release XML startup crash and verify retained-data upgrades [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-10T18:21:55Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/273b2ccf86d4cfc001f83e040f4ef11466ce04e8"
+    },
+    {
+      "sha": "53fde203074bb35be50fa9f76cedfcf0cc5e48a6",
+      "shortSha": "53fde20",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Strengthen local password protection and optimize F-Droid resources",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-10T16:56:15Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/53fde203074bb35be50fa9f76cedfcf0cc5e48a6"
+    },
+    {
+      "sha": "a9867b1133390261b04066cd081d4b9442bff55f",
+      "shortSha": "a9867b1",
+      "repo": "Monica-Pass/Monica",
+      "message": "Strengthen local password protection and optimize Android resources [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-10T16:56:04Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/a9867b1133390261b04066cd081d4b9442bff55f"
+    },
     {
       "sha": "bc1785f907f36869e2f81e8496326733ea0dfbaa",
       "shortSha": "bc1785f",
@@ -1572,16 +1672,6 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/1be270e2b14ba59aaa465666b642502b8f92c0e2"
     },
     {
-      "sha": "f5c8cd5d7278bc04a1eae5b5c3df3fa7ba5405ae",
-      "shortSha": "f5c8cd5",
-      "repo": "Monica-Pass/Monica",
-      "message": "feat(android): add Monica to built-in icon library",
-      "authorName": "buzhidao10068",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/200157145?v=4",
-      "date": "2026-11-09T01:59:20Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f5c8cd5d7278bc04a1eae5b5c3df3fa7ba5405ae"
-    },
-    {
       "sha": "e7a178835db9cb65e91c1aa71c6c58a8c7b252fb",
       "shortSha": "e7a1788",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1592,16 +1682,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/e7a178835db9cb65e91c1aa71c6c58a8c7b252fb"
     },
     {
-      "sha": "f7bc49f29a55ae7494d234844ec7ed7deab36b55",
-      "shortSha": "f7bc49f",
-      "repo": "Monica-Pass/Monica",
-      "message": "Finalize Android 1.0.326 release notes",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-08T15:13:44Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/f7bc49f29a55ae7494d234844ec7ed7deab36b55"
-    },
-    {
       "sha": "5067cc2c4ddb885d011b9ff8809ac2f83081064c",
       "shortSha": "5067cc2",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1610,36 +1690,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-08T14:19:42Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5067cc2c4ddb885d011b9ff8809ac2f83081064c"
-    },
-    {
-      "sha": "e51e25c06dbc02410a0d4425b8697116fb848875",
-      "shortSha": "e51e25c",
-      "repo": "Monica-Pass/Monica",
-      "message": "Fix legacy Vaultwarden sync and Send navigation for Android 1.0.326",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-08T14:19:36Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/e51e25c06dbc02410a0d4425b8697116fb848875"
-    },
-    {
-      "sha": "259e1ef8c2de574edf04dedadb34221a0751be89",
-      "shortSha": "259e1ef",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Fix native KeePass autofill for F-Droid 1.0.326",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-08T11:35:36Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/259e1ef8c2de574edf04dedadb34221a0751be89"
-    },
-    {
-      "sha": "75f286b7167602b0346334d0b0488e39d89d4e50",
-      "shortSha": "75f286b",
-      "repo": "Monica-Pass/Monica",
-      "message": "Fix native KeePass autofill for Android 1.0.326 [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-08T11:35:23Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/75f286b7167602b0346334d0b0488e39d89d4e50"
     },
     {
       "sha": "9e2b708e50a9a117ac0c022bbd1c11456c28c3c3",
@@ -1670,26 +1720,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
       "date": "2026-11-07T06:32:52Z",
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/c52ecb48fa3f1355a2c3aaafa5797c0439f29184"
-    },
-    {
-      "sha": "91618a919ac0ce49f8da1a9278c0247383776d67",
-      "shortSha": "91618a9",
-      "repo": "Monica-Pass/Monica",
-      "message": "Fix Bitwarden detail crash and republish 1.0.325 [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-07T06:01:32Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/91618a919ac0ce49f8da1a9278c0247383776d67"
-    },
-    {
-      "sha": "a2e4e59df7e367b08c79ebd7445a1a8816958cd7",
-      "shortSha": "a2e4e59",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Fix Bitwarden detail crash and republish 1.0.325",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-07T06:01:06Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/a2e4e59df7e367b08c79ebd7445a1a8816958cd7"
     },
     {
       "sha": "ccde787b592f4ec31b9e2c2ab66d725008c50d76",
@@ -1760,26 +1790,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
       "date": "2026-11-07T05:51:37Z",
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/3788c1ad697ff20830b03aec04888c0c60e0bb20"
-    },
-    {
-      "sha": "9322936a47cd7fe069c0031045c0ba419d7ff43d",
-      "shortSha": "9322936",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "docs(android): finalize 1.0.325 release notes",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-07T03:20:41Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/9322936a47cd7fe069c0031045c0ba419d7ff43d"
-    },
-    {
-      "sha": "8d9bdf6329c60db45e378a2d535f0b5b8d8c24de",
-      "shortSha": "8d9bdf6",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "fix(android): scope move and copy folders to their database",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-06T19:44:28Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/8d9bdf6329c60db45e378a2d535f0b5b8d8c24de"
     },
     {
       "sha": "0c351fffdfb483b77262c50ba40261a5d4858f16",
@@ -2190,16 +2200,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-06T09:04:20Z",
       "url": "https://github.com/Monica-Pass/Monica-cli/commit/b0b7f6d03248db9e9104e095edff0e42aa31e328"
-    },
-    {
-      "sha": "e0ef1b382024273fde4e15a51e7288af09c49a57",
-      "shortSha": "e0ef1b3",
-      "repo": "Monica-Pass/MonicaDocs",
-      "message": "Merge branch 'main' of https://github.com/Monica-Pass/MonicaDocs",
-      "authorName": "Mrmiaomrzh",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/189438881?v=4",
-      "date": "2026-10-04T14:19:30Z",
-      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/e0ef1b382024273fde4e15a51e7288af09c49a57"
     },
     {
       "sha": "a26b0c108a1434a379107f04ead1facb42720d12",
