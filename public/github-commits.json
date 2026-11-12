@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-12T15:34:14.769Z",
+  "generatedAt": "2026-11-12T16:16:11.622Z",
   "range": {
     "from": "2025-11-13",
     "to": "2026-11-12"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-12",
-      "count": 3
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "f3c6d5ae4f63a4f114131fccc823b82fc2671695",
+      "shortSha": "f3c6d5a",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "ci: consolidate to a single workflow, drop parity reports from the repo",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-12T16:15:07Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f3c6d5ae4f63a4f114131fccc823b82fc2671695"
+    },
     {
       "sha": "b524c991a35513d6b927bd913fadd4a41b6315f9",
       "shortSha": "b524c99",
@@ -2470,16 +2480,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-06-05T19:29:09Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/bfd05e70e0bc8157aff5fde95db228676110a15b"
-    },
-    {
-      "sha": "6507321b9727e51b50c00e3a62972e6482928d28",
-      "shortSha": "6507321",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "feat: complete iOS Android parity gaps",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-06-05T12:22:36Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/6507321b9727e51b50c00e3a62972e6482928d28"
     }
   ]
 }
