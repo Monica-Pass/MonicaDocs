@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-12T14:10:24.023Z",
+  "generatedAt": "2026-11-12T15:03:30.867Z",
   "range": {
     "from": "2025-11-13",
     "to": "2026-11-12"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-12",
-      "count": 0
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "b95f3c1fefa85ae845ffd1ae6d6e7a1641447097",
+      "shortSha": "b95f3c1",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "docs: track the Android/iOS parity audits",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-12T14:56:56Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b95f3c1fefa85ae845ffd1ae6d6e7a1641447097"
+    },
+    {
+      "sha": "578e1dd1a00da02b18d0093998d7fb9f98de6493",
+      "shortSha": "578e1dd",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "chore: stop ignoring markdown and document MDBX build prerequisites",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-12T14:56:49Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/578e1dd1a00da02b18d0093998d7fb9f98de6493"
+    },
     {
       "sha": "5ace68aaccc0aeeab2adf83129375022d5ae488d",
       "shortSha": "5ace68a",
@@ -2460,26 +2480,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-06-05T07:23:10Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/91d37743a43ad60f3b49e8b5fb204dfdbc780c26"
-    },
-    {
-      "sha": "59773adc6b24f6041ec9f183c4594cbd0ffc9c8d",
-      "shortSha": "59773ad",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Align iOS Android parity surface",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-06-05T06:43:45Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/59773adc6b24f6041ec9f183c4594cbd0ffc9c8d"
-    },
-    {
-      "sha": "f5ad1edc3e3228a7b8a8272c877ec5e0764ab1c5",
-      "shortSha": "f5ad1ed",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #2 from Monica-Pass/codex/next-android-parity",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-06-05T02:54:47Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f5ad1edc3e3228a7b8a8272c877ec5e0764ab1c5"
     }
   ]
 }
