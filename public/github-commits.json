@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-12T15:03:30.867Z",
+  "generatedAt": "2026-11-12T15:34:14.769Z",
   "range": {
     "from": "2025-11-13",
     "to": "2026-11-12"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-12",
-      "count": 2
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "b524c991a35513d6b927bd913fadd4a41b6315f9",
+      "shortSha": "b524c99",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix: unblock build without MDBX artifact, register monica:// scheme, drain share inbox",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-12T15:33:32Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b524c991a35513d6b927bd913fadd4a41b6315f9"
+    },
     {
       "sha": "b95f3c1fefa85ae845ffd1ae6d6e7a1641447097",
       "shortSha": "b95f3c1",
@@ -2470,16 +2480,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-06-05T12:22:36Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/6507321b9727e51b50c00e3a62972e6482928d28"
-    },
-    {
-      "sha": "91d37743a43ad60f3b49e8b5fb204dfdbc780c26",
-      "shortSha": "91d3774",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #6 from Monica-Pass/codex/ios-full-android-parity",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-06-05T07:23:10Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/91d37743a43ad60f3b49e8b5fb204dfdbc780c26"
     }
   ]
 }
