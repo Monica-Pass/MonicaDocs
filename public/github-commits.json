@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-11T13:02:22.960Z",
+  "generatedAt": "2026-11-12T14:10:24.023Z",
   "range": {
-    "from": "2025-11-12",
-    "to": "2026-11-11"
+    "from": "2025-11-13",
+    "to": "2026-11-12"
   },
   "activity": [
-    {
-      "date": "2025-11-12",
-      "count": 0
-    },
     {
       "date": "2025-11-13",
       "count": 0
@@ -1477,10 +1473,34 @@
     },
     {
       "date": "2026-11-11",
-      "count": 7
+      "count": 9
+    },
+    {
+      "date": "2026-11-12",
+      "count": 0
     }
   ],
   "latest": [
+    {
+      "sha": "5ace68aaccc0aeeab2adf83129375022d5ae488d",
+      "shortSha": "5ace68a",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "fix(android): require device credentials for password recovery",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-11T16:22:58Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5ace68aaccc0aeeab2adf83129375022d5ae488d"
+    },
+    {
+      "sha": "e63d0cead5703bcd706aadf39b2cac57ead27aba",
+      "shortSha": "e63d0ce",
+      "repo": "Monica-Pass/Monica",
+      "message": "fix(android): require device credentials for password recovery [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-11T16:22:57Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/e63d0cead5703bcd706aadf39b2cac57ead27aba"
+    },
     {
       "sha": "e46f8ba53eb91b0824efc7093442e70a72aa7b29",
       "shortSha": "e46f8ba",
@@ -1672,16 +1692,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/b91826436f7fdf5710b27f8cc640acb74099b10d"
     },
     {
-      "sha": "1be270e2b14ba59aaa465666b642502b8f92c0e2",
-      "shortSha": "1be270e",
-      "repo": "Monica-Pass/Monica",
-      "message": "Merge pull request #181 from buzhidao10068/feat/add-monica-icon",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-10T02:29:03Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/1be270e2b14ba59aaa465666b642502b8f92c0e2"
-    },
-    {
       "sha": "e7a178835db9cb65e91c1aa71c6c58a8c7b252fb",
       "shortSha": "e7a1788",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1690,16 +1700,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-08T15:13:47Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/e7a178835db9cb65e91c1aa71c6c58a8c7b252fb"
-    },
-    {
-      "sha": "5067cc2c4ddb885d011b9ff8809ac2f83081064c",
-      "shortSha": "5067cc2",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Fix legacy Vaultwarden sync and Send navigation for Android 1.0.326",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-08T14:19:42Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5067cc2c4ddb885d011b9ff8809ac2f83081064c"
     },
     {
       "sha": "9e2b708e50a9a117ac0c022bbd1c11456c28c3c3",
