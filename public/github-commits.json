@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-13T06:46:37.671Z",
+  "generatedAt": "2026-11-13T07:49:07.393Z",
   "range": {
     "from": "2025-11-14",
     "to": "2026-11-13"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-13",
-      "count": 2
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "b841b6c6b17b014ea135e184ec89857acb413ae4",
+      "shortSha": "b841b6c",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "feat: complete Bitwarden Send (#35)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-13T07:48:37Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b841b6c6b17b014ea135e184ec89857acb413ae4"
+    },
     {
       "sha": "4343ccd8aa264c2da372fbb8f0f24edf69dd99b8",
       "shortSha": "4343ccd",
@@ -2470,16 +2480,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-06-24T01:47:19Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/78974ee8b793954302e79fc7d557499c252cc487"
-    },
-    {
-      "sha": "f33624a7e57e7cdb40feea24e8183ecafdf40ed6",
-      "shortSha": "f33624a",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "chore: remove remaining development copy",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-06-06T05:09:03Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f33624a7e57e7cdb40feea24e8183ecafdf40ed6"
     }
   ]
 }
