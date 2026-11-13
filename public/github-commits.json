@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-13T07:49:07.393Z",
+  "generatedAt": "2026-11-13T13:34:14.121Z",
   "range": {
     "from": "2025-11-14",
     "to": "2026-11-13"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-13",
-      "count": 3
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "3d2bd7040c393eb4bd66660ed182fb59f449ad23",
+      "shortSha": "3d2bd70",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "feat(android): finalize F-Droid 1.0.327 restore, exports and passkey settings",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-13T12:20:08Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/3d2bd7040c393eb4bd66660ed182fb59f449ad23"
+    },
+    {
+      "sha": "600ece857d544ee493f83cb2f93d382c8b6509d6",
+      "shortSha": "600ece8",
+      "repo": "Monica-Pass/Monica",
+      "message": "feat(android): finalize 1.0.327 restore, exports and passkey settings [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-13T12:20:04Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/600ece857d544ee493f83cb2f93d382c8b6509d6"
+    },
     {
       "sha": "b841b6c6b17b014ea135e184ec89857acb413ae4",
       "shortSha": "b841b6c",
@@ -1752,16 +1772,6 @@
       "url": "https://github.com/Monica-Pass/Monica/commit/c32c42279022856878457e24a84b24788108f0ba"
     },
     {
-      "sha": "b99e7db524842e6f7930571443148ee2e67b5bf3",
-      "shortSha": "b99e7db",
-      "repo": "Monica-Pass/Monica",
-      "message": "docs(android): mark Monica icon as an unreleased addition",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-10T02:30:28Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/b99e7db524842e6f7930571443148ee2e67b5bf3"
-    },
-    {
       "sha": "b91826436f7fdf5710b27f8cc640acb74099b10d",
       "shortSha": "b918264",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1770,16 +1780,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-10T02:30:28Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/b91826436f7fdf5710b27f8cc640acb74099b10d"
-    },
-    {
-      "sha": "e7a178835db9cb65e91c1aa71c6c58a8c7b252fb",
-      "shortSha": "e7a1788",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Finalize F-Droid 1.0.326 release notes",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-08T15:13:47Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/e7a178835db9cb65e91c1aa71c6c58a8c7b252fb"
     },
     {
       "sha": "9e2b708e50a9a117ac0c022bbd1c11456c28c3c3",
