@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T15:41:36.044Z",
+  "updatedAt": "2026-11-13T12:30:58.546Z",
   "repos": [
     {
       "id": "android",
@@ -8,6 +8,30 @@
       "url": "https://github.com/Monica-Pass/Monica",
       "platform": "android",
       "releases": [
+        {
+          "tag": "V1.0.327",
+          "prerelease": false,
+          "name": "Monica 1.0.327",
+          "body": "# Monica Android 1.0.327\n\n## 中文\n\n- 修复普通备份还原把同卡号、同证件号或同标题但内容不同的项目误判为重复：仅在完整内容、属性及独立关系均可确认一致时跳过；有附件、笔记绑定或未知内容的项目保守独立还原。附件来源缺失或身份不唯一时在写入前拒绝；笔记只绑定本次成功还原的对应项目，取消或锁定后不再发布旧请求的绑定。重复还原复杂项目可能产生额外副本。\n- “通行密钥和密码设置”在系统支持且确认 Monica 服务未启用时进入启用页，其他情况进入安全设置；入口不可用时逐级回退，避免只打开设置首页或崩溃。\n\n- 自动填充与通行密钥设置统一分组行和 M3E 单选底部面板，来源、默认库、匹配策略及验证码时长使用一致交互；整理系统入口、填充、匹配、保存及键盘分组。修复进入设置时数据库列表尚未加载就清空默认库的问题；缺失库保留原选择并提示不可用，仅明确选项才更改范围。\n\n- 物理密钥改为默认关闭的可选功能，可在物理密钥页或“自动填充与通行密钥”设置页切换，两处状态同步。关闭后不添加 Monica 的 USB/NFC 硬件候选并停止相关扫描，已保存的软件通行密钥不受影响；系统或其他提供方的安全密钥入口由其自身控制。\n\n- 加固主密码找回：安全问题答案之外，还需本次系统锁屏凭据确认（Android 11 及以上）；取消、后台、锁定或请求替换后授权失效。持久限制尝试次数，新答案使用带随机盐的 PBKDF2-SHA256／600000 次；旧 SHA-256 答案与备份保留兼容，仅在提供真实答案并完成找回后迁移。\n- 改进安全问题设置的取消和再次进入流程：离开页面撤销尚未授权的保存请求，再次进入使用新的操作状态；答案验证页自动刷新实际冷却状态，在限制允许后重新开放尝试。\n\n- 修复从旧版本更新后可能在启动时崩溃的问题，保留原密码库和恢复材料。\n- 减小安装包：压缩赞赏码图片、无损优化内置品牌图标并复用 Monica 图标，保留已有项目的 PNG 自定义图标；精简依赖的多余语言资源，保留全部应用语言和特殊中文配置。\n- 本地主密码统一使用 PBKDF2-SHA256／600000 次派生，移除算法切换入口；兼容读取旧 PBKDF2 和 Argon2id，并在成功验证原密码后迁移，保留原数据密钥与已存内容。\n- ZIP 导出前弹窗选择加密 V1、V2 或符合条件的明文备份；Passkey、附件和 Monica 配置仍须加密。WebDAV／OneDrive 使用分组选项弹窗，确认后保存，取消不更改选择。\n- 后台导出任务持有本次所选文件的临时授权；选择器默认建议主存储的 Download 目录，仍由用户确认位置。缺少所需的实际文件授权时不启动导出，并提示重新选择有授权的位置。\n- 拆分备份恢复的独立读取和处理分支，减小单个协程的规模，保留既有恢复和错误处理规则。\n- 输入法解锁框避让软键盘，内容过高时可滚动操作，支持大字号。修复切换系统字号时重复挂载键盘视图导致的输入法崩溃。\n- 旧加密 ZIP 备份仍可读取，新备份默认使用兼容 V1；可主动选择 600000 次派生的增强 V2，但恢复端也必须支持 V2，请保留旧备份。\n- 旧 APK 无法识别新的本地主密码保护。请使用支持此保护的新版客户端，不要直接降级打开升级后的本地数据。\n\n- 优化 KeePass 内部代码结构，按职责拆分目录、条目和字段处理逻辑，便于维护与后续改进；现有加密方式、文件格式和使用流程保持一致。\n\n- 精简银行卡和证件新建页，移除顶部 NFC 按钮、说明和读取成功提示；保留自动贴卡填入，卡片类型在原有菜单中确认。\n- 改进银联 NFC 兼容性：补齐应用选择与读取参数，兼容部分无需 Luhn 校验的银联卡，并补充 Track 1 卡号、姓名和有效期读取。实体银联卡仍需复测；卡片未公开的信息无法读取。\n- Send 访问控制改为与银行卡类型选择一致的紧凑 M3E 菜单，选中后显示对应密码或邮箱字段。\n- 内置图标库添加 Monica 本体图标，支持搜索并为条目选择（#180 / #181）。\n- 整理 Send 创建页：以单张账号卡片打开账号单选底部面板，并将草稿入口移至新建页。\n- 若当前表单有未保存内容，打开草稿前可取消或确认替换；已保存的草稿会保留。\n- Send 搜索支持识别粘贴的 Send 链接，点击后才打开接收流程；自托管服务仍须先确认目标。\n- 新增 NFC 银行卡录入，不新增依赖：支持部分非接触式 EMV 银行卡公开提供的卡号，以及卡片可选提供的持卡人姓名和有效期；居民身份证号码等受保护信息暂不支持读取。\n- 在列表刷卡成功后进入已填信息的银行卡新建页；在同类银行卡新建页补填读取信息，遇到已有不同值先确认替换。当前为其他类型时，可另开银行卡新建页并保留原页内容。\n- NFC 无法可靠区分信用卡、借记卡或预付卡，录入后须明确确认卡片类型，并核对信息后手动保存。\n- 改进版本更新弹窗，显示版本对比和可滚动的 Markdown 更新说明，支持跳过此版本、查看详情与稍后处理。\n- 新增默认开启、可在设置中关闭的每日自动更新检查；仅在解锁后的前台主页面检查，跳过的版本不再自动提示，手动检查仍可查看。\n- 更新弹窗在 Android 12 及以上、系统支持并启用跨窗口模糊时使用高斯背景模糊；其他情况保留背景暗化。\n- 恢复验证码、银行卡、证件、API Token、Wi-Fi 等新建/编辑页的连续字段卡片组，保持独立操作按钮与错误提示完整显示。\n- 更新 Android 构建工具与相关依赖，并保留 Android 8.0 最低支持版本。\n- 修复退出或重置 Bitwarden 登录、关闭 Send 接收页面时，TLS 连接回收可能触发主线程网络异常的问题。\n- 库移除确认准确说明文件处理范围：KeePass 移除注册后保留原文件，MDBX 本地库确认删除时移除目标本地文件。\n\n## English\n\n- Ordinary backup restore no longer treats different card, document or note content as a duplicate just because the number or title matches. Skipping requires complete content/metadata equality and a standalone item; related or unknown content is restored independently. Missing or ambiguous attachment owners are rejected before writes. Note bindings target only successfully restored rows and reject cancelled or locked requests. Repeating complex restores can create additional copies.\n- Passkey and password settings opens provider enablement only when supported and Monica is explicitly disabled; otherwise it opens security settings, with fallback for unavailable handlers.\n\n- Unify Autofill & passkeys settings with grouped rows and M3E single-choice sheets for sources, default vaults, matching, and OTP duration. Organize system, fill, matching, save, and keyboard settings. Opening settings no longer clears a default vault before its list loads; unavailable selections are preserved until an explicit choice is made.\n\n- Make physical security keys opt-in and off by default, with a shared switch on the physical-key page and the renamed Autofill & passkeys settings page. Turning it off removes Monica hardware candidates and stops related USB/NFC discovery without changing saved software passkeys; system and other provider entries remain under their own control.\n\n- Harden master-password recovery: security answers also require fresh device-credential confirmation on Android 11+. Cancel, background, lock or request replacement revokes authorization. Persist attempt limits, store new answers with salted PBKDF2-SHA256/600000, and keep legacy SHA-256 answers and backups readable; migrate only after actual answers and authorized recovery.\n- Improve cancellation and re-entry of security-question setup: leaving revokes saves that have not yet been authorized, and reopening starts a fresh operation. The answer page refreshes the actual cooldown and permits retries when the limiter allows them.\n\n- Fix a startup crash after updating from an older version while retaining the existing vault and recovery material.\n- Reduce package size with compressed donation images, lossless bundled brand icons and a shared Monica icon. Preserve existing custom PNG icons and all app languages, including special Chinese locales, while removing unused dependency translations.\n- Standardize local master-password writes on PBKDF2-SHA256 with 600000 iterations and remove the algorithm selector. Read historical PBKDF2 and Argon2id credentials, migrating only after successful original-password verification while retaining the data key and stored content.\n- Choose encrypted V1, V2 or eligible unencrypted ZIP in a dialog before export. Passkeys, attachments and Monica configuration still require encryption. WebDAV and OneDrive use grouped format dialogs that save only on confirmation.\n- Background exports retain temporary permission for the selected file. The save dialog suggests Download in main storage and still requires the user to choose a location; missing required file access stops export and prompts selection of a location with actual access.\n- Split independent backup-restoration read and processing branches into smaller functions to reduce the size of a single coroutine while preserving existing restore and error-handling rules.\n- Keep the keyboard unlock dialog above the software keyboard, with scrolling for larger content and font sizes. Fix an IME crash caused by reattaching its view after a system font-size change.\n- Keep reading older encrypted ZIP backups and use compatible V1 for new backups by default. Enhanced V2 with 600000 iterations is optional and requires a V2-capable reader; retain earlier backups.\n- Older APKs cannot recognize the new local password protection. Use an updated client that supports it; do not directly downgrade to open upgraded local data.\n\n- Improve KeePass code organization by separating group, entry and field handling, making maintenance and future improvements easier while preserving existing encryption, file formats and workflows.\n\n- Simplify bank-card and document creation by removing the top NFC button, help block and success messages. Keep automatic tap-to-fill and confirm the card type in the existing menu.\n- Improve UnionPay NFC compatibility with broader application selection and appropriate read parameters, limited support for UnionPay numbers without Luhn validation, and Track 1 number, name and expiry parsing. Physical UnionPay cards still need retesting; information withheld by the card remains unavailable.\n- Use a compact M3E menu for Send access control, matching the bank-card type picker and showing password or email fields for the selected mode.\n- Add the Monica app icon to the built-in icon library for search and entry selection (#180 / #181).\n- Simplify Send creation with a single account card that opens a single-selection bottom sheet, and move drafts into the New Send page.\n- When opening a draft would replace unsaved form edits, offer cancel or confirm; saved drafts are retained.\n- Recognize pasted Send links in search and open the receiver only after a tap; self-hosted services still require target confirmation.\n- Add NFC-assisted bank-card entry without new dependencies. Read publicly available card numbers and optional cardholder names and expiry dates from some contactless EMV bank cards; protected information such as national identity-card numbers is not supported.\n- A successful scan from the list opens a prefilled new bank-card page. In a matching new bank-card form, fill the read details and ask before replacing conflicting values. From another item type, offer a separate new bank-card page while keeping the original form content.\n- NFC cannot reliably distinguish credit, debit and prepaid cards. Explicitly confirm the card type, review the details and save manually.\n- Redesign the update dialog with version comparison, scrollable Markdown release notes, skip-version, details and later actions.\n- Add daily automatic update checks, enabled by default and optional in settings, while the unlocked main page is in the foreground. Skipped versions stay hidden from automatic prompts and remain visible through manual checks.\n- Apply Gaussian backdrop blur to the update dialog on Android 12 or later when cross-window blur is supported and enabled; retain background dimming otherwise.\n- Restore connected field groups in authenticator, bank card, document, API token, Wi-Fi and related editors while keeping separate actions and error messages fully visible.\n- Update Android build tools and related dependencies while retaining Android 8.0 as the minimum supported version.\n- Fix main-thread network exceptions during TLS cleanup when leaving or resetting Bitwarden login or closing a Send receiver.\n- Clarify file handling in vault removal confirmations: removing a KeePass registration retains the source file; confirming local MDBX vault deletion removes the selected local file.\n",
+          "publishedAt": "2026-11-13T12:30:32Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.327",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.327-26111312-88.APK",
+              "size": 36591942,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.327/Monica-Android-arm64-v8a-1.0.327-26111312-88.APK",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.327-26111312-88.APK",
+              "size": 34231228,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.327/Monica-Android-armeabi-v7a-1.0.327-26111312-88.APK",
+              "contentType": "application/octet-stream"
+            }
+          ]
+        },
         {
           "tag": "V1.0.326",
           "prerelease": false,
@@ -19,14 +43,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.326-26110812-91.APK",
               "size": 49126676,
-              "downloadCount": 474,
+              "downloadCount": 523,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.326/Monica-Android-arm64-v8a-1.0.326-26110812-91.APK",
               "contentType": "application/octet-stream"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.326-26110812-91.APK",
               "size": 46634890,
-              "downloadCount": 18,
+              "downloadCount": 19,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.326/Monica-Android-armeabi-v7a-1.0.326-26110812-91.APK",
               "contentType": "application/octet-stream"
             }
@@ -67,7 +91,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.324-26110312-02.APK",
               "size": 48184888,
-              "downloadCount": 415,
+              "downloadCount": 416,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.324/Monica-Android-arm64-v8a-1.0.324-26110312-02.APK",
               "contentType": "application/octet-stream"
             },
@@ -98,7 +122,7 @@
             {
               "name": "Monica-Android-armeabi-v7a-1.0.323-26103112-99.APK",
               "size": 44600142,
-              "downloadCount": 12,
+              "downloadCount": 13,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.323b/Monica-Android-armeabi-v7a-1.0.323-26103112-99.APK",
               "contentType": "application/octet-stream"
             }
@@ -223,30 +247,6 @@
               "contentType": "application/vnd.android.package-archive"
             }
           ]
-        },
-        {
-          "tag": "V1.0.318",
-          "prerelease": false,
-          "name": "V1.0.318",
-          "body": "# Monica for Android 1.0.318\r\n\r\n> 未发布 / Unreleased\r\n\r\n## 中文\r\n\r\n- 扩展常用信息输入建议：银行卡持卡人、证件及账单姓名共享已保存姓名，姓、名和中间名分别匹配；账单和证件地址支持街道、门牌、省市、邮编及国家建议，兼容独立卡包、密码内嵌内容及旧字段。保留签发机关建议，点击仅填写当前字段，不自动拆分姓名或修改其他资料。\r\n\r\n- 修复 KDBX 密码批量删除缓慢及条目重新出现：密码页与密码库页统一按数据库一次保存，成功后整体更新列表；原生索引在后台以事务提交，拒绝过期快照。保存失败保留列表数据，不再逐条重试；外部文件完整写入后若校验失败，保留当前文件与恢复副本，避免覆盖另一会话的写入。\r\n\r\n- 改善安全存储启动容错：未分类的读取异常在后台最多尝试三次，减少短暂失败直接进入保护页的情况；持续失败、密钥缺失及认证错误仍保留原数据并阻止正常启动。诊断补充失败阶段、尝试次数及异常类型，不包含密码、密钥或异常原文。\r\n\r\n- 卡包的银行卡和证件编辑统一使用 M3E 内容卡片：新增内容以紧凑卡片展示，支持长按拖动及菜单排序，顺序随条目保存；扩展字段、自定义字段和账单地址改用相连的填充式编辑，缩小间距并适配键盘与大字体。隐藏字段使用密码键盘。\r\n\r\n- 自动填充新增“保持解锁两分钟”设置，默认关闭；开启后同一应用及网站可复用验证，支持账号与密码分步填写及手动选择，连续填充不延长有效期。关闭此项、锁屏、手动锁定、移除 Monica 最近任务或进程重启均撤销临时授权。修复主应用清理后台后仍可恢复旧解锁会话的问题，自动填充操作不再延长主应用解锁时间；普通切换应用仍遵循自动锁定设置。\r\n\r\n- 新增常用信息输入建议：银行名称、分行代码、客服电话、凭据分组标签、网站网址及证件签发机关可匹配已保存的同类值，点击即可填入；支持项目内嵌银行卡和证件，最多显示三项，锁定或不可访问的数据源不参与建议。\r\n\r\n- 修复从其他应用接收 Passkey 时对空扩展和未启用支付扩展的过度拒绝，保留原始凭据及私钥；按验证码、无效数据、私钥及不支持的扩展显示跳过原因，诊断日志仅记录分类计数。含 PRF、Blob 或启用支付扩展的 Passkey 仍明确提示暂不支持，不丢弃扩展强行导入。\r\n\r\n- 修复导入条目中应用关联元数据被显示为普通自定义字段的问题；保留签名约束及再次导出能力，编辑或移除普通字段分组不会删除这些关联信息。\r\n\r\n- 优化去重合并到 Monica 本地：无附件的密码与无附件、无照片的安全条目按小批次事务写入，减少完整列表反复查询；进度在提交后更新，失败批次回滚并逐条定位，取消时停止后续处理。保留附件、MDBX 与 Passkey 的原有写入和回滚流程，减少重复分析读取及无附件条目的空查询。\r\n\r\n- 优化设置中的清空数据：按批次删除，减少逐条写库与列表刷新；显示当前阶段和实际已清空数量，完成或失败时保留结果提示，防止重复确认，并在页面重建后继续显示进度。保留原有类型选择及删除范围。\r\n\r\n- Monica CLI 同样暂不接入 Glitter：不创建、打开、编辑、导出或同步该档位，仅保留只读格式识别；即使提供正确密码和密钥也不会放行，原有数据库不变。\r\n\r\n## English\r\n\r\n- Extend saved-value suggestions to cardholder, identity and billing names, with separate first/middle/last-name matching. Suggest street, unit, city, region, postal code and country across wallet items, embedded content and legacy fields. Keep issuing-authority suggestions; selection fills only the active field without splitting names or changing other details.\r\n\r\n- Fix slow KDBX password bulk deletion and reappearing entries. Both password and vault pages save each database once and update the list after success. Apply native indexes in background transactions and reject stale snapshots. Preserve list data on save failure without per-entry retries; if verification fails after a complete external write, retain the current file and recovery copy instead of overwriting another session's changes.\r\n\r\n- Improve secure-storage startup handling: retry unclassified read failures up to three times in the background before showing the recovery screen. Persistent failures, missing keys and authentication errors still preserve stored data and block normal startup. Diagnostics now include the failure phase, attempt count and exception types without passwords, keys or exception messages.\r\n\r\n- Unify bank-card and identity-document editing with compact M3E content cards. Reorder added sections by long press or menu and save their order with the entry. Use connected filled editors for supplemental fields, custom fields and billing addresses, with tighter spacing and keyboard/large-text support. Hidden fields use password keyboards.\r\n\r\n- Add an optional “Keep unlocked for two minutes” autofill setting, off by default. When enabled, verification is reused within the same app and website across separate username/password steps and the manual picker, without extending the window. Turning it off, screen-off, explicit locking, removing Monica from Recents or restarting the process revokes access. Fix old main-app sessions being restored after task removal; autofill interaction no longer extends the main-app unlock timer. Normal background switching still follows the auto-lock setting.\r\n\r\n- Suggest saved values while typing bank names, branch codes, customer service phone numbers, credential group labels, website URLs and issuing authorities. Tap to fill from up to three matches, including embedded cards and identity documents; locked or inaccessible sources are excluded.\r\n\r\n- Accept transferred passkeys with absent extension data or disabled payment extensions without replacing their original credentials or private keys. Show categorized skip reasons and log only aggregate counts. Passkeys requiring PRF, blob, or enabled payment extensions remain explicitly unsupported; their extension state is never silently discarded.\r\n\r\n- Keep imported application-scope metadata out of ordinary custom-field displays while preserving signature constraints and re-export support. Editing or removing a user-field section retains this metadata.\r\n\r\n- Speed up deduplication into Monica Local with small transactions for passwords without attachments and secure items without attachments or photos, reducing repeated full-list queries. Update progress after commit, roll back failed batches and retry entries individually, and stop subsequent work on cancellation. Preserve existing attachment, MDBX, and Passkey write and rollback paths while reducing redundant analysis reads and empty attachment queries.\r\n\r\n- Speed up Clear data in Settings with batched deletion and fewer database writes and list refreshes. Show the current stage and committed entry count, retain completion or failure feedback, prevent duplicate confirmation, and preserve progress across activity recreation. Existing type selections and deletion boundaries remain unchanged.\r\n\r\n- Monica CLI also defers Glitter integration: no creation, opening, editing, export or sync, even with the correct password and key. Read-only format detection remains available, and existing databases stay unchanged.\r\n",
-          "publishedAt": "2026-10-08T11:22:51Z",
-          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.318",
-          "assets": [
-            {
-              "name": "Monica-Android-arm64-v8a-1.0.318-26100812-02.APK",
-              "size": 45099878,
-              "downloadCount": 975,
-              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.318/Monica-Android-arm64-v8a-1.0.318-26100812-02.APK",
-              "contentType": "application/vnd.android.package-archive"
-            },
-            {
-              "name": "Monica-Android-armeabi-v7a-1.0.318-26100812-02.APK",
-              "size": 42984924,
-              "downloadCount": 12,
-              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.318/Monica-Android-armeabi-v7a-1.0.318-26100812-02.APK",
-              "contentType": "application/vnd.android.package-archive"
-            }
-          ]
         }
       ]
     },
@@ -283,7 +283,7 @@
             {
               "name": "Monica-0.3.1-linux-x64-jit.deb",
               "size": 92469632,
-              "downloadCount": 1,
+              "downloadCount": 2,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-linux-x64-jit.deb",
               "contentType": "application/x-debian-package"
             },
@@ -325,7 +325,7 @@
             {
               "name": "Monica-0.3.1-windows-x64-jit-setup.exe",
               "size": 100783467,
-              "downloadCount": 37,
+              "downloadCount": 38,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-windows-x64-jit-setup.exe",
               "contentType": "application/x-msdos-program"
             },
