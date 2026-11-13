@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-12T16:33:17.486Z",
+  "generatedAt": "2026-11-13T05:27:08.733Z",
   "range": {
-    "from": "2025-11-13",
-    "to": "2026-11-12"
+    "from": "2025-11-14",
+    "to": "2026-11-13"
   },
   "activity": [
-    {
-      "date": "2025-11-13",
-      "count": 0
-    },
     {
       "date": "2025-11-14",
       "count": 0
@@ -1478,9 +1474,23 @@
     {
       "date": "2026-11-12",
       "count": 5
+    },
+    {
+      "date": "2026-11-13",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "0393ce1d7b1900aaaace4616e70c5a151ee7bf85",
+      "shortSha": "0393ce1",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "refactor: remove dead parity scaffolding and the MonicaUI placeholder",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-13T05:26:33Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/0393ce1d7b1900aaaace4616e70c5a151ee7bf85"
+    },
     {
       "sha": "0b739702df118f1b250b955c9f56c48ede7d15bf",
       "shortSha": "0b73970",
@@ -2470,16 +2480,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-06-06T04:42:01Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/2e57a3cfb5cf37bdb0547d6c20f67681fa58610c"
-    },
-    {
-      "sha": "4fa7c4903832ac82e58c9e0d5896fc4233d6494a",
-      "shortSha": "4fa7c49",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "chore: remove development UI for release",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-06-05T20:11:12Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/4fa7c4903832ac82e58c9e0d5896fc4233d6494a"
     }
   ]
 }
