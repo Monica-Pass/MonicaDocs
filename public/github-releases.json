@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T14:59:40.085Z",
+  "updatedAt": "2026-11-14T13:52:33.085Z",
   "repos": [
     {
       "id": "android",
@@ -19,14 +19,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.327-26111312-88.APK",
               "size": 36591942,
-              "downloadCount": 76,
+              "downloadCount": 334,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.327/Monica-Android-arm64-v8a-1.0.327-26111312-88.APK",
               "contentType": "application/octet-stream"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.327-26111312-88.APK",
               "size": 34231228,
-              "downloadCount": 3,
+              "downloadCount": 7,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.327/Monica-Android-armeabi-v7a-1.0.327-26111312-88.APK",
               "contentType": "application/octet-stream"
             }
@@ -43,7 +43,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.326-26110812-91.APK",
               "size": 49126676,
-              "downloadCount": 523,
+              "downloadCount": 528,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.326/Monica-Android-arm64-v8a-1.0.326-26110812-91.APK",
               "contentType": "application/octet-stream"
             },
@@ -170,7 +170,7 @@
             {
               "name": "Monica-Android-armeabi-v7a-1.0.322-26102612-01.APK",
               "size": 44062705,
-              "downloadCount": 25,
+              "downloadCount": 26,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.322/Monica-Android-armeabi-v7a-1.0.322-26102612-01.APK",
               "contentType": "application/vnd.android.package-archive"
             }
@@ -297,14 +297,14 @@
             {
               "name": "Monica-0.3.1-osx-arm64-jit.dmg",
               "size": 125525518,
-              "downloadCount": 1,
+              "downloadCount": 2,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-osx-arm64-jit.dmg",
               "contentType": "application/x-apple-diskimage"
             },
             {
               "name": "Monica-0.3.1-osx-x64-aot.dmg",
               "size": 78946564,
-              "downloadCount": 1,
+              "downloadCount": 2,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-osx-x64-aot.dmg",
               "contentType": "application/x-apple-diskimage"
             },
@@ -325,7 +325,7 @@
             {
               "name": "Monica-0.3.1-windows-x64-jit-setup.exe",
               "size": 100783467,
-              "downloadCount": 39,
+              "downloadCount": 42,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-windows-x64-jit-setup.exe",
               "contentType": "application/x-msdos-program"
             },
@@ -431,7 +431,7 @@
             {
               "name": "monica-extension-1.0.104.zip",
               "size": 14080759,
-              "downloadCount": 41,
+              "downloadCount": 48,
               "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/v1.0.104/monica-extension-1.0.104.zip",
               "contentType": "application/zip"
             },
@@ -445,7 +445,7 @@
             {
               "name": "monica-mdbx2-host-windows-x64-0.1.6.zip",
               "size": 3760992,
-              "downloadCount": 29,
+              "downloadCount": 30,
               "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/v1.0.104/monica-mdbx2-host-windows-x64-0.1.6.zip",
               "contentType": "application/zip"
             },
