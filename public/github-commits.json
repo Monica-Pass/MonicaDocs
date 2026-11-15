@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-14T12:39:46.887Z",
+  "generatedAt": "2026-11-15T13:05:41.069Z",
   "range": {
-    "from": "2025-11-15",
-    "to": "2026-11-14"
+    "from": "2025-11-16",
+    "to": "2026-11-15"
   },
   "activity": [
-    {
-      "date": "2025-11-15",
-      "count": 0
-    },
     {
       "date": "2025-11-16",
       "count": 0
@@ -1478,9 +1474,33 @@
     {
       "date": "2026-11-14",
       "count": 2
+    },
+    {
+      "date": "2026-11-15",
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "3344dfe32249dc8ecf850a0e66d9081f7c2bf04b",
+      "shortSha": "3344dfe",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Complete Android 328 user CA trust and local folder hierarchy",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-15T04:38:20Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/3344dfe32249dc8ecf850a0e66d9081f7c2bf04b"
+    },
+    {
+      "sha": "ae3f33e66a8e83f7f50c710a5d7815f4c1a43ddd",
+      "shortSha": "ae3f33e",
+      "repo": "Monica-Pass/Monica",
+      "message": "Complete Android 328 user CA trust and local folder hierarchy [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-15T04:38:09Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/ae3f33e66a8e83f7f50c710a5d7815f4c1a43ddd"
+    },
     {
       "sha": "f6872a4dbbf343535ff3d51798fb5569448e1961",
       "shortSha": "f6872a4",
@@ -1762,16 +1782,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/115abf714c6100d4ca57ba1f10a96b1d18cd4ec0"
     },
     {
-      "sha": "8c9578ad41e5ff92646cb8ec249709c82db5f54f",
-      "shortSha": "8c9578a",
-      "repo": "Monica-Pass/Monica",
-      "message": "Merge upstream icon and contributor updates into main [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-10T03:35:37Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/8c9578ad41e5ff92646cb8ec249709c82db5f54f"
-    },
-    {
       "sha": "1f469c7ca1d8357daa134b56d572d20c71c59978",
       "shortSha": "1f469c7",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1780,16 +1790,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-10T03:33:14Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/1f469c7ca1d8357daa134b56d572d20c71c59978"
-    },
-    {
-      "sha": "b91826436f7fdf5710b27f8cc640acb74099b10d",
-      "shortSha": "b918264",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "feat(fdroid): add Monica to built-in icon library",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-10T02:30:28Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/b91826436f7fdf5710b27f8cc640acb74099b10d"
     },
     {
       "sha": "9e2b708e50a9a117ac0c022bbd1c11456c28c3c3",
