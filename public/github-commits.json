@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-15T13:05:41.069Z",
+  "generatedAt": "2026-11-16T07:03:52.308Z",
   "range": {
-    "from": "2025-11-16",
-    "to": "2026-11-15"
+    "from": "2025-11-17",
+    "to": "2026-11-16"
   },
   "activity": [
-    {
-      "date": "2025-11-16",
-      "count": 0
-    },
     {
       "date": "2025-11-17",
       "count": 0
@@ -1478,9 +1474,23 @@
     {
       "date": "2026-11-15",
       "count": 2
+    },
+    {
+      "date": "2026-11-16",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "1ea7b90e192ff68a8669dbc087d3c400ed36b7b9",
+      "shortSha": "1ea7b90",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix: unify signing team and add App Store submission essentials",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-16T07:03:12Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1ea7b90e192ff68a8669dbc087d3c400ed36b7b9"
+    },
     {
       "sha": "3344dfe32249dc8ecf850a0e66d9081f7c2bf04b",
       "shortSha": "3344dfe",
@@ -2470,16 +2480,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/50775621?v=4",
       "date": "2026-07-24T12:32:19Z",
       "url": "https://github.com/Monica-Pass/Monica-Cloud/commit/85b7e48b92eadb3531418df09387f9472f8f4794"
-    },
-    {
-      "sha": "78974ee8b793954302e79fc7d557499c252cc487",
-      "shortSha": "78974ee",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #9 from Monica-Pass/codex/remove-remaining-dev-copy",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-06-24T01:47:19Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/78974ee8b793954302e79fc7d557499c252cc487"
     }
   ]
 }
