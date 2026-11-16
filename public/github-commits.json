@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-16T08:10:54.919Z",
+  "generatedAt": "2026-11-16T08:56:14.187Z",
   "range": {
     "from": "2025-11-17",
     "to": "2026-11-16"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-16",
-      "count": 2
+      "count": 3
     }
   ],
   "latest": [
+    {
+      "sha": "3c00cda914559f9c5a09d29dd0cba5d3e0346fa2",
+      "shortSha": "3c00cda",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix: work around openrsync breaking IPA export on macOS 26",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-16T08:55:49Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/3c00cda914559f9c5a09d29dd0cba5d3e0346fa2"
+    },
     {
       "sha": "affcdc5f90ab6db6190cc56c689f46b8d8ec5c79",
       "shortSha": "affcdc5",
@@ -1630,16 +1640,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-12T14:56:56Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b95f3c1fefa85ae845ffd1ae6d6e7a1641447097"
-    },
-    {
-      "sha": "578e1dd1a00da02b18d0093998d7fb9f98de6493",
-      "shortSha": "578e1dd",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "chore: stop ignoring markdown and document MDBX build prerequisites",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-12T14:56:49Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/578e1dd1a00da02b18d0093998d7fb9f98de6493"
     },
     {
       "sha": "5ace68aaccc0aeeab2adf83129375022d5ae488d",
