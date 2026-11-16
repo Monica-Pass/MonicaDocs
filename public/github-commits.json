@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-16T08:56:14.187Z",
+  "generatedAt": "2026-11-16T18:24:02.730Z",
   "range": {
     "from": "2025-11-17",
     "to": "2026-11-16"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-16",
-      "count": 3
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "39366adf816b023304c3e367c4fb1fc1131717c7",
+      "shortSha": "39366ad",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(autofill): make the passkey credential provider usable on device",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-16T18:23:30Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/39366adf816b023304c3e367c4fb1fc1131717c7"
+    },
     {
       "sha": "3c00cda914559f9c5a09d29dd0cba5d3e0346fa2",
       "shortSha": "3c00cda",
@@ -1630,16 +1640,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-12T15:33:32Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b524c991a35513d6b927bd913fadd4a41b6315f9"
-    },
-    {
-      "sha": "b95f3c1fefa85ae845ffd1ae6d6e7a1641447097",
-      "shortSha": "b95f3c1",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "docs: track the Android/iOS parity audits",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-12T14:56:56Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b95f3c1fefa85ae845ffd1ae6d6e7a1641447097"
     },
     {
       "sha": "5ace68aaccc0aeeab2adf83129375022d5ae488d",
