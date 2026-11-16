@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-16T07:03:52.308Z",
+  "generatedAt": "2026-11-16T08:10:54.919Z",
   "range": {
     "from": "2025-11-17",
     "to": "2026-11-16"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-16",
-      "count": 1
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "affcdc5f90ab6db6190cc56c689f46b8d8ec5c79",
+      "shortSha": "affcdc5",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "refactor: migrate identifiers to com.monicapass.monica",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-16T08:10:08Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/affcdc5f90ab6db6190cc56c689f46b8d8ec5c79"
+    },
     {
       "sha": "1ea7b90e192ff68a8669dbc087d3c400ed36b7b9",
       "shortSha": "1ea7b90",
@@ -2050,16 +2060,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-01T13:19:38Z",
       "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/ab8de17b3f57aef0ff3967af60510d0a91e65b25"
-    },
-    {
-      "sha": "44df6a5492746bf4b5437af3157a78e5f305ee34",
-      "shortSha": "44df6a5",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "ci: add MonicaDocs notification workflow",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-01T13:19:32Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/44df6a5492746bf4b5437af3157a78e5f305ee34"
     },
     {
       "sha": "6fbd92b3fcbb27ce818ef51cc2495fbaedb9201d",
