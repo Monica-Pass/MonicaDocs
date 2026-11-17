@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-16T18:34:23.173Z",
+  "generatedAt": "2026-11-17T04:59:11.795Z",
   "range": {
-    "from": "2025-11-17",
-    "to": "2026-11-16"
+    "from": "2025-11-18",
+    "to": "2026-11-17"
   },
   "activity": [
-    {
-      "date": "2025-11-17",
-      "count": 0
-    },
     {
       "date": "2025-11-18",
       "count": 0
@@ -1478,9 +1474,23 @@
     {
       "date": "2026-11-16",
       "count": 5
+    },
+    {
+      "date": "2026-11-17",
+      "count": 1
     }
   ],
   "latest": [
+    {
+      "sha": "fad858de8797754ad74cedf329aa3c1ce8226dd9",
+      "shortSha": "fad858d",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #79 from Monica-Pass/feat/77-four-tab-navigation",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-17T04:58:37Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/fad858de8797754ad74cedf329aa3c1ce8226dd9"
+    },
     {
       "sha": "78ad972410a951b4557c296b4ec23959f6e41416",
       "shortSha": "78ad972",
@@ -1630,16 +1640,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-12T16:32:45Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/0b739702df118f1b250b955c9f56c48ede7d15bf"
-    },
-    {
-      "sha": "f3c6d5ae4f63a4f114131fccc823b82fc2671695",
-      "shortSha": "f3c6d5a",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "ci: consolidate to a single workflow, drop parity reports from the repo",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-12T16:15:07Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f3c6d5ae4f63a4f114131fccc823b82fc2671695"
     },
     {
       "sha": "5ace68aaccc0aeeab2adf83129375022d5ae488d",
