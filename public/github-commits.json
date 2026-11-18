@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-18T14:17:10.461Z",
+  "generatedAt": "2026-11-18T14:24:08.723Z",
   "range": {
     "from": "2025-11-19",
     "to": "2026-11-18"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-18",
-      "count": 4
+      "count": 6
     }
   ],
   "latest": [
+    {
+      "sha": "c30d34c12152eb206a4061df60a34a993daad958",
+      "shortSha": "c30d34c",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Label F-Droid 1.0.329 release notes with SengokuNadeko",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T14:23:33Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c30d34c12152eb206a4061df60a34a993daad958"
+    },
+    {
+      "sha": "3352e9d592c0155fa4ecd6cb9ea97730b07ba809",
+      "shortSha": "3352e9d",
+      "repo": "Monica-Pass/Monica",
+      "message": "Label Android 1.0.329 release notes with SengokuNadeko",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T14:23:32Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/3352e9d592c0155fa4ecd6cb9ea97730b07ba809"
+    },
     {
       "sha": "2be463160506fc243bd3d56940a8f1803f7bfcc4",
       "shortSha": "2be4631",
@@ -1782,16 +1802,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/57809c538c0c3a7ba2af06fe2f90033d620eff88"
     },
     {
-      "sha": "b03b1a1c564557c3cebd48b743c368b477789527",
-      "shortSha": "b03b1a1",
-      "repo": "Monica-Pass/Monica",
-      "message": "fix(android): unify local password protection and repair IME [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-11T10:52:32Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/b03b1a1c564557c3cebd48b743c368b477789527"
-    },
-    {
       "sha": "d48cbc54b8ef706835fc0806c056d2d0508ec300",
       "shortSha": "d48cbc5",
       "repo": "Monica-Pass/MonicaDocs",
@@ -1800,16 +1810,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-11-11T09:31:42Z",
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/d48cbc54b8ef706835fc0806c056d2d0508ec300"
-    },
-    {
-      "sha": "e9e99c3bd4fcdbdbe88d01557749c77005f3ef24",
-      "shortSha": "e9e99c3",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Fix Release XML startup crash and verify retained-data upgrades",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-10T18:21:56Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/e9e99c3bd4fcdbdbe88d01557749c77005f3ef24"
     },
     {
       "sha": "9e2b708e50a9a117ac0c022bbd1c11456c28c3c3",
