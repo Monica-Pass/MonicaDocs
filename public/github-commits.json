@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-18T14:12:41.946Z",
+  "generatedAt": "2026-11-18T14:17:10.461Z",
   "range": {
     "from": "2025-11-19",
     "to": "2026-11-18"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-18",
-      "count": 2
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "2be463160506fc243bd3d56940a8f1803f7bfcc4",
+      "shortSha": "2be4631",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Correct the portable MDBX source manifest digest",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T14:16:20Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/2be463160506fc243bd3d56940a8f1803f7bfcc4"
+    },
+    {
+      "sha": "3d7a692f0707550c51ce8ad2cdce362c7b83e424",
+      "shortSha": "3d7a692",
+      "repo": "Monica-Pass/Monica",
+      "message": "Fix portable MDBX manifest digest for Android builds",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T14:16:19Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/3d7a692f0707550c51ce8ad2cdce362c7b83e424"
+    },
     {
       "sha": "0489eb6c4eb535f71c0158e13c5719e5f65ed650",
       "shortSha": "0489eb6",
@@ -1782,16 +1802,6 @@
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/d48cbc54b8ef706835fc0806c056d2d0508ec300"
     },
     {
-      "sha": "120fef15b9d6ee7f9a9e86eb4158ff3576055c5a",
-      "shortSha": "120fef1",
-      "repo": "Monica-Pass/Monica",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-11-11T09:31:41Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/120fef15b9d6ee7f9a9e86eb4158ff3576055c5a"
-    },
-    {
       "sha": "e9e99c3bd4fcdbdbe88d01557749c77005f3ef24",
       "shortSha": "e9e99c3",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1800,16 +1810,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-10T18:21:56Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/e9e99c3bd4fcdbdbe88d01557749c77005f3ef24"
-    },
-    {
-      "sha": "53fde203074bb35be50fa9f76cedfcf0cc5e48a6",
-      "shortSha": "53fde20",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Strengthen local password protection and optimize F-Droid resources",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-10T16:56:15Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/53fde203074bb35be50fa9f76cedfcf0cc5e48a6"
     },
     {
       "sha": "9e2b708e50a9a117ac0c022bbd1c11456c28c3c3",
