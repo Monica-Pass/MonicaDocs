@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-18T16:02:29.143Z",
+  "generatedAt": "2026-11-18T16:37:40.269Z",
   "range": {
     "from": "2025-11-19",
     "to": "2026-11-18"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-18",
-      "count": 14
+      "count": 15
     }
   ],
   "latest": [
+    {
+      "sha": "a7ed34eb0f0665f7b2c891f3ba044fa69f492e5f",
+      "shortSha": "a7ed34e",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "test: wait for encrypted barcode save before reading vault",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T16:37:00Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/a7ed34eb0f0665f7b2c891f3ba044fa69f492e5f"
+    },
     {
       "sha": "7d2daf4cd731bd1e3e22a94b9e0e8cd2008a930e",
       "shortSha": "7d2daf4",
@@ -1890,16 +1900,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
       "date": "2026-11-07T05:51:48Z",
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/0d6403f01d96e8ac8bf26ef7ed1bf82fb309dd1c"
-    },
-    {
-      "sha": "980bc6996e8ffc364e12f7abedf283c43992b59c",
-      "shortSha": "980bc69",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "build(tooling): env-var fallbacks and tsconfig wiring",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-07T05:51:47Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/980bc6996e8ffc364e12f7abedf283c43992b59c"
     },
     {
       "sha": "0c351fffdfb483b77262c50ba40261a5d4858f16",
