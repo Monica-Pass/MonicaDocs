@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-18T15:00:52.470Z",
+  "generatedAt": "2026-11-18T15:04:02.455Z",
   "range": {
     "from": "2025-11-19",
     "to": "2026-11-18"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-18",
-      "count": 10
+      "count": 12
     }
   ],
   "latest": [
+    {
+      "sha": "735b173981351892716444af86d9e236c63e4059",
+      "shortSha": "735b173",
+      "repo": "Monica-Pass/Monica",
+      "message": "docs(android): note folder shortcut motion during search",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T15:03:24Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/735b173981351892716444af86d9e236c63e4059"
+    },
+    {
+      "sha": "c5b13694061ef0114efb4698c2d1f2c607b02715",
+      "shortSha": "c5b1369",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "docs(android): note folder shortcut motion during search",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T15:03:24Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c5b13694061ef0114efb4698c2d1f2c607b02715"
+    },
     {
       "sha": "374a0e64d3e1e111d728aedad4127a3ab99ba2eb",
       "shortSha": "374a0e6",
@@ -1732,16 +1752,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/3d2bd7040c393eb4bd66660ed182fb59f449ad23"
     },
     {
-      "sha": "600ece857d544ee493f83cb2f93d382c8b6509d6",
-      "shortSha": "600ece8",
-      "repo": "Monica-Pass/Monica",
-      "message": "feat(android): finalize 1.0.327 restore, exports and passkey settings [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-13T12:20:04Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/600ece857d544ee493f83cb2f93d382c8b6509d6"
-    },
-    {
       "sha": "b841b6c6b17b014ea135e184ec89857acb413ae4",
       "shortSha": "b841b6c",
       "repo": "Monica-Pass/Monica-for-iOS",
@@ -1780,16 +1790,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-12T16:32:45Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/0b739702df118f1b250b955c9f56c48ede7d15bf"
-    },
-    {
-      "sha": "5ace68aaccc0aeeab2adf83129375022d5ae488d",
-      "shortSha": "5ace68a",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "fix(android): require device credentials for password recovery",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-11T16:22:58Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5ace68aaccc0aeeab2adf83129375022d5ae488d"
     },
     {
       "sha": "e46f8ba53eb91b0824efc7093442e70a72aa7b29",
