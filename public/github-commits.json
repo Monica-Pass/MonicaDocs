@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-18T14:24:08.723Z",
+  "generatedAt": "2026-11-18T14:27:35.023Z",
   "range": {
     "from": "2025-11-19",
     "to": "2026-11-18"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-18",
-      "count": 6
+      "count": 8
     }
   ],
   "latest": [
+    {
+      "sha": "9f03c1960baa13c48611fc72b1f3b27d03dd73db",
+      "shortSha": "9f03c19",
+      "repo": "Monica-Pass/Monica",
+      "message": "docs(android): remove overview search motion from 1.0.329 notes",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T14:26:40Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/9f03c1960baa13c48611fc72b1f3b27d03dd73db"
+    },
+    {
+      "sha": "6253fa8aad0454e95187f1dcb461c81f8edcfa8d",
+      "shortSha": "6253fa8",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "docs(android): remove overview search motion from 1.0.329 notes",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T14:26:40Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/6253fa8aad0454e95187f1dcb461c81f8edcfa8d"
+    },
     {
       "sha": "c30d34c12152eb206a4061df60a34a993daad958",
       "shortSha": "c30d34c",
@@ -1772,16 +1792,6 @@
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/e46f8ba53eb91b0824efc7093442e70a72aa7b29"
     },
     {
-      "sha": "29d73efb6b53f269a865641777e501a42898de82",
-      "shortSha": "29d73ef",
-      "repo": "Monica-Pass/Monica",
-      "message": "docs(android): correct PBKDF2 parameters in README translations",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-11T12:12:22Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/29d73efb6b53f269a865641777e501a42898de82"
-    },
-    {
       "sha": "d05d78658187758b58597f1939f34373dd3ddbb9",
       "shortSha": "d05d786",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1790,16 +1800,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-11T12:12:22Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/d05d78658187758b58597f1939f34373dd3ddbb9"
-    },
-    {
-      "sha": "57809c538c0c3a7ba2af06fe2f90033d620eff88",
-      "shortSha": "57809c5",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "fix(android): unify local password protection and repair IME",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-11T10:52:39Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/57809c538c0c3a7ba2af06fe2f90033d620eff88"
     },
     {
       "sha": "d48cbc54b8ef706835fc0806c056d2d0508ec300",
