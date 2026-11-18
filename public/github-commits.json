@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-18T14:27:35.023Z",
+  "generatedAt": "2026-11-18T15:00:52.470Z",
   "range": {
     "from": "2025-11-19",
     "to": "2026-11-18"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-18",
-      "count": 8
+      "count": 10
     }
   ],
   "latest": [
+    {
+      "sha": "374a0e64d3e1e111d728aedad4127a3ab99ba2eb",
+      "shortSha": "374a0e6",
+      "repo": "Monica-Pass/Monica",
+      "message": "Smooth folder shortcut collapse during password search",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T15:00:09Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/374a0e64d3e1e111d728aedad4127a3ab99ba2eb"
+    },
+    {
+      "sha": "5397db9362f24b78d63822ce8bf2418f8abbe364",
+      "shortSha": "5397db9",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Smooth folder shortcut collapse during password search",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T15:00:08Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5397db9362f24b78d63822ce8bf2418f8abbe364"
+    },
     {
       "sha": "9f03c1960baa13c48611fc72b1f3b27d03dd73db",
       "shortSha": "9f03c19",
@@ -1772,16 +1792,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5ace68aaccc0aeeab2adf83129375022d5ae488d"
     },
     {
-      "sha": "e63d0cead5703bcd706aadf39b2cac57ead27aba",
-      "shortSha": "e63d0ce",
-      "repo": "Monica-Pass/Monica",
-      "message": "fix(android): require device credentials for password recovery [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-11T16:22:57Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/e63d0cead5703bcd706aadf39b2cac57ead27aba"
-    },
-    {
       "sha": "e46f8ba53eb91b0824efc7093442e70a72aa7b29",
       "shortSha": "e46f8ba",
       "repo": "Monica-Pass/Monica-for-Extension",
@@ -1790,16 +1800,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-11T12:58:54Z",
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/e46f8ba53eb91b0824efc7093442e70a72aa7b29"
-    },
-    {
-      "sha": "d05d78658187758b58597f1939f34373dd3ddbb9",
-      "shortSha": "d05d786",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "docs(android): correct PBKDF2 parameters in README translations",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-11T12:12:22Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/d05d78658187758b58597f1939f34373dd3ddbb9"
     },
     {
       "sha": "d48cbc54b8ef706835fc0806c056d2d0508ec300",
