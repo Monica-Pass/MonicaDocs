@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-18T15:24:24.519Z",
+  "generatedAt": "2026-11-18T16:02:29.143Z",
   "range": {
     "from": "2025-11-19",
     "to": "2026-11-18"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-18",
-      "count": 13
+      "count": 14
     }
   ],
   "latest": [
+    {
+      "sha": "7d2daf4cd731bd1e3e22a94b9e0e8cd2008a930e",
+      "shortSha": "7d2daf4",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "fix(ci): declare JSON type for ESM icon catalog import",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T16:02:00Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/7d2daf4cd731bd1e3e22a94b9e0e8cd2008a930e"
+    },
     {
       "sha": "473a032c86ce9e24f5e269240b2c0d0e455b6067",
       "shortSha": "473a032",
@@ -1890,16 +1900,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
       "date": "2026-11-07T05:51:47Z",
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/980bc6996e8ffc364e12f7abedf283c43992b59c"
-    },
-    {
-      "sha": "e4eb7a13378f74909ed0d7cefa334c65acfa2591",
-      "shortSha": "e4eb7a1",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "test(e2e): dedupe helpers; race-free verification waits",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-07T05:51:38Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/e4eb7a13378f74909ed0d7cefa334c65acfa2591"
     },
     {
       "sha": "0c351fffdfb483b77262c50ba40261a5d4858f16",
