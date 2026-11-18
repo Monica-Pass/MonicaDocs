@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-17T15:04:55.692Z",
+  "generatedAt": "2026-11-18T14:12:41.946Z",
   "range": {
-    "from": "2025-11-18",
-    "to": "2026-11-17"
+    "from": "2025-11-19",
+    "to": "2026-11-18"
   },
   "activity": [
-    {
-      "date": "2025-11-18",
-      "count": 0
-    },
     {
       "date": "2025-11-19",
       "count": 0
@@ -1478,9 +1474,33 @@
     {
       "date": "2026-11-17",
       "count": 5
+    },
+    {
+      "date": "2026-11-18",
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "0489eb6c4eb535f71c0158e13c5719e5f65ed650",
+      "shortSha": "0489eb6",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Prepare Monica F-Droid 1.0.329",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T14:11:59Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/0489eb6c4eb535f71c0158e13c5719e5f65ed650"
+    },
+    {
+      "sha": "577ea40c0a4a4bbcc2989a1c516bc1dcfe70ced3",
+      "shortSha": "577ea40",
+      "repo": "Monica-Pass/Monica",
+      "message": "Prepare Monica Android 1.0.329 development preview",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T14:11:58Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/577ea40c0a4a4bbcc2989a1c516bc1dcfe70ced3"
+    },
     {
       "sha": "5e0a26bdec82c0161dd47d846118a2f4d6793db8",
       "shortSha": "5e0a26b",
@@ -1782,16 +1802,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/e9e99c3bd4fcdbdbe88d01557749c77005f3ef24"
     },
     {
-      "sha": "273b2ccf86d4cfc001f83e040f4ef11466ce04e8",
-      "shortSha": "273b2cc",
-      "repo": "Monica-Pass/Monica",
-      "message": "Fix Release XML startup crash and verify retained-data upgrades [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-10T18:21:55Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/273b2ccf86d4cfc001f83e040f4ef11466ce04e8"
-    },
-    {
       "sha": "53fde203074bb35be50fa9f76cedfcf0cc5e48a6",
       "shortSha": "53fde20",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1800,16 +1810,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-10T16:56:15Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/53fde203074bb35be50fa9f76cedfcf0cc5e48a6"
-    },
-    {
-      "sha": "bc1785f907f36869e2f81e8496326733ea0dfbaa",
-      "shortSha": "bc1785f",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Add NFC bank card entry and simplify Send creation",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-10T07:52:13Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/bc1785f907f36869e2f81e8496326733ea0dfbaa"
     },
     {
       "sha": "9e2b708e50a9a117ac0c022bbd1c11456c28c3c3",
