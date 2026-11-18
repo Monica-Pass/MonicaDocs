@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-18T15:04:02.455Z",
+  "generatedAt": "2026-11-18T15:24:24.519Z",
   "range": {
     "from": "2025-11-19",
     "to": "2026-11-18"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-18",
-      "count": 12
+      "count": 13
     }
   ],
   "latest": [
+    {
+      "sha": "473a032c86ce9e24f5e269240b2c0d0e455b6067",
+      "shortSha": "473a032",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "release: prepare Monica Extension 1.0.105",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T15:23:38Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/473a032c86ce9e24f5e269240b2c0d0e455b6067"
+    },
     {
       "sha": "735b173981351892716444af86d9e236c63e4059",
       "shortSha": "735b173",
@@ -1890,16 +1900,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
       "date": "2026-11-07T05:51:38Z",
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/e4eb7a13378f74909ed0d7cefa334c65acfa2591"
-    },
-    {
-      "sha": "044567b94777cc9a7d2c595ffe67f3ad66677a1b",
-      "shortSha": "044567b",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "fix(ui): surface background failures; mask maFile password",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-07T05:51:37Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/044567b94777cc9a7d2c595ffe67f3ad66677a1b"
     },
     {
       "sha": "0c351fffdfb483b77262c50ba40261a5d4858f16",
