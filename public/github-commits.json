@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-18T16:37:40.269Z",
+  "generatedAt": "2026-11-19T14:51:25.531Z",
   "range": {
-    "from": "2025-11-19",
-    "to": "2026-11-18"
+    "from": "2025-11-20",
+    "to": "2026-11-19"
   },
   "activity": [
-    {
-      "date": "2025-11-19",
-      "count": 0
-    },
     {
       "date": "2025-11-20",
       "count": 0
@@ -1477,10 +1473,64 @@
     },
     {
       "date": "2026-11-18",
-      "count": 15
+      "count": 16
+    },
+    {
+      "date": "2026-11-19",
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "b5dc49a429ffa1c0ceaed0adc10d733368f2dc1b",
+      "shortSha": "b5dc49a",
+      "repo": "Monica-Pass/Monica",
+      "message": "Document timeline redesign and recovery boundaries [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-19T14:06:20Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/b5dc49a429ffa1c0ceaed0adc10d733368f2dc1b"
+    },
+    {
+      "sha": "ea20f59becbf18954fcb23b9a7d1709fb7cf0457",
+      "shortSha": "ea20f59",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Document timeline redesign and recovery boundaries [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-19T14:06:20Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/ea20f59becbf18954fcb23b9a7d1709fb7cf0457"
+    },
+    {
+      "sha": "548a396ff7089b603161a098ca6ccdb1746bd039",
+      "shortSha": "548a396",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Fix project display and automatic settings search; refine security score",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-19T13:34:45Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/548a396ff7089b603161a098ca6ccdb1746bd039"
+    },
+    {
+      "sha": "481f4a1aed6dc8d25fd685f0fb840ade1df4a413",
+      "shortSha": "481f4a1",
+      "repo": "Monica-Pass/Monica",
+      "message": "Fix project display and automatic settings search; refine security score [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-19T13:34:44Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/481f4a1aed6dc8d25fd685f0fb840ade1df4a413"
+    },
+    {
+      "sha": "b8a0078bc95e3687f86f0ed238f2a8e30395b5a1",
+      "shortSha": "b8a0078",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "docs: record verified 1.0.105 release [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-18T21:09:55Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/b8a0078bc95e3687f86f0ed238f2a8e30395b5a1"
+    },
     {
       "sha": "a7ed34eb0f0665f7b2c891f3ba044fa69f492e5f",
       "shortSha": "a7ed34e",
@@ -1732,26 +1782,6 @@
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1ea7b90e192ff68a8669dbc087d3c400ed36b7b9"
     },
     {
-      "sha": "3344dfe32249dc8ecf850a0e66d9081f7c2bf04b",
-      "shortSha": "3344dfe",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Complete Android 328 user CA trust and local folder hierarchy",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-15T04:38:20Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/3344dfe32249dc8ecf850a0e66d9081f7c2bf04b"
-    },
-    {
-      "sha": "ae3f33e66a8e83f7f50c710a5d7815f4c1a43ddd",
-      "shortSha": "ae3f33e",
-      "repo": "Monica-Pass/Monica",
-      "message": "Complete Android 328 user CA trust and local folder hierarchy [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-15T04:38:09Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/ae3f33e66a8e83f7f50c710a5d7815f4c1a43ddd"
-    },
-    {
       "sha": "f6872a4dbbf343535ff3d51798fb5569448e1961",
       "shortSha": "f6872a4",
       "repo": "Monica-Pass/MonicaDocs",
@@ -1760,26 +1790,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-11-14T09:03:26Z",
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/f6872a4dbbf343535ff3d51798fb5569448e1961"
-    },
-    {
-      "sha": "6cbde0e06bd701c2bf7cf5ab1c784f718712aed8",
-      "shortSha": "6cbde0e",
-      "repo": "Monica-Pass/Monica",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-11-14T09:03:25Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/6cbde0e06bd701c2bf7cf5ab1c784f718712aed8"
-    },
-    {
-      "sha": "3d2bd7040c393eb4bd66660ed182fb59f449ad23",
-      "shortSha": "3d2bd70",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "feat(android): finalize F-Droid 1.0.327 restore, exports and passkey settings",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-13T12:20:08Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/3d2bd7040c393eb4bd66660ed182fb59f449ad23"
     },
     {
       "sha": "b841b6c6b17b014ea135e184ec89857acb413ae4",
@@ -1890,16 +1900,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
       "date": "2026-11-07T05:52:03Z",
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/21d7299d585024bd49281b203c7be6526504a47a"
-    },
-    {
-      "sha": "0d6403f01d96e8ac8bf26ef7ed1bf82fb309dd1c",
-      "shortSha": "0d6403f",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "docs(solutions): document engine rebuild and jsdom descriptor merge",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-07T05:51:48Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/0d6403f01d96e8ac8bf26ef7ed1bf82fb309dd1c"
     },
     {
       "sha": "0c351fffdfb483b77262c50ba40261a5d4858f16",
