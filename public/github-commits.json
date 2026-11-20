@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-20T14:32:24.733Z",
+  "generatedAt": "2026-11-20T20:11:46.701Z",
   "range": {
     "from": "2025-11-21",
     "to": "2026-11-20"
@@ -1465,7 +1465,7 @@
     },
     {
       "date": "2026-11-17",
-      "count": 5
+      "count": 8
     },
     {
       "date": "2026-11-18",
@@ -1477,10 +1477,80 @@
     },
     {
       "date": "2026-11-20",
-      "count": 5
+      "count": 12
     }
   ],
   "latest": [
+    {
+      "sha": "1cfb87999f273110821f1a89efbef9b94b20e336",
+      "shortSha": "1cfb879",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #82 from Monica-Pass/feat/61-interface-density",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:11:13Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1cfb87999f273110821f1a89efbef9b94b20e336"
+    },
+    {
+      "sha": "071f9077a0272de46fbe2bcda3f48c2f25f405b4",
+      "shortSha": "071f907",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #81 from Monica-Pass/feat/63-layout-customization",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:10:51Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/071f9077a0272de46fbe2bcda3f48c2f25f405b4"
+    },
+    {
+      "sha": "cce3ec3d25002666ae1d07a7c73e1c9425de52fe",
+      "shortSha": "cce3ec3",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #80 from Monica-Pass/feat/62-localization",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:10:23Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/cce3ec3d25002666ae1d07a7c73e1c9425de52fe"
+    },
+    {
+      "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
+      "shortSha": "ed0b5e0",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "docs: keep Nadeko joke without editorial prefix [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-20T14:59:04Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/ed0b5e0d2644a95697711c2aa415dd84d3920be9"
+    },
+    {
+      "sha": "2a88a2a6f53f7220d07d71347eb90e1ac68c3d6f",
+      "shortSha": "2a88a2a",
+      "repo": "Monica-Pass/Monica",
+      "message": "docs: keep Nadeko joke without editorial prefix [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-20T14:58:23Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/2a88a2a6f53f7220d07d71347eb90e1ac68c3d6f"
+    },
+    {
+      "sha": "dcd9fec6e84e296694354048375cec697f5686ca",
+      "shortSha": "dcd9fec",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Fix immediate auto-lock login and prepare emergency release 1.0.330",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-20T14:45:51Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/dcd9fec6e84e296694354048375cec697f5686ca"
+    },
+    {
+      "sha": "42c7efe8bc29eea61c6a7d82d1f553b9e26f8fef",
+      "shortSha": "42c7efe",
+      "repo": "Monica-Pass/Monica",
+      "message": "Fix immediate auto-lock login and prepare emergency release 1.0.330 [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-20T14:45:50Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/42c7efe8bc29eea61c6a7d82d1f553b9e26f8fef"
+    },
     {
       "sha": "dcea96f62d38b4a92306e34926e1c65fca8ae72f",
       "shortSha": "dcea96f",
@@ -1692,44 +1762,34 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/6253fa8aad0454e95187f1dcb461c81f8edcfa8d"
     },
     {
-      "sha": "c30d34c12152eb206a4061df60a34a993daad958",
-      "shortSha": "c30d34c",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Label F-Droid 1.0.329 release notes with SengokuNadeko",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-18T14:23:33Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c30d34c12152eb206a4061df60a34a993daad958"
+      "sha": "d839f0105231948e42ca9b393d49949c4303c798",
+      "shortSha": "d839f01",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "feat(ui): Dynamic Type support and three-level interface density (#61)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-17T09:56:19Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d839f0105231948e42ca9b393d49949c4303c798"
     },
     {
-      "sha": "3352e9d592c0155fa4ecd6cb9ea97730b07ba809",
-      "shortSha": "3352e9d",
-      "repo": "Monica-Pass/Monica",
-      "message": "Label Android 1.0.329 release notes with SengokuNadeko",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-18T14:23:32Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/3352e9d592c0155fa4ecd6cb9ea97730b07ba809"
+      "sha": "02916c7b6bf4002804c3dbc252a7aa65784d3e9c",
+      "shortSha": "02916c7",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "feat(layout): customize password page module order and visibility (#63)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-17T08:21:05Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/02916c7b6bf4002804c3dbc252a7aa65784d3e9c"
     },
     {
-      "sha": "2be463160506fc243bd3d56940a8f1803f7bfcc4",
-      "shortSha": "2be4631",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Correct the portable MDBX source manifest digest",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-18T14:16:20Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/2be463160506fc243bd3d56940a8f1803f7bfcc4"
-    },
-    {
-      "sha": "3d7a692f0707550c51ce8ad2cdce362c7b83e424",
-      "shortSha": "3d7a692",
-      "repo": "Monica-Pass/Monica",
-      "message": "Fix portable MDBX manifest digest for Android builds",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-18T14:16:19Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/3d7a692f0707550c51ce8ad2cdce362c7b83e424"
+      "sha": "422d65f4ac136d98a330a3bfa1ded0ae24a600a8",
+      "shortSha": "422d65f",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "feat(l10n): localize core UI in Simplified Chinese and English (#62)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-17T06:50:18Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/422d65f4ac136d98a330a3bfa1ded0ae24a600a8"
     },
     {
       "sha": "fad858de8797754ad74cedf329aa3c1ce8226dd9",
@@ -1772,26 +1832,6 @@
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/3c00cda914559f9c5a09d29dd0cba5d3e0346fa2"
     },
     {
-      "sha": "affcdc5f90ab6db6190cc56c689f46b8d8ec5c79",
-      "shortSha": "affcdc5",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor: migrate identifiers to com.monicapass.monica",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-16T08:10:08Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/affcdc5f90ab6db6190cc56c689f46b8d8ec5c79"
-    },
-    {
-      "sha": "1ea7b90e192ff68a8669dbc087d3c400ed36b7b9",
-      "shortSha": "1ea7b90",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix: unify signing team and add App Store submission essentials",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-16T07:03:12Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1ea7b90e192ff68a8669dbc087d3c400ed36b7b9"
-    },
-    {
       "sha": "f6872a4dbbf343535ff3d51798fb5569448e1961",
       "shortSha": "f6872a4",
       "repo": "Monica-Pass/MonicaDocs",
@@ -1800,46 +1840,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-11-14T09:03:26Z",
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/f6872a4dbbf343535ff3d51798fb5569448e1961"
-    },
-    {
-      "sha": "b841b6c6b17b014ea135e184ec89857acb413ae4",
-      "shortSha": "b841b6c",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "feat: complete Bitwarden Send (#35)",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-13T07:48:37Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b841b6c6b17b014ea135e184ec89857acb413ae4"
-    },
-    {
-      "sha": "4343ccd8aa264c2da372fbb8f0f24edf69dd99b8",
-      "shortSha": "4343ccd",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "ci: follow the newest installed Xcode and ship a macOS slice",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-13T06:45:39Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/4343ccd8aa264c2da372fbb8f0f24edf69dd99b8"
-    },
-    {
-      "sha": "0393ce1d7b1900aaaace4616e70c5a151ee7bf85",
-      "shortSha": "0393ce1",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor: remove dead parity scaffolding and the MonicaUI placeholder",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-13T05:26:33Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/0393ce1d7b1900aaaace4616e70c5a151ee7bf85"
-    },
-    {
-      "sha": "0b739702df118f1b250b955c9f56c48ede7d15bf",
-      "shortSha": "0b73970",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(ci): resolve upstream MDBX directory in CI layout",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-12T16:32:45Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/0b739702df118f1b250b955c9f56c48ede7d15bf"
     },
     {
       "sha": "e46f8ba53eb91b0824efc7093442e70a72aa7b29",
