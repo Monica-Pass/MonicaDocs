@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-20T21:15:45.703Z",
+  "generatedAt": "2026-11-20T21:17:29.543Z",
   "range": {
     "from": "2025-11-21",
     "to": "2026-11-20"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-20",
-      "count": 34
+      "count": 36
     }
   ],
   "latest": [
+    {
+      "sha": "bdd26ea42e4eb3a2ba8a612597cd560e5d476d2a",
+      "shortSha": "bdd26ea",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(widget): 共享快照 schema 并在写入后合并刷新 Widget (#71)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T21:17:02Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/bdd26ea42e4eb3a2ba8a612597cd560e5d476d2a"
+    },
     {
       "sha": "90b316476918f4d3a14e132b9be40438aca6283b",
       "shortSha": "90b3164",
@@ -1490,6 +1500,16 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-20T21:05:39Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/90b316476918f4d3a14e132b9be40438aca6283b"
+    },
+    {
+      "sha": "caf5a2177000b3187f21d0b92a983d18b6ff5f4c",
+      "shortSha": "caf5a21",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(widget): share snapshot schema and coalesce timeline reloads (#71)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T21:03:01Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/caf5a2177000b3187f21d0b92a983d18b6ff5f4c"
     },
     {
       "sha": "f121b6acaad463ecd38f0c7950f2e61e8be20f0e",
@@ -1560,26 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-20T20:32:03Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ce6badcd277a7fdd3740fd90d36ac52789049f0f"
-    },
-    {
-      "sha": "5bc314d02091cbdaeea0396ebbc58422fd285b37",
-      "shortSha": "5bc314d",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "chore: reland under main after integration-train merge (no code change)",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:32:00Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/5bc314d02091cbdaeea0396ebbc58422fd285b37"
-    },
-    {
-      "sha": "c8d763f6afce23aaf05f3eee5cfd43732e014b55",
-      "shortSha": "c8d763f",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(settings): repair merged section tails and localized row titles",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:30:03Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c8d763f6afce23aaf05f3eee5cfd43732e014b55"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
