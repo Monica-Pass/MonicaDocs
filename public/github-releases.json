@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T16:11:43.433Z",
+  "updatedAt": "2026-11-20T05:55:34.318Z",
   "repos": [
     {
       "id": "android",
@@ -8,6 +8,30 @@
       "url": "https://github.com/Monica-Pass/Monica",
       "platform": "android",
       "releases": [
+        {
+          "tag": "V1.0.329",
+          "prerelease": false,
+          "name": "Monica 1.0.329 · SengokuNadeko",
+          "body": "# Monica Android 1.0.329 · 千石抚子（SengokuNadeko）\n\n## 中文\n\n- 验证器页面合并验证器与通行密钥扫码入口，按协议自动分流；相册使用相同规则。拒绝不支持的二维码，识别到多个有效码时提示只对准一个；扫描框移除灰色外边框和内部填色，仅保留绿色四角。通行密钥交由支持 FIDO 扫码的系统组件处理。\n\n- 修复折叠屏适配后普通手机横屏退回整页单列的问题：可用宽度足够时，密码、卡包等页面恢复列表与详情双列，不再受窗口高度限制；窄屏和铰链避让保留。\n\n- 移除时间线页面、操作记录及备份选项，保留回收站和密码历史。数据库保持版本 85；已安装未发布 86 的开发版本可通过保留数据迁移回到 85，原有业务表和加密数据不重建。\n\n- 折叠屏与大屏布局按当前窗口切换：中等宽度使用侧边导航，宽屏列表与详情分栏；缩回窄屏保留正在查看和编辑的内容。登录、设置和独立内容页限制阅读宽度，矮窗口与大字号可滚动，避开系统报告的分隔铰链。\n\n- 安全分析移除顶部细进度条，评分位置采用更大的变形图形：分析中显示省略号，完成后显示评分；窄屏和大字号下文字自动换到下方。\n\n- 设置搜索与界面共用设置定义，新增设置自动加入搜索；补齐 HyperOS 兼容、默认填充库、导航和预览开关等遗漏项。搜索保留原有身份验证，条件项定位到父入口，不自动修改设置，也不收录用户数据。\n\n- 补齐密码库页面的多密码项目显示：普通列表、层级列表及概览按项目展示，搜索仍覆盖每条密码，选择操作保留全部项目成员。\n\n- 修复多密码项目在「始终展开」和「仅本地」视图中显示为多个同名卡片的问题。同一项目的多条密码显示为一张卡片，独立项目仍分别显示，已有数据保持不变。\n- 在密码列表搜索时，没有匹配项的文件夹快捷入口会平滑收起，下方结果随之上移。清空搜索后，快捷入口和列表平滑回到原位。\n- 设置中的「版本与链接」沿用检查更新弹窗的背景模糊，显示内部代号，并按屏宽和字体大小排列项目链接。\n\n- 修复 Monica 本地多密码和批量创建失败后重试会多出项目的问题。每次纯本地创建的密码与字段一起保存；同时保存到两个本地文件夹时，各副本在重开编辑后仍保留自己的项目标识。已有项目不会自动去重。\n- F-Droid 版更新检测与详情统一使用 F-Droid 官方接口和应用页面，按仓库推荐的已上架版本码判断更新；移除 GitHub 发行说明请求，接口失败显示检测失败，更新说明从 F-Droid 应用页面查看。普通版保留 GitHub 更新流程。\n- 修复 Bitwarden 密码条目生成的验证码在没有文件夹时误显示于 Monica 本地筛选的问题；保留来源记录标识、修订及待同步状态，验证码沿原有 Bitwarden 账号与文件夹筛选显示。\n\n## English\n\n- Unify authenticator and passkey scanning in the authenticator page, with protocol-based routing for camera and gallery. Reject unsupported codes and ask for one code when multiple valid results are detected. The scanner uses four green corners without a grey border or inner fill. Passkey requests are handed to a compatible system FIDO handler.\n\n- Fix phone landscape falling back to a stretched single list after the foldable update. Password, wallet and other list/detail pages keep two panes when the usable width allows, regardless of window height; narrow-window and hinge avoidance behavior is retained.\n\n- Remove the activity timeline, event recording and its backup option; keep the recycle bin and password history. Keep database schema 85, with a non-destructive migration from unreleased schema-86 development installs. Existing business tables and encrypted data are retained.\n\n- Foldable and large-screen layouts follow the current window: medium windows use a navigation rail, expanded windows show list and detail panes, and shrinking keeps the current item and draft. Login, settings and standalone content use readable widths, short windows and large text scroll, and content avoids reported separating hinges.\n\n- Security Analysis replaces the thin top progress bar with a larger morphing indicator in the score card. It shows an ellipsis while checking and the score when finished, with stacked text on narrow screens or at large font sizes.\n\n- Settings search shares definitions with settings controls, so new settings are included automatically. HyperOS, default fill sources, navigation and preview options are now searchable. Existing identity checks remain; conditional settings locate their parent entry, and search neither changes settings nor indexes user data.\n\n- Multi-password projects now also keep one entry in vault lists and overview. Search covers every password, and selection includes all project members.\n\n- Fixed multi-password projects appearing as duplicate cards in Always expand and Local only views. Each project keeps one card for all its passwords, while independent projects remain separate and stored data stays unchanged.\n- During password list search, folder shortcuts without matches collapse smoothly and the results slide up. Clearing the search brings the shortcuts and list back into place.\n- The Version & Links dialog shares the update dialog’s background blur, labels the internal codename, and adapts its links to the screen width and font size.\n- Retrying a failed multi-password or batch save in Monica Local no longer creates extra projects. Passwords and fields are saved together. Copies saved to two local folders keep their own project IDs when reopened for editing. Existing projects are not automatically deduplicated.\n- F-Droid update checks and details now use only the official F-Droid package API and app page, comparing the recommended published version code. Removed GitHub release-note requests; API failures remain check failures and release details are available on the F-Droid app page. The ordinary edition keeps its GitHub update flow.\n- Fixed password-derived Bitwarden authenticators appearing in the Monica Local filter when no folder is assigned. Preserve the source cipher identity, revision and pending-change state so authenticators remain in their Bitwarden account and folder filters.\n",
+          "publishedAt": "2026-11-20T05:55:08Z",
+          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.329",
+          "assets": [
+            {
+              "name": "Monica-Android-arm64-v8a-1.0.329-26112012-93.APK",
+              "size": 37084383,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.329/Monica-Android-arm64-v8a-1.0.329-26112012-93.APK",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "name": "Monica-Android-armeabi-v7a-1.0.329-26112012-93.APK",
+              "size": 34576215,
+              "downloadCount": 0,
+              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.329/Monica-Android-armeabi-v7a-1.0.329-26112012-93.APK",
+              "contentType": "application/octet-stream"
+            }
+          ]
+        },
         {
           "tag": "V1.0.328",
           "prerelease": false,
@@ -19,7 +43,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.328-26111712-04.APK",
               "size": 37212287,
-              "downloadCount": 515,
+              "downloadCount": 562,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.328/Monica-Android-arm64-v8a-1.0.328-26111712-04.APK",
               "contentType": "application/octet-stream"
             },
@@ -50,7 +74,7 @@
             {
               "name": "Monica-Android-armeabi-v7a-1.0.327-26111312-88.APK",
               "size": 34231228,
-              "downloadCount": 12,
+              "downloadCount": 13,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.327/Monica-Android-armeabi-v7a-1.0.327-26111312-88.APK",
               "contentType": "application/octet-stream"
             }
@@ -223,30 +247,6 @@
               "contentType": "application/octet-stream"
             }
           ]
-        },
-        {
-          "tag": "V1.0.320",
-          "prerelease": false,
-          "name": "V1.0.320",
-          "body": "# Monica for Android 1.0.320\r\n\r\n\r\n## 中文\r\n\r\n- 卡包的分段姓名、补充地址和联系方式统一使用内容卡片与填充式表单；账单地址支持点开编辑、返回收起及保存排序。修复说明文字和照片卡片的圆角裁切，改善大字体下的显示与照片操作布局。\r\n\r\n- 地址与证件支持区县、第 3 行地址及家庭／工作联系方式；地址与银行卡新增独立的可选分段姓名，完整姓名与名／中间名／姓互不推导或覆盖。改进网页自动填充的地址分行、电话分段、国家／有效期下拉框、收货／账单分区和动态银行卡表单。\r\n\r\n- 自动填充先显示匹配账号，选中后验证一次；主应用和自动填充仅接受强生物识别或 Monica 主密码，不再接受手机锁屏密码、PIN 或图案。指纹不可用时可使用原主密码，保留现有加密数据和密钥；关闭快捷填充验证时，进入完整选择页仍需验证。\r\n\r\n- 修复 Android Studio 未继承 Rust 工具路径时无法打包的问题，支持自动定位已安装工具和自定义 Cargo 路径。\r\n\r\n- 补全附近设备同步的文件夹、根目录附件与独立标签，保留附件身份、扩展数据和来源归属；附件校验失败或不支持文件夹删除时保留受影响的数据并说明原因。\r\n\r\n- 修复冷启动或绑定验证器查询超时时，自动填充后偶尔不显示验证码通知的问题；密码填充仍优先完成。\r\n\r\n- 修复浏览器访问本机自托管网页时无法匹配已保存凭据的问题，保留应用内嵌页面的兼容行为。\r\n\r\n- 升级注册、改密和分步登录的自动填充：已保存密码不会覆盖新密码框，生成密码仅填入新密码与确认框；保存时优先使用新密码，并可确认更新匹配的原条目，保留文件夹、备注、附件和其他账户。\r\n\r\n- 无障碍补充填充同样避开新密码与确认框，并校验动态网页的密码写入结果以便必要时重试；再次锁定时立即关闭单独验证过的自动填充保存页。\r\n\r\n- 改进验证返回与连续登录，限制临时上下文的来源和有效期；增加可取消的请求时限、缓存失效处理和不含凭据的分阶段耗时诊断。\r\n\r\n- 改进自动填充的网页识别：支持浏览器标准化提示，准确区分账号、当前密码、新密码和验证码；网页提供表单结构时仅填充当前表单，保留原生应用和旧网页的兼容逻辑。\r\n\r\n- 优化原始数据库管理：名称最多显示两行、双栏独立滚动，支持滑动区间多选、长按菜单，以及跟随当前聚焦栏的底部操作与前进／后退导航；修复普通 MDBX 条目跨格式传输被误拦截。\r\n\r\n- 新增 Bitwarden Authenticator CSV 导入，独立入口简称“Bitwarden Auth.”，保留验证器账户及验证码参数。\r\n\r\n- 修复验证器导入名称重复包含账户名：扫码、链接和批量导入默认使用发行者名称，账户名保留在独立字段；手动填写的名称不受影响。\r\n\r\n- 银行卡新增默认“开户行”字段，支持填写、编辑、复制和搜索，并在备份及受支持的数据库同步中保留。\r\n\r\n## English\r\n\r\n- Unified wallet name parts, extra address fields and contacts with content cards and filled forms. Billing-address sections open separately, collapse on return and retain their saved order. Fixed clipped helper text and photo-card corners, with improved large-text layouts and photo actions.\r\n\r\n- Added district/county, address line 3 and home/work contacts to profiles, plus optional independent name parts for addresses and cards. Full names and name parts never infer or overwrite one another. Improved web autofill for address lines, phone parts, country/expiry selects, shipping/billing sections and dynamic card forms.\r\n\r\n- Autofill shows matching accounts before one verification step. App unlock and autofill accept only strong biometrics or the Monica master password, never the device PIN, pattern or screen-lock password. Existing vault data and keys are preserved, with the original master password available when biometrics cannot be used. The full picker still requires verification when quick-fill verification is disabled.\r\n\r\n- Fixed packaging when Android Studio does not inherit the Rust tool path, with installed-tool discovery and a custom Cargo path option.\r\n\r\n- Nearby sync now preserves folder/root attachments, standalone labels, portable identities, extension data and source ownership. Failed attachment verification or unsupported folder deletion preserves the affected data and explains the issue.\r\n\r\n- Fixed missing post-fill OTP notifications when a cold bound-authenticator lookup times out, without delaying credential filling.\r\n\r\n- Fixed saved-credential matching on browser loopback pages while preserving hybrid-app compatibility.\r\n\r\n- Improved autofill for sign-up, password changes and multi-step login. Stored passwords leave new-password fields untouched; generated passwords fill the new/confirmation pair. Saving prefers the new password and offers a reviewed update to a matching entry, preserving folders, notes, attachments and other accounts.\r\n\r\n- Accessibility fallback also leaves new-password and confirmation fields untouched and verifies dynamic web writes before completing. Locking closes independently verified autofill save screens.\r\n\r\n- Improved authentication return and login continuity with origin-scoped, expiring context; added cancellable request deadlines, cache invalidation and credential-free phase timing diagnostics.\r\n\r\n- Improved web autofill with browser-normalized hints for accounts, current/new passwords and OTPs. When form structure is available, filling stays within the active form while retaining compatibility with native apps and older web pages.\r\n\r\n- Improved raw database management with two-line names, independent pane scrolling, swipe range selection, context menus, and focused-pane actions and navigation history; fixed ordinary MDBX entries being incorrectly blocked during cross-format transfers.\r\n\r\n- Added CSV import from Bitwarden Authenticator through a separate “Bitwarden Auth.” entry, preserving accounts and OTP parameters.\r\n\r\n- Authenticator imports now use the issuer as the default name for QR codes, links and batch imports, keeping the account in its own field and preserving manually entered names.\r\n\r\n- Added a default bank branch field to bank cards, with editing, copying and search, preserved in backups and supported database sync.\r\n",
-          "publishedAt": "2026-10-16T14:30:38Z",
-          "htmlUrl": "https://github.com/Monica-Pass/Monica/releases/tag/V1.0.320",
-          "assets": [
-            {
-              "name": "Monica-Android-arm64-v8a-1.0.320-26101612-18.APK",
-              "size": 46202139,
-              "downloadCount": 791,
-              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.320/Monica-Android-arm64-v8a-1.0.320-26101612-18.APK",
-              "contentType": "application/vnd.android.package-archive"
-            },
-            {
-              "name": "Monica-Android-armeabi-v7a-1.0.320-26101612-18.APK",
-              "size": 43775889,
-              "downloadCount": 18,
-              "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.320/Monica-Android-armeabi-v7a-1.0.320-26101612-18.APK",
-              "contentType": "application/vnd.android.package-archive"
-            }
-          ]
         }
       ]
     },
@@ -311,21 +311,21 @@
             {
               "name": "Monica-0.3.1-osx-x64-jit.dmg",
               "size": 131784910,
-              "downloadCount": 4,
+              "downloadCount": 5,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-osx-x64-jit.dmg",
               "contentType": "application/x-apple-diskimage"
             },
             {
               "name": "Monica-0.3.1-windows-x64-aot-setup.exe",
               "size": 74586181,
-              "downloadCount": 26,
+              "downloadCount": 27,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-windows-x64-aot-setup.exe",
               "contentType": "application/x-msdos-program"
             },
             {
               "name": "Monica-0.3.1-windows-x64-jit-setup.exe",
               "size": 100783467,
-              "downloadCount": 51,
+              "downloadCount": 52,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-windows-x64-jit-setup.exe",
               "contentType": "application/x-msdos-program"
             },
@@ -706,7 +706,7 @@
             {
               "name": "monica-cli-1.0.101-windows-x86_64.zip",
               "size": 16910345,
-              "downloadCount": 6,
+              "downloadCount": 7,
               "url": "https://github.com/Monica-Pass/Monica-cli/releases/download/v1.0.101/monica-cli-1.0.101-windows-x86_64.zip",
               "contentType": "application/zip"
             },
