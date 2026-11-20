@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-20T20:11:46.701Z",
+  "generatedAt": "2026-11-20T20:31:45.602Z",
   "range": {
     "from": "2025-11-21",
     "to": "2026-11-20"
@@ -1465,51 +1465,121 @@
     },
     {
       "date": "2026-11-17",
-      "count": 8
+      "count": 10
     },
     {
       "date": "2026-11-18",
-      "count": 16
+      "count": 17
     },
     {
       "date": "2026-11-19",
-      "count": 6
+      "count": 10
     },
     {
       "date": "2026-11-20",
-      "count": 12
+      "count": 25
     }
   ],
   "latest": [
     {
-      "sha": "1cfb87999f273110821f1a89efbef9b94b20e336",
-      "shortSha": "1cfb879",
+      "sha": "c8d763f6afce23aaf05f3eee5cfd43732e014b55",
+      "shortSha": "c8d763f",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #82 from Monica-Pass/feat/61-interface-density",
+      "message": "fix(settings): repair merged section tails and localized row titles",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:11:13Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1cfb87999f273110821f1a89efbef9b94b20e336"
+      "date": "2026-11-20T20:30:03Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c8d763f6afce23aaf05f3eee5cfd43732e014b55"
     },
     {
-      "sha": "071f9077a0272de46fbe2bcda3f48c2f25f405b4",
-      "shortSha": "071f907",
+      "sha": "1020211900710f5677c2205141afef717daffacf",
+      "shortSha": "1020211",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #81 from Monica-Pass/feat/63-layout-customization",
+      "message": "fix(sync): map new CloudFileProviderError case in cloud vault adapter",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:10:51Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/071f9077a0272de46fbe2bcda3f48c2f25f405b4"
+      "date": "2026-11-20T20:25:50Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1020211900710f5677c2205141afef717daffacf"
     },
     {
-      "sha": "cce3ec3d25002666ae1d07a7c73e1c9425de52fe",
-      "shortSha": "cce3ec3",
+      "sha": "abdab79c66f284974888e54328d849d09b2a0ddf",
+      "shortSha": "abdab79",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #80 from Monica-Pass/feat/62-localization",
+      "message": "merge: feat/55-change-master-password",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:10:23Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/cce3ec3d25002666ae1d07a7c73e1c9425de52fe"
+      "date": "2026-11-20T20:25:32Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/abdab79c66f284974888e54328d849d09b2a0ddf"
+    },
+    {
+      "sha": "6f291510b0f0c7d7c4d4560178345494ae93cbe4",
+      "shortSha": "6f29151",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/45-control-center-shortcuts",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:25:07Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/6f291510b0f0c7d7c4d4560178345494ae93cbe4"
+    },
+    {
+      "sha": "2faf973c65439475934b93f9497eceb28ae31d30",
+      "shortSha": "2faf973",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/48-credential-exchange",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:25:01Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/2faf973c65439475934b93f9497eceb28ae31d30"
+    },
+    {
+      "sha": "124c985ff9bc423e82ea8f8d6c0be42e11e25da3",
+      "shortSha": "124c985",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/52-onedrive-backup-dirs",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:24:54Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/124c985ff9bc423e82ea8f8d6c0be42e11e25da3"
+    },
+    {
+      "sha": "196b1a495d36fde152d48de5123ad45b13480e43",
+      "shortSha": "196b1a4",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/31-cloud-vault-sync' into local-main",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:24:41Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/196b1a495d36fde152d48de5123ad45b13480e43"
+    },
+    {
+      "sha": "96cec1c654ecd517a91957cd0d4a9c6f97285649",
+      "shortSha": "96cec1c",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/53-lan-sync",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:24:41Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/96cec1c654ecd517a91957cd0d4a9c6f97285649"
+    },
+    {
+      "sha": "18fd4b1b26b6dd872ede3186cbef1d9822723b4e",
+      "shortSha": "18fd4b1",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/44-nfc-card-spike' into local-main",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:24:23Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/18fd4b1b26b6dd872ede3186cbef1d9822723b4e"
+    },
+    {
+      "sha": "78cd7578ca898952f56815c6dff0f1eff1cb12ee",
+      "shortSha": "78cd757",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/59-security-question-kdf",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:20:14Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/78cd7578ca898952f56815c6dff0f1eff1cb12ee"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
@@ -1760,76 +1830,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-18T14:26:40Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/6253fa8aad0454e95187f1dcb461c81f8edcfa8d"
-    },
-    {
-      "sha": "d839f0105231948e42ca9b393d49949c4303c798",
-      "shortSha": "d839f01",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "feat(ui): Dynamic Type support and three-level interface density (#61)",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-17T09:56:19Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d839f0105231948e42ca9b393d49949c4303c798"
-    },
-    {
-      "sha": "02916c7b6bf4002804c3dbc252a7aa65784d3e9c",
-      "shortSha": "02916c7",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "feat(layout): customize password page module order and visibility (#63)",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-17T08:21:05Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/02916c7b6bf4002804c3dbc252a7aa65784d3e9c"
-    },
-    {
-      "sha": "422d65f4ac136d98a330a3bfa1ded0ae24a600a8",
-      "shortSha": "422d65f",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "feat(l10n): localize core UI in Simplified Chinese and English (#62)",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-17T06:50:18Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/422d65f4ac136d98a330a3bfa1ded0ae24a600a8"
-    },
-    {
-      "sha": "fad858de8797754ad74cedf329aa3c1ce8226dd9",
-      "shortSha": "fad858d",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #79 from Monica-Pass/feat/77-four-tab-navigation",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-17T04:58:37Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/fad858de8797754ad74cedf329aa3c1ce8226dd9"
-    },
-    {
-      "sha": "78ad972410a951b4557c296b4ec23959f6e41416",
-      "shortSha": "78ad972",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(passkeys): declare BE/BS backup flags so iOS accepts the credential",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-16T18:33:58Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/78ad972410a951b4557c296b4ec23959f6e41416"
-    },
-    {
-      "sha": "39366adf816b023304c3e367c4fb1fc1131717c7",
-      "shortSha": "39366ad",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(autofill): make the passkey credential provider usable on device",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-16T18:23:30Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/39366adf816b023304c3e367c4fb1fc1131717c7"
-    },
-    {
-      "sha": "3c00cda914559f9c5a09d29dd0cba5d3e0346fa2",
-      "shortSha": "3c00cda",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix: work around openrsync breaking IPA export on macOS 26",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-16T08:55:49Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/3c00cda914559f9c5a09d29dd0cba5d3e0346fa2"
     },
     {
       "sha": "f6872a4dbbf343535ff3d51798fb5569448e1961",
