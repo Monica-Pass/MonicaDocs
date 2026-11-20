@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-20T22:32:03.061Z",
+  "generatedAt": "2026-11-20T22:55:49.205Z",
   "range": {
     "from": "2025-11-21",
     "to": "2026-11-20"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-20",
-      "count": 44
+      "count": 46
     }
   ],
   "latest": [
+    {
+      "sha": "825d82bb759db3b4ce10f8fae58dccd6f3c281ed",
+      "shortSha": "825d82b",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #97 from Monica-Pass/feat/65-diagnostics",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T22:55:18Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/825d82bb759db3b4ce10f8fae58dccd6f3c281ed"
+    },
     {
       "sha": "4dfe33a45ae868aefa2205a9a243a03840498326",
       "shortSha": "4dfe33a",
@@ -1500,6 +1510,16 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-20T22:11:22Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a59e407ce5c1a0d48782495a111f5e8f23629388"
+    },
+    {
+      "sha": "0997f523fc5b54381a4ab4c2cebf0a58ffbbbae5",
+      "shortSha": "0997f52",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "feat(diagnostics): 增加脱敏环形诊断日志、安全导出与开发者预览开关 (#65)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T22:10:04Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/0997f523fc5b54381a4ab4c2cebf0a58ffbbbae5"
     },
     {
       "sha": "45c4beec4a9cdb0e3cd0234038dc21e18e9bebc4",
@@ -1560,26 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-20T21:17:47Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/12277e06d9290a14dfd07bf92614ab38660094b4"
-    },
-    {
-      "sha": "bdd26ea42e4eb3a2ba8a612597cd560e5d476d2a",
-      "shortSha": "bdd26ea",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(widget): 共享快照 schema 并在写入后合并刷新 Widget (#71)",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T21:17:02Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/bdd26ea42e4eb3a2ba8a612597cd560e5d476d2a"
-    },
-    {
-      "sha": "90b316476918f4d3a14e132b9be40438aca6283b",
-      "shortSha": "90b3164",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/fix/71-widget-reload' into local-main",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T21:05:39Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/90b316476918f4d3a14e132b9be40438aca6283b"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
