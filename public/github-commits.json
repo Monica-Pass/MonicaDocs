@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-20T21:02:33.658Z",
+  "generatedAt": "2026-11-20T21:03:37.654Z",
   "range": {
     "from": "2025-11-21",
     "to": "2026-11-20"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-20",
-      "count": 30
+      "count": 32
     }
   ],
   "latest": [
+    {
+      "sha": "b7292f851901b435d39045bf7690593d452c85df",
+      "shortSha": "b7292f8",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/fix/72-compliance' into local-main",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T21:02:40Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b7292f851901b435d39045bf7690593d452c85df"
+    },
     {
       "sha": "7beb2285a3894354cf9c043057a2818f98940cdb",
       "shortSha": "7beb228",
@@ -1490,6 +1500,16 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-20T21:02:07Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/7beb2285a3894354cf9c043057a2818f98940cdb"
+    },
+    {
+      "sha": "fde016c6b4ce65424281379de5ea1b37ba478cfc",
+      "shortSha": "fde016c",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(app): 补齐 Face ID 用途说明与隐私清单 (#72)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:52:06Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/fde016c6b4ce65424281379de5ea1b37ba478cfc"
     },
     {
       "sha": "3f435ffde3dec94563380331b571940f413d806d",
@@ -1560,26 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-20T20:25:32Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/abdab79c66f284974888e54328d849d09b2a0ddf"
-    },
-    {
-      "sha": "6f291510b0f0c7d7c4d4560178345494ae93cbe4",
-      "shortSha": "6f29151",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/45-control-center-shortcuts",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:25:07Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/6f291510b0f0c7d7c4d4560178345494ae93cbe4"
-    },
-    {
-      "sha": "2faf973c65439475934b93f9497eceb28ae31d30",
-      "shortSha": "2faf973",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/48-credential-exchange",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:25:01Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/2faf973c65439475934b93f9497eceb28ae31d30"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
