@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-20T20:31:45.602Z",
+  "generatedAt": "2026-11-20T20:33:14.114Z",
   "range": {
     "from": "2025-11-21",
     "to": "2026-11-20"
@@ -1477,10 +1477,50 @@
     },
     {
       "date": "2026-11-20",
-      "count": 25
+      "count": 29
     }
   ],
   "latest": [
+    {
+      "sha": "3f435ffde3dec94563380331b571940f413d806d",
+      "shortSha": "3f435ff",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #87 from Monica-Pass/feat/48-credential-exchange",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:32:31Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/3f435ffde3dec94563380331b571940f413d806d"
+    },
+    {
+      "sha": "a2aebd0a9151eb9a487999775537dd9d4e5cddac",
+      "shortSha": "a2aebd0",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #86 from Monica-Pass/feat/31-cloud-vault-sync",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:32:22Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a2aebd0a9151eb9a487999775537dd9d4e5cddac"
+    },
+    {
+      "sha": "ce6badcd277a7fdd3740fd90d36ac52789049f0f",
+      "shortSha": "ce6badc",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "chore: reland under main after integration-train merge (no code change)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:32:03Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ce6badcd277a7fdd3740fd90d36ac52789049f0f"
+    },
+    {
+      "sha": "5bc314d02091cbdaeea0396ebbc58422fd285b37",
+      "shortSha": "5bc314d",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "chore: reland under main after integration-train merge (no code change)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T20:32:00Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/5bc314d02091cbdaeea0396ebbc58422fd285b37"
+    },
     {
       "sha": "c8d763f6afce23aaf05f3eee5cfd43732e014b55",
       "shortSha": "c8d763f",
@@ -1540,46 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-20T20:24:54Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/124c985ff9bc423e82ea8f8d6c0be42e11e25da3"
-    },
-    {
-      "sha": "196b1a495d36fde152d48de5123ad45b13480e43",
-      "shortSha": "196b1a4",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/31-cloud-vault-sync' into local-main",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:24:41Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/196b1a495d36fde152d48de5123ad45b13480e43"
-    },
-    {
-      "sha": "96cec1c654ecd517a91957cd0d4a9c6f97285649",
-      "shortSha": "96cec1c",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/53-lan-sync",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:24:41Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/96cec1c654ecd517a91957cd0d4a9c6f97285649"
-    },
-    {
-      "sha": "18fd4b1b26b6dd872ede3186cbef1d9822723b4e",
-      "shortSha": "18fd4b1",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/44-nfc-card-spike' into local-main",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:24:23Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/18fd4b1b26b6dd872ede3186cbef1d9822723b4e"
-    },
-    {
-      "sha": "78cd7578ca898952f56815c6dff0f1eff1cb12ee",
-      "shortSha": "78cd757",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/59-security-question-kdf",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:20:14Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/78cd7578ca898952f56815c6dff0f1eff1cb12ee"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
