@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-19T14:51:25.531Z",
+  "generatedAt": "2026-11-20T14:32:24.733Z",
   "range": {
-    "from": "2025-11-20",
-    "to": "2026-11-19"
+    "from": "2025-11-21",
+    "to": "2026-11-20"
   },
   "activity": [
-    {
-      "date": "2025-11-20",
-      "count": 0
-    },
     {
       "date": "2025-11-21",
       "count": 0
@@ -1477,10 +1473,84 @@
     },
     {
       "date": "2026-11-19",
-      "count": 4
+      "count": 6
+    },
+    {
+      "date": "2026-11-20",
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "dcea96f62d38b4a92306e34926e1c65fca8ae72f",
+      "shortSha": "dcea96f",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "fix: scope homepage dark styles to illustration elements",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-20T10:54:09Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/dcea96f62d38b4a92306e34926e1c65fca8ae72f"
+    },
+    {
+      "sha": "2ba47be39a4c01b9f5aa8991e56bd9db29616b4e",
+      "shortSha": "2ba47be",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "docs(android): publish 1.0.329 release notes",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-20T05:46:00Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/2ba47be39a4c01b9f5aa8991e56bd9db29616b4e"
+    },
+    {
+      "sha": "22810a53bfd1eb2a62c12e2b51e7762ebe7f9266",
+      "shortSha": "22810a5",
+      "repo": "Monica-Pass/Monica",
+      "message": "docs(android): publish 1.0.329 release notes [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-20T05:45:57Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/22810a53bfd1eb2a62c12e2b51e7762ebe7f9266"
+    },
+    {
+      "sha": "6a798a8e88253d8bb8691ee83ae1d8e4e74c3f48",
+      "shortSha": "6a798a8",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Retire timeline on schema 85, restore landscape panes and unify QR scanning",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-20T05:35:20Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/6a798a8e88253d8bb8691ee83ae1d8e4e74c3f48"
+    },
+    {
+      "sha": "434ab8fafedb37fe8979887ffd9ce3df59ecdcfe",
+      "shortSha": "434ab8f",
+      "repo": "Monica-Pass/Monica",
+      "message": "Retire timeline on schema 85, restore landscape panes and unify QR scanning [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-20T05:34:45Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/434ab8fafedb37fe8979887ffd9ce3df59ecdcfe"
+    },
+    {
+      "sha": "80ac412f01a5beb4feada05ff12db6418f834c86",
+      "shortSha": "80ac412",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Implement recoverable timeline and adaptive Android layouts",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-19T23:27:15Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/80ac412f01a5beb4feada05ff12db6418f834c86"
+    },
+    {
+      "sha": "e834a78751a85df19e8a053812acbcfdcaae9360",
+      "shortSha": "e834a78",
+      "repo": "Monica-Pass/Monica",
+      "message": "Implement recoverable timeline and adaptive Android layouts [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-19T23:27:14Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/e834a78751a85df19e8a053812acbcfdcaae9360"
+    },
     {
       "sha": "b5dc49a429ffa1c0ceaed0adc10d733368f2dc1b",
       "shortSha": "b5dc49a",
@@ -1660,66 +1730,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-18T14:16:19Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/3d7a692f0707550c51ce8ad2cdce362c7b83e424"
-    },
-    {
-      "sha": "0489eb6c4eb535f71c0158e13c5719e5f65ed650",
-      "shortSha": "0489eb6",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Prepare Monica F-Droid 1.0.329",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-18T14:11:59Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/0489eb6c4eb535f71c0158e13c5719e5f65ed650"
-    },
-    {
-      "sha": "577ea40c0a4a4bbcc2989a1c516bc1dcfe70ced3",
-      "shortSha": "577ea40",
-      "repo": "Monica-Pass/Monica",
-      "message": "Prepare Monica Android 1.0.329 development preview",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-18T14:11:58Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/577ea40c0a4a4bbcc2989a1c516bc1dcfe70ced3"
-    },
-    {
-      "sha": "5e0a26bdec82c0161dd47d846118a2f4d6793db8",
-      "shortSha": "5e0a26b",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "docs(android): publish 1.0.328 release notes",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-17T09:41:13Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5e0a26bdec82c0161dd47d846118a2f4d6793db8"
-    },
-    {
-      "sha": "26a51f59216b74e567ef1fe44c2fc243fa00890d",
-      "shortSha": "26a51f5",
-      "repo": "Monica-Pass/Monica",
-      "message": "docs(android): publish 1.0.328 release notes [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-17T09:41:11Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/26a51f59216b74e567ef1fe44c2fc243fa00890d"
-    },
-    {
-      "sha": "1c00e44a935a201ed531aff3505c470bec46d4b6",
-      "shortSha": "1c00e44",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Complete Android 328 native editing, autofill and compatibility fixes",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-17T08:33:55Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/1c00e44a935a201ed531aff3505c470bec46d4b6"
-    },
-    {
-      "sha": "6fbd27e5c4bc982f32b8ed4461474979ac683402",
-      "shortSha": "6fbd27e",
-      "repo": "Monica-Pass/Monica",
-      "message": "Complete Android 328 native editing, autofill and compatibility fixes [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-17T08:33:50Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/6fbd27e5c4bc982f32b8ed4461474979ac683402"
     },
     {
       "sha": "fad858de8797754ad74cedf329aa3c1ce8226dd9",
@@ -2240,16 +2250,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-10-13T09:30:58Z",
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/86c63936ca58666dc65f1e3d9bce772be31c7112"
-    },
-    {
-      "sha": "8e06d80ca913b04d91a7d97d6b0a2ac8eff204b0",
-      "shortSha": "8e06d80",
-      "repo": "Monica-Pass/MonicaDocs",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-10-12T09:21:08Z",
-      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/8e06d80ca913b04d91a7d97d6b0a2ac8eff204b0"
     },
     {
       "sha": "b388636f95ac5b0a0d930be2eeba2481d503ddf7",
