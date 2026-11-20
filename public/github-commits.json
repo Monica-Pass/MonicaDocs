@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-20T22:03:16.425Z",
+  "generatedAt": "2026-11-20T22:11:53.785Z",
   "range": {
     "from": "2025-11-21",
     "to": "2026-11-20"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-20",
-      "count": 39
+      "count": 41
     }
   ],
   "latest": [
+    {
+      "sha": "a59e407ce5c1a0d48782495a111f5e8f23629388",
+      "shortSha": "a59e407",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #96 from Monica-Pass/docs/67-android-parity",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T22:11:22Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a59e407ce5c1a0d48782495a111f5e8f23629388"
+    },
     {
       "sha": "45c4beec4a9cdb0e3cd0234038dc21e18e9bebc4",
       "shortSha": "45c4bee",
@@ -1490,6 +1500,16 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-20T22:02:49Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/45c4beec4a9cdb0e3cd0234038dc21e18e9bebc4"
+    },
+    {
+      "sha": "1934de907c96b9847d72af77e81956769dba7ac9",
+      "shortSha": "1934de9",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "docs: add Android/iOS parity matrix and missing feature list (#67)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T21:52:05Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1934de907c96b9847d72af77e81956769dba7ac9"
     },
     {
       "sha": "92ecda16c287d57f27fe59b7e948f043d831ce07",
@@ -1560,26 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-20T21:02:40Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b7292f851901b435d39045bf7690593d452c85df"
-    },
-    {
-      "sha": "7beb2285a3894354cf9c043057a2818f98940cdb",
-      "shortSha": "7beb228",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(app): 将布局偏好类型移出 AppRootView.swift，恢复会话文件不写 NSLog 的不变量",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T21:02:07Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/7beb2285a3894354cf9c043057a2818f98940cdb"
-    },
-    {
-      "sha": "fde016c6b4ce65424281379de5ea1b37ba478cfc",
-      "shortSha": "fde016c",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(app): 补齐 Face ID 用途说明与隐私清单 (#72)",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:52:06Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/fde016c6b4ce65424281379de5ea1b37ba478cfc"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
