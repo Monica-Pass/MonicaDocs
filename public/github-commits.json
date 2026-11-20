@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-20T21:17:29.543Z",
+  "generatedAt": "2026-11-20T21:18:17.104Z",
   "range": {
     "from": "2025-11-21",
     "to": "2026-11-20"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-20",
-      "count": 36
+      "count": 37
     }
   ],
   "latest": [
+    {
+      "sha": "12277e06d9290a14dfd07bf92614ab38660094b4",
+      "shortSha": "12277e0",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "ci: 在 SwiftPM matrix 中加入 MonicaWidgetShared",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T21:17:47Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/12277e06d9290a14dfd07bf92614ab38660094b4"
+    },
     {
       "sha": "bdd26ea42e4eb3a2ba8a612597cd560e5d476d2a",
       "shortSha": "bdd26ea",
@@ -1570,16 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-20T20:32:22Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a2aebd0a9151eb9a487999775537dd9d4e5cddac"
-    },
-    {
-      "sha": "ce6badcd277a7fdd3740fd90d36ac52789049f0f",
-      "shortSha": "ce6badc",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "chore: reland under main after integration-train merge (no code change)",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:32:03Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ce6badcd277a7fdd3740fd90d36ac52789049f0f"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
