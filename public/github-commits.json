@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-20T20:33:14.114Z",
+  "generatedAt": "2026-11-20T21:02:33.658Z",
   "range": {
     "from": "2025-11-21",
     "to": "2026-11-20"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-20",
-      "count": 29
+      "count": 30
     }
   ],
   "latest": [
+    {
+      "sha": "7beb2285a3894354cf9c043057a2818f98940cdb",
+      "shortSha": "7beb228",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(app): 将布局偏好类型移出 AppRootView.swift，恢复会话文件不写 NSLog 的不变量",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T21:02:07Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/7beb2285a3894354cf9c043057a2818f98940cdb"
+    },
     {
       "sha": "3f435ffde3dec94563380331b571940f413d806d",
       "shortSha": "3f435ff",
@@ -1570,16 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-20T20:25:01Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/2faf973c65439475934b93f9497eceb28ae31d30"
-    },
-    {
-      "sha": "124c985ff9bc423e82ea8f8d6c0be42e11e25da3",
-      "shortSha": "124c985",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/52-onedrive-backup-dirs",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:24:54Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/124c985ff9bc423e82ea8f8d6c0be42e11e25da3"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
