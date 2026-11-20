@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-20T21:18:17.104Z",
+  "generatedAt": "2026-11-20T22:03:16.425Z",
   "range": {
     "from": "2025-11-21",
     "to": "2026-11-20"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-20",
-      "count": 37
+      "count": 39
     }
   ],
   "latest": [
+    {
+      "sha": "45c4beec4a9cdb0e3cd0234038dc21e18e9bebc4",
+      "shortSha": "45c4bee",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #95 from Monica-Pass/feat/49-update-check",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T22:02:49Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/45c4beec4a9cdb0e3cd0234038dc21e18e9bebc4"
+    },
+    {
+      "sha": "92ecda16c287d57f27fe59b7e948f043d831ce07",
+      "shortSha": "92ecda1",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "feat(update): 设置页关于区块与 App Store 更新检查 (#49)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-20T21:42:57Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/92ecda16c287d57f27fe59b7e948f043d831ce07"
+    },
     {
       "sha": "12277e06d9290a14dfd07bf92614ab38660094b4",
       "shortSha": "12277e0",
@@ -1560,26 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-20T20:52:06Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/fde016c6b4ce65424281379de5ea1b37ba478cfc"
-    },
-    {
-      "sha": "3f435ffde3dec94563380331b571940f413d806d",
-      "shortSha": "3f435ff",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #87 from Monica-Pass/feat/48-credential-exchange",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:32:31Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/3f435ffde3dec94563380331b571940f413d806d"
-    },
-    {
-      "sha": "a2aebd0a9151eb9a487999775537dd9d4e5cddac",
-      "shortSha": "a2aebd0",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #86 from Monica-Pass/feat/31-cloud-vault-sync",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-20T20:32:22Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a2aebd0a9151eb9a487999775537dd9d4e5cddac"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
