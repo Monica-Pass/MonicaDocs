@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T11:49:14.909Z",
+  "generatedAt": "2026-11-21T12:48:48.851Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-21",
-      "count": 110
+      "count": 112
     }
   ],
   "latest": [
+    {
+      "sha": "4864b6cedd04eebc3513ef65ca12bc731d83fab5",
+      "shortSha": "4864b6c",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Fix persistent biometric unlock binding and prepare Android 1.0.331",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-21T12:47:56Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/4864b6cedd04eebc3513ef65ca12bc731d83fab5"
+    },
+    {
+      "sha": "ec4f67bd70616d353604fe5bea62eaf3f005b5f4",
+      "shortSha": "ec4f67b",
+      "repo": "Monica-Pass/Monica",
+      "message": "Fix persistent biometric unlock binding and prepare Android 1.0.331",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-21T12:47:55Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/ec4f67bd70616d353604fe5bea62eaf3f005b5f4"
+    },
     {
       "sha": "96f99d5e30bf46368508afc1d6e2d23928c0a14a",
       "shortSha": "96f99d5",
@@ -1862,16 +1882,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c5b13694061ef0114efb4698c2d1f2c607b02715"
     },
     {
-      "sha": "374a0e64d3e1e111d728aedad4127a3ab99ba2eb",
-      "shortSha": "374a0e6",
-      "repo": "Monica-Pass/Monica",
-      "message": "Smooth folder shortcut collapse during password search",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-18T15:00:09Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/374a0e64d3e1e111d728aedad4127a3ab99ba2eb"
-    },
-    {
       "sha": "5397db9362f24b78d63822ce8bf2418f8abbe364",
       "shortSha": "5397db9",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1880,16 +1890,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-18T15:00:08Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5397db9362f24b78d63822ce8bf2418f8abbe364"
-    },
-    {
-      "sha": "6253fa8aad0454e95187f1dcb461c81f8edcfa8d",
-      "shortSha": "6253fa8",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "docs(android): remove overview search motion from 1.0.329 notes",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-18T14:26:40Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/6253fa8aad0454e95187f1dcb461c81f8edcfa8d"
     },
     {
       "sha": "f6872a4dbbf343535ff3d51798fb5569448e1961",
