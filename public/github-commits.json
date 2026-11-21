@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T06:42:35.062Z",
+  "generatedAt": "2026-11-21T06:59:53.479Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1473,14 +1473,24 @@
     },
     {
       "date": "2026-11-20",
-      "count": 82
+      "count": 86
     },
     {
       "date": "2026-11-21",
-      "count": 51
+      "count": 52
     }
   ],
   "latest": [
+    {
+      "sha": "55b6fcad97762d7298aff119c10fa8dbc7ffcf66",
+      "shortSha": "55b6fca",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "Merge pull request #33 from aiguozhi123456/fix/skip-unchanged-vault-writes",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-21T06:59:32Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/55b6fcad97762d7298aff119c10fa8dbc7ffcf66"
+    },
     {
       "sha": "30d201fa4df3c300b5b03e10a79930151692f440",
       "shortSha": "30d201f",
@@ -1582,6 +1592,26 @@
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ce0683027aca8dfc1a8ba3a3aea66b860973150d"
     },
     {
+      "sha": "89b1e156232e94f25c6888aac920c7fd83ae929e",
+      "shortSha": "89b1e15",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "chore: refresh build identity after the hardening edits",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-20T17:38:35Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/89b1e156232e94f25c6888aac920c7fd83ae929e"
+    },
+    {
+      "sha": "3b79eae241895d549e6085d5108e85b171f47480",
+      "shortSha": "3b79eae",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "docs(solutions): capture the skip-redundant-vault-writes learning",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-20T17:38:26Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/3b79eae241895d549e6085d5108e85b171f47480"
+    },
+    {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
       "shortSha": "ed0b5e0",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1620,6 +1650,26 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-20T14:45:50Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/42c7efe8bc29eea61c6a7d82d1f553b9e26f8fef"
+    },
+    {
+      "sha": "e75948c3be5e747c6c93ba1fc8c73a07b05cabf0",
+      "shortSha": "e75948c",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "fix(sync): skip redundant vault writes on repeated sync failures",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-20T13:48:45Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/e75948c3be5e747c6c93ba1fc8c73a07b05cabf0"
+    },
+    {
+      "sha": "4027bd5127805dbfd1f27859f830f896f3613c92",
+      "shortSha": "4027bd5",
+      "repo": "Monica-Pass/Monica-for-Extension",
+      "message": "fix(autofill): skip locked-autofill cache rewrite when nothing changed",
+      "authorName": "aiguozhi123456",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
+      "date": "2026-11-20T13:48:38Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/4027bd5127805dbfd1f27859f830f896f3613c92"
     },
     {
       "sha": "dcea96f62d38b4a92306e34926e1c65fca8ae72f",
@@ -1860,56 +1910,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-11-11T09:31:42Z",
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/d48cbc54b8ef706835fc0806c056d2d0508ec300"
-    },
-    {
-      "sha": "9e2b708e50a9a117ac0c022bbd1c11456c28c3c3",
-      "shortSha": "9e2b708",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "Merge pull request #31 from aiguozhi123456/fix/repo-review-fix-loop",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-08T03:46:38Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/9e2b708e50a9a117ac0c022bbd1c11456c28c3c3"
-    },
-    {
-      "sha": "cd894663330f37ccb42f867afbfe750897a45c34",
-      "shortSha": "cd89466",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "fix(attachments): revoke late WebDAV reads and expire plaintext caches",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-08T03:04:25Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/cd894663330f37ccb42f867afbfe750897a45c34"
-    },
-    {
-      "sha": "c52ecb48fa3f1355a2c3aaafa5797c0439f29184",
-      "shortSha": "c52ecb4",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "chore: refresh build identity after the review sweep",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-07T06:32:52Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/c52ecb48fa3f1355a2c3aaafa5797c0439f29184"
-    },
-    {
-      "sha": "ccde787b592f4ec31b9e2c2ab66d725008c50d76",
-      "shortSha": "ccde787",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "Merge pull request #29 from Junyxor/main",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-07T05:58:32Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/ccde787b592f4ec31b9e2c2ab66d725008c50d76"
-    },
-    {
-      "sha": "21d7299d585024bd49281b203c7be6526504a47a",
-      "shortSha": "21d7299",
-      "repo": "Monica-Pass/Monica-for-Extension",
-      "message": "fix(content): guard native value setter writes in wallet-dom",
-      "authorName": "aiguozhi123456",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/126325311?v=4",
-      "date": "2026-11-07T05:52:03Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/21d7299d585024bd49281b203c7be6526504a47a"
     },
     {
       "sha": "0c351fffdfb483b77262c50ba40261a5d4858f16",
