@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T05:35:23.678Z",
+  "generatedAt": "2026-11-21T06:03:10.403Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,40 @@
     },
     {
       "date": "2026-11-21",
-      "count": 45
+      "count": 49
     }
   ],
   "latest": [
+    {
+      "sha": "c64178560cc50300e02fc981a130f11985f59e56",
+      "shortSha": "c641785",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(tests): 补回 Steam 合并中被截断的 SSO 移动分支",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T06:02:43Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c64178560cc50300e02fc981a130f11985f59e56"
+    },
+    {
+      "sha": "bb4d8344cfa030be2e5a38094640324fef629e42",
+      "shortSha": "bb4d834",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(storage): 文件夹层级 switch 补齐 Steam 类型分支",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T05:40:57Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/bb4d8344cfa030be2e5a38094640324fef629e42"
+    },
+    {
+      "sha": "88b0b4b1d49ed1a1b8f7bfc82dafa10404faf735",
+      "shortSha": "88b0b4b",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/13-steam-guard",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T05:37:43Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/88b0b4b1d49ed1a1b8f7bfc82dafa10404faf735"
+    },
     {
       "sha": "848c253c82529ed09b6477b4522ee33a3b5dc1bc",
       "shortSha": "848c253",
@@ -1550,36 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T05:16:37Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/cd12471951a20f30fa0d8b6eda83706a9c8fdfec"
-    },
-    {
-      "sha": "c2a9d959412fb7275a6828d55e9fab22ae43fd59",
-      "shortSha": "c2a9d95",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(project): 把 Bitwarden 合并摘要视图登记移回 pbxproj 对应 section",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T05:16:26Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c2a9d959412fb7275a6828d55e9fab22ae43fd59"
-    },
-    {
-      "sha": "8bfd417159534a9b45e6f31969e2ae0a26a511a6",
-      "shortSha": "8bfd417",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #125 from Monica-Pass/feat/36-monica-send",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T05:09:13Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/8bfd417159534a9b45e6f31969e2ae0a26a511a6"
-    },
-    {
-      "sha": "9eae03a76531a23648501668f3c79ada4231129a",
-      "shortSha": "9eae03a",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #117 from Monica-Pass/feat/56-security-insights",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T05:02:01Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/9eae03a76531a23648501668f3c79ada4231129a"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
