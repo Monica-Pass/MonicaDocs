@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T05:09:43.173Z",
+  "generatedAt": "2026-11-21T05:35:23.678Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,90 @@
     },
     {
       "date": "2026-11-21",
-      "count": 31
+      "count": 45
     }
   ],
   "latest": [
+    {
+      "sha": "848c253c82529ed09b6477b4522ee33a3b5dc1bc",
+      "shortSha": "848c253",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(project): 导入导出支持文件登记到 AppRoot 分组",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T05:34:53Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/848c253c82529ed09b6477b4522ee33a3b5dc1bc"
+    },
+    {
+      "sha": "1ca457469195445239d2c8554544cb3c2ae389ff",
+      "shortSha": "1ca4574",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/34-bitwarden-sync",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T05:17:29Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1ca457469195445239d2c8554544cb3c2ae389ff"
+    },
+    {
+      "sha": "999c7567c2b90c2e2f0fad571f7c76596acdb038",
+      "shortSha": "999c756",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/37-import-export-formats",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T05:17:27Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/999c7567c2b90c2e2f0fad571f7c76596acdb038"
+    },
+    {
+      "sha": "e0724a55b76f8d03790eee63a8f963130bfb8ab3",
+      "shortSha": "e0724a5",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/29-multi-vault",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T05:17:26Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/e0724a55b76f8d03790eee63a8f963130bfb8ab3"
+    },
+    {
+      "sha": "ec67e70611966a7dbe300743660a45eb8d062b22",
+      "shortSha": "ec67e70",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/76-cloudkit-sync",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T05:17:24Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ec67e70611966a7dbe300743660a45eb8d062b22"
+    },
+    {
+      "sha": "ce0683027aca8dfc1a8ba3a3aea66b860973150d",
+      "shortSha": "ce06830",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/27-vault-hierarchy",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T05:17:23Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ce0683027aca8dfc1a8ba3a3aea66b860973150d"
+    },
+    {
+      "sha": "cd12471951a20f30fa0d8b6eda83706a9c8fdfec",
+      "shortSha": "cd12471",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(project): 把格式导入导出视图登记移回 pbxproj 对应 section",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T05:16:37Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/cd12471951a20f30fa0d8b6eda83706a9c8fdfec"
+    },
+    {
+      "sha": "c2a9d959412fb7275a6828d55e9fab22ae43fd59",
+      "shortSha": "c2a9d95",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(project): 把 Bitwarden 合并摘要视图登记移回 pbxproj 对应 section",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T05:16:26Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c2a9d959412fb7275a6828d55e9fab22ae43fd59"
+    },
     {
       "sha": "8bfd417159534a9b45e6f31969e2ae0a26a511a6",
       "shortSha": "8bfd417",
@@ -1500,86 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T05:02:01Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/9eae03a76531a23648501668f3c79ada4231129a"
-    },
-    {
-      "sha": "75e70847eec65e4e9dfed78b17ce720871c31688",
-      "shortSha": "75e7084",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #113 from Monica-Pass/feat/78-liquid-glass",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T05:01:55Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/75e70847eec65e4e9dfed78b17ce720871c31688"
-    },
-    {
-      "sha": "6d6e3bd960f698b20f8d8bf788aff6eaa40286dc",
-      "shortSha": "6d6e3bd",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "feat(send): Monica Send 本地端到端加密分享包（#36）",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T04:59:03Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/6d6e3bd960f698b20f8d8bf788aff6eaa40286dc"
-    },
-    {
-      "sha": "11d1a1fc9948a85ca5731e7e9d4c0c1c6a32c1f5",
-      "shortSha": "11d1a1f",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #119 from Monica-Pass/fix/main-ci-sso",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T04:58:22Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/11d1a1fc9948a85ca5731e7e9d4c0c1c6a32c1f5"
-    },
-    {
-      "sha": "d416e83f525b7eba9083b3763e54e9cfc63edca1",
-      "shortSha": "d416e83",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(storage): 截断的图片签名按不可读处理，保持 unsupportedFormat 与 unreadableImage 的区分",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T04:28:14Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d416e83f525b7eba9083b3763e54e9cfc63edca1"
-    },
-    {
-      "sha": "bb663e2c4b2a8f8a137d41d8c8b3deebc4c04ab6",
-      "shortSha": "bb663e2",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(storage): 图片嗅探改为先判格式签名，纯文本报 unsupportedFormat",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T04:15:53Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/bb663e2c4b2a8f8a137d41d8c8b3deebc4c04ab6"
-    },
-    {
-      "sha": "4c38ab9d47ec65ec5fccda01a9e7db0c9ac220da",
-      "shortSha": "4c38ab9",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(test): 补齐 SSO 测试桩、Markdown 校验顺序与草稿时间精度",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T03:54:00Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/4c38ab9d47ec65ec5fccda01a9e7db0c9ac220da"
-    },
-    {
-      "sha": "9140da514cacdd06f3fa12eb1ed47eaf114394ce",
-      "shortSha": "9140da5",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "feat(app): 安全分析增强（评分/弱密码/复用/2FA/长期未改/手动泄露标记）",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T03:30:49Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/9140da514cacdd06f3fa12eb1ed47eaf114394ce"
-    },
-    {
-      "sha": "5eab95fa6d857a3897a20f381ad35c7922e5b1fb",
-      "shortSha": "5eab95f",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "feat(app): 适配 iOS 26 Liquid Glass 导航材质（#78）",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T02:52:36Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/5eab95fa6d857a3897a20f381ad35c7922e5b1fb"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
