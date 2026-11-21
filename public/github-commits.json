@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T06:59:53.479Z",
+  "generatedAt": "2026-11-21T07:49:56.656Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-21",
-      "count": 52
+      "count": 54
     }
   ],
   "latest": [
+    {
+      "sha": "eed3163a3047654fb4127508bbb5c4488a370ab7",
+      "shortSha": "eed3163",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(tests): 内存仓储补齐文件夹记录存储（修复 main 红色 CI）",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T07:49:22Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/eed3163a3047654fb4127508bbb5c4488a370ab7"
+    },
+    {
+      "sha": "ee6782145c0a8a480cd47cd431a22afff8327f7b",
+      "shortSha": "ee67821",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(tests): 内存仓储补齐 Steam 条目实现（修复 main 红色 CI）",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T07:37:54Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ee6782145c0a8a480cd47cd431a22afff8327f7b"
+    },
     {
       "sha": "55b6fcad97762d7298aff119c10fa8dbc7ffcf66",
       "shortSha": "55b6fca",
@@ -1570,26 +1590,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T05:17:26Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/e0724a55b76f8d03790eee63a8f963130bfb8ab3"
-    },
-    {
-      "sha": "ec67e70611966a7dbe300743660a45eb8d062b22",
-      "shortSha": "ec67e70",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/76-cloudkit-sync",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T05:17:24Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ec67e70611966a7dbe300743660a45eb8d062b22"
-    },
-    {
-      "sha": "ce0683027aca8dfc1a8ba3a3aea66b860973150d",
-      "shortSha": "ce06830",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/27-vault-hierarchy",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T05:17:23Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ce0683027aca8dfc1a8ba3a3aea66b860973150d"
     },
     {
       "sha": "89b1e156232e94f25c6888aac920c7fd83ae929e",
