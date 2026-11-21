@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T13:41:44.896Z",
+  "generatedAt": "2026-11-21T14:01:37.824Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,19 +1477,109 @@
     },
     {
       "date": "2026-11-21",
-      "count": 113
+      "count": 139
     }
   ],
   "latest": [
     {
-      "sha": "eb968e5565bf3cbb5a780216c0b8366e023a17b7",
-      "shortSha": "eb968e5",
+      "sha": "8c0fa605c808dfa69c33ac34914fc057d383b947",
+      "shortSha": "8c0fa60",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix: 修复解锁后分类激活与 KeePass 导入分类名（main CI 红）",
+      "message": "fix(app): 修复 train7 合并产生的重复初始化参数与新特性接线冲突",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T13:41:22Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/eb968e5565bf3cbb5a780216c0b8366e023a17b7"
+      "date": "2026-11-21T14:00:36Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/8c0fa605c808dfa69c33ac34914fc057d383b947"
+    },
+    {
+      "sha": "64a16d08ef9b955e89e82d99b47eecc92e56a50e",
+      "shortSha": "64a16d0",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/149-item-icon-system' into integrated7",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T13:46:43Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/64a16d08ef9b955e89e82d99b47eecc92e56a50e"
+    },
+    {
+      "sha": "b39e512ebacc4cce4123c013b758e46230f4c255",
+      "shortSha": "b39e512",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/142-settings-search' into integrated7",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T13:46:11Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b39e512ebacc4cce4123c013b758e46230f4c255"
+    },
+    {
+      "sha": "47c7f03aa62660c02efbed7d4baf8f70c73b9e5b",
+      "shortSha": "47c7f03",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/148-autocopy-next-totp' into integrated7",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T13:45:45Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/47c7f03aa62660c02efbed7d4baf8f70c73b9e5b"
+    },
+    {
+      "sha": "cdac97db78c6402e872ad4f1ff93e33eb7d5ca47",
+      "shortSha": "cdac97d",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/155-totp-progress-style' into integrated7",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T13:45:16Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/cdac97db78c6402e872ad4f1ff93e33eb7d5ca47"
+    },
+    {
+      "sha": "a12bd1b8c444f5c22ae5024bf7600bc0b8628f42",
+      "shortSha": "a12bd1b",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/153-autofocus-search' into integrated7",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T13:44:16Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a12bd1b8c444f5c22ae5024bf7600bc0b8628f42"
+    },
+    {
+      "sha": "18138a2c0eb5b098d42af503e0e0ff84caeb9642",
+      "shortSha": "18138a2",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/151-login-account-fields' into integrated7",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T13:42:21Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/18138a2c0eb5b098d42af503e0e0ff84caeb9642"
+    },
+    {
+      "sha": "49b159614a44140f947ed1d71bb7ab87dbddc3a7",
+      "shortSha": "49b1596",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/143-webdav-tofu' into integrated7",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T13:42:20Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/49b159614a44140f947ed1d71bb7ab87dbddc3a7"
+    },
+    {
+      "sha": "d37e6eff6621a2d6db8ec7c57852a115a87c928a",
+      "shortSha": "d37e6ef",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/150-otpauth-import' into integrated7",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T13:42:20Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d37e6eff6621a2d6db8ec7c57852a115a87c928a"
+    },
+    {
+      "sha": "24c1cf123fd7a3e27d8b73d895e2c6bbc1eebbdb",
+      "shortSha": "24c1cf1",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/152-notes-tile-grid' into integrated7",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T13:42:19Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/24c1cf123fd7a3e27d8b73d895e2c6bbc1eebbdb"
     },
     {
       "sha": "4864b6cedd04eebc3513ef65ca12bc731d83fab5",
@@ -1510,96 +1600,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-21T12:47:55Z",
       "url": "https://github.com/Monica-Pass/Monica/commit/ec4f67bd70616d353604fe5bea62eaf3f005b5f4"
-    },
-    {
-      "sha": "96f99d5e30bf46368508afc1d6e2d23928c0a14a",
-      "shortSha": "96f99d5",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(app): 解锁后先清空条目再加载分类，KeePass 组路径逐级建文件夹，并修正三条过时断言",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T11:48:44Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/96f99d5e30bf46368508afc1d6e2d23928c0a14a"
-    },
-    {
-      "sha": "b037cee1ac161839224637ab4860d513f886e805",
-      "shortSha": "b037cee",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #141 from Monica-Pass/docs/parity-gap-sweep",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T10:25:43Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b037cee1ac161839224637ab4860d513f886e805"
-    },
-    {
-      "sha": "cbabd23ec080f4744cd4a656f6b532173f92a24e",
-      "shortSha": "cbabd23",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #138 from Monica-Pass/feat/32-keepass-manager",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T10:24:18Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/cbabd23ec080f4744cd4a656f6b532173f92a24e"
-    },
-    {
-      "sha": "af96d19cfd2c304dfc4d0268560778b069a8a189",
-      "shortSha": "af96d19",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "docs(parity): Android 功能差距全量清扫",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T10:23:31Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/af96d19cfd2c304dfc4d0268560778b069a8a189"
-    },
-    {
-      "sha": "36ba2d6c6d3c40aa9735ae211449517c5c8aa53b",
-      "shortSha": "36ba2d6",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(storage): 补回 GPG 测试函数缺失的右花括号（合并 #12 与 #25 遗留）",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T10:21:56Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/36ba2d6c6d3c40aa9735ae211449517c5c8aa53b"
-    },
-    {
-      "sha": "a6baf94f1cd2d70a7b0528efe6e9bf260d65981e",
-      "shortSha": "a6baf94",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(app): 条码条目按插入顺序过滤（条目无归档元数据）",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T10:12:03Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a6baf94f1cd2d70a7b0528efe6e9bf260d65981e"
-    },
-    {
-      "sha": "424f80242f41481327a928cba2ca64b83803fe77",
-      "shortSha": "424f802",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(storage): 条码条目接入标签协议，GPG 等无元数据条目按插入顺序过滤",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T10:11:18Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/424f80242f41481327a928cba2ca64b83803fe77"
-    },
-    {
-      "sha": "e8d2aa75b173215288fc76823411867fddef62e1",
-      "shortSha": "e8d2aa7",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "test(keepass): 布局模块稳定 ID 与「更多」入口断言补充 keePass (#32)",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T10:10:30Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/e8d2aa75b173215288fc76823411867fddef62e1"
-    },
-    {
-      "sha": "cbd3a3b53021fe82a228c3b1015d994e9415ce22",
-      "shortSha": "cbd3a3b",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(app): 证件照片不再受 Plus 门槛限制（#66 移除本地伪解锁）",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T10:06:03Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/cbd3a3b53021fe82a228c3b1015d994e9415ce22"
     },
     {
       "sha": "48820d23c6d358c484a027bf3410336df1aaa578",
