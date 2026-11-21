@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T21:59:17.783Z",
+  "generatedAt": "2026-11-21T22:00:36.003Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1482,104 +1482,104 @@
   ],
   "latest": [
     {
-      "sha": "01a07ee3b42f61ae784d3ff829ee928e0c04c8e9",
-      "shortSha": "01a07ee",
+      "sha": "4df4bb6f579eb3a2bf522cf0c8421924c945b1b1",
+      "shortSha": "4df4bb6",
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "Merge pull request #180 from Monica-Pass/refactor/session-slice-c3",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T21:58:52Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/01a07ee3b42f61ae784d3ff829ee928e0c04c8e9"
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/4df4bb6f579eb3a2bf522cf0c8421924c945b1b1"
     },
     {
-      "sha": "3781a9f3c4a650715653b695d67de14a197f9359",
-      "shortSha": "3781a9f",
+      "sha": "d26ae9246c235c2237058c60bbe489f68da0ff6a",
+      "shortSha": "d26ae92",
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "Merge pull request #179 from Monica-Pass/chore/repo-hygiene",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T21:57:23Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/3781a9f3c4a650715653b695d67de14a197f9359"
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d26ae9246c235c2237058c60bbe489f68da0ff6a"
     },
     {
-      "sha": "f75909f48c375f58601e77a08c2f0d1f6bd4a7e8",
-      "shortSha": "f75909f",
+      "sha": "44130834faf4f033f1567addc80e8849de33023e",
+      "shortSha": "4413083",
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "refactor(app): 抽出 AppSessionModel 凭据交换域（slice C3）",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T21:34:45Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f75909f48c375f58601e77a08c2f0d1f6bd4a7e8"
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/44130834faf4f033f1567addc80e8849de33023e"
     },
     {
-      "sha": "a19be8735914b08fc469647e2072d1e1b110dd0c",
-      "shortSha": "a19be87",
+      "sha": "dc843ba7af9c62cd739821d637e0befe789907d4",
+      "shortSha": "dc843ba",
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "ci: MSAL 改用 actions/cache 直接准备，避免 artifact 上传破坏 xcframework 符号链接",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T21:29:30Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a19be8735914b08fc469647e2072d1e1b110dd0c"
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/dc843ba7af9c62cd739821d637e0befe789907d4"
     },
     {
-      "sha": "381668b7b9fb4e1b2115e9cc688d319317a5a633",
-      "shortSha": "381668b",
+      "sha": "d024e187bf82afca72f0a130617d0b07138b116f",
+      "shortSha": "d024e18",
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "refactor(app): 抽出 AppSessionModel 导入导出域（slice C3）",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T21:25:03Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/381668b7b9fb4e1b2115e9cc688d319317a5a633"
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d024e187bf82afca72f0a130617d0b07138b116f"
     },
     {
-      "sha": "038634cc40e0ce84dbd491614d09b8598f0f373b",
-      "shortSha": "038634c",
+      "sha": "ce7de43863272d176035d3357bb2aa81c162f6f5",
+      "shortSha": "ce7de43",
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "refactor(app): 抽出 AppSessionModel 条目 CRUD 域（slice C3）",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T21:18:47Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/038634cc40e0ce84dbd491614d09b8598f0f373b"
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ce7de43863272d176035d3357bb2aa81c162f6f5"
     },
     {
-      "sha": "0857cbb7a9cbc67781f5748b1140a9513669ba04",
-      "shortSha": "0857cbb",
+      "sha": "a295981260efa30e1e6b0290fb27ada561feb364",
+      "shortSha": "a295981",
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "chore(repo): 清理入库的构建产物与根目录临时笔记",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T21:04:00Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/0857cbb7a9cbc67781f5748b1140a9513669ba04"
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a295981260efa30e1e6b0290fb27ada561feb364"
     },
     {
-      "sha": "77384681ccc02efc7750c54b3464cf3040994863",
-      "shortSha": "7738468",
+      "sha": "e225d08166c0883403e384ae83f135e7c34ce5b6",
+      "shortSha": "e225d08",
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "Merge pull request #178 from Monica-Pass/refactor/tests-split",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T19:57:51Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/77384681ccc02efc7750c54b3464cf3040994863"
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/e225d08166c0883403e384ae83f135e7c34ce5b6"
     },
     {
-      "sha": "a5a7ce24535407745bcc5704e6a22f9d12fccecc",
-      "shortSha": "a5a7ce2",
+      "sha": "04e15071915937357a28fb5ac05afebacdccf98f",
+      "shortSha": "04e1507",
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "Merge pull request #177 from Monica-Pass/refactor/sync-split",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T19:57:48Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a5a7ce24535407745bcc5704e6a22f9d12fccecc"
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/04e15071915937357a28fb5ac05afebacdccf98f"
     },
     {
-      "sha": "21b0dacb816a3327605130078deafaba73439fb0",
-      "shortSha": "21b0dac",
+      "sha": "06dd4d389158a715197af3c64bcb14889766e0e9",
+      "shortSha": "06dd4d3",
       "repo": "Monica-Pass/Monica-for-iOS",
       "message": "refactor(tests): 拆分 VaultSessionModelTests 测试替身与独立测试类",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T19:54:30Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/21b0dacb816a3327605130078deafaba73439fb0"
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/06dd4d389158a715197af3c64bcb14889766e0e9"
     },
     {
       "sha": "e60b9b1ecfde0c1cd8caff40cf49816648ae3913",
