@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T18:55:45.366Z",
+  "generatedAt": "2026-11-21T19:10:32.785Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-21",
-      "count": 161
+      "count": 171
     }
   ],
   "latest": [
+    {
+      "sha": "a5263bd7f2334a80616238a65ef5566c728109c6",
+      "shortSha": "a5263bd",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #175 from Monica-Pass/refactor/storage-split",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T19:10:04Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a5263bd7f2334a80616238a65ef5566c728109c6"
+    },
     {
       "sha": "cdd1de2105df69d2e422e29379ab02c8a8ec35ec",
       "shortSha": "cdd1de2",
@@ -1492,94 +1502,84 @@
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/cdd1de2105df69d2e422e29379ab02c8a8ec35ec"
     },
     {
-      "sha": "c87a34704fbdeb16a7102318141a5f53c114c4ac",
-      "shortSha": "c87a347",
+      "sha": "bb5c28770f75fe31a98a67fb372602db510982f2",
+      "shortSha": "bb5c287",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor(app): 把 Bitwarden Send 条目域搬到 AppSessionModel+SendEntries.swift",
+      "message": "refactor(storage): 拆出条目自定义字段 / 文件夹侧表 / 账号模板侧表",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T18:24:36Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c87a34704fbdeb16a7102318141a5f53c114c4ac"
+      "date": "2026-11-21T18:46:35Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/bb5c28770f75fe31a98a67fb372602db510982f2"
     },
     {
-      "sha": "807ae810503cd71f3f4c75891888c6dc0a008fb5",
-      "shortSha": "807ae81",
+      "sha": "dc627e32b7726923c0245779ffc4161e20a55961",
+      "shortSha": "dc627e3",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #173 from Monica-Pass/refactor/session-slice-b",
+      "message": "refactor(storage): 拆出附件 / 自动填充索引 / Steam 条目域",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T18:23:36Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/807ae810503cd71f3f4c75891888c6dc0a008fb5"
+      "date": "2026-11-21T18:44:52Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/dc627e32b7726923c0245779ffc4161e20a55961"
     },
     {
-      "sha": "d42e572159254af9b07e3d8686b2578371b82c2d",
-      "shortSha": "d42e572",
+      "sha": "4163cdb87a7584589166c55611188f22293a0427",
+      "shortSha": "4163cdb",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor(app): 把验证码条目域搬到 AppSessionModel+TotpEntries.swift",
+      "message": "refactor(storage): 拆出账单地址 / 支付账户 / GPG 密钥条目域",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T18:19:51Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d42e572159254af9b07e3d8686b2578371b82c2d"
+      "date": "2026-11-21T18:43:16Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/4163cdb87a7584589166c55611188f22293a0427"
     },
     {
-      "sha": "7388c393ad9253d636aef849cd2a667e5042a883",
-      "shortSha": "7388c39",
+      "sha": "1becde6128d661088bb8974d86c5a46e3dae025e",
+      "shortSha": "1becde6",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor(app): 把登录条目域搬到 AppSessionModel+LoginEntries.swift",
+      "message": "refactor(storage): 拆出 WiFi / SSO / 条码条目域",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T18:15:21Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/7388c393ad9253d636aef849cd2a667e5042a883"
+      "date": "2026-11-21T18:41:28Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1becde6128d661088bb8974d86c5a46e3dae025e"
     },
     {
-      "sha": "8eaa2ed30c2e2952dbc331a71a22853e31dad490",
-      "shortSha": "8eaa2ed",
+      "sha": "515d6115ebad647afa32a2efc363bfd94f47b2d2",
+      "shortSha": "515d611",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: 同步 main（#133 本地化与 #154 SSH 生成已合并）",
+      "message": "refactor(storage): 拆出身份 / SSH 密钥 / API Token 条目域",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T17:45:55Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/8eaa2ed30c2e2952dbc331a71a22853e31dad490"
+      "date": "2026-11-21T18:39:38Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/515d6115ebad647afa32a2efc363bfd94f47b2d2"
     },
     {
-      "sha": "a611054eaa546f50b64a07059077d4ebbe238b5d",
-      "shortSha": "a611054",
+      "sha": "1345a3c7620f9a0ce3d1aa65e5f70c2d9918aa8a",
+      "shortSha": "1345a3c",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #172 from Monica-Pass/feat/154-ssh-keygen",
+      "message": "refactor(storage): 拆出 CSV 与 Android 备份导入导出域",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T17:44:45Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a611054eaa546f50b64a07059077d4ebbe238b5d"
+      "date": "2026-11-21T18:36:31Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1345a3c7620f9a0ce3d1aa65e5f70c2d9918aa8a"
     },
     {
-      "sha": "ee84c80c4f058fe17713d56333cc10f0a34ef633",
-      "shortSha": "ee84c80",
+      "sha": "ee26853d2557d0cb219fe54f719ff7e476b2ba3d",
+      "shortSha": "ee26853",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #170 from Monica-Pass/feat/133-localization-batch",
+      "message": "refactor(storage): 拆出 KeePass（KDBX 加解密与格式检查）域",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T17:44:42Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ee84c80c4f058fe17713d56333cc10f0a34ef633"
+      "date": "2026-11-21T18:34:33Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ee26853d2557d0cb219fe54f719ff7e476b2ba3d"
     },
     {
-      "sha": "44faafe705e39c3b4a59ed7344ab3bb343f0c417",
-      "shortSha": "44faafe",
+      "sha": "6ef87ee982cdd9e5ad9e9f1318bfd09b7927890a",
+      "shortSha": "6ef87ee",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(app): 启动自动聚焦先判定再记账，避免把自己判成“已结算”；删除临时诊断测试",
+      "message": "refactor(storage): 拆出笔记 / 卡片 / 通行密钥三个条目域",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T16:51:04Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/44faafe705e39c3b4a59ed7344ab3bb343f0c417"
-    },
-    {
-      "sha": "680c1355267b26a307a920b416b02abc2d7141bd",
-      "shortSha": "680c135",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "test(app): 自动聚焦诊断改为四组对照实例（临时）",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T16:29:42Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/680c1355267b26a307a920b416b02abc2d7141bd"
+      "date": "2026-11-21T18:32:36Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/6ef87ee982cdd9e5ad9e9f1318bfd09b7927890a"
     },
     {
       "sha": "e60b9b1ecfde0c1cd8caff40cf49816648ae3913",
