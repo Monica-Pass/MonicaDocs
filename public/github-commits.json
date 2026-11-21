@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T04:58:53.355Z",
+  "generatedAt": "2026-11-21T05:02:27.106Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-21",
-      "count": 25
+      "count": 29
     }
   ],
   "latest": [
+    {
+      "sha": "9eae03a76531a23648501668f3c79ada4231129a",
+      "shortSha": "9eae03a",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #117 from Monica-Pass/feat/56-security-insights",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T05:02:01Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/9eae03a76531a23648501668f3c79ada4231129a"
+    },
+    {
+      "sha": "75e70847eec65e4e9dfed78b17ce720871c31688",
+      "shortSha": "75e7084",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #113 from Monica-Pass/feat/78-liquid-glass",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T05:01:55Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/75e70847eec65e4e9dfed78b17ce720871c31688"
+    },
     {
       "sha": "11d1a1fc9948a85ca5731e7e9d4c0c1c6a32c1f5",
       "shortSha": "11d1a1f",
@@ -1522,6 +1542,26 @@
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/4c38ab9d47ec65ec5fccda01a9e7db0c9ac220da"
     },
     {
+      "sha": "9140da514cacdd06f3fa12eb1ed47eaf114394ce",
+      "shortSha": "9140da5",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "feat(app): 安全分析增强（评分/弱密码/复用/2FA/长期未改/手动泄露标记）",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T03:30:49Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/9140da514cacdd06f3fa12eb1ed47eaf114394ce"
+    },
+    {
+      "sha": "5eab95fa6d857a3897a20f381ad35c7922e5b1fb",
+      "shortSha": "5eab95f",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "feat(app): 适配 iOS 26 Liquid Glass 导航材质（#78）",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T02:52:36Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/5eab95fa6d857a3897a20f381ad35c7922e5b1fb"
+    },
+    {
       "sha": "c9b1d49635d564cfa2d90b9765ebba16ad8aa9e8",
       "shortSha": "c9b1d49",
       "repo": "Monica-Pass/Monica-for-iOS",
@@ -1540,46 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T01:52:38Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/895c6c12b3586abc8fce6df92b0fdeef57d3e116"
-    },
-    {
-      "sha": "c8baff488bcdde7bfe273f6e0ac035839bbe0a22",
-      "shortSha": "c8baff4",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/23-totp-advanced",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T01:52:29Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c8baff488bcdde7bfe273f6e0ac035839bbe0a22"
-    },
-    {
-      "sha": "674f2775d11d857ffc6e89b2256e6bca98ffd521",
-      "shortSha": "674f277",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/14-sso-item",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T01:51:55Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/674f2775d11d857ffc6e89b2256e6bca98ffd521"
-    },
-    {
-      "sha": "8480fe68a35cecfa79094d5fc642c06d0014c576",
-      "shortSha": "8480fe6",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/15-custom-fields",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T01:51:38Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/8480fe68a35cecfa79094d5fc642c06d0014c576"
-    },
-    {
-      "sha": "d28d90c065b1e23d1798d1be65bab67e282ff7de",
-      "shortSha": "d28d90c",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/16-login-detail' into integrated3",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T01:51:29Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d28d90c065b1e23d1798d1be65bab67e282ff7de"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
