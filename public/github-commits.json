@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T05:02:27.106Z",
+  "generatedAt": "2026-11-21T05:09:43.173Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-21",
-      "count": 29
+      "count": 31
     }
   ],
   "latest": [
+    {
+      "sha": "8bfd417159534a9b45e6f31969e2ae0a26a511a6",
+      "shortSha": "8bfd417",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #125 from Monica-Pass/feat/36-monica-send",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T05:09:13Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/8bfd417159534a9b45e6f31969e2ae0a26a511a6"
+    },
     {
       "sha": "9eae03a76531a23648501668f3c79ada4231129a",
       "shortSha": "9eae03a",
@@ -1500,6 +1510,16 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T05:01:55Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/75e70847eec65e4e9dfed78b17ce720871c31688"
+    },
+    {
+      "sha": "6d6e3bd960f698b20f8d8bf788aff6eaa40286dc",
+      "shortSha": "6d6e3bd",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "feat(send): Monica Send 本地端到端加密分享包（#36）",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T04:59:03Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/6d6e3bd960f698b20f8d8bf788aff6eaa40286dc"
     },
     {
       "sha": "11d1a1fc9948a85ca5731e7e9d4c0c1c6a32c1f5",
@@ -1560,26 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T02:52:36Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/5eab95fa6d857a3897a20f381ad35c7922e5b1fb"
-    },
-    {
-      "sha": "c9b1d49635d564cfa2d90b9765ebba16ad8aa9e8",
-      "shortSha": "c9b1d49",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(app): 补齐 UnifiedVaultItemKind.sso 的搜索/侧表分支",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T02:11:08Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c9b1d49635d564cfa2d90b9765ebba16ad8aa9e8"
-    },
-    {
-      "sha": "895c6c12b3586abc8fce6df92b0fdeef57d3e116",
-      "shortSha": "895c6c1",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/22-markdown-notes",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T01:52:38Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/895c6c12b3586abc8fce6df92b0fdeef57d3e116"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
