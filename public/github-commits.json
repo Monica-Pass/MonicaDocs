@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T16:51:31.350Z",
+  "generatedAt": "2026-11-21T17:50:08.604Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-21",
-      "count": 145
+      "count": 149
     }
   ],
   "latest": [
+    {
+      "sha": "a611054eaa546f50b64a07059077d4ebbe238b5d",
+      "shortSha": "a611054",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #172 from Monica-Pass/feat/154-ssh-keygen",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T17:44:45Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a611054eaa546f50b64a07059077d4ebbe238b5d"
+    },
+    {
+      "sha": "ee84c80c4f058fe17713d56333cc10f0a34ef633",
+      "shortSha": "ee84c80",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #170 from Monica-Pass/feat/133-localization-batch",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T17:44:42Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ee84c80c4f058fe17713d56333cc10f0a34ef633"
+    },
     {
       "sha": "44faafe705e39c3b4a59ed7344ab3bb343f0c417",
       "shortSha": "44faafe",
@@ -1532,6 +1552,16 @@
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/e60b9b1ecfde0c1cd8caff40cf49816648ae3913"
     },
     {
+      "sha": "91615e2f67372bf800834e3eeabfb6502e17fb89",
+      "shortSha": "91615e2",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "feat(generator): 生成 Ed25519 / RSA SSH 密钥对并保存到 SSH 条目 (#154)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T14:35:12Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/91615e2f67372bf800834e3eeabfb6502e17fb89"
+    },
+    {
       "sha": "181e0e213e692a11fd00d5c7143037a0814a4749",
       "shortSha": "181e0e2",
       "repo": "Monica-Pass/MonicaDocs",
@@ -1540,6 +1570,16 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T14:29:58Z",
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/181e0e213e692a11fd00d5c7143037a0814a4749"
+    },
+    {
+      "sha": "d29ec3a87da17b54fb9b6fce06adb5c94c6834ea",
+      "shortSha": "d29ec3a",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "feat(l10n): 应用内语言字符串入口与首批文件迁移 (#133)",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T14:16:09Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d29ec3a87da17b54fb9b6fce06adb5c94c6834ea"
     },
     {
       "sha": "8c0fa605c808dfa69c33ac34914fc057d383b947",
@@ -1560,46 +1600,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T13:46:43Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/64a16d08ef9b955e89e82d99b47eecc92e56a50e"
-    },
-    {
-      "sha": "b39e512ebacc4cce4123c013b758e46230f4c255",
-      "shortSha": "b39e512",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/142-settings-search' into integrated7",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T13:46:11Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b39e512ebacc4cce4123c013b758e46230f4c255"
-    },
-    {
-      "sha": "47c7f03aa62660c02efbed7d4baf8f70c73b9e5b",
-      "shortSha": "47c7f03",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/148-autocopy-next-totp' into integrated7",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T13:45:45Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/47c7f03aa62660c02efbed7d4baf8f70c73b9e5b"
-    },
-    {
-      "sha": "cdac97db78c6402e872ad4f1ff93e33eb7d5ca47",
-      "shortSha": "cdac97d",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/155-totp-progress-style' into integrated7",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T13:45:16Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/cdac97db78c6402e872ad4f1ff93e33eb7d5ca47"
-    },
-    {
-      "sha": "a12bd1b8c444f5c22ae5024bf7600bc0b8628f42",
-      "shortSha": "a12bd1b",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/153-autofocus-search' into integrated7",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T13:44:16Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a12bd1b8c444f5c22ae5024bf7600bc0b8628f42"
     },
     {
       "sha": "4864b6cedd04eebc3513ef65ca12bc731d83fab5",
