@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T18:24:00.763Z",
+  "generatedAt": "2026-11-21T18:55:45.366Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-21",
-      "count": 157
+      "count": 161
     }
   ],
   "latest": [
+    {
+      "sha": "cdd1de2105df69d2e422e29379ab02c8a8ec35ec",
+      "shortSha": "cdd1de2",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #174 from Monica-Pass/refactor/session-slice-c1",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T18:55:14Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/cdd1de2105df69d2e422e29379ab02c8a8ec35ec"
+    },
+    {
+      "sha": "c87a34704fbdeb16a7102318141a5f53c114c4ac",
+      "shortSha": "c87a347",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "refactor(app): 把 Bitwarden Send 条目域搬到 AppSessionModel+SendEntries.swift",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T18:24:36Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c87a34704fbdeb16a7102318141a5f53c114c4ac"
+    },
     {
       "sha": "807ae810503cd71f3f4c75891888c6dc0a008fb5",
       "shortSha": "807ae81",
@@ -1490,6 +1510,26 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T18:23:36Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/807ae810503cd71f3f4c75891888c6dc0a008fb5"
+    },
+    {
+      "sha": "d42e572159254af9b07e3d8686b2578371b82c2d",
+      "shortSha": "d42e572",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "refactor(app): 把验证码条目域搬到 AppSessionModel+TotpEntries.swift",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T18:19:51Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d42e572159254af9b07e3d8686b2578371b82c2d"
+    },
+    {
+      "sha": "7388c393ad9253d636aef849cd2a667e5042a883",
+      "shortSha": "7388c39",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "refactor(app): 把登录条目域搬到 AppSessionModel+LoginEntries.swift",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T18:15:21Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/7388c393ad9253d636aef849cd2a667e5042a883"
     },
     {
       "sha": "8eaa2ed30c2e2952dbc331a71a22853e31dad490",
@@ -1540,46 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T16:29:42Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/680c1355267b26a307a920b416b02abc2d7141bd"
-    },
-    {
-      "sha": "3f1ddab0739b7a0202cfb61ebc9317945704f578",
-      "shortSha": "3f1ddab",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "test(app): 自动聚焦诊断输出改为逐项调用结果（临时）",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T15:59:10Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/3f1ddab0739b7a0202cfb61ebc9317945704f578"
-    },
-    {
-      "sha": "1d03cd80c04ee6b787f16e9f12e1046c2c4b73c2",
-      "shortSha": "1d03cd8",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "test(app): 同步 train7 后的设置搜索索引与快照键集断言，并加一条自动聚焦诊断输出",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T15:30:25Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1d03cd80c04ee6b787f16e9f12e1046c2c4b73c2"
-    },
-    {
-      "sha": "2956e4ecc05cac6613c5d600ad34363c625b6db2",
-      "shortSha": "2956e4e",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "test(app): 账单源码断言同时覆盖 AppSessionModel 的按域扩展文件",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T15:20:49Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/2956e4ecc05cac6613c5d600ad34363c625b6db2"
-    },
-    {
-      "sha": "a98e9287d3fe1057555c14a818a19124957ed80b",
-      "shortSha": "a98e928",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor(app): 把快捷方式与小组件域搬到 AppSessionModel+WidgetShortcuts.swift",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T15:20:21Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a98e9287d3fe1057555c14a818a19124957ed80b"
     },
     {
       "sha": "e60b9b1ecfde0c1cd8caff40cf49816648ae3913",
