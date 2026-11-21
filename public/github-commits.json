@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T02:16:00.108Z",
+  "generatedAt": "2026-11-21T04:58:53.355Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,50 @@
     },
     {
       "date": "2026-11-21",
-      "count": 21
+      "count": 25
     }
   ],
   "latest": [
+    {
+      "sha": "11d1a1fc9948a85ca5731e7e9d4c0c1c6a32c1f5",
+      "shortSha": "11d1a1f",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #119 from Monica-Pass/fix/main-ci-sso",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T04:58:22Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/11d1a1fc9948a85ca5731e7e9d4c0c1c6a32c1f5"
+    },
+    {
+      "sha": "d416e83f525b7eba9083b3763e54e9cfc63edca1",
+      "shortSha": "d416e83",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(storage): 截断的图片签名按不可读处理，保持 unsupportedFormat 与 unreadableImage 的区分",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T04:28:14Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d416e83f525b7eba9083b3763e54e9cfc63edca1"
+    },
+    {
+      "sha": "bb663e2c4b2a8f8a137d41d8c8b3deebc4c04ab6",
+      "shortSha": "bb663e2",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(storage): 图片嗅探改为先判格式签名，纯文本报 unsupportedFormat",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T04:15:53Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/bb663e2c4b2a8f8a137d41d8c8b3deebc4c04ab6"
+    },
+    {
+      "sha": "4c38ab9d47ec65ec5fccda01a9e7db0c9ac220da",
+      "shortSha": "4c38ab9",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(test): 补齐 SSO 测试桩、Markdown 校验顺序与草稿时间精度",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T03:54:00Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/4c38ab9d47ec65ec5fccda01a9e7db0c9ac220da"
+    },
     {
       "sha": "c9b1d49635d564cfa2d90b9765ebba16ad8aa9e8",
       "shortSha": "c9b1d49",
@@ -1540,46 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T01:51:29Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d28d90c065b1e23d1798d1be65bab67e282ff7de"
-    },
-    {
-      "sha": "c122501a126985e27b735330d40badcbbec0b0ca",
-      "shortSha": "c122501",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(project): AppLoginDetailSupport 使用唯一 pbxproj ID（避免与 #47 冲突）",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T01:32:28Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c122501a126985e27b735330d40badcbbec0b0ca"
-    },
-    {
-      "sha": "f495eed8926d0cec701c3e7f8c5d5f28a3907184",
-      "shortSha": "f495eed",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(app): 补回 #60 登录图标与 #46 场景遮罩策略的会话成员",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T01:31:30Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f495eed8926d0cec701c3e7f8c5d5f28a3907184"
-    },
-    {
-      "sha": "75458de5379887b9c8170835ef1c2cf776941c5b",
-      "shortSha": "75458de",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "feat(notes): Markdown 笔记与加密图片（#22）",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T01:06:12Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/75458de5379887b9c8170835ef1c2cf776941c5b"
-    },
-    {
-      "sha": "35b1f99b6c09b3435d1ff7a58d4ac6b1461d9cf5",
-      "shortSha": "35b1f99",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "feat(totp): 支持算法/位数/周期/HOTP 计数器与自定义图标",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T01:05:26Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/35b1f99b6c09b3435d1ff7a58d4ac6b1461d9cf5"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
