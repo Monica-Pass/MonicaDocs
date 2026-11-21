@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T22:57:15.086Z",
+  "generatedAt": "2026-11-21T23:29:51.278Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-21",
-      "count": 196
+      "count": 198
     }
   ],
   "latest": [
+    {
+      "sha": "cac96df171bfd325080a4ca057f763e2dc264206",
+      "shortSha": "cac96df",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #182 from Monica-Pass/feat/acceptance-runner",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T23:29:26Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/cac96df171bfd325080a4ca057f763e2dc264206"
+    },
+    {
+      "sha": "1b46e7b5ce39048526241e82d857931d900dadfa",
+      "shortSha": "1b46e7b",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "test(acceptance): 模拟器端到端验收脚本与首份报告",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T23:06:31Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1b46e7b5ce39048526241e82d857931d900dadfa"
+    },
     {
       "sha": "62079e82238a2fc330899998c47408069ebe899a",
       "shortSha": "62079e8",
@@ -1560,26 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T21:18:47Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ce7de43863272d176035d3357bb2aa81c162f6f5"
-    },
-    {
-      "sha": "a295981260efa30e1e6b0290fb27ada561feb364",
-      "shortSha": "a295981",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "chore(repo): 清理入库的构建产物与根目录临时笔记",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T21:04:00Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a295981260efa30e1e6b0290fb27ada561feb364"
-    },
-    {
-      "sha": "e225d08166c0883403e384ae83f135e7c34ce5b6",
-      "shortSha": "e225d08",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #178 from Monica-Pass/refactor/tests-split",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T19:57:51Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/e225d08166c0883403e384ae83f135e7c34ce5b6"
     },
     {
       "sha": "e60b9b1ecfde0c1cd8caff40cf49816648ae3913",
