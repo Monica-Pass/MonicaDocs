@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T10:26:06.577Z",
+  "generatedAt": "2026-11-21T11:49:14.909Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-21",
-      "count": 109
+      "count": 110
     }
   ],
   "latest": [
+    {
+      "sha": "96f99d5e30bf46368508afc1d6e2d23928c0a14a",
+      "shortSha": "96f99d5",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(app): 解锁后先清空条目再加载分类，KeePass 组路径逐级建文件夹，并修正三条过时断言",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T11:48:44Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/96f99d5e30bf46368508afc1d6e2d23928c0a14a"
+    },
     {
       "sha": "b037cee1ac161839224637ab4860d513f886e805",
       "shortSha": "b037cee",
@@ -1570,16 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T10:03:56Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/31bdf2aad8c97965157e6a3dfef0471721479008"
-    },
-    {
-      "sha": "ba041580542db9653072602c65e985645418a437",
-      "shortSha": "ba04158",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/33-keepass-cloud' into integrated5",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T10:01:35Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ba041580542db9653072602c65e985645418a437"
     },
     {
       "sha": "48820d23c6d358c484a027bf3410336df1aaa578",
