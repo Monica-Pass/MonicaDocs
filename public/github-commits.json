@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T16:30:12.268Z",
+  "generatedAt": "2026-11-21T16:51:31.350Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-21",
-      "count": 144
+      "count": 145
     }
   ],
   "latest": [
+    {
+      "sha": "44faafe705e39c3b4a59ed7344ab3bb343f0c417",
+      "shortSha": "44faafe",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(app): 启动自动聚焦先判定再记账，避免把自己判成“已结算”；删除临时诊断测试",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T16:51:04Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/44faafe705e39c3b4a59ed7344ab3bb343f0c417"
+    },
     {
       "sha": "680c1355267b26a307a920b416b02abc2d7141bd",
       "shortSha": "680c135",
@@ -1590,16 +1600,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T13:44:16Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a12bd1b8c444f5c22ae5024bf7600bc0b8628f42"
-    },
-    {
-      "sha": "18138a2c0eb5b098d42af503e0e0ff84caeb9642",
-      "shortSha": "18138a2",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/151-login-account-fields' into integrated7",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T13:42:21Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/18138a2c0eb5b098d42af503e0e0ff84caeb9642"
     },
     {
       "sha": "4864b6cedd04eebc3513ef65ca12bc731d83fab5",
