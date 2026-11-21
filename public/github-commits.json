@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T10:24:44.266Z",
+  "generatedAt": "2026-11-21T10:26:06.577Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-21",
-      "count": 107
+      "count": 109
     }
   ],
   "latest": [
+    {
+      "sha": "b037cee1ac161839224637ab4860d513f886e805",
+      "shortSha": "b037cee",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #141 from Monica-Pass/docs/parity-gap-sweep",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T10:25:43Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b037cee1ac161839224637ab4860d513f886e805"
+    },
     {
       "sha": "cbabd23ec080f4744cd4a656f6b532173f92a24e",
       "shortSha": "cbabd23",
@@ -1490,6 +1500,16 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T10:24:18Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/cbabd23ec080f4744cd4a656f6b532173f92a24e"
+    },
+    {
+      "sha": "af96d19cfd2c304dfc4d0268560778b069a8a189",
+      "shortSha": "af96d19",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "docs(parity): Android 功能差距全量清扫",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T10:23:31Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/af96d19cfd2c304dfc4d0268560778b069a8a189"
     },
     {
       "sha": "36ba2d6c6d3c40aa9735ae211449517c5c8aa53b",
@@ -1560,26 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T10:01:35Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ba041580542db9653072602c65e985645418a437"
-    },
-    {
-      "sha": "b1ca48ab52ec27928234b112413e2768d7d2668d",
-      "shortSha": "b1ca48a",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/129-cxf-passkeys' into integrated5",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T10:01:09Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b1ca48ab52ec27928234b112413e2768d7d2668d"
-    },
-    {
-      "sha": "6d287eb3786b626f37a351e0424e648bc6c94bae",
-      "shortSha": "6d287eb",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/32-keepass-manager' into integrated5",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T10:01:03Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/6d287eb3786b626f37a351e0424e648bc6c94bae"
     },
     {
       "sha": "48820d23c6d358c484a027bf3410336df1aaa578",
