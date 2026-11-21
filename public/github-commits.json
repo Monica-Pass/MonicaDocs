@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T09:09:35.817Z",
+  "generatedAt": "2026-11-21T09:55:31.644Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,70 @@
     },
     {
       "date": "2026-11-21",
-      "count": 55
+      "count": 79
     }
   ],
   "latest": [
+    {
+      "sha": "48820d23c6d358c484a027bf3410336df1aaa578",
+      "shortSha": "48820d2",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-11-21T09:55:39Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/48820d23c6d358c484a027bf3410336df1aaa578"
+    },
+    {
+      "sha": "1bfcf4f2f2bd648afd613f9b4a1cb42b4864ae51",
+      "shortSha": "1bfcf4f",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/main' into integrated4",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T09:54:54Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1bfcf4f2f2bd648afd613f9b4a1cb42b4864ae51"
+    },
+    {
+      "sha": "b4fff3712fd3d236728946d627b1972115476c4e",
+      "shortSha": "b4fff37",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(app): 新建分类改走持久化文件夹记录，修复重开保险库后分类丢失",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T09:54:39Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b4fff3712fd3d236728946d627b1972115476c4e"
+    },
+    {
+      "sha": "f33483e8e42fea08110ceddc45b5450523e6e15e",
+      "shortSha": "f33483e",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/main' into integrated4",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T09:47:00Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f33483e8e42fea08110ceddc45b5450523e6e15e"
+    },
+    {
+      "sha": "d0f43fd3d81574baab636b423bd316b1d52e82e7",
+      "shortSha": "d0f43fd",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/30-mdbx-advanced' into integrated4",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T09:46:57Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d0f43fd3d81574baab636b423bd316b1d52e82e7"
+    },
+    {
+      "sha": "f20929648e72c8c05a8d7d3fed49c8b0a03233da",
+      "shortSha": "f209296",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/28-trash-purge-migration' into integrated4",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T09:34:52Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f20929648e72c8c05a8d7d3fed49c8b0a03233da"
+    },
     {
       "sha": "b3b3abbe6993499b7a3248120baa5962924d3358",
       "shortSha": "b3b3abb",
@@ -1492,24 +1552,44 @@
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b3b3abbe6993499b7a3248120baa5962924d3358"
     },
     {
-      "sha": "eed3163a3047654fb4127508bbb5c4488a370ab7",
-      "shortSha": "eed3163",
+      "sha": "d33cf23e91054461edbcc4b77a3a8d05274e579b",
+      "shortSha": "d33cf23",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(tests): 内存仓储补齐文件夹记录存储（修复 main 红色 CI）",
+      "message": "Merge remote-tracking branch 'origin/feat/12-gpg-key' into integrated4",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T07:49:22Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/eed3163a3047654fb4127508bbb5c4488a370ab7"
+      "date": "2026-11-21T08:53:56Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d33cf23e91054461edbcc4b77a3a8d05274e579b"
     },
     {
-      "sha": "ee6782145c0a8a480cd47cd431a22afff8327f7b",
-      "shortSha": "ee67821",
+      "sha": "7332f2e540320f014a25381571b51c511d1024b6",
+      "shortSha": "7332f2e",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(tests): 内存仓储补齐 Steam 条目实现（修复 main 红色 CI）",
+      "message": "Merge remote-tracking branch 'origin/feat/11-billing-items' into integrated4",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T07:37:54Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ee6782145c0a8a480cd47cd431a22afff8327f7b"
+      "date": "2026-11-21T08:00:09Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/7332f2e540320f014a25381571b51c511d1024b6"
+    },
+    {
+      "sha": "c109a9cfe3898a855272ee1626ada1aa2f4e4c0e",
+      "shortSha": "c109a9c",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/10-barcode-item' into integrated4",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T07:50:33Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c109a9cfe3898a855272ee1626ada1aa2f4e4c0e"
+    },
+    {
+      "sha": "f11fc069ab22d57155f57390593ba65dc593810d",
+      "shortSha": "f11fc06",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/17-card-identity-ext' into integrated4",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T07:49:41Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f11fc069ab22d57155f57390593ba65dc593810d"
     },
     {
       "sha": "55b6fcad97762d7298aff119c10fa8dbc7ffcf66",
@@ -1520,76 +1600,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-21T06:59:32Z",
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/55b6fcad97762d7298aff119c10fa8dbc7ffcf66"
-    },
-    {
-      "sha": "30d201fa4df3c300b5b03e10a79930151692f440",
-      "shortSha": "30d201f",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #126 from Monica-Pass/feat/42-autofill-guard",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T06:42:05Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/30d201fa4df3c300b5b03e10a79930151692f440"
-    },
-    {
-      "sha": "c64178560cc50300e02fc981a130f11985f59e56",
-      "shortSha": "c641785",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(tests): 补回 Steam 合并中被截断的 SSO 移动分支",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T06:02:43Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c64178560cc50300e02fc981a130f11985f59e56"
-    },
-    {
-      "sha": "bb4d8344cfa030be2e5a38094640324fef629e42",
-      "shortSha": "bb4d834",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(storage): 文件夹层级 switch 补齐 Steam 类型分支",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T05:40:57Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/bb4d8344cfa030be2e5a38094640324fef629e42"
-    },
-    {
-      "sha": "88b0b4b1d49ed1a1b8f7bfc82dafa10404faf735",
-      "shortSha": "88b0b4b",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/13-steam-guard",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T05:37:43Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/88b0b4b1d49ed1a1b8f7bfc82dafa10404faf735"
-    },
-    {
-      "sha": "848c253c82529ed09b6477b4522ee33a3b5dc1bc",
-      "shortSha": "848c253",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(project): 导入导出支持文件登记到 AppRoot 分组",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T05:34:53Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/848c253c82529ed09b6477b4522ee33a3b5dc1bc"
-    },
-    {
-      "sha": "1ca457469195445239d2c8554544cb3c2ae389ff",
-      "shortSha": "1ca4574",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/34-bitwarden-sync",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T05:17:29Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1ca457469195445239d2c8554544cb3c2ae389ff"
-    },
-    {
-      "sha": "999c7567c2b90c2e2f0fad571f7c76596acdb038",
-      "shortSha": "999c756",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/37-import-export-formats",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T05:17:27Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/999c7567c2b90c2e2f0fad571f7c76596acdb038"
     },
     {
       "sha": "89b1e156232e94f25c6888aac920c7fd83ae929e",
@@ -2240,16 +2250,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/29110?v=4",
       "date": "2026-10-20T03:52:30Z",
       "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/commit/1669ee30aeb73cbf3b65d65946e9103e302c84e6"
-    },
-    {
-      "sha": "86c63936ca58666dc65f1e3d9bce772be31c7112",
-      "shortSha": "86c6393",
-      "repo": "Monica-Pass/MonicaDocs",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-10-13T09:30:58Z",
-      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/86c63936ca58666dc65f1e3d9bce772be31c7112"
     },
     {
       "sha": "b388636f95ac5b0a0d930be2eeba2481d503ddf7",
