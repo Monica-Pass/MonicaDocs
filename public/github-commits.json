@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T19:10:32.785Z",
+  "generatedAt": "2026-11-21T19:25:52.739Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-21",
-      "count": 171
+      "count": 175
     }
   ],
   "latest": [
+    {
+      "sha": "408a333d0bc1f9f88ff380d56fd7a9ee9e268be5",
+      "shortSha": "408a333",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #171 from Monica-Pass/feat/144-vault-recovery",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T19:25:19Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/408a333d0bc1f9f88ff380d56fd7a9ee9e268be5"
+    },
     {
       "sha": "a5263bd7f2334a80616238a65ef5566c728109c6",
       "shortSha": "a5263bd",
@@ -1570,16 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T18:34:33Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ee26853d2557d0cb219fe54f719ff7e476b2ba3d"
-    },
-    {
-      "sha": "6ef87ee982cdd9e5ad9e9f1318bfd09b7927890a",
-      "shortSha": "6ef87ee",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor(storage): 拆出笔记 / 卡片 / 通行密钥三个条目域",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T18:32:36Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/6ef87ee982cdd9e5ad9e9f1318bfd09b7927890a"
     },
     {
       "sha": "e60b9b1ecfde0c1cd8caff40cf49816648ae3913",
