@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T07:49:56.656Z",
+  "generatedAt": "2026-11-21T09:09:35.817Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-21",
-      "count": 54
+      "count": 55
     }
   ],
   "latest": [
+    {
+      "sha": "b3b3abbe6993499b7a3248120baa5962924d3358",
+      "shortSha": "b3b3abb",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(app): 解锁后自动进入首个文件夹并恢复分类非空校验",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T09:09:00Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/b3b3abbe6993499b7a3248120baa5962924d3358"
+    },
     {
       "sha": "eed3163a3047654fb4127508bbb5c4488a370ab7",
       "shortSha": "eed3163",
@@ -1580,16 +1590,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T05:17:27Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/999c7567c2b90c2e2f0fad571f7c76596acdb038"
-    },
-    {
-      "sha": "e0724a55b76f8d03790eee63a8f963130bfb8ab3",
-      "shortSha": "e0724a5",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/29-multi-vault",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T05:17:26Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/e0724a55b76f8d03790eee63a8f963130bfb8ab3"
     },
     {
       "sha": "89b1e156232e94f25c6888aac920c7fd83ae929e",
