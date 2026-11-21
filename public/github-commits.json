@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T01:32:11.202Z",
+  "generatedAt": "2026-11-21T02:16:00.108Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1473,14 +1473,84 @@
     },
     {
       "date": "2026-11-20",
-      "count": 79
+      "count": 82
     },
     {
       "date": "2026-11-21",
-      "count": 10
+      "count": 21
     }
   ],
   "latest": [
+    {
+      "sha": "c9b1d49635d564cfa2d90b9765ebba16ad8aa9e8",
+      "shortSha": "c9b1d49",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(app): 补齐 UnifiedVaultItemKind.sso 的搜索/侧表分支",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T02:11:08Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c9b1d49635d564cfa2d90b9765ebba16ad8aa9e8"
+    },
+    {
+      "sha": "895c6c12b3586abc8fce6df92b0fdeef57d3e116",
+      "shortSha": "895c6c1",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/22-markdown-notes",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T01:52:38Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/895c6c12b3586abc8fce6df92b0fdeef57d3e116"
+    },
+    {
+      "sha": "c8baff488bcdde7bfe273f6e0ac035839bbe0a22",
+      "shortSha": "c8baff4",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/23-totp-advanced",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T01:52:29Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c8baff488bcdde7bfe273f6e0ac035839bbe0a22"
+    },
+    {
+      "sha": "674f2775d11d857ffc6e89b2256e6bca98ffd521",
+      "shortSha": "674f277",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/14-sso-item",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T01:51:55Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/674f2775d11d857ffc6e89b2256e6bca98ffd521"
+    },
+    {
+      "sha": "8480fe68a35cecfa79094d5fc642c06d0014c576",
+      "shortSha": "8480fe6",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: feat/15-custom-fields",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T01:51:38Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/8480fe68a35cecfa79094d5fc642c06d0014c576"
+    },
+    {
+      "sha": "d28d90c065b1e23d1798d1be65bab67e282ff7de",
+      "shortSha": "d28d90c",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge remote-tracking branch 'origin/feat/16-login-detail' into integrated3",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T01:51:29Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d28d90c065b1e23d1798d1be65bab67e282ff7de"
+    },
+    {
+      "sha": "c122501a126985e27b735330d40badcbbec0b0ca",
+      "shortSha": "c122501",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(project): AppLoginDetailSupport 使用唯一 pbxproj ID（避免与 #47 冲突）",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T01:32:28Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c122501a126985e27b735330d40badcbbec0b0ca"
+    },
     {
       "sha": "f495eed8926d0cec701c3e7f8c5d5f28a3907184",
       "shortSha": "f495eed",
@@ -1492,94 +1562,24 @@
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f495eed8926d0cec701c3e7f8c5d5f28a3907184"
     },
     {
-      "sha": "d4a16a41b96f8c6fbd59a687261486cdd365797c",
-      "shortSha": "d4a16a4",
+      "sha": "75458de5379887b9c8170835ef1c2cf776941c5b",
+      "shortSha": "75458de",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(project): 修复合并后重复的 pbxproj 文件 ID",
+      "message": "feat(notes): Markdown 笔记与加密图片（#22）",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T00:42:38Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d4a16a41b96f8c6fbd59a687261486cdd365797c"
+      "date": "2026-11-21T01:06:12Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/75458de5379887b9c8170835ef1c2cf776941c5b"
     },
     {
-      "sha": "c78dffc2398ac7ebe9062973fda710512a0a6d02",
-      "shortSha": "c78dffc",
+      "sha": "35b1f99b6c09b3435d1ff7a58d4ac6b1461d9cf5",
+      "shortSha": "35b1f99",
       "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(appearance): 移除与 MonicaCore 主题模型重复的旧类型定义",
+      "message": "feat(totp): 支持算法/位数/周期/HOTP 计数器与自定义图标",
       "authorName": "zzstar101",
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T00:40:44Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c78dffc2398ac7ebe9062973fda710512a0a6d02"
-    },
-    {
-      "sha": "dfb13b8a3c2540bef52b2254160acb3f5052d979",
-      "shortSha": "dfb13b8",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/40-autofill-domain-rules",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T00:40:06Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/dfb13b8a3c2540bef52b2254160acb3f5052d979"
-    },
-    {
-      "sha": "68c64eb8edc7a1151ed64fe1e327d9e84134c86f",
-      "shortSha": "68c64eb",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/46-privacy-shield",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T00:40:04Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/68c64eb8edc7a1151ed64fe1e327d9e84134c86f"
-    },
-    {
-      "sha": "97532efdb7b3c19e92de5b6cbebe34948a04a645",
-      "shortSha": "97532ef",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/26-global-search",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T00:40:03Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/97532efdb7b3c19e92de5b6cbebe34948a04a645"
-    },
-    {
-      "sha": "e7058e367921d60744049beadd579652578678ed",
-      "shortSha": "e7058e3",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/24-generator-advanced",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T00:40:02Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/e7058e367921d60744049beadd579652578678ed"
-    },
-    {
-      "sha": "c34c4df82ceaf28aff5b3baa42b6a73db5c9a9e9",
-      "shortSha": "c34c4df",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/47-live-activity' into integrated",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T00:40:00Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/c34c4df82ceaf28aff5b3baa42b6a73db5c9a9e9"
-    },
-    {
-      "sha": "ea2eb926b70caa241bd141409c4ac6accdf93616",
-      "shortSha": "ea2eb92",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "merge: feat/60-theme-icons",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T00:39:59Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ea2eb926b70caa241bd141409c4ac6accdf93616"
-    },
-    {
-      "sha": "72a55b175915476db0e6eeaaf54dae576a997a65",
-      "shortSha": "72a55b1",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #99 from Monica-Pass/refactor/split-approotview",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T00:09:17Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/72a55b175915476db0e6eeaaf54dae576a997a65"
+      "date": "2026-11-21T01:05:26Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/35b1f99b6c09b3435d1ff7a58d4ac6b1461d9cf5"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
