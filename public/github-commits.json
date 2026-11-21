@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T17:50:08.604Z",
+  "generatedAt": "2026-11-21T18:24:00.763Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-21",
-      "count": 149
+      "count": 157
     }
   ],
   "latest": [
+    {
+      "sha": "807ae810503cd71f3f4c75891888c6dc0a008fb5",
+      "shortSha": "807ae81",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #173 from Monica-Pass/refactor/session-slice-b",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T18:23:36Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/807ae810503cd71f3f4c75891888c6dc0a008fb5"
+    },
+    {
+      "sha": "8eaa2ed30c2e2952dbc331a71a22853e31dad490",
+      "shortSha": "8eaa2ed",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "merge: 同步 main（#133 本地化与 #154 SSH 生成已合并）",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T17:45:55Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/8eaa2ed30c2e2952dbc331a71a22853e31dad490"
+    },
     {
       "sha": "a611054eaa546f50b64a07059077d4ebbe238b5d",
       "shortSha": "a611054",
@@ -1542,6 +1562,26 @@
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1d03cd80c04ee6b787f16e9f12e1046c2c4b73c2"
     },
     {
+      "sha": "2956e4ecc05cac6613c5d600ad34363c625b6db2",
+      "shortSha": "2956e4e",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "test(app): 账单源码断言同时覆盖 AppSessionModel 的按域扩展文件",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T15:20:49Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/2956e4ecc05cac6613c5d600ad34363c625b6db2"
+    },
+    {
+      "sha": "a98e9287d3fe1057555c14a818a19124957ed80b",
+      "shortSha": "a98e928",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "refactor(app): 把快捷方式与小组件域搬到 AppSessionModel+WidgetShortcuts.swift",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T15:20:21Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a98e9287d3fe1057555c14a818a19124957ed80b"
+    },
+    {
       "sha": "e60b9b1ecfde0c1cd8caff40cf49816648ae3913",
       "shortSha": "e60b9b1",
       "repo": "Monica-Pass/MonicaDocs",
@@ -1552,16 +1592,6 @@
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/e60b9b1ecfde0c1cd8caff40cf49816648ae3913"
     },
     {
-      "sha": "91615e2f67372bf800834e3eeabfb6502e17fb89",
-      "shortSha": "91615e2",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "feat(generator): 生成 Ed25519 / RSA SSH 密钥对并保存到 SSH 条目 (#154)",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T14:35:12Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/91615e2f67372bf800834e3eeabfb6502e17fb89"
-    },
-    {
       "sha": "181e0e213e692a11fd00d5c7143037a0814a4749",
       "shortSha": "181e0e2",
       "repo": "Monica-Pass/MonicaDocs",
@@ -1570,36 +1600,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T14:29:58Z",
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/181e0e213e692a11fd00d5c7143037a0814a4749"
-    },
-    {
-      "sha": "d29ec3a87da17b54fb9b6fce06adb5c94c6834ea",
-      "shortSha": "d29ec3a",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "feat(l10n): 应用内语言字符串入口与首批文件迁移 (#133)",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T14:16:09Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d29ec3a87da17b54fb9b6fce06adb5c94c6834ea"
-    },
-    {
-      "sha": "8c0fa605c808dfa69c33ac34914fc057d383b947",
-      "shortSha": "8c0fa60",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(app): 修复 train7 合并产生的重复初始化参数与新特性接线冲突",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T14:00:36Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/8c0fa605c808dfa69c33ac34914fc057d383b947"
-    },
-    {
-      "sha": "64a16d08ef9b955e89e82d99b47eecc92e56a50e",
-      "shortSha": "64a16d0",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/149-item-icon-system' into integrated7",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T13:46:43Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/64a16d08ef9b955e89e82d99b47eecc92e56a50e"
     },
     {
       "sha": "4864b6cedd04eebc3513ef65ca12bc731d83fab5",
