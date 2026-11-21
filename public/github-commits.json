@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T14:01:37.824Z",
+  "generatedAt": "2026-11-21T15:31:00.218Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,40 @@
     },
     {
       "date": "2026-11-21",
-      "count": 139
+      "count": 142
     }
   ],
   "latest": [
+    {
+      "sha": "1d03cd80c04ee6b787f16e9f12e1046c2c4b73c2",
+      "shortSha": "1d03cd8",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "test(app): 同步 train7 后的设置搜索索引与快照键集断言，并加一条自动聚焦诊断输出",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T15:30:25Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1d03cd80c04ee6b787f16e9f12e1046c2c4b73c2"
+    },
+    {
+      "sha": "e60b9b1ecfde0c1cd8caff40cf49816648ae3913",
+      "shortSha": "e60b9b1",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "Merge pull request #2 from zzstar101/docs/readme-hero",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-21T14:38:18Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/e60b9b1ecfde0c1cd8caff40cf49816648ae3913"
+    },
+    {
+      "sha": "181e0e213e692a11fd00d5c7143037a0814a4749",
+      "shortSha": "181e0e2",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "docs(readme): refresh hero banner",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T14:29:58Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/181e0e213e692a11fd00d5c7143037a0814a4749"
+    },
     {
       "sha": "8c0fa605c808dfa69c33ac34914fc057d383b947",
       "shortSha": "8c0fa60",
@@ -1570,16 +1600,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T13:42:20Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d37e6eff6621a2d6db8ec7c57852a115a87c928a"
-    },
-    {
-      "sha": "24c1cf123fd7a3e27d8b73d895e2c6bbc1eebbdb",
-      "shortSha": "24c1cf1",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/152-notes-tile-grid' into integrated7",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T13:42:19Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/24c1cf123fd7a3e27d8b73d895e2c6bbc1eebbdb"
     },
     {
       "sha": "4864b6cedd04eebc3513ef65ca12bc731d83fab5",
@@ -2112,16 +2132,6 @@
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/016a96756170d9c93b251c8030a16182afbddb9a"
     },
     {
-      "sha": "598e3831dab16177a27d0b811b0d323310bbfe5a",
-      "shortSha": "598e383",
-      "repo": "Monica-Pass/MonicaDocs",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-10-26T07:52:37Z",
-      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/598e3831dab16177a27d0b811b0d323310bbfe5a"
-    },
-    {
       "sha": "e9dcf62403fbcf255d57b45bc2a03514ddbc9966",
       "shortSha": "e9dcf62",
       "repo": "Monica-Pass/Monica-cli",
@@ -2150,16 +2160,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-10-21T12:24:11Z",
       "url": "https://github.com/Monica-Pass/Monica-cli/commit/4083d7fe7d752bc7d1c5c7cfc6ce232f94308edb"
-    },
-    {
-      "sha": "950e7cdfd510867837872eb7829faa399277a0d3",
-      "shortSha": "950e7cd",
-      "repo": "Monica-Pass/MonicaDocs",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-10-21T07:45:38Z",
-      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/950e7cdfd510867837872eb7829faa399277a0d3"
     },
     {
       "sha": "b2460724245d5aeb450c4ecc64cdbabc73b2af7a",
