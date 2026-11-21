@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T15:59:37.933Z",
+  "generatedAt": "2026-11-21T16:30:12.268Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-21",
-      "count": 143
+      "count": 144
     }
   ],
   "latest": [
+    {
+      "sha": "680c1355267b26a307a920b416b02abc2d7141bd",
+      "shortSha": "680c135",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "test(app): 自动聚焦诊断改为四组对照实例（临时）",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T16:29:42Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/680c1355267b26a307a920b416b02abc2d7141bd"
+    },
     {
       "sha": "3f1ddab0739b7a0202cfb61ebc9317945704f578",
       "shortSha": "3f1ddab",
@@ -1590,16 +1600,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T13:42:21Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/18138a2c0eb5b098d42af503e0e0ff84caeb9642"
-    },
-    {
-      "sha": "49b159614a44140f947ed1d71bb7ab87dbddc3a7",
-      "shortSha": "49b1596",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/143-webdav-tofu' into integrated7",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T13:42:20Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/49b159614a44140f947ed1d71bb7ab87dbddc3a7"
     },
     {
       "sha": "4864b6cedd04eebc3513ef65ca12bc731d83fab5",
