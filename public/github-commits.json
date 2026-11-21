@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T15:31:00.218Z",
+  "generatedAt": "2026-11-21T15:59:37.933Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-21",
-      "count": 142
+      "count": 143
     }
   ],
   "latest": [
+    {
+      "sha": "3f1ddab0739b7a0202cfb61ebc9317945704f578",
+      "shortSha": "3f1ddab",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "test(app): 自动聚焦诊断输出改为逐项调用结果（临时）",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T15:59:10Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/3f1ddab0739b7a0202cfb61ebc9317945704f578"
+    },
     {
       "sha": "1d03cd80c04ee6b787f16e9f12e1046c2c4b73c2",
       "shortSha": "1d03cd8",
@@ -1590,16 +1600,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T13:42:20Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/49b159614a44140f947ed1d71bb7ab87dbddc3a7"
-    },
-    {
-      "sha": "d37e6eff6621a2d6db8ec7c57852a115a87c928a",
-      "shortSha": "d37e6ef",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge remote-tracking branch 'origin/feat/150-otpauth-import' into integrated7",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T13:42:20Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d37e6eff6621a2d6db8ec7c57852a115a87c928a"
     },
     {
       "sha": "4864b6cedd04eebc3513ef65ca12bc731d83fab5",
