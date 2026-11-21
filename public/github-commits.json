@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T19:58:12.896Z",
+  "generatedAt": "2026-11-21T21:57:46.139Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,40 @@
     },
     {
       "date": "2026-11-21",
-      "count": 187
+      "count": 190
     }
   ],
   "latest": [
+    {
+      "sha": "3781a9f3c4a650715653b695d67de14a197f9359",
+      "shortSha": "3781a9f",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #179 from Monica-Pass/chore/repo-hygiene",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T21:57:23Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/3781a9f3c4a650715653b695d67de14a197f9359"
+    },
+    {
+      "sha": "a19be8735914b08fc469647e2072d1e1b110dd0c",
+      "shortSha": "a19be87",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "ci: MSAL 改用 actions/cache 直接准备，避免 artifact 上传破坏 xcframework 符号链接",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T21:29:30Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a19be8735914b08fc469647e2072d1e1b110dd0c"
+    },
+    {
+      "sha": "0857cbb7a9cbc67781f5748b1140a9513669ba04",
+      "shortSha": "0857cbb",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "chore(repo): 清理入库的构建产物与根目录临时笔记",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T21:04:00Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/0857cbb7a9cbc67781f5748b1140a9513669ba04"
+    },
     {
       "sha": "77384681ccc02efc7750c54b3464cf3040994863",
       "shortSha": "7738468",
@@ -1550,36 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T19:32:57Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1688645d3c10c6e2cced70aaf464ee6556a04c27"
-    },
-    {
-      "sha": "0db0f38114cef3c2b20f5b20829feaeaf7e83c50",
-      "shortSha": "0db0f38",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor(sync): 拆出 WebDAV / Bitwarden 认证 / 快照解析三个域",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T19:32:13Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/0db0f38114cef3c2b20f5b20829feaeaf7e83c50"
-    },
-    {
-      "sha": "f1ebd0ab28dfda3d0075debd09521176af83aa7d",
-      "shortSha": "f1ebd0a",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor(sync): 按域拆出保险库同步 / Bitwarden 模型 / OneDrive 三个域",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T19:31:25Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f1ebd0ab28dfda3d0075debd09521176af83aa7d"
-    },
-    {
-      "sha": "408a333d0bc1f9f88ff380d56fd7a9ee9e268be5",
-      "shortSha": "408a333",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #171 from Monica-Pass/feat/144-vault-recovery",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T19:25:19Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/408a333d0bc1f9f88ff380d56fd7a9ee9e268be5"
     },
     {
       "sha": "e60b9b1ecfde0c1cd8caff40cf49816648ae3913",
