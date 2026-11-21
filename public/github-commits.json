@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T01:09:08.195Z",
+  "generatedAt": "2026-11-21T01:32:11.202Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-21",
-      "count": 9
+      "count": 10
     }
   ],
   "latest": [
+    {
+      "sha": "f495eed8926d0cec701c3e7f8c5d5f28a3907184",
+      "shortSha": "f495eed",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "fix(app): 补回 #60 登录图标与 #46 场景遮罩策略的会话成员",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T01:31:30Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f495eed8926d0cec701c3e7f8c5d5f28a3907184"
+    },
     {
       "sha": "d4a16a41b96f8c6fbd59a687261486cdd365797c",
       "shortSha": "d4a16a4",
@@ -1570,16 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T00:09:17Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/72a55b175915476db0e6eeaaf54dae576a997a65"
-    },
-    {
-      "sha": "3a8fcdac4f44fee270d5bd69b32bc08f5848a34e",
-      "shortSha": "3a8fcda",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "test(app): 敏感隐私源码断言指向拆分后的 AppSessionModel",
-      "authorName": "zzStar",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/7801496?v=4",
-      "date": "2026-11-20T23:39:39Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/3a8fcdac4f44fee270d5bd69b32bc08f5848a34e"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
