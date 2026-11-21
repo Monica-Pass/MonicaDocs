@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T22:00:36.003Z",
+  "generatedAt": "2026-11-21T22:57:15.086Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-21",
-      "count": 194
+      "count": 196
     }
   ],
   "latest": [
+    {
+      "sha": "62079e82238a2fc330899998c47408069ebe899a",
+      "shortSha": "62079e8",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #181 from Monica-Pass/feat/sim-acceptance",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T22:56:49Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/62079e82238a2fc330899998c47408069ebe899a"
+    },
+    {
+      "sha": "20d55fdb3071fa9c1fcc1046ef16baa877f0e737",
+      "shortSha": "20d55fd",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "feat(acceptance): 内置模拟器端到端验收自检（launch argument 触发）",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T22:23:41Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/20d55fdb3071fa9c1fcc1046ef16baa877f0e737"
+    },
     {
       "sha": "4df4bb6f579eb3a2bf522cf0c8421924c945b1b1",
       "shortSha": "4df4bb6",
@@ -1560,26 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T19:57:51Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/e225d08166c0883403e384ae83f135e7c34ce5b6"
-    },
-    {
-      "sha": "04e15071915937357a28fb5ac05afebacdccf98f",
-      "shortSha": "04e1507",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #177 from Monica-Pass/refactor/sync-split",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T19:57:48Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/04e15071915937357a28fb5ac05afebacdccf98f"
-    },
-    {
-      "sha": "06dd4d389158a715197af3c64bcb14889766e0e9",
-      "shortSha": "06dd4d3",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor(tests): 拆分 VaultSessionModelTests 测试替身与独立测试类",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T19:54:30Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/06dd4d389158a715197af3c64bcb14889766e0e9"
     },
     {
       "sha": "e60b9b1ecfde0c1cd8caff40cf49816648ae3913",
