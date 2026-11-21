@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T06:03:10.403Z",
+  "generatedAt": "2026-11-21T06:42:35.062Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-21",
-      "count": 49
+      "count": 51
     }
   ],
   "latest": [
+    {
+      "sha": "30d201fa4df3c300b5b03e10a79930151692f440",
+      "shortSha": "30d201f",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #126 from Monica-Pass/feat/42-autofill-guard",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T06:42:05Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/30d201fa4df3c300b5b03e10a79930151692f440"
+    },
     {
       "sha": "c64178560cc50300e02fc981a130f11985f59e56",
       "shortSha": "c641785",
@@ -1570,16 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T05:17:23Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ce0683027aca8dfc1a8ba3a3aea66b860973150d"
-    },
-    {
-      "sha": "cd12471951a20f30fa0d8b6eda83706a9c8fdfec",
-      "shortSha": "cd12471",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "fix(project): 把格式导入导出视图登记移回 pbxproj 对应 section",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T05:16:37Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/cd12471951a20f30fa0d8b6eda83706a9c8fdfec"
     },
     {
       "sha": "ed0b5e0d2644a95697711c2aa415dd84d3920be9",
