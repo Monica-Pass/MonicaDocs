@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T21:57:46.139Z",
+  "generatedAt": "2026-11-21T21:59:17.783Z",
   "range": {
     "from": "2025-11-22",
     "to": "2026-11-21"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-21",
-      "count": 190
+      "count": 194
     }
   ],
   "latest": [
+    {
+      "sha": "01a07ee3b42f61ae784d3ff829ee928e0c04c8e9",
+      "shortSha": "01a07ee",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #180 from Monica-Pass/refactor/session-slice-c3",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T21:58:52Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/01a07ee3b42f61ae784d3ff829ee928e0c04c8e9"
+    },
     {
       "sha": "3781a9f3c4a650715653b695d67de14a197f9359",
       "shortSha": "3781a9f",
@@ -1492,6 +1502,16 @@
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/3781a9f3c4a650715653b695d67de14a197f9359"
     },
     {
+      "sha": "f75909f48c375f58601e77a08c2f0d1f6bd4a7e8",
+      "shortSha": "f75909f",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "refactor(app): 抽出 AppSessionModel 凭据交换域（slice C3）",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T21:34:45Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/f75909f48c375f58601e77a08c2f0d1f6bd4a7e8"
+    },
+    {
       "sha": "a19be8735914b08fc469647e2072d1e1b110dd0c",
       "shortSha": "a19be87",
       "repo": "Monica-Pass/Monica-for-iOS",
@@ -1500,6 +1520,26 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T21:29:30Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/a19be8735914b08fc469647e2072d1e1b110dd0c"
+    },
+    {
+      "sha": "381668b7b9fb4e1b2115e9cc688d319317a5a633",
+      "shortSha": "381668b",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "refactor(app): 抽出 AppSessionModel 导入导出域（slice C3）",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T21:25:03Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/381668b7b9fb4e1b2115e9cc688d319317a5a633"
+    },
+    {
+      "sha": "038634cc40e0ce84dbd491614d09b8598f0f373b",
+      "shortSha": "038634c",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "refactor(app): 抽出 AppSessionModel 条目 CRUD 域（slice C3）",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-21T21:18:47Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/038634cc40e0ce84dbd491614d09b8598f0f373b"
     },
     {
       "sha": "0857cbb7a9cbc67781f5748b1140a9513669ba04",
@@ -1540,46 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T19:54:30Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/21b0dacb816a3327605130078deafaba73439fb0"
-    },
-    {
-      "sha": "9ab81a37fc669bf600e2a488e171bcef7833adf4",
-      "shortSha": "9ab81a3",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "Merge pull request #176 from Monica-Pass/refactor/session-slice-c2",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T19:46:59Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/9ab81a37fc669bf600e2a488e171bcef7833adf4"
-    },
-    {
-      "sha": "497b07298107b26c16669182fe6a8ecf200e17fe",
-      "shortSha": "497b072",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor(sync): 拆出同步提供者抽象与共享工具，主文件归零为模块入口",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T19:34:27Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/497b07298107b26c16669182fe6a8ecf200e17fe"
-    },
-    {
-      "sha": "2981bb943ff7eeff6eb2283e97b720d2e608d037",
-      "shortSha": "2981bb9",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor(sync): 拆出云文件供应商核心 / 令牌刷新 / 保险库传输模型",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T19:33:38Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/2981bb943ff7eeff6eb2283e97b720d2e608d037"
-    },
-    {
-      "sha": "1688645d3c10c6e2cced70aaf464ee6556a04c27",
-      "shortSha": "1688645",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor(sync): 拆出 Bitwarden 加密 / 同步计划 / Send 三个域",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T19:32:57Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/1688645d3c10c6e2cced70aaf464ee6556a04c27"
     },
     {
       "sha": "e60b9b1ecfde0c1cd8caff40cf49816648ae3913",
