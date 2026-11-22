@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-21T23:29:51.278Z",
+  "generatedAt": "2026-11-22T06:47:50.517Z",
   "range": {
-    "from": "2025-11-22",
-    "to": "2026-11-21"
+    "from": "2025-11-23",
+    "to": "2026-11-22"
   },
   "activity": [
-    {
-      "date": "2025-11-22",
-      "count": 0
-    },
     {
       "date": "2025-11-23",
       "count": 0
@@ -1478,9 +1474,33 @@
     {
       "date": "2026-11-21",
       "count": 198
+    },
+    {
+      "date": "2026-11-22",
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "38e3f28fc7f9300f12cef90b007eb466abc276da",
+      "shortSha": "38e3f28",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "Merge pull request #183 from Monica-Pass/fix/xcode-test-runner",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-22T06:47:24Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/38e3f28fc7f9300f12cef90b007eb466abc276da"
+    },
+    {
+      "sha": "98d14b4f67c44c183673aacc7a75f3e8306a8f3c",
+      "shortSha": "98d14b4",
+      "repo": "Monica-Pass/Monica-for-iOS",
+      "message": "chore(tests): 新增本地 iOS 测试脚本，改用 Xcode 27.2 跑通模拟器 XCTest",
+      "authorName": "zzstar101",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
+      "date": "2026-11-22T06:32:21Z",
+      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/98d14b4f67c44c183673aacc7a75f3e8306a8f3c"
+    },
     {
       "sha": "cac96df171bfd325080a4ca057f763e2dc264206",
       "shortSha": "cac96df",
@@ -1560,26 +1580,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
       "date": "2026-11-21T21:29:30Z",
       "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/dc843ba7af9c62cd739821d637e0befe789907d4"
-    },
-    {
-      "sha": "d024e187bf82afca72f0a130617d0b07138b116f",
-      "shortSha": "d024e18",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor(app): 抽出 AppSessionModel 导入导出域（slice C3）",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T21:25:03Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/d024e187bf82afca72f0a130617d0b07138b116f"
-    },
-    {
-      "sha": "ce7de43863272d176035d3357bb2aa81c162f6f5",
-      "shortSha": "ce7de43",
-      "repo": "Monica-Pass/Monica-for-iOS",
-      "message": "refactor(app): 抽出 AppSessionModel 条目 CRUD 域（slice C3）",
-      "authorName": "zzstar101",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42843087?v=4",
-      "date": "2026-11-21T21:18:47Z",
-      "url": "https://github.com/Monica-Pass/Monica-for-iOS/commit/ce7de43863272d176035d3357bb2aa81c162f6f5"
     },
     {
       "sha": "e60b9b1ecfde0c1cd8caff40cf49816648ae3913",
