@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-22T06:47:50.517Z",
+  "generatedAt": "2026-11-22T13:44:00.192Z",
   "range": {
     "from": "2025-11-23",
     "to": "2026-11-22"
@@ -1477,10 +1477,30 @@
     },
     {
       "date": "2026-11-22",
-      "count": 2
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "bc0cdfb9110e595bbdfe71605e5162582589f69a",
+      "shortSha": "bc0cdfb",
+      "repo": "Monica-Pass/MonicaDocs",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-11-22T09:52:54Z",
+      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/bc0cdfb9110e595bbdfe71605e5162582589f69a"
+    },
+    {
+      "sha": "c633b2dd139cc50abeb784e4aaca2058c924cc6a",
+      "shortSha": "c633b2d",
+      "repo": "Monica-Pass/Monica",
+      "message": "docs: update Afdian sponsor list",
+      "authorName": "github-actions[bot]",
+      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "date": "2026-11-22T09:52:52Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/c633b2dd139cc50abeb784e4aaca2058c924cc6a"
+    },
     {
       "sha": "38e3f28fc7f9300f12cef90b007eb466abc276da",
       "shortSha": "38e3f28",
@@ -1882,16 +1902,6 @@
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/473a032c86ce9e24f5e269240b2c0d0e455b6067"
     },
     {
-      "sha": "735b173981351892716444af86d9e236c63e4059",
-      "shortSha": "735b173",
-      "repo": "Monica-Pass/Monica",
-      "message": "docs(android): note folder shortcut motion during search",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-18T15:03:24Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/735b173981351892716444af86d9e236c63e4059"
-    },
-    {
       "sha": "c5b13694061ef0114efb4698c2d1f2c607b02715",
       "shortSha": "c5b1369",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -2120,16 +2130,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
       "date": "2026-11-01T09:21:17Z",
       "url": "https://github.com/Monica-Pass/MonicaDocs/commit/338eb60a78e31a81cacaa064fd0c64036e8392ef"
-    },
-    {
-      "sha": "016a96756170d9c93b251c8030a16182afbddb9a",
-      "shortSha": "016a967",
-      "repo": "Monica-Pass/MonicaDocs",
-      "message": "docs: update Afdian sponsor list",
-      "authorName": "github-actions[bot]",
-      "authorAvatar": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "date": "2026-10-29T08:36:51Z",
-      "url": "https://github.com/Monica-Pass/MonicaDocs/commit/016a96756170d9c93b251c8030a16182afbddb9a"
     },
     {
       "sha": "e9dcf62403fbcf255d57b45bc2a03514ddbc9966",
