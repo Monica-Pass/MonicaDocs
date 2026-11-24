@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T18:52:37.773Z",
+  "updatedAt": "2026-11-24T18:28:46.599Z",
   "repos": [
     {
       "id": "android",
@@ -19,14 +19,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.330-26112012-01.APK",
               "size": 37084383,
-              "downloadCount": 514,
+              "downloadCount": 593,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.330/Monica-Android-arm64-v8a-1.0.330-26112012-01.APK",
               "contentType": "application/octet-stream"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.330-26112012-01.APK",
               "size": 34576215,
-              "downloadCount": 15,
+              "downloadCount": 17,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.330/Monica-Android-armeabi-v7a-1.0.330-26112012-01.APK",
               "contentType": "application/octet-stream"
             }
@@ -43,7 +43,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.329-26112012-93.APK",
               "size": 37084383,
-              "downloadCount": 218,
+              "downloadCount": 219,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.329/Monica-Android-arm64-v8a-1.0.329-26112012-93.APK",
               "contentType": "application/octet-stream"
             },
@@ -67,7 +67,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.328-26111712-04.APK",
               "size": 37212287,
-              "downloadCount": 577,
+              "downloadCount": 579,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.328/Monica-Android-arm64-v8a-1.0.328-26111712-04.APK",
               "contentType": "application/octet-stream"
             },
@@ -431,14 +431,14 @@
             {
               "name": "monica-extension-1.0.105.zip",
               "size": 14149635,
-              "downloadCount": 19,
+              "downloadCount": 26,
               "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/v1.0.105/monica-extension-1.0.105.zip",
               "contentType": "application/zip"
             },
             {
               "name": "monica-extension-1.0.105.zip.sha256",
               "size": 95,
-              "downloadCount": 2,
+              "downloadCount": 3,
               "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/v1.0.105/monica-extension-1.0.105.zip.sha256",
               "contentType": "application/octet-stream"
             },
