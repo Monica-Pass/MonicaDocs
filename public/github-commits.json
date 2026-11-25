@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-24T16:39:43.473Z",
+  "generatedAt": "2026-11-25T16:23:02.855Z",
   "range": {
-    "from": "2025-11-25",
-    "to": "2026-11-24"
+    "from": "2025-11-26",
+    "to": "2026-11-25"
   },
   "activity": [
-    {
-      "date": "2025-11-25",
-      "count": 0
-    },
     {
       "date": "2025-11-26",
       "count": 0
@@ -1478,9 +1474,33 @@
     {
       "date": "2026-11-24",
       "count": 0
+    },
+    {
+      "date": "2026-11-25",
+      "count": 2
     }
   ],
   "latest": [
+    {
+      "sha": "4633c2d092c8e1847f355087b467570649197dd6",
+      "shortSha": "4633c2d",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "fix(autofill): restore bound-app recommendations and app-name search",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-25T01:03:09Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/4633c2d092c8e1847f355087b467570649197dd6"
+    },
+    {
+      "sha": "7f8214edb84190befeefd8c47c3bd98e8e1ea868",
+      "shortSha": "7f8214e",
+      "repo": "Monica-Pass/Monica",
+      "message": "fix(autofill): restore bound-app recommendations and app-name search [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-25T01:03:08Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/7f8214edb84190befeefd8c47c3bd98e8e1ea868"
+    },
     {
       "sha": "bc0cdfb9110e595bbdfe71605e5162582589f69a",
       "shortSha": "bc0cdfb",
@@ -1852,16 +1872,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/548a396ff7089b603161a098ca6ccdb1746bd039"
     },
     {
-      "sha": "481f4a1aed6dc8d25fd685f0fb840ade1df4a413",
-      "shortSha": "481f4a1",
-      "repo": "Monica-Pass/Monica",
-      "message": "Fix project display and automatic settings search; refine security score [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-19T13:34:44Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/481f4a1aed6dc8d25fd685f0fb840ade1df4a413"
-    },
-    {
       "sha": "b8a0078bc95e3687f86f0ed238f2a8e30395b5a1",
       "shortSha": "b8a0078",
       "repo": "Monica-Pass/Monica-for-Extension",
@@ -1910,16 +1920,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-18T15:03:24Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c5b13694061ef0114efb4698c2d1f2c607b02715"
-    },
-    {
-      "sha": "5397db9362f24b78d63822ce8bf2418f8abbe364",
-      "shortSha": "5397db9",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Smooth folder shortcut collapse during password search",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-18T15:00:08Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/5397db9362f24b78d63822ce8bf2418f8abbe364"
     },
     {
       "sha": "f6872a4dbbf343535ff3d51798fb5569448e1961",
