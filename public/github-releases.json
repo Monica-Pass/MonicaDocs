@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T04:22:39.813Z",
+  "updatedAt": "2026-11-26T17:26:54.051Z",
   "repos": [
     {
       "id": "android",
@@ -19,14 +19,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.331-26112612-00.APK",
               "size": 39489790,
-              "downloadCount": 10,
+              "downloadCount": 240,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.331/Monica-Android-arm64-v8a-1.0.331-26112612-00.APK",
               "contentType": "application/octet-stream"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.331-26112612-00.APK",
               "size": 36981622,
-              "downloadCount": 2,
+              "downloadCount": 5,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.331/Monica-Android-armeabi-v7a-1.0.331-26112612-00.APK",
               "contentType": "application/octet-stream"
             }
@@ -43,7 +43,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.330-26112012-01.APK",
               "size": 37084383,
-              "downloadCount": 759,
+              "downloadCount": 764,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.330/Monica-Android-arm64-v8a-1.0.330-26112012-01.APK",
               "contentType": "application/octet-stream"
             },
@@ -67,7 +67,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.329-26112012-93.APK",
               "size": 37084383,
-              "downloadCount": 221,
+              "downloadCount": 222,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.329/Monica-Android-arm64-v8a-1.0.329-26112012-93.APK",
               "contentType": "application/octet-stream"
             },
@@ -91,7 +91,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.328-26111712-04.APK",
               "size": 37212287,
-              "downloadCount": 581,
+              "downloadCount": 583,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.328/Monica-Android-arm64-v8a-1.0.328-26111712-04.APK",
               "contentType": "application/octet-stream"
             },
@@ -276,14 +276,14 @@
             {
               "name": "Monica-0.3.1-linux-x64-aot.deb",
               "size": 59914420,
-              "downloadCount": 6,
+              "downloadCount": 7,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-linux-x64-aot.deb",
               "contentType": "application/x-debian-package"
             },
             {
               "name": "Monica-0.3.1-linux-x64-jit.deb",
               "size": 92469632,
-              "downloadCount": 4,
+              "downloadCount": 5,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-linux-x64-jit.deb",
               "contentType": "application/x-debian-package"
             },
@@ -325,7 +325,7 @@
             {
               "name": "Monica-0.3.1-windows-x64-jit-setup.exe",
               "size": 100783467,
-              "downloadCount": 59,
+              "downloadCount": 63,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-windows-x64-jit-setup.exe",
               "contentType": "application/x-msdos-program"
             },
@@ -431,7 +431,7 @@
             {
               "name": "monica-extension-1.0.105.zip",
               "size": 14149635,
-              "downloadCount": 38,
+              "downloadCount": 47,
               "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/v1.0.105/monica-extension-1.0.105.zip",
               "contentType": "application/zip"
             },
@@ -445,7 +445,7 @@
             {
               "name": "monica-mdbx2-host-windows-x64-0.1.6.zip",
               "size": 3768076,
-              "downloadCount": 10,
+              "downloadCount": 11,
               "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/v1.0.105/monica-mdbx2-host-windows-x64-0.1.6.zip",
               "contentType": "application/zip"
             },
@@ -469,7 +469,7 @@
             {
               "name": "monica-extension-1.0.104.zip",
               "size": 14080759,
-              "downloadCount": 89,
+              "downloadCount": 90,
               "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/v1.0.104/monica-extension-1.0.104.zip",
               "contentType": "application/zip"
             },
@@ -483,7 +483,7 @@
             {
               "name": "monica-mdbx2-host-windows-x64-0.1.6.zip",
               "size": 3760992,
-              "downloadCount": 42,
+              "downloadCount": 43,
               "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/v1.0.104/monica-mdbx2-host-windows-x64-0.1.6.zip",
               "contentType": "application/zip"
             },
@@ -545,7 +545,7 @@
             {
               "name": "monica-extension-1.0.105-preview-55b6fcad9776-44878107635-1.zip",
               "size": 10413994,
-              "downloadCount": 2,
+              "downloadCount": 4,
               "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/preview/monica-extension-1.0.105-preview-55b6fcad9776-44878107635-1.zip",
               "contentType": "application/zip"
             },
