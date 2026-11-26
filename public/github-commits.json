@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-26T04:04:32.279Z",
+  "generatedAt": "2026-11-26T15:57:30.203Z",
   "range": {
     "from": "2025-11-27",
     "to": "2026-11-26"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-26",
-      "count": 5
+      "count": 6
     }
   ],
   "latest": [
+    {
+      "sha": "19a281657c141bc6775352c30ca843b9d7ce9001",
+      "shortSha": "19a2816",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Finalize F-Droid 1.0.331 release notes",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-26T04:10:35Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/19a281657c141bc6775352c30ca843b9d7ce9001"
+    },
     {
       "sha": "e99e6ad74233cf08da8f6bb4fdfcb3b313aeb616",
       "shortSha": "e99e6ad",
@@ -1870,16 +1880,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-20T05:35:20Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/6a798a8e88253d8bb8691ee83ae1d8e4e74c3f48"
-    },
-    {
-      "sha": "80ac412f01a5beb4feada05ff12db6418f834c86",
-      "shortSha": "80ac412",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Implement recoverable timeline and adaptive Android layouts",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-19T23:27:15Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/80ac412f01a5beb4feada05ff12db6418f834c86"
     },
     {
       "sha": "b8a0078bc95e3687f86f0ed238f2a8e30395b5a1",
