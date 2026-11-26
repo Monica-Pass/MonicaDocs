@@ -13,16 +13,12 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-25T16:23:02.855Z",
+  "generatedAt": "2026-11-26T03:58:28.873Z",
   "range": {
-    "from": "2025-11-26",
-    "to": "2026-11-25"
+    "from": "2025-11-27",
+    "to": "2026-11-26"
   },
   "activity": [
-    {
-      "date": "2025-11-26",
-      "count": 0
-    },
     {
       "date": "2025-11-27",
       "count": 0
@@ -1477,10 +1473,74 @@
     },
     {
       "date": "2026-11-25",
-      "count": 2
+      "count": 4
+    },
+    {
+      "date": "2026-11-26",
+      "count": 4
     }
   ],
   "latest": [
+    {
+      "sha": "3ed4e2d8f83c491255a6a7b74f0bcd6a4c1b74dd",
+      "shortSha": "3ed4e2d",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Add Arabic RTL and polish Android scaling and haptics",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-26T03:57:36Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/3ed4e2d8f83c491255a6a7b74f0bcd6a4c1b74dd"
+    },
+    {
+      "sha": "43b52a9353eb8c30a568fc31f7c238fc67be81ad",
+      "shortSha": "43b52a9",
+      "repo": "Monica-Pass/Monica",
+      "message": "Add Arabic RTL and polish Android scaling and haptics",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-26T03:57:34Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/43b52a9353eb8c30a568fc31f7c238fc67be81ad"
+    },
+    {
+      "sha": "730ad10aefa23d64f7a43dc7ace3cab176853cd7",
+      "shortSha": "730ad10",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Complete Android 331 password recovery and interaction fixes",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-26T00:43:00Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/730ad10aefa23d64f7a43dc7ace3cab176853cd7"
+    },
+    {
+      "sha": "dc0c100966141d20d4d9fd740438304e1cadde95",
+      "shortSha": "dc0c100",
+      "repo": "Monica-Pass/Monica",
+      "message": "Complete Android 331 password recovery and interaction fixes [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-26T00:42:51Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/dc0c100966141d20d4d9fd740438304e1cadde95"
+    },
+    {
+      "sha": "74d41ba44286b4fbea3a2fb2d919af20c86b6b1e",
+      "shortSha": "74d41ba",
+      "repo": "Monica-Pass/Monica-Fdroid",
+      "message": "Complete unreleased Android 331 fixes before keystore resilience work [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-25T17:12:22Z",
+      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/74d41ba44286b4fbea3a2fb2d919af20c86b6b1e"
+    },
+    {
+      "sha": "92e04e2a9969cff4d0a7f739684784b2bd4ea281",
+      "shortSha": "92e04e2",
+      "repo": "Monica-Pass/Monica",
+      "message": "Complete unreleased Android 331 fixes before keystore resilience work [skip ci]",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-25T17:12:20Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/92e04e2a9969cff4d0a7f739684784b2bd4ea281"
+    },
     {
       "sha": "4633c2d092c8e1847f355087b467570649197dd6",
       "shortSha": "4633c2d",
@@ -1812,16 +1872,6 @@
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/6a798a8e88253d8bb8691ee83ae1d8e4e74c3f48"
     },
     {
-      "sha": "434ab8fafedb37fe8979887ffd9ce3df59ecdcfe",
-      "shortSha": "434ab8f",
-      "repo": "Monica-Pass/Monica",
-      "message": "Retire timeline on schema 85, restore landscape panes and unify QR scanning [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-20T05:34:45Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/434ab8fafedb37fe8979887ffd9ce3df59ecdcfe"
-    },
-    {
       "sha": "80ac412f01a5beb4feada05ff12db6418f834c86",
       "shortSha": "80ac412",
       "repo": "Monica-Pass/Monica-Fdroid",
@@ -1830,46 +1880,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-19T23:27:15Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/80ac412f01a5beb4feada05ff12db6418f834c86"
-    },
-    {
-      "sha": "e834a78751a85df19e8a053812acbcfdcaae9360",
-      "shortSha": "e834a78",
-      "repo": "Monica-Pass/Monica",
-      "message": "Implement recoverable timeline and adaptive Android layouts [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-19T23:27:14Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/e834a78751a85df19e8a053812acbcfdcaae9360"
-    },
-    {
-      "sha": "b5dc49a429ffa1c0ceaed0adc10d733368f2dc1b",
-      "shortSha": "b5dc49a",
-      "repo": "Monica-Pass/Monica",
-      "message": "Document timeline redesign and recovery boundaries [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-19T14:06:20Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/b5dc49a429ffa1c0ceaed0adc10d733368f2dc1b"
-    },
-    {
-      "sha": "ea20f59becbf18954fcb23b9a7d1709fb7cf0457",
-      "shortSha": "ea20f59",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Document timeline redesign and recovery boundaries [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-19T14:06:20Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/ea20f59becbf18954fcb23b9a7d1709fb7cf0457"
-    },
-    {
-      "sha": "548a396ff7089b603161a098ca6ccdb1746bd039",
-      "shortSha": "548a396",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "Fix project display and automatic settings search; refine security score",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-19T13:34:45Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/548a396ff7089b603161a098ca6ccdb1746bd039"
     },
     {
       "sha": "b8a0078bc95e3687f86f0ed238f2a8e30395b5a1",
@@ -1910,16 +1920,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-18T15:23:38Z",
       "url": "https://github.com/Monica-Pass/Monica-for-Extension/commit/473a032c86ce9e24f5e269240b2c0d0e455b6067"
-    },
-    {
-      "sha": "c5b13694061ef0114efb4698c2d1f2c607b02715",
-      "shortSha": "c5b1369",
-      "repo": "Monica-Pass/Monica-Fdroid",
-      "message": "docs(android): note folder shortcut motion during search",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-18T15:03:24Z",
-      "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/c5b13694061ef0114efb4698c2d1f2c607b02715"
     },
     {
       "sha": "f6872a4dbbf343535ff3d51798fb5569448e1961",
