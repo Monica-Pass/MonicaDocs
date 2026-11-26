@@ -13,7 +13,7 @@
     "Monica-Pass/Monica-Fdroid",
     "Monica-Pass/Monica-cli"
   ],
-  "generatedAt": "2026-11-26T03:58:28.873Z",
+  "generatedAt": "2026-11-26T04:04:32.279Z",
   "range": {
     "from": "2025-11-27",
     "to": "2026-11-26"
@@ -1477,10 +1477,20 @@
     },
     {
       "date": "2026-11-26",
-      "count": 4
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "sha": "e99e6ad74233cf08da8f6bb4fdfcb3b313aeb616",
+      "shortSha": "e99e6ad",
+      "repo": "Monica-Pass/Monica",
+      "message": "Archive Android 1.0.331 release notes",
+      "authorName": "JoyinJoester",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
+      "date": "2026-11-26T04:03:49Z",
+      "url": "https://github.com/Monica-Pass/Monica/commit/e99e6ad74233cf08da8f6bb4fdfcb3b313aeb616"
+    },
     {
       "sha": "3ed4e2d8f83c491255a6a7b74f0bcd6a4c1b74dd",
       "shortSha": "3ed4e2d",
@@ -1850,16 +1860,6 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
       "date": "2026-11-20T05:46:00Z",
       "url": "https://github.com/Monica-Pass/Monica-Fdroid/commit/2ba47be39a4c01b9f5aa8991e56bd9db29616b4e"
-    },
-    {
-      "sha": "22810a53bfd1eb2a62c12e2b51e7762ebe7f9266",
-      "shortSha": "22810a5",
-      "repo": "Monica-Pass/Monica",
-      "message": "docs(android): publish 1.0.329 release notes [skip ci]",
-      "authorName": "JoyinJoester",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/87232423?v=4",
-      "date": "2026-11-20T05:45:57Z",
-      "url": "https://github.com/Monica-Pass/Monica/commit/22810a53bfd1eb2a62c12e2b51e7762ebe7f9266"
     },
     {
       "sha": "6a798a8e88253d8bb8691ee83ae1d8e4e74c3f48",
