@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T17:26:54.051Z",
+  "updatedAt": "2026-11-27T17:05:18.207Z",
   "repos": [
     {
       "id": "android",
@@ -19,14 +19,14 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.331-26112612-00.APK",
               "size": 39489790,
-              "downloadCount": 240,
+              "downloadCount": 407,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.331/Monica-Android-arm64-v8a-1.0.331-26112612-00.APK",
               "contentType": "application/octet-stream"
             },
             {
               "name": "Monica-Android-armeabi-v7a-1.0.331-26112612-00.APK",
               "size": 36981622,
-              "downloadCount": 5,
+              "downloadCount": 8,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.331/Monica-Android-armeabi-v7a-1.0.331-26112612-00.APK",
               "contentType": "application/octet-stream"
             }
@@ -43,7 +43,7 @@
             {
               "name": "Monica-Android-arm64-v8a-1.0.330-26112012-01.APK",
               "size": 37084383,
-              "downloadCount": 764,
+              "downloadCount": 770,
               "url": "https://github.com/Monica-Pass/Monica/releases/download/V1.0.330/Monica-Android-arm64-v8a-1.0.330-26112012-01.APK",
               "contentType": "application/octet-stream"
             },
@@ -318,14 +318,14 @@
             {
               "name": "Monica-0.3.1-windows-x64-aot-setup.exe",
               "size": 74586181,
-              "downloadCount": 36,
+              "downloadCount": 37,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-windows-x64-aot-setup.exe",
               "contentType": "application/x-msdos-program"
             },
             {
               "name": "Monica-0.3.1-windows-x64-jit-setup.exe",
               "size": 100783467,
-              "downloadCount": 63,
+              "downloadCount": 65,
               "url": "https://github.com/Monica-Pass/Monica-by-Avalonia/releases/download/v0.3.1/Monica-0.3.1-windows-x64-jit-setup.exe",
               "contentType": "application/x-msdos-program"
             },
@@ -431,7 +431,7 @@
             {
               "name": "monica-extension-1.0.105.zip",
               "size": 14149635,
-              "downloadCount": 47,
+              "downloadCount": 54,
               "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/v1.0.105/monica-extension-1.0.105.zip",
               "contentType": "application/zip"
             },
@@ -445,7 +445,7 @@
             {
               "name": "monica-mdbx2-host-windows-x64-0.1.6.zip",
               "size": 3768076,
-              "downloadCount": 11,
+              "downloadCount": 19,
               "url": "https://github.com/Monica-Pass/Monica-for-Extension/releases/download/v1.0.105/monica-mdbx2-host-windows-x64-0.1.6.zip",
               "contentType": "application/zip"
             },
